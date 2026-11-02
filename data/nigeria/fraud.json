@@ -1,0 +1,279 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "fraud",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_cbn_consumer_protection_regulations",
+   "name": "CBN Consumer Protection Regulations (with Annexure D complaint timelines)",
+   "url": "https://sterling.ng/wp-content/uploads/2020/02/CBN-Consumer-Protection-Regulations.pdf",
+   "path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_nibss_idrs_guide",
+   "name": "NIBSS: User Guide for IDRS (Industry Dispute Resolution Solution)",
+   "url": "https://contactcentre.nibss-plc.com.ng/support/solutions/articles/47001255833-user-guide-for-idrs-industry-dispute-resolution-solution-",
+   "path": "nigeria/fraud/nibss_idrs_guide.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_time_bar_2015",
+   "name": "CBN Circular FPR/DIR/GEN/CIR/01/045: Time Bar for Resolution of Customers' Complaints",
+   "url": "https://www.cbn.gov.ng/Out/2015/FPRD/time%20Bar%202.PDF",
+   "path": "nigeria/fraud/cbn_time_bar_disputes.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_frd_cbn_2015_01",
+   "subject": "complaint_time_bar",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "time_bar_years",
+   "value": 6,
+   "unit": "years",
+   "display": "Consumer complaints are barred six years after the date of the transaction",
+   "graded_by": "numeric_exact",
+   "effective_from": "2015-02-16",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "hereby introduces a time limit of six (6) years for the resolution of consumer complaints effective from the date of transaction",
+   "notes": "",
+   "source_id": "src_ng_cbn_time_bar_2015",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_time_bar_disputes.pdf"
+  },
+  {
+   "id": "ng_frd_cbn_2015_02",
+   "subject": "complaint_time_bar_exclusion",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "time_bar_applies",
+   "value": false,
+   "unit": "boolean",
+   "display": "The six-year time bar does not apply to fraud cases",
+   "graded_by": "boolean",
+   "effective_from": "2015-02-16",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "The time limitation will however not apply to the following: 1. Fraud cases;",
+   "notes": "Also excluded: complaints already lodged with the institution and the CBN, and international electronic payments whose records are not retained beyond 180 days on Arbiter.",
+   "source_id": "src_ng_cbn_time_bar_2015",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_time_bar_disputes.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_03",
+   "subject": "complaint_acknowledgement",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "acknowledgement_hours",
+   "value": 24,
+   "unit": "hours",
+   "display": "Institutions must acknowledge a complaint within 24 hours of lodgment",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "within 24 hours of lodgment",
+   "notes": "CBN Consumer Protection Regulations s.6.2.2. The captured PDF prints no issue date; effective_from is the publication date of this copy as hosted by the source bank (path /2020/02/).",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_04",
+   "subject": "atm_dispense_error_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "atm",
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 3,
+   "unit": "working_days",
+   "display": "ATM cash dispense error claim at the customer's own bank: 3 working days for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "ATM Cash Dispense Error claim - OWN BANK J005 3 2",
+   "notes": "Annexure D, CCMS code J005; 3 working days first review, 2 working days second review.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_05",
+   "subject": "fraudulent_withdrawal_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 14,
+   "unit": "working_days",
+   "display": "Fraudulent withdrawals: 14 working days for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Fraudulent Withdrawals D003 14 7",
+   "notes": "Annexure D, code D003; second review 7 working days.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_06",
+   "subject": "internet_banking_fraud_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 3,
+   "unit": "working_days",
+   "display": "Internet banking fraud: 3 working days for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Internet Banking Fraud D004 3 2",
+   "notes": "Annexure D, code D004.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_07",
+   "subject": "chargeback_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "pos",
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 5,
+   "unit": "working_days",
+   "display": "Local chargeback not on us: 5 working days for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Chargebacks / Claim local (not on us) B006 5 3",
+   "notes": "Annexure D, code B006; international chargebacks run to 60 working days.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_08",
+   "subject": "wrong_account_credit_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 1,
+   "unit": "working_days",
+   "display": "Wrong account credit: 1 working day for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Wrong Account Credit F008 1 1",
+   "notes": "Annexure D, code F008.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cpr_2020_09",
+   "subject": "excess_charges_resolution",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "resolution_working_days",
+   "value": 30,
+   "unit": "working_days",
+   "display": "Excess fees and charges: 30 working days for first review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Excess Fees and charges E001 30 15",
+   "notes": "Annexure D, code E001.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_cbn_2015_10",
+   "subject": "second_level_review_window",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "request_days",
+   "value": 30,
+   "unit": "days",
+   "display": "A dissatisfied complainant has 30 days from the Summary Resolution Communication to request a second-level review",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-02-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "the complainant shall, within 30 days f rom the date of the receipt of the SRC, request in writing for a 2nd level review",
+   "notes": "OCR prints 'f rom'; retained as-is.",
+   "source_id": "src_ng_cbn_consumer_protection_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf"
+  },
+  {
+   "id": "ng_frd_nibss_2025_01",
+   "subject": "idrs_arbitration",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "escalation",
+   "value_text": "arbitration to NIBSS after the acquirer declines a second time",
+   "display": "On IDRS, if the acquirer declines a dispute a second time, the issuer can raise arbitration to NIBSS",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2025-03-06",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "where Issuer and Acquirer fail to agree (ie if the acquirer declines a 2nd time), an arbitration can be raised to NIBSS to review the transactions and decide which way the reconciliation goes",
+   "notes": "NIBSS IDRS user guide, last modified 6 March 2025.",
+   "source_id": "src_ng_nibss_idrs_guide",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/fraud/nibss_idrs_guide.html"
+  }
+ ],
+ "notes": "Complaint timelines come from Annexure D of the Consumer Protection Regulations, which lists first and second review in working days. The captured Regulations PDF prints no issue date, so entries sourced to it use the publication date of the captured copy (2020-02-01)."
+}

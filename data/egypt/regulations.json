@@ -1,0 +1,316 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "regulations",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_psp_rules_2025",
+   "name": "CBE - Rules for Licensing and Registration of Payment System Operators and Payment Service Providers (June 2025)",
+   "url": "https://www.cbe.org.eg/-/media/project/cbe/page-content/rich-text/payment-system/payment-systems-and-services-oversight/rules-for-licensing-and-registration-of-payment-system-operators.pdf",
+   "path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_ipn_rules_2021",
+   "name": "CBE - Rules Regulating Services for Instant Payment Network Inside the Arab Republic of Egypt (October 2021)",
+   "url": "https://www.cbe.org.eg/-/media/project/cbe/listing/circulars/payments-regulations/ipn-services-regulations_en.pdf",
+   "path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_oversight_2025",
+   "name": "CBE - Payment Systems and Services Oversight (last updated 31 Aug 2025)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/payment-systems-and-services-oversight",
+   "path": "egypt/regulations/cbe_payment_oversight.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_adsero_2026",
+   "name": "ADSERO - Banking in Egypt: Legal Framework, FinTech, and E-Payments (13 Oct 2026)",
+   "url": "https://adsero.me/banking-in-egypt-legal-framework-fintech-and-e-payments/",
+   "path": "egypt/regulations/adsero_egypt_fintech_law.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "The framework law in every primary document here is the Central Bank and Banking Sector Law No. 194 of 2020; the June 2025 PSO/PSP licensing rules are issued under it. No document in the corpus refers to a Law 18/2022, so no entry asserts one. A separate FinTech law for non-banking finance (Law 5/2022) is noted by ADSERO but is FRA-supervised and outside this layer.",
+ "entries": [
+  {
+   "id": "eg_reg_psp_2025_01",
+   "subject": "psp_category_a_min_capital",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "psp_category_a"
+   },
+   "attribute": "min_capital",
+   "value": 3000000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 30,000,000 minimum issued and paid-up capital for a Category A PSP",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "a) PSP-Category (A): EGP 30,000,000 (Thirty Million Egyptian pounds).",
+   "notes": "Clause 2-2-2-3 of the June 2025 licensing rules."
+  },
+  {
+   "id": "eg_reg_psp_2025_02",
+   "subject": "psp_category_b_min_capital",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "psp_category_b"
+   },
+   "attribute": "min_capital",
+   "value": 1000000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 10,000,000 minimum capital for a Category B PSP",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "b) PSP-Category (B): EGP 10,000,000 (Ten Million Egyptian Pounds).",
+   "notes": "Category B may not provide payment initiation or account information services."
+  },
+  {
+   "id": "eg_reg_psp_2025_03",
+   "subject": "aisp_pisp_min_capital",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "aisp_or_pisp"
+   },
+   "attribute": "min_capital",
+   "value": 2000000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 20,000,000 minimum capital for AISP and/or PISP",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "c) Account Information Service Provider and/or Payment Initiation Service Provider: EGP 20,000,000 (Twenty Million Egyptian Pounds).",
+   "notes": "Open-banking style services carry their own capital tier."
+  },
+  {
+   "id": "eg_reg_psp_2025_04",
+   "subject": "pso_min_capital",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "pso"
+   },
+   "attribute": "min_capital",
+   "value": 50000000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 500,000,000 minimum capital for a payment system operator",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "d) Payment Systems Operator: EGP 500,000,000 (Five Hundred Million Egyptian",
+   "notes": "More than ten times the Category A PSP requirement."
+  },
+  {
+   "id": "eg_reg_psp_2025_05",
+   "subject": "psp_category_a_threshold",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "account_type": "psp_category_a"
+   },
+   "attribute": "monthly_volume_threshold",
+   "value": 75000000000,
+   "unit": "EGP_piastres",
+   "display": "Category A requires monthly average executed value above EGP 750 million",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "The institution licensed to provide all payment services, with a monthly average value of executed payment transactions exceeding EGP 750 million during the 12 -month period preceding the average calculation date.",
+   "notes": "Averaged over the 12 months before the calculation date; at or below EGP 750 million puts an institution in Category B."
+  },
+  {
+   "id": "eg_reg_psp_2025_06",
+   "subject": "financial_guarantee_ratio",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "guarantee_ratio",
+   "value": 2,
+   "unit": "percent",
+   "display": "Financial guarantee equal to 2% of paid-up capital",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "4-2 The value of the guarantee issued for this purpose shall be equal to 2% of the issued and paid-up capital or the capital allocated to the activity of the payment institution.",
+   "notes": "Irrevocable letter of guarantee in favour of the CBE, renewable, used to settle penalties."
+  },
+  {
+   "id": "eg_reg_psp_2025_07",
+   "subject": "existing_institution_transition_months",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "transition_period_months",
+   "value": 12,
+   "unit": "months",
+   "display": "Existing institutions had 12 months from June 2025 to apply for a licence",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "Except for banks, any existing institution, engaged in an activity involving the operation of payment systems or the provision of payment service shall apply for a license within twelve months from the date of issuance of these rules. These institutions shall have the right to continue their activity, based on what the CBE’s Board of Directors determines, until a resolution is taken concerning their license application.",
+   "notes": "Banks are excluded: they operate on prior CBE approval instead of a licence. Twelve months from June 2025 means an application deadline of June 2026."
+  },
+  {
+   "id": "eg_reg_psp_2025_08",
+   "subject": "bank_payment_activity_authorisation",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "business",
+    "account_type": "bank"
+   },
+   "attribute": "licence_required",
+   "value": null,
+   "value_text": "banks need prior CBE approval, not a PSP licence",
+   "unit": "text",
+   "display": "Banks do not need a licence but must get prior CBE approval",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "2-1-1 Banks may engage in the activity of payment systems operation and/or payment services provision, provided that prior approval is obtained from the CBE before engaging in the activity and without the need to obtain a license.",
+   "notes": "Approvals issued before these rules remain valid (2-1-2). [normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "eg_reg_psp_2025_09",
+   "subject": "foreign_psp_track_record",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "corridor": "inbound_to_egypt"
+   },
+   "attribute": "min_years_operating",
+   "value": 3,
+   "unit": "years",
+   "display": "Foreign PSPs/PSOs need 3 consecutive years of operation abroad",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "1-2 The institution must have been operating payment systems or providing payment services in one or more countries other than the Arab Republic of Egypt for three consecutive years.",
+   "notes": "Institutions serving Egyptian residents from abroad must also be licensed by an equivalent supervisor."
+  },
+  {
+   "id": "eg_reg_ipn_2021_10",
+   "subject": "ipn_rules_scope",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "account_type": "bank"
+   },
+   "attribute": "scope",
+   "value": null,
+   "value_text": "applies to all banks operating in Egypt as a minimum standard",
+   "unit": "text",
+   "display": "IPN rules bind every bank operating in Egypt",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2021-10-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_rules_2021",
+   "source_path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+   "quote": "These rules apply to all banks operating in the Arab Republic of Egypt. These rules and controls are the minimum necessary for banks and payment service providers authorized by the Central Bank of Egypt to provide various services through the Instant Payment Network.",
+   "notes": "Published October 2021, six months before IPN went live; described by AfricaNenda as the scheme rulebook."
+  },
+  {
+   "id": "eg_reg_ovs_2025_11",
+   "subject": "cbe_oversight_extraterritorial_scope",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "scope",
+   "value": null,
+   "value_text": "includes international payment systems serving Egypt residents",
+   "unit": "text",
+   "display": "CBE oversight reaches foreign systems that serve Egyptian residents",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2025-08-31",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_oversight_2025",
+   "source_path": "egypt/regulations/cbe_payment_oversight.html",
+   "quote": "The scope extends to; bank and nonbank payment systems operators and participants, payment services providers and their agents; payment schemes and instruments; international electronic payment systems (including those outside Egypt as they provide their services to Egypt residents and outsourced services",
+   "notes": "Page last updated 31 Aug 2025. Oversight also covers agents and outsourced functions."
+  },
+  {
+   "id": "eg_reg_adsero_2026_12",
+   "subject": "instapay_licence_status",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "licence_type",
+   "value": null,
+   "value_text": "licensed payment service provider",
+   "unit": "text",
+   "display": "InstaPay is a licensed PSP under the CBE regime",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-10-13",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_adsero_2026",
+   "source_path": "egypt/regulations/adsero_egypt_fintech_law.html",
+   "quote": "InstaPay is currently one of the first and most known licensed PSP in Egypt.",
+   "notes": "Law-firm summary; the CBE's own licence register is not in the corpus."
+  }
+ ]
+}

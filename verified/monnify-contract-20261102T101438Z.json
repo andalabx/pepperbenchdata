@@ -1,0 +1,33 @@
+{
+ "provider": "monnify",
+ "environment": "sandbox",
+ "verified_at": "2026-11-02T10:14:38+00:00",
+ "harness": "inline probe",
+ "checks": [
+  {
+   "fact": "auth/login returns accessToken and expiresIn",
+   "status": 403,
+   "token_present": false,
+   "expires_in_seconds": null
+  },
+  {
+   "fact": "name enquiry (account validate) endpoint contract",
+   "status": 403,
+   "responseCode": null,
+   "responseMessage": null,
+   "response_keys": []
+  },
+  {
+   "fact": "single transfer without destinationAccountName is rejected",
+   "status": 403,
+   "responseCode": null,
+   "responseMessage": null
+  },
+  {
+   "fact": "reserved account creation without BVN or NIN is rejected",
+   "status": 403,
+   "responseCode": null,
+   "responseMessage": null
+  }
+ ]
+}

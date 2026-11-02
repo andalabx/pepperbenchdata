@@ -1,0 +1,274 @@
+{
+  "country": "Egypt",
+  "regulator": "CBE",
+  "category": "products",
+  "as_of": "2026-11-02",
+  "last_verified": "2026-11-02",
+  "sources": [
+    {
+      "id": "src_eg_instapay_2025",
+      "name": "InstaPay Egypt - official site (What is InstaPay; Limits & Fees)",
+      "url": "https://www.instapay.eg/?lang=en",
+      "path": "egypt/fees/instapay_home.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_cbe_ipn_page_2025",
+      "name": "Central Bank of Egypt - Instant Payment Network (IPN)",
+      "url": "https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network",
+      "path": "egypt/fees/cbe_instant_payment_network.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_meeza_home",
+      "name": "Meeza - official national payment scheme site",
+      "url": "https://meeza-eg.com/",
+      "path": "egypt/products/meeza_home.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_fawry_consumer",
+      "name": "Fawry - Consumer Digital & Bill Payment",
+      "url": "https://www.fawry.com/consumer/bill-payment/",
+      "path": "egypt/fees/fawry_consumer_bills.md",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "notes": "Vodafone Cash product mechanics (6-digit PIN, *9*5# activation) are captured in agent_banking.json and fees.json rather than duplicated here. Fawry publishes no transaction fee for bill payment, so products.json carries no Fawry pricing.",
+  "entries": [
+    {
+      "id": "eg_prd_cbeipn_2022_01",
+      "subject": "ipn_launch_date",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer"
+      },
+      "attribute": "launch_date",
+      "value": null,
+      "value_text": "22 March 2022",
+      "unit": "text",
+      "display": "IPN launched on 22 March 2022",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2022-03-22",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "corroborated",
+      "source_id": "src_eg_cbe_ipn_page_2025",
+      "source_path": "egypt/fees/cbe_instant_payment_network.html",
+      "quote": "The Instant Payment Network (IPN) is a national network linking all operating banks within the Arab Republic of Egypt that has launched on March 22, 2022",
+      "notes": "CBE and EBC both give 22 March 2022; AfricaNenda describes it as launched in 2022."
+    },
+    {
+      "id": "eg_prd_inst_2025_02",
+      "subject": "ipa_address_format",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "app",
+        "actor": "consumer"
+      },
+      "attribute": "alias_format",
+      "value": null,
+      "value_text": "name@InstaPay",
+      "unit": "text",
+      "display": "Instant Payment Address looks like name@InstaPay",
+      "graded_by": "enum_match",
+      "tolerance": null,
+      "effective_from": "2025-04-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_instapay_2025",
+      "source_path": "egypt/fees/instapay_home.html",
+      "quote": "An Instant Payment Address \"IPA\" is a simplified address for your account (name@InstaPay).",
+      "notes": "Closed set for the alias type: mobile number, IPA (name@InstaPay), IBAN/account number, card number."
+    },
+    {
+      "id": "eg_prd_inst_2025_03",
+      "subject": "self_onboarding",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "app",
+        "actor": "consumer"
+      },
+      "attribute": "paperless_onboarding",
+      "value": true,
+      "value_text": "no paper forms; digital self-onboarding",
+      "unit": "boolean",
+      "display": "InstaPay onboarding needs no signed paperwork",
+      "graded_by": "boolean",
+      "tolerance": null,
+      "effective_from": "2025-04-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_instapay_2025",
+      "source_path": "egypt/fees/instapay_home.html",
+      "quote": "No need to sign any papers",
+      "notes": "Onboarding still requires the account to be verified against the issuing bank's records."
+    },
+    {
+      "id": "eg_prd_inst_2025_04",
+      "subject": "multi_bank_aggregation",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "app",
+        "actor": "consumer"
+      },
+      "attribute": "accounts_per_app",
+      "value": null,
+      "value_text": "all of the customer's linked bank accounts in one app",
+      "unit": "text",
+      "display": "One app holds all linked bank accounts",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-04-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_instapay_2025",
+      "source_path": "egypt/fees/instapay_home.html",
+      "quote": "InstaPay is an app that allows direct access to all your bank accounts and transfer instantly using your mobile device 24/7.",
+      "notes": "InstaPay is one of only three African instant payment systems with a direct consumer app (AfricaNenda)."
+    },
+    {
+      "id": "eg_prd_inst_2025_05",
+      "subject": "card_transfer_without_account_number",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "app",
+        "actor": "consumer"
+      },
+      "attribute": "card_transfer_supported",
+      "value": null,
+      "value_text": "transfer to any debit, credit or prepaid card number",
+      "unit": "text",
+      "display": "Card-number transfers work without the beneficiary's account details",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-04-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_instapay_2025",
+      "source_path": "egypt/fees/instapay_home.html",
+      "quote": "With InstaPay, you can transfer instantly to any Card number by just using the card number and cardholder name. ( Debit, Credit or prepaid card)",
+      "notes": "Closed set: debit only / credit only / debit, credit or prepaid. Answer: debit, credit or prepaid."
+    },
+    {
+      "id": "eg_prd_meeza_2026_06",
+      "subject": "meeza_scheme_status",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer"
+      },
+      "attribute": "scheme_type",
+      "value": null,
+      "value_text": "national payment scheme under CBE supervision",
+      "unit": "text",
+      "display": "Meeza is Egypt's national card scheme, supervised by the CBE",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2017-01-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "corroborated",
+      "source_id": "src_eg_meeza_home",
+      "source_path": "egypt/products/meeza_home.html",
+      "quote": "Meeza is the Egyptian National Payment Scheme developed under the supervision of the Central Bank of Egypt, that enables ﬁnancial institutions to meet the needs of consumers who expect to make payments and access funds wherever, whenever and however they choose.",
+      "notes": "EBC states the National Payment Council decreed the scheme in 2017 and EBC operates it; the meeza-eg.com page gives no date, so effective_from is the 2017 decree year."
+    },
+    {
+      "id": "eg_prd_meeza_2026_07",
+      "subject": "meeza_card_count",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer"
+      },
+      "attribute": "cards_issued",
+      "value": 17000000,
+      "unit": "count",
+      "display": "17 million Meeza cards issued",
+      "graded_by": "numeric_exact",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "periodic",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_meeza_home",
+      "source_path": "egypt/products/meeza_home.html",
+      "quote": "17 Million Meeza Cards",
+      "notes": "Scheme's own 'Meeza in numbers' block; no date on the page. EBC separately claims more than 35 million cardholders, which is a different measure. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+    },
+    {
+      "id": "eg_prd_meeza_2026_08",
+      "subject": "meeza_atm_count",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer"
+      },
+      "attribute": "atms_in_network",
+      "value": 14000,
+      "unit": "count",
+      "display": "14,000 ATMs on the Meeza network",
+      "graded_by": "numeric_exact",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "periodic",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_meeza_home",
+      "source_path": "egypt/products/meeza_home.html",
+      "quote": "14,000 ATMs across Egypt",
+      "notes": "Source is undated; effective_from is the corpus capture date (2026-11-02)."
+    },
+    {
+      "id": "eg_prd_fawry_2026_09",
+      "subject": "fawry_pay_reference_code",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "app",
+        "actor": "consumer"
+      },
+      "attribute": "payment_method",
+      "value": null,
+      "value_text": "FawryPay reference code paid in the myfawry app",
+      "unit": "text",
+      "display": "A FawryPay reference code is settled inside the myfawry app",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_fawry_consumer",
+      "source_path": "egypt/fees/fawry_consumer_bills.md",
+      "quote": "If you receive a FawryPay reference code to complete a payment transaction from any of our partners. - You can pay it through myfawry app at your convenience.",
+      "notes": "The reference code is the bill identifier a merchant issues; it is not a wallet number. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+    },
+    {
+      "id": "eg_prd_fawry_2026_10",
+      "subject": "fawry_payment_channels",
+      "assertion_type": "positive",
+      "conditions": {
+        "channel": "merchant",
+        "actor": "consumer"
+      },
+      "attribute": "channels",
+      "value": null,
+      "value_text": "ATMs, mobile wallets, Fawry Plus stores and retail POS",
+      "unit": "text",
+      "display": "Fawry bills can be paid by ATM, wallet, Fawry Plus store or retail POS",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_fawry_consumer",
+      "source_path": "egypt/fees/fawry_consumer_bills.md",
+      "quote": "Fawry services are also available through:** - **ATMs** - In collaboration with certain banks, Fawry offers a cardless service, where you have access to various Fawry services through the banks’ ATMs. - **Mobile Wallets** - In collaboration with certain banks, Fawry services are offered through the banks’ digital wallets.",
+      "notes": "Cardless ATM access is offered in collaboration with banks; retail terminals are certified by Visa and Mastercard. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+    }
+  ]
+}

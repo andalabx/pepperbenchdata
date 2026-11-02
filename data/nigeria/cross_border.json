@@ -1,0 +1,375 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "cross_border",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_papss_home",
+   "name": "PAPSS: Pan-African Payment and Settlement System",
+   "url": "https://papss.com/",
+   "path": "nigeria/cross_border/papss_home.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_fx_manual",
+   "name": "CBN Foreign Exchange Manual (Trade and Exchange Department), revised edition, March 2018",
+   "url": "https://www.stanbicibtcbank.com/static_file/Nigeria/nigeriabank/Business/Products/Specialised%20services/PAPSS/Teasers%20and%20Title/Revised%20foreign%20Exchange%20Manual.pdf",
+   "path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_fx_manual_4th",
+   "name": "CBN Foreign Exchange Manual, 4th Edition",
+   "url": "https://www.cbn.gov.ng/Out/2026/CCD/The%20new%20Forex%20Manual%20-%204th%20Edition.pdf",
+   "path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_xbd_cbn_2026_01",
+   "subject": "pta_quarterly_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "corridor": "outbound"
+   },
+   "attribute": "max_amount",
+   "value": 400000,
+   "unit": "USD_cents",
+   "display": "Personal Travel Allowance is capped at US$4,000 per quarter",
+   "graded_by": "numeric_exact",
+   "effective_from": "2018-03-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "The allowable limit for Personal Travel Allowance (PTA) and Business Travel Allowance (BTA) is US$4,000.00 and US$5,000.00 per quarter, respectively.",
+   "notes": "PTA of US$4,000 per quarter is restated unchanged in the 4th Edition (2026), Memorandum 8.",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_02",
+   "subject": "bta_quarterly_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "corridor": "outbound"
+   },
+   "attribute": "max_amount",
+   "value": 500000,
+   "unit": "USD_cents",
+   "display": "Business Travel Allowance is capped at US$5,000 per quarter",
+   "graded_by": "numeric_exact",
+   "effective_from": "2018-03-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "The allowable limit for Personal Travel Allowance (PTA) and Business Travel Allowance (BTA) is US$4,000.00 and US$5,000.00 per quarter, respectively.",
+   "notes": "The 2018 revision states a US$5,000 quarterly BTA. The 4th Edition (2026) does not restate a BTA figure, so this may no longer hold; treat as historical.",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": "2026-05-15",
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_03",
+   "subject": "pta_eligible_age",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "corridor": "outbound"
+   },
+   "attribute": "minimum_age",
+   "value": 18,
+   "unit": "years",
+   "display": "Only persons aged 18 and above may buy Personal Travel Allowance",
+   "graded_by": "numeric_exact",
+   "effective_from": "2018-03-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Only persons, 18 years old and above are qualified to purchase PTA.",
+   "notes": "",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_04",
+   "subject": "bta_pta_exclusivity",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "business",
+    "corridor": "outbound"
+   },
+   "attribute": "permitted",
+   "value": false,
+   "unit": "boolean",
+   "display": "A traveller entitled to BTA cannot also claim PTA for the same trip, and vice versa",
+   "graded_by": "boolean",
+   "effective_from": "2018-03-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "travelers on business trip who are entitled to BTA shall not be eligible for PTA while on the same trip or vice versa",
+   "notes": "",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_05",
+   "subject": "medical_travel_allowance_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "corridor": "outbound"
+   },
+   "attribute": "max_amount",
+   "value": 500000,
+   "unit": "USD_cents",
+   "display": "Authorised buyers may sell a medical travel allowance of up to US$5,000 per transaction",
+   "graded_by": "numeric_exact",
+   "effective_from": "2018-03-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Authorised buyers can sell medical travel allowance subject to a limit of USS85, 000.00 per transaction",
+   "notes": "OCR renders US$5,000.00 as 'USS85, 000.00'; the cleaned reading is US$5,000.00.",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_06",
+   "subject": "domiciliary_source_of_funds",
+   "assertion_type": "negative",
+   "conditions": {
+    "account_type": "domiciliary"
+   },
+   "attribute": "disclosure_required",
+   "value": false,
+   "unit": "boolean",
+   "display": "A customer opening or funding a domiciliary account need not disclose the source of funds",
+   "graded_by": "boolean",
+   "effective_from": "2018-03-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "shall not be required or obliged to disclose the source of funds to be deposited in such account",
+   "notes": "",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_cbn_2026_07",
+   "subject": "domiciliary_cash_withdrawal_rule",
+   "assertion_type": "conditional",
+   "conditions": {
+    "account_type": "domiciliary",
+    "amount_usd": {
+     "min": 10000
+    }
+   },
+   "attribute": "withdrawal_mode",
+   "value_text": "cash only",
+   "display": "Where more than US$10,000 in cash was imported and deposited, withdrawals from the domiciliary account must be in cash only",
+   "graded_by": "enum_match",
+   "effective_from": "2018-03-01",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Where a person imports foreign currency in excess of $10,000 00 or its equivalent in other foreign currencies, In cash and deposits same in the Domiciliary Account, withdrawal from the account shall be in cash only.",
+   "notes": "enum: cash_only. OCR prints '$10,000 00' for $10,000.00.",
+   "source_id": "src_ng_cbn_fx_manual",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/cross_border/cbn_fx_manual_2018_rev.pdf"
+  },
+  {
+   "id": "ng_xbd_papss_2026_01",
+   "subject": "papss_settlement_currency",
+   "assertion_type": "positive",
+   "conditions": {
+    "corridor": "intra_africa"
+   },
+   "attribute": "settlement",
+   "value_text": "local currencies of originator and beneficiary, no pre-funding in hard currency",
+   "display": "PAPSS pays the beneficiary in their local currency and settles intra-African payments without converting through a third currency",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Instant payments made by originators to beneficiaries in their local currencies, no matter where they are in Africa",
+   "notes": "",
+   "source_id": "src_ng_papss_home",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/cross_border/papss_home.html"
+  },
+  {
+   "id": "ng_xbd_papss_2026_02",
+   "subject": "papss_definition",
+   "assertion_type": "positive",
+   "conditions": {
+    "corridor": "intra_africa"
+   },
+   "attribute": "definition",
+   "value_text": "cross-border financial market infrastructure for payments across Africa",
+   "display": "PAPSS is a cross-border financial market infrastructure enabling payment transactions across Africa",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "PAPSS – the Pan-African Payment and Settlement System – is a cross-border, financial market infrastructure enabling payment transactions across Africa.",
+   "notes": "",
+   "source_id": "src_ng_papss_home",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/cross_border/papss_home.html"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_01",
+   "subject": "pta_disbursement_split",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "corridor": "outbound"
+   },
+   "attribute": "payment_mix",
+   "value": 75,
+   "unit": "percent",
+   "display": "At least 75% of PTA must be disbursed via cards and approved digital channels, the remaining 25% in cash",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "The disbursement of PTA shall be a minimum of 75% via cards and other approved digital channels, while the remaining 25% shall be paid in cash.",
+   "notes": "4th Edition is undated on its cover; effective_from is the CBN launch date of 15 May 2026.",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_02",
+   "subject": "family_maintenance_remittance",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "corridor": "outbound",
+    "residency": "resident_in_nigeria"
+   },
+   "attribute": "max_share_of_net_income",
+   "value": 100,
+   "unit": "percent",
+   "display": "A resident may remit up to 100% of net income for dependants, once a month",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "are allowed up to 100% of their net income while physically resident in Nigeria. PHR is restricted to net income credited to the bank account.",
+   "notes": "Same page: actual transfer may be made once a month, based on the previous month's remuneration. Quote starts mid-sentence because the preceding line is hyphenated in the PDF.",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_03",
+   "subject": "ecci_issuance_deadline",
+   "assertion_type": "positive",
+   "conditions": {
+    "corridor": "inbound",
+    "transaction": "capital_transfer"
+   },
+   "attribute": "max_hours",
+   "value": 24,
+   "unit": "hours",
+   "display": "An e-CCI must be issued within 24 hours of converting capital inflows to naira",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "An electronic Certificate of Capital Importation (e-CCI) MUST be issued for all capital transfers into Nigeria, within 24 hours of the conversion of funds into Naira by an Authorised Dealer Bank.",
+   "notes": "",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_04",
+   "subject": "export_repatriation_non_oil",
+   "assertion_type": "conditional",
+   "conditions": {
+    "transaction": "export",
+    "sector": "non_oil"
+   },
+   "attribute": "max_days",
+   "value": 180,
+   "unit": "days",
+   "display": "Non-oil export proceeds must reach the exporter's domiciliary account within 180 days of shipment",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "payment for the shipment is credited to the exporter’s Domiciliary Account within the stipulated period of one hundred and eighty (180) days from the date of shipment.",
+   "notes": "Same section: Form NXP is valid 180 days; one 90-day extension may be approved by the bank.",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_05",
+   "subject": "export_repatriation_oil_gas",
+   "assertion_type": "conditional",
+   "conditions": {
+    "transaction": "export",
+    "sector": "oil_and_gas"
+   },
+   "attribute": "max_days",
+   "value": 90,
+   "unit": "days",
+   "display": "Oil and gas export proceeds must reach the exporter's domiciliary account within 90 days of shipment",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "credited to the exporters’ Domiciliary Account in Nigeria within the stipulated period of ninety (90) days from the date of shipment of the goods.",
+   "notes": "",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  },
+  {
+   "id": "ng_xbd_fx4_2026_06",
+   "subject": "ness_levy_oil_gas",
+   "assertion_type": "conditional",
+   "conditions": {
+    "transaction": "export",
+    "sector": "oil_and_gas"
+   },
+   "attribute": "levy_rate",
+   "value": 0.12,
+   "unit": "percent",
+   "display": "NESS levy on crude oil and gas exports is 0.12% of FOB value",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-05-15",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "the Nigerian Export Supervision Scheme (NESS) Levy, which is currently 0.12% of the F.O.B value of the exported crude oil/gas and related products.",
+   "notes": "Payable within 30 days of shipment.",
+   "source_id": "src_ng_cbn_fx_manual_4th",
+   "source_path": "nigeria/cross_border/cbn_fx_manual_4th_ed_2026.pdf"
+  }
+ ],
+ "notes": "Two CBN FX manuals are cited. The March 2018 revision (file renamed from cbn_fx_manual_2026.pdf to cbn_fx_manual_2018_rev.pdf after its cover showed the real date) supports PTA/BTA, age and domiciliary rules. The 4th Edition (launched 15 May 2026) supports the PTA disbursement split, e-CCI deadline, family maintenance, export repatriation and NESS levy. Where they overlap the 4th Edition wins. USD amounts are in USD_cents."
+}

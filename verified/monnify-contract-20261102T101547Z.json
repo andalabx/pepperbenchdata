@@ -1,0 +1,47 @@
+{
+ "provider": "monnify",
+ "environment": "sandbox",
+ "verified_at": "2026-11-02T10:15:47+00:00",
+ "harness": "inline probe",
+ "checks": [
+  {
+   "fact": "auth/login with Basic apiKey:secretKey returns accessToken",
+   "status": 200,
+   "token_present": true,
+   "expires_in_seconds": 3522
+  },
+  {
+   "fact": "unauthenticated auth/login is rejected",
+   "status": 401,
+   "responseMessage": "Unauthorized, supply authorization header"
+  },
+  {
+   "fact": "GET /api/v1/banks returns the sandbox bank list",
+   "status": 200,
+   "count": 374,
+   "fields": [
+    "name",
+    "code",
+    "nipBankCode"
+   ]
+  },
+  {
+   "fact": "GET /api/v1/disbursements/account/validate is deprecated",
+   "status": 422,
+   "responseMessage": "deprecated... migrate to /api/v2/disbursements/account/validate"
+  },
+  {
+   "fact": "GET is the method for v2 account validate; POST returns 405",
+   "status": 405
+  },
+  {
+   "fact": "unknown account returns 404 Invalid account details supplied",
+   "status": 404
+  },
+  {
+   "fact": "wallet balance requires disbursement permission not granted to this key",
+   "status": 400,
+   "responseMessage": "You're not permitted to access this functionality"
+  }
+ ]
+}

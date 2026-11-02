@@ -1,0 +1,1798 @@
+[
+ {
+  "path": "INVENTORY.md",
+  "bytes": 25674,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "README.md",
+  "bytes": 3712,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/agent_banking/cbe_regulations_glaco.pdf",
+  "bytes": 1416621,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 555,
+  "flags": []
+ },
+ {
+  "path": "egypt/agent_banking/egypt_post_wikipedia.html",
+  "bytes": 183567,
+  "kind": "html",
+  "title": "Egypt Post - Wikipedia",
+  "text_chars": 14038,
+  "flags": []
+ },
+ {
+  "path": "egypt/agent_banking/fawry_business_collection.md",
+  "bytes": 3209,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/cross_border/cbe_foreign_exchange.html",
+  "bytes": 231987,
+  "kind": "html",
+  "title": "Home",
+  "text_chars": 9470,
+  "flags": []
+ },
+ {
+  "path": "egypt/cross_border/cbe_regulations_glaco.pdf",
+  "bytes": 1416621,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 555,
+  "flags": []
+ },
+ {
+  "path": "egypt/cross_border/papss_home.html",
+  "bytes": 201707,
+  "kind": "html",
+  "title": "PAPSS - Make instant and secure cross-border payments in local currencies across Africa",
+  "text_chars": 4773,
+  "flags": []
+ },
+ {
+  "path": "egypt/cross_border/tradegov_egypt_fx.html",
+  "bytes": 271649,
+  "kind": "html",
+  "title": "Egypt - Trade Financing",
+  "text_chars": 15297,
+  "flags": []
+ },
+ {
+  "path": "egypt/error_codes/cbe_instant_payment_network.html",
+  "bytes": 124813,
+  "kind": "html",
+  "title": "Instant Payment Network (IPN)",
+  "text_chars": 6746,
+  "flags": []
+ },
+ {
+  "path": "egypt/error_codes/fawry_business_collection.md",
+  "bytes": 3209,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/error_codes/instapay_home.html",
+  "bytes": 193044,
+  "kind": "html",
+  "title": "instapay &#8211; is a mobile application that enables instant,",
+  "text_chars": 6600,
+  "flags": []
+ },
+ {
+  "path": "egypt/error_codes/kashier_instapay_docs.html",
+  "bytes": 304193,
+  "kind": "html",
+  "title": "InstaPay | Kashier Developers",
+  "text_chars": 6512,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/cbe_instant_payment_network.html",
+  "bytes": 124813,
+  "kind": "html",
+  "title": "Instant Payment Network (IPN)",
+  "text_chars": 6746,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/egypt_independent_instapay_fees.html",
+  "bytes": 90417,
+  "kind": "html",
+  "title": "InstaPay updates fees and tariffs for money transfers - Egypt Independent",
+  "text_chars": 3296,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/fawry_business_collection.md",
+  "bytes": 3209,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/fawry_consumer_bills.md",
+  "bytes": 10294,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/instapay_home.html",
+  "bytes": 193044,
+  "kind": "html",
+  "title": "instapay &#8211; is a mobile application that enables instant,",
+  "text_chars": 6600,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/vodafone_cash_fees.html",
+  "bytes": 92744,
+  "kind": "html",
+  "title": "Money transfer fees",
+  "text_chars": 1800,
+  "flags": []
+ },
+ {
+  "path": "egypt/fees/vodafone_cash_transfer.html",
+  "bytes": 109985,
+  "kind": "html",
+  "title": "Money Transfer",
+  "text_chars": 3094,
+  "flags": []
+ },
+ {
+  "path": "egypt/fraud/cbe_consumer_protection.html",
+  "bytes": 124180,
+  "kind": "html",
+  "title": "Consumer Protection",
+  "text_chars": 6276,
+  "flags": []
+ },
+ {
+  "path": "egypt/fraud/cbe_know_your_rights.html",
+  "bytes": 131047,
+  "kind": "html",
+  "title": "Know Your Rights",
+  "text_chars": 7298,
+  "flags": []
+ },
+ {
+  "path": "egypt/fraud/cbe_payment_oversight.html",
+  "bytes": 123532,
+  "kind": "html",
+  "title": "Payment Systems and Services Oversight",
+  "text_chars": 6417,
+  "flags": []
+ },
+ {
+  "path": "egypt/fraud/fawry_consumer_bills.md",
+  "bytes": 10294,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+  "bytes": 3298993,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 7581,
+  "flags": []
+ },
+ {
+  "path": "egypt/interoperability/cbe_instant_payment_network.html",
+  "bytes": 124813,
+  "kind": "html",
+  "title": "Instant Payment Network (IPN)",
+  "text_chars": 6746,
+  "flags": []
+ },
+ {
+  "path": "egypt/interoperability/ebc_ipn_page.html",
+  "bytes": 165597,
+  "kind": "html",
+  "title": "Instant Payment Network - Instapay | EBC",
+  "text_chars": 4057,
+  "flags": []
+ },
+ {
+  "path": "egypt/interoperability/instapay_home.html",
+  "bytes": 193044,
+  "kind": "html",
+  "title": "instapay &#8211; is a mobile application that enables instant,",
+  "text_chars": 6600,
+  "flags": []
+ },
+ {
+  "path": "egypt/interoperability/lightspark_egypt_ipn.html",
+  "bytes": 87801,
+  "kind": "html",
+  "title": "Egypt Instant Payments: Rails, Fees, and the Lightning Network (2026)",
+  "text_chars": 15171,
+  "flags": []
+ },
+ {
+  "path": "egypt/kyc/adsero_egypt_fintech_law.html",
+  "bytes": 124212,
+  "kind": "html",
+  "title": "Banking in Egypt: Legal Framework, FinTech, and E-Payments - ADSERO",
+  "text_chars": 25316,
+  "flags": []
+ },
+ {
+  "path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+  "bytes": 55902,
+  "kind": "html",
+  "title": "Egypt: New Digital Financial Identity System Rules for E-KYC | Insight | Baker McKenzie",
+  "text_chars": 6891,
+  "flags": []
+ },
+ {
+  "path": "egypt/kyc/cbe_consumer_protection.html",
+  "bytes": 124180,
+  "kind": "html",
+  "title": "Consumer Protection",
+  "text_chars": 6276,
+  "flags": []
+ },
+ {
+  "path": "egypt/kyc/cbe_know_your_rights.html",
+  "bytes": 131047,
+  "kind": "html",
+  "title": "Know Your Rights",
+  "text_chars": 7298,
+  "flags": []
+ },
+ {
+  "path": "egypt/kyc/cbe_mobile_wallet.html",
+  "bytes": 133141,
+  "kind": "html",
+  "title": "Mobile Wallets",
+  "text_chars": 7040,
+  "flags": []
+ },
+ {
+  "path": "egypt/limits/cbe_instant_payment_network.html",
+  "bytes": 124813,
+  "kind": "html",
+  "title": "Instant Payment Network (IPN)",
+  "text_chars": 6746,
+  "flags": []
+ },
+ {
+  "path": "egypt/limits/cbe_mobile_wallet.html",
+  "bytes": 133141,
+  "kind": "html",
+  "title": "Mobile Wallets",
+  "text_chars": 7040,
+  "flags": []
+ },
+ {
+  "path": "egypt/limits/cbe_mobile_wallet_rules_ar.pdf",
+  "bytes": 1063163,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 200,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "egypt/limits/cbe_regulations_glaco.pdf",
+  "bytes": 1416621,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 555,
+  "flags": []
+ },
+ {
+  "path": "egypt/limits/enterprise_mobile_wallet_limits.html",
+  "bytes": 301617,
+  "kind": "html",
+  "title": "CBE raises withdrawal + transfer limits from mobile wallets - EnterpriseAM Egypt",
+  "text_chars": 10204,
+  "flags": []
+ },
+ {
+  "path": "egypt/limits/instapay_home.html",
+  "bytes": 193044,
+  "kind": "html",
+  "title": "instapay &#8211; is a mobile application that enables instant,",
+  "text_chars": 6600,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/egyptianbanks_meeza.html",
+  "bytes": 172685,
+  "kind": "html",
+  "title": "Meeza Card | EBC",
+  "text_chars": 3346,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/fawry_business_collection.md",
+  "bytes": 3209,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/fawry_consumer_bills.md",
+  "bytes": 10294,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/instapay_home.html",
+  "bytes": 193044,
+  "kind": "html",
+  "title": "instapay &#8211; is a mobile application that enables instant,",
+  "text_chars": 6600,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/meeza_home.html",
+  "bytes": 91216,
+  "kind": "html",
+  "title": "Meeza | Meeza Egypt",
+  "text_chars": 2414,
+  "flags": []
+ },
+ {
+  "path": "egypt/products/vodafone_cash.html",
+  "bytes": 186000,
+  "kind": "html",
+  "title": "Cash",
+  "text_chars": 4020,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/adsero_egypt_fintech_law.html",
+  "bytes": 124211,
+  "kind": "html",
+  "title": "Banking in Egypt: Legal Framework, FinTech, and E-Payments - ADSERO",
+  "text_chars": 25316,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_executive_regulations_en.pdf",
+  "bytes": 163577,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2641,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_instant_payment_network.html",
+  "bytes": 124813,
+  "kind": "html",
+  "title": "Instant Payment Network (IPN)",
+  "text_chars": 6746,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+  "bytes": 2620700,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1365,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_law_194_2020_en.pdf",
+  "bytes": 271656,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 3587,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_payment_oversight.html",
+  "bytes": 123532,
+  "kind": "html",
+  "title": "Payment Systems and Services Oversight",
+  "text_chars": 6417,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+  "bytes": 2073304,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1900,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_regulations_book_11_ar.html",
+  "bytes": 147259,
+  "kind": "html",
+  "title": "\u0627\u0644\u0628\u0627\u0628 \u0627\u0644\u062d\u0627\u062f\u064a \u0639\u0634\u0631: \u0642\u0648\u0627\u0639\u062f \u0646\u0638\u0645 \u0627\u0644\u062f\u0641\u0639",
+  "text_chars": 4600,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/cbe_regulations_glaco.pdf",
+  "bytes": 1416621,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 555,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/eldib_epayment_regulations.html",
+  "bytes": 123239,
+  "kind": "html",
+  "title": "E-payment regulations in Egypt \u2013 ELDIB &amp; CO",
+  "text_chars": 5442,
+  "flags": []
+ },
+ {
+  "path": "egypt/regulations/ibanet_egypt_payments.html",
+  "bytes": 44178,
+  "kind": "html",
+  "title": "The Egyptian Central Bank regulates payment service providers | International Bar Association",
+  "text_chars": 6750,
+  "flags": []
+ },
+ {
+  "path": "kenya/agent_banking/cbk_agent_banking_afi.pdf",
+  "bytes": 476800,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1022,
+  "flags": []
+ },
+ {
+  "path": "kenya/agent_banking/cbk_legislation_index.html",
+  "bytes": 69517,
+  "kind": "html",
+  "title": "Legislation and Guidelines | CBK",
+  "text_chars": 10374,
+  "flags": []
+ },
+ {
+  "path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+  "bytes": 1731482,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2725,
+  "flags": []
+ },
+ {
+  "path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+  "bytes": 27810265,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2970,
+  "flags": []
+ },
+ {
+  "path": "kenya/cross_border/mpesa_global_page.html",
+  "bytes": 223354,
+  "kind": "html",
+  "title": "M-PESA Global",
+  "text_chars": 8650,
+  "flags": []
+ },
+ {
+  "path": "kenya/cross_border/mpesa_global_terms.pdf",
+  "bytes": 607823,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 10910,
+  "flags": []
+ },
+ {
+  "path": "kenya/cross_border/papss_home.html",
+  "bytes": 201707,
+  "kind": "html",
+  "title": "PAPSS - Make instant and secure cross-border payments in local currencies across Africa",
+  "text_chars": 4773,
+  "flags": []
+ },
+ {
+  "path": "kenya/error_codes/daraja_express_simulate.md",
+  "bytes": 28888,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "kenya/error_codes/mpesa_customer_terms.pdf",
+  "bytes": 382135,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 9941,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/airtel_money_tariffs.md",
+  "bytes": 2031,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/kcb_pesalink.html",
+  "bytes": 268662,
+  "kind": "html",
+  "title": "PesaLink | KCB Bank",
+  "text_chars": 18510,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/ncba_pesalink_faq.pdf",
+  "bytes": 783616,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2040,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/pesalink_faqs.html",
+  "bytes": 90002,
+  "kind": "html",
+  "title": "FAQs | Pesalink",
+  "text_chars": 4188,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/safaricom_b2b_tariff_2025.pdf",
+  "bytes": 110103,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1173,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/safaricom_b2c_tariff.pdf",
+  "bytes": 193856,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1919,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/safaricom_business_till_tariff.pdf",
+  "bytes": 108220,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 810,
+  "flags": []
+ },
+ {
+  "path": "kenya/fees/safaricom_mpesa_charges.html",
+  "bytes": 242847,
+  "kind": "html",
+  "title": "M-PESA Charges",
+  "text_chars": 11406,
+  "flags": []
+ },
+ {
+  "path": "kenya/fraud/cbk_consumer_protection.pdf",
+  "bytes": 432211,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4313,
+  "flags": []
+ },
+ {
+  "path": "kenya/fraud/cbk_legislation_index.html",
+  "bytes": 69517,
+  "kind": "html",
+  "title": "Legislation and Guidelines | CBK",
+  "text_chars": 10374,
+  "flags": []
+ },
+ {
+  "path": "kenya/fraud/mpesa_customer_terms.pdf",
+  "bytes": 382135,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 9941,
+  "flags": []
+ },
+ {
+  "path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+  "bytes": 1349508,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1443,
+  "flags": []
+ },
+ {
+  "path": "kenya/interoperability/kcb_pesalink.html",
+  "bytes": 268662,
+  "kind": "html",
+  "title": "PesaLink | KCB Bank",
+  "text_chars": 18510,
+  "flags": []
+ },
+ {
+  "path": "kenya/interoperability/mkesho_pesalink.html",
+  "bytes": 118788,
+  "kind": "html",
+  "title": "PesaLink - Direct Transfers from your Account to any Local Bank",
+  "text_chars": 4260,
+  "flags": []
+ },
+ {
+  "path": "kenya/interoperability/pesalink_faqs.html",
+  "bytes": 90002,
+  "kind": "html",
+  "title": "FAQs | Pesalink",
+  "text_chars": 4188,
+  "flags": []
+ },
+ {
+  "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+  "bytes": 327273,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5659,
+  "flags": []
+ },
+ {
+  "path": "kenya/kyc/cbk_legislation_index.html",
+  "bytes": 69517,
+  "kind": "html",
+  "title": "Legislation and Guidelines | CBK",
+  "text_chars": 10374,
+  "flags": []
+ },
+ {
+  "path": "kenya/kyc/mpesa_customer_terms.pdf",
+  "bytes": 382135,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 9941,
+  "flags": []
+ },
+ {
+  "path": "kenya/limits/cbk_emoney_regulations_2013.pdf",
+  "bytes": 327273,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5659,
+  "flags": []
+ },
+ {
+  "path": "kenya/limits/fuliza_page.html",
+  "bytes": 203711,
+  "kind": "html",
+  "title": "Fuliza| M-PESA Fuliza Loan| Fuliza Balance | *334#",
+  "text_chars": 8150,
+  "flags": []
+ },
+ {
+  "path": "kenya/limits/mpesa_customer_terms.pdf",
+  "bytes": 382135,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 9941,
+  "flags": []
+ },
+ {
+  "path": "kenya/limits/safaricom_limit_increase_500k.html",
+  "bytes": 205490,
+  "kind": "html",
+  "title": "Safaricom Gets Approval To Increase M-PESA Account and Daily Transaction Limits to KSh. 500,000",
+  "text_chars": 8636,
+  "flags": []
+ },
+ {
+  "path": "kenya/limits/safaricom_mpesa_charges.html",
+  "bytes": 242847,
+  "kind": "html",
+  "title": "M-PESA Charges",
+  "text_chars": 11406,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/airtel_money_tariffs.md",
+  "bytes": 2031,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/daraja_home.html",
+  "bytes": 185808,
+  "kind": "html",
+  "title": "Daraja Developer Portal | Safaricom",
+  "text_chars": 3080,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/fuliza_page.html",
+  "bytes": 203711,
+  "kind": "html",
+  "title": "Fuliza| M-PESA Fuliza Loan| Fuliza Balance | *334#",
+  "text_chars": 8150,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/lipa_na_mpesa.html",
+  "bytes": 242105,
+  "kind": "html",
+  "title": "Lipa Na M-PESA: Seamless Mobile Payments | Safaricom",
+  "text_chars": 10848,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/lipa_na_mpesa_terms_2026.pdf",
+  "bytes": 1848171,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 24996,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/mpesa_global_page.html",
+  "bytes": 223353,
+  "kind": "html",
+  "title": "M-PESA Global",
+  "text_chars": 8650,
+  "flags": []
+ },
+ {
+  "path": "kenya/products/safaricom_mpesa_main.html",
+  "bytes": 230663,
+  "kind": "html",
+  "title": "Safaricom : Premier Mobile, Data, &amp; M-PESA Services",
+  "text_chars": 8085,
+  "flags": []
+ },
+ {
+  "path": "kenya/regulations/cbk_electronic_payment_report_2024.pdf",
+  "bytes": 1349508,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1443,
+  "flags": []
+ },
+ {
+  "path": "kenya/regulations/cbk_emoney_regulations_2013.pdf",
+  "bytes": 327273,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5659,
+  "flags": []
+ },
+ {
+  "path": "kenya/regulations/cbk_legislation_index.html",
+  "bytes": 69517,
+  "kind": "html",
+  "title": "Legislation and Guidelines | CBK",
+  "text_chars": 10374,
+  "flags": []
+ },
+ {
+  "path": "kenya/regulations/nps_act_2011.pdf",
+  "bytes": 216323,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1961,
+  "flags": []
+ },
+ {
+  "path": "nigeria/agent_banking/cbn_mobile_money_framework_2021.pdf",
+  "bytes": 556332,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4876,
+  "flags": []
+ },
+ {
+  "path": "nigeria/agent_banking/doa_agent_banking_2025.html",
+  "bytes": 73450,
+  "kind": "html",
+  "title": "Analysis Of The Central Bank Of Nigeria Guidelines On Agent Banking | A Leading Commercial &amp; Dispute Resolution Law Firm in NigeriaA Leading Commercial &amp; Dispute Resolution Law Firm in Nigeria",
+  "text_chars": 3751,
+  "flags": []
+ },
+ {
+  "path": "nigeria/agent_banking/tnp_agent_banking_2025.html",
+  "bytes": 148196,
+  "kind": "html",
+  "title": "The CBN Agent Banking Guidelines 2025: Key Innovations and Regulatory Implications - TNP",
+  "text_chars": 13719,
+  "flags": []
+ },
+ {
+  "path": "nigeria/cross_border/cbn_fx_manual_2026.pdf",
+  "bytes": 6390517,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/cross_border/flutterwave_transfers_pricing.html",
+  "bytes": 1975096,
+  "kind": "html",
+  "title": "Transfer Pricing | Flutterwave Help Center",
+  "text_chars": 1974,
+  "flags": []
+ },
+ {
+  "path": "nigeria/cross_border/nfiu_reporting_guidelines.pdf",
+  "bytes": 1523377,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 3723,
+  "flags": []
+ },
+ {
+  "path": "nigeria/cross_border/papss_home.html",
+  "bytes": 201707,
+  "kind": "html",
+  "title": "PAPSS - Make instant and secure cross-border payments in local currencies across Africa",
+  "text_chars": 4773,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/interswitch_payment_response_codes.md",
+  "bytes": 11360,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/interswitch_response_codes.md",
+  "bytes": 3926,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/nibss_bill_payments_spec_v311.pdf",
+  "bytes": 2353041,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 7452,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/nibss_contact_nip_what.html",
+  "bytes": 162321,
+  "kind": "html",
+  "title": "What is NIP Service? : NIBSS Helpdesk",
+  "text_chars": 1778,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/nibss_contact_settlement.html",
+  "bytes": 162709,
+  "kind": "html",
+  "title": "How does Settlement happen on the service? : NIBSS Helpdesk",
+  "text_chars": 2000,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/nibss_nip_page.html",
+  "bytes": 116064,
+  "kind": "html",
+  "title": "NIBSS Instant Payment (NIP) - NIBSS",
+  "text_chars": 5944,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/nibss_nip_spec_preview_partial.md",
+  "bytes": 17930,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/error_codes/paystack_api_reference.md",
+  "bytes": 6591,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/cbn_guide_to_charges_2020.pdf",
+  "bytes": 988719,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1657,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/flutterwave_fee_increase_ngn.html",
+  "bytes": 1975682,
+  "kind": "html",
+  "title": "Fee Increase for Local NGN Payments | Flutterwave Help Center",
+  "text_chars": 3349,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/flutterwave_ngn_pricing.html",
+  "bytes": 1975004,
+  "kind": "html",
+  "title": "Pricing for receiving payments | Flutterwave Help Center",
+  "text_chars": 2016,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/kuda_transfers.html",
+  "bytes": 181229,
+  "kind": "html",
+  "title": "Bank Transfers in Nigeria: 25 Free Transfers a Month | Kuda",
+  "text_chars": 4101,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/nibss_electronic_payment_channels_guidelines.pdf",
+  "bytes": 1093046,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 8409,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/nibss_nip_page.html",
+  "bytes": 116064,
+  "kind": "html",
+  "title": "NIBSS Instant Payment (NIP) - NIBSS",
+  "text_chars": 5944,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/nigeria_new_banking_charges_framework_2026.pdf",
+  "bytes": 142019,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 6290,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/opay_checkout_pricing.html",
+  "bytes": 88227,
+  "kind": "html",
+  "title": "Opay-Pricing",
+  "text_chars": 3643,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/paystack_pricing.md",
+  "bytes": 9997,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/paystack_support_transactions_pricing.html",
+  "bytes": 110147,
+  "kind": "html",
+  "title": "Transactions pricing",
+  "text_chars": 8624,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/paystack_support_transfers_pricing.html",
+  "bytes": 98105,
+  "kind": "html",
+  "title": "Transfers pricing",
+  "text_chars": 1640,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/stanbic_pricing_guide_2024.pdf",
+  "bytes": 284543,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4243,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/stanbic_pricing_guide_2026.pdf",
+  "bytes": 401258,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4125,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fees/turnet_bank_transfer_charges.html",
+  "bytes": 323679,
+  "kind": "html",
+  "title": "Bank Transfer Charges in Nigeria 2026: Which Bank Actually Charges You Less?",
+  "text_chars": 16873,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fraud/cbn_consumer_protection_faqs.pdf",
+  "bytes": 55337,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 6757,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf",
+  "bytes": 706242,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1751,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fraud/cbn_cpd_page.html",
+  "bytes": 7545,
+  "kind": "html",
+  "title": "Consumer Protection | Central Bank of Nigeria",
+  "text_chars": 1261,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fraud/cbn_time_bar_disputes.pdf",
+  "bytes": 191695,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 0,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/fraud/nibss_idrs_glossary.html",
+  "bytes": 115148,
+  "kind": "html",
+  "title": "IDRS - NIBSS",
+  "text_chars": 2258,
+  "flags": []
+ },
+ {
+  "path": "nigeria/fraud/nibss_idrs_guide.html",
+  "bytes": 331207,
+  "kind": "html",
+  "title": "User Guide for IDRS (Industry Dispute Resolution Solution) : NIBSS Helpdesk",
+  "text_chars": 22724,
+  "flags": []
+ },
+ {
+  "path": "nigeria/interoperability/africanenda_nip_case_study.pdf",
+  "bytes": 3361220,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4857,
+  "flags": []
+ },
+ {
+  "path": "nigeria/interoperability/nibss_nip_game_changer.html",
+  "bytes": 106589,
+  "kind": "html",
+  "title": "NIBSS Instant Payments (NIP) \u2013 The Game Changer - NIBSS",
+  "text_chars": 8967,
+  "flags": []
+ },
+ {
+  "path": "nigeria/interoperability/nibss_nip_page.html",
+  "bytes": 116064,
+  "kind": "html",
+  "title": "NIBSS Instant Payment (NIP) - NIBSS",
+  "text_chars": 5944,
+  "flags": []
+ },
+ {
+  "path": "nigeria/interoperability/paystack_nip_explainer.md",
+  "bytes": 33170,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/interoperability/worldbank_nip_toolkit.md",
+  "bytes": 2653,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf",
+  "bytes": 1093489,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/kyc/cbn_bvn_page.html",
+  "bytes": 15022,
+  "kind": "html",
+  "title": "BVN | Central Bank of Nigeria",
+  "text_chars": 6110,
+  "flags": []
+ },
+ {
+  "path": "nigeria/kyc/doa_kyc_fintechs_2024.pdf",
+  "bytes": 2576807,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/kyc/nfiu_cbn_kyc_doc.pdf",
+  "bytes": 45477161,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/kyc/nibss_bvn_circular_2026.pdf",
+  "bytes": 334447,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 0,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/kyc/nimc_homepage.md",
+  "bytes": 4169,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/cbn_3_tiered_kyc_requirements.pdf",
+  "bytes": 1093489,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/limits/cbn_consumer_protection_faqs.pdf",
+  "bytes": 55337,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 6757,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/cbn_consumer_protection_regulations.pdf",
+  "bytes": 706242,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 1751,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/cbn_mobile_money_framework_2021.pdf",
+  "bytes": 556332,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4876,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/kuda_faqs.html",
+  "bytes": 150958,
+  "kind": "html",
+  "title": "FAQs | Kuda. - Help Center",
+  "text_chars": 7160,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/opay_help.html",
+  "bytes": 48535,
+  "kind": "html",
+  "title": "OPay \uff5c We are Beyond Banking",
+  "text_chars": 4368,
+  "flags": []
+ },
+ {
+  "path": "nigeria/limits/opay_terms.html",
+  "bytes": 48535,
+  "kind": "html",
+  "title": "OPay \uff5c We are Beyond Banking",
+  "text_chars": 4368,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/gtbank_737.md",
+  "bytes": 1593,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/gtbank_737_faqs.html",
+  "bytes": 78725,
+  "kind": "html",
+  "title": "FAQs - Bank 737",
+  "text_chars": 6228,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/gtbank_737_features.html",
+  "bytes": 92197,
+  "kind": "html",
+  "title": "GTBank\u2019s *737# Features | Mobile Banking Made Easy",
+  "text_chars": 12243,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/kuda_transfers.html",
+  "bytes": 181229,
+  "kind": "html",
+  "title": "Bank Transfers in Nigeria: 25 Free Transfers a Month | Kuda",
+  "text_chars": 4101,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/opay_security.html",
+  "bytes": 48535,
+  "kind": "html",
+  "title": "OPay \uff5c We are Beyond Banking",
+  "text_chars": 4368,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/opay_web_home.html",
+  "bytes": 48535,
+  "kind": "html",
+  "title": "OPay \uff5c We are Beyond Banking",
+  "text_chars": 4368,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/palmpay_ng.md",
+  "bytes": 1215,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "nigeria/products/ussd_codes_listing.html",
+  "bytes": 269847,
+  "kind": "html",
+  "title": "OPay USSD Codes for Transfers, Airtime, and More",
+  "text_chars": 3252,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_bdc_guidelines_2024.pdf",
+  "bytes": 622870,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 187,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/regulations/cbn_cybersecurity_framework.pdf",
+  "bytes": 1064326,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 3225,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_economics_digital_currencies.pdf",
+  "bytes": 7579173,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 996,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_mobile_money_framework_2021.pdf",
+  "bytes": 556332,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4876,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_psps.html",
+  "bytes": 141165,
+  "kind": "html",
+  "title": "Payment Service Providers | Central Bank of Nigeria",
+  "text_chars": 13495,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_psv2025.html",
+  "bytes": 11091,
+  "kind": "html",
+  "title": "PSV2025 | Central Bank of Nigeria",
+  "text_chars": 3822,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_psv2028.html",
+  "bytes": 9009,
+  "kind": "html",
+  "title": "PSV2028 | Central Bank of Nigeria",
+  "text_chars": 1839,
+  "flags": []
+ },
+ {
+  "path": "nigeria/regulations/cbn_statements_payment_finality.pdf",
+  "bytes": 622437,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2,
+  "flags": [
+   "pdf:little-text (scanned?)"
+  ]
+ },
+ {
+  "path": "nigeria/regulations/legal500_licence_categorisation.html",
+  "bytes": 308270,
+  "kind": "html",
+  "title": "Summary Of The Revised Licence Categorisation For Operators In The Nigerian Payments | Legal 500",
+  "text_chars": 18153,
+  "flags": []
+ },
+ {
+  "path": "pdf_audit.json",
+  "bytes": 7685,
+  "kind": "json",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/agent_banking/bankserv_rtc.md",
+  "bytes": 5280,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/agent_banking/posta_home.html",
+  "bytes": 17900,
+  "kind": "html",
+  "title": "South African Post Office",
+  "text_chars": 1570,
+  "flags": []
+ },
+ {
+  "path": "south_africa/agent_banking/sarb_payments_settlements.html",
+  "bytes": 120776,
+  "kind": "html",
+  "title": "Payments and Settlements",
+  "text_chars": 16619,
+  "flags": []
+ },
+ {
+  "path": "south_africa/agent_banking/tymebank_home.html",
+  "bytes": 136547,
+  "kind": "html",
+  "title": "Free Bank Account and High Savings Rates | GoTyme Bank",
+  "text_chars": 6089,
+  "flags": []
+ },
+ {
+  "path": "south_africa/cross_border/papss_home.html",
+  "bytes": 201707,
+  "kind": "html",
+  "title": "PAPSS - Make instant and secure cross-border payments in local currencies across Africa",
+  "text_chars": 4773,
+  "flags": []
+ },
+ {
+  "path": "south_africa/cross_border/sable_exchange_control.md",
+  "bytes": 8321,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/cross_border/sarb_currency_exchanges_manual.pdf",
+  "bytes": 2357338,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 2790,
+  "flags": []
+ },
+ {
+  "path": "south_africa/cross_border/sarb_finsurv_2026.pdf",
+  "bytes": 401581,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4841,
+  "flags": []
+ },
+ {
+  "path": "south_africa/cross_border/sarb_finsurv_faq.html",
+  "bytes": 138038,
+  "kind": "html",
+  "title": "Frequently asked questions",
+  "text_chars": 43789,
+  "flags": []
+ },
+ {
+  "path": "south_africa/error_codes/bankserv_rtc.md",
+  "bytes": 5280,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/error_codes/fnb_eft_terms.pdf",
+  "bytes": 510443,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5599,
+  "flags": []
+ },
+ {
+  "path": "south_africa/error_codes/netcash_unpaid_debit_orders.html",
+  "bytes": 212740,
+  "kind": "html",
+  "title": "Managing unpaid Debit Orders &#8211; Netcash Help Center",
+  "text_chars": 14443,
+  "flags": []
+ },
+ {
+  "path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+  "bytes": 1324530,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 4387,
+  "flags": []
+ },
+ {
+  "path": "south_africa/error_codes/stitch_sa_rails.html",
+  "bytes": 176276,
+  "kind": "html",
+  "title": "A guide to South African payment rails",
+  "text_chars": 30272,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/capitec_business_fees_2026.md",
+  "bytes": 3837,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/capitec_personal_fees_2026.md",
+  "bytes": 5381,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/capitec_transact_fees_page.md",
+  "bytes": 19321,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/fnb_ewallet.md",
+  "bytes": 30338,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/fnb_pricing_guide.md",
+  "bytes": 25571,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/payshap_home.md",
+  "bytes": 980,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/snapscan_cost_article.html",
+  "bytes": 166620,
+  "kind": "html",
+  "title": "What will it cost me to use SnapScan? :",
+  "text_chars": 1786,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fees/snapscan_merchant.html",
+  "bytes": 69434,
+  "kind": "html",
+  "title": "SnapScan for business: Accept mobile payments in a snap",
+  "text_chars": 6165,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fraud/banking_association_complaints.html",
+  "bytes": 61249,
+  "kind": "html",
+  "title": "Bank Complaints Procedures | BASA",
+  "text_chars": 7894,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fraud/fic_guidance_note_3a.pdf",
+  "bytes": 148783,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5170,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fraud/obssa_home.html",
+  "bytes": 172594,
+  "kind": "html",
+  "title": "Banking Ombudsman Landing &#8211; NFOSA",
+  "text_chars": 5881,
+  "flags": []
+ },
+ {
+  "path": "south_africa/fraud/standard_bank_complaints.md",
+  "bytes": 5089,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/interoperability/bankserv_rtc.md",
+  "bytes": 5280,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/interoperability/nedbank_payshap.html",
+  "bytes": 102708,
+  "kind": "html",
+  "title": "Make secure payments instantly with PayShap | Nedbank",
+  "text_chars": 6284,
+  "flags": []
+ },
+ {
+  "path": "south_africa/interoperability/pasa_legal_framework.html",
+  "bytes": 170162,
+  "kind": "html",
+  "title": "Legal &amp; Regulatory Framework - Payment Association of South Africa (PASA)",
+  "text_chars": 3937,
+  "flags": []
+ },
+ {
+  "path": "south_africa/interoperability/payshap_home.md",
+  "bytes": 980,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/kyc/fic_guidance_note_3a.pdf",
+  "bytes": 148783,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 5170,
+  "flags": []
+ },
+ {
+  "path": "south_africa/kyc/fica_proof_of_address.html",
+  "bytes": 147661,
+  "kind": "html",
+  "title": "FICA and Proof of Residence- What documents are acceptable: | Southey Attorneys",
+  "text_chars": 4884,
+  "flags": []
+ },
+ {
+  "path": "south_africa/kyc/information_regulator.html",
+  "bytes": 234160,
+  "kind": "html",
+  "title": "Home -",
+  "text_chars": 8213,
+  "flags": []
+ },
+ {
+  "path": "south_africa/kyc/standard_bank_fica.md",
+  "bytes": 2195,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/limits/bankserv_rtc.md",
+  "bytes": 5280,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/limits/capitec_personal_fees_2026.md",
+  "bytes": 5381,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/limits/gotyme_payshap_limits.html",
+  "bytes": 108975,
+  "kind": "html",
+  "title": "PayShap Transaction Limits Explained | GoTyme Bank",
+  "text_chars": 3013,
+  "flags": []
+ },
+ {
+  "path": "south_africa/limits/nedbank_payshap.html",
+  "bytes": 102708,
+  "kind": "html",
+  "title": "Make secure payments instantly with PayShap | Nedbank",
+  "text_chars": 6284,
+  "flags": []
+ },
+ {
+  "path": "south_africa/limits/worldbank_sa_fast_payments.md",
+  "bytes": 2568,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/capitec_transact_fees_page.md",
+  "bytes": 19321,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/fnb_ewallet.md",
+  "bytes": 30338,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/payshap_home.md",
+  "bytes": 980,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/snapscan_merchant.html",
+  "bytes": 69434,
+  "kind": "html",
+  "title": "SnapScan for business: Accept mobile payments in a snap",
+  "text_chars": 6165,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/stitch_sa_rails.html",
+  "bytes": 176276,
+  "kind": "html",
+  "title": "A guide to South African payment rails",
+  "text_chars": 30272,
+  "flags": []
+ },
+ {
+  "path": "south_africa/products/tymebank_home.html",
+  "bytes": 136547,
+  "kind": "html",
+  "title": "Free Bank Account and High Savings Rates | GoTyme Bank",
+  "text_chars": 6089,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/compcom_access_payment_system.pdf",
+  "bytes": 934013,
+  "kind": "pdf",
+  "title": "",
+  "text_chars": 8536,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/nps_act_govza.html",
+  "bytes": 41007,
+  "kind": "html",
+  "title": "National Payment System Act 78 of 1998 | South African Government",
+  "text_chars": 4534,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/nps_act_saflii.md",
+  "bytes": 31414,
+  "kind": "md",
+  "title": "",
+  "text_chars": -1,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/pasa_legal_framework.html",
+  "bytes": 170162,
+  "kind": "html",
+  "title": "Legal &amp; Regulatory Framework - Payment Association of South Africa (PASA)",
+  "text_chars": 3937,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/sarb_oversight.html",
+  "bytes": 107168,
+  "kind": "html",
+  "title": "Oversight and Supervision",
+  "text_chars": 17706,
+  "flags": []
+ },
+ {
+  "path": "south_africa/regulations/sarb_payments_settlements.html",
+  "bytes": 120776,
+  "kind": "html",
+  "title": "Payments and Settlements",
+  "text_chars": 16619,
+  "flags": []
+ }
+]

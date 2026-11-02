@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<script>
+		function includeHTML() {
+		  var z, i, elmnt, file, xhttp;
+		  /*loop through a collection of all HTML elements:*/
+		  z = document.getElementsByTagName("*");
+		  for (i = 0; i < z.length; i++) {
+			elmnt = z[i];
+			/*search for elements with a certain atrribute:*/
+			file = elmnt.getAttribute("w3-include-html");
+			if (file) {
+			  /*make an HTTP request using the attribute value as the file name:*/
+			  xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4) {
+				  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+				  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+				  /*remove the attribute, and call this function once more:*/
+				  elmnt.removeAttribute("w3-include-html");
+				  includeHTML();
+				}
+			  }      
+			  xhttp.open("GET", file, true);
+			  xhttp.send();
+			  /*exit the function:*/
+			  return;
+			}
+		  }
+		};
+		</script>
+<head>
+<!-- Microsoft Clarity Tracking Code -->	
+<script type="text/javascript">
+	(function(c,l,a,r,i,t,y){
+		c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+		t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+		y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+	})(window, document, "clarity", "script", "qr41jekh0p");
+</script>	
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N4BDKFWBKH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N4BDKFWBKH');
+</script>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="central bank of nigeria" />
+	<meta name="robots" content="index, follow" />
+	<meta name="descriptions" content="Bank Verification Number, The absence of a unique identifier in the Nigerian banking industry has been a major challenge inhibiting the effectiveness of the Know Your Customer (KYC) principle" />
+	<meta name="keywords" content="cbn, central bank of nigeria, bvn, bank verification number" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="/style.css" type="text/css" />
+	<link rel="stylesheet" href="/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="/css/magnific-popup.css" type="text/css" />
+
+	<!-- Bootstrap Select CSS -->
+	<link rel="stylesheet" href="/css/components/bs-select.css" type="text/css" />
+
+	<link rel="stylesheet" href="/css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>BVN | Central Bank of Nigeria</title>
+
+	
+	<style>
+
+		
+		 li > ul {
+    padding-left:35px;
+}
+    li > ol {
+    padding-left:35px;
+}
+
+
+</style>
+		
+
+</head>
+
+<body class="stretched">
+	<!-- Document Wrapper
+		============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<div w3-include-html="/header.html"></div>
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" style="background: url('/images/Page Titles/BVN.jpg');">
+
+			<div class="container clearfix" >
+				<h1 style="color: white;">Bank Verification Number</h1>
+				<span style="color: white;"></span>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item" ><a href="/" style="color:white;">Home</a></li>
+					<li class="breadcrumb-item" ><a href="/PaymentsSystem/" style="color:white;">Payments System Supervision</a></li>
+					<li class="breadcrumb-item active" aria-current="page" style="color: white; font-weight:bold;">BVN</li>
+					
+
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+        <div w3-include-html="subnav.html"></div>
+       
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<div class="row gutter-40 col-mb-80">
+						<!-- Post Content
+						============================================= -->
+						<div class="postcontent col-lg-9">
+<h2>Bank Verification Number</h2>
+							
+
+                            <p>The absence of a unique identifier in the Nigerian banking industry has been a major challenge inhibiting the effectiveness of the Know Your Customer (KYC) principle, with negative consequences on the growth of credit cards and other credit-related products. </p>
+                                
+								<p>To complement the existing means of identification of customers, which include: the driver’s license; the International Passport; the National Identity Card; and the Permanent Voter’s Card; the CBN, in collaboration with the Bankers’ Committee on February 14, 2014, launched a centralized biometric identification system for the banking industry, tagged Bank verification Number (BVN).</p>
+								
+                                <p>The Bank Verification Number (BVN) project is an initiative aimed at protecting bank customers and further strengthening the Nigerian banking system. The Bank introduced BVN to all banks’ customers to address the absence of unique identifier across the Nigerian Banking Industry. The BVN is a number that enables a bank customer to have a single identity in the banking system. 
+									The full implementation was expected to enhance the effectiveness of KYC requirement, the safety and reliability of the payments system.</p>
+                              <h3>Benefits:</h3>
+                              <strong>The benefits of the project among others include:</strong>
+                              <ol>
+                                <li>BVN gives a unique identity that can be verified across the Nigerian Banking Industry (not peculiar to one bank).</li>
+                                <li>Customers bank accounts are protected from unauthorized access.</li>
+                                <li>BVN will enhance the banking industry chances of being able to fish out blacklisted customers.</li>
+                                <li>It will address issues of identity theft, thus reduce exposure to fraud.</li>
+                                <li>Shortly, to authenticate transactions without the use of cards, using only biometric features.</li>  
+                              </ol>
+                              <h3>Activities</h3>
+                             <strong>The Bank issued circulars guiding the implementation of the project for all the DMBs, which stipulated the following:</strong>
+                              <ol>
+                                <li>DMBs were required to enrol at least, 40 per cent of their customers on or before December 31, 2014;</li>
+                                <li>Customers with new loans must have the BVN as a condition precedent to drawdown, with effect from November3, 2014;</li>
+                                <li>Credit customers must have BVNs by December 31, 2014;</li>
+                                <li>Transactions valued at N100,000,000.00 (One hundred million Naira) and above should only be allowed for customers with BVN by March 2015;</li>
+                                <li>Banks’ customers without BVN by October 31, 2015 would be deemed not to have met Know Your Customer (KYC) requirements.</li>
+                              </ol>
+							
+							  <p>In collaboration with banks, the CBN carried out various sensitization exercises which had been assisting in driving the stakeholders' support for the project. As at 7th June 2015, the collaborative efforts in the implementation of the BVN initiative had resulted in the achievement of over 12.43 million registered customers in the central database.
+							  The Bank is trying to ensure that all the bank customers, wherever located, are appropriately captured. Currently, some of these customers are based in various countries across the globe and a framework will be put in place for capturing them.
+							  </p>
+							  <p>At the point of enrolment for BVN, a bank customer is required to walk into any of the bank’s branches with a valid means of identification, fill and submit the BVN Enrolment Form, and present self for data capturing (such as fingerprint, facial Image, etc.) Thereafter, an acknowledgement slip with the transaction ID will be issued to the customer. Within 24 hours the system confirms the enrolment and a unique BVN is generated. The customer will immediately receive an SMS notification with the BVN.
+							  Customers are expected to submit their BVN to their bankers for linkage to all their accounts.
+                              </p>
+							  <p>A deadline of October 2015 was set for customers to comply with the BVN requirement, failing which their accounts will be deemed to have incomplete KYC.
+							  As part of the overall strategy of ensuring the effectiveness of Know-Your-Customer (KYC) principles, and promotion of a safe, reliable and efficient payment system, the CBN issued the revised Regulatory Framework for the Bank Verification Number (BVN) Operations and Watch-list for the Nigerian Banking Industry (“the Framework”) on October 12, 2021.
+							  On December 2023, the CBN issued a circular mandating all individual Tiers 2 and 3 accounts and wallets to have BVN and NIN while Tiers 1 accounts and wallets shall have either BVN or NIN. The circular also mandated the process for the account opening to commence by electronically retrieving BVN or NIN-related information from the NIBSS’ BVN or NIMC NIN databases and for the same to become the primary information for onboarding new customers.
+							  Furthermore, the circular directed that all existing customer accounts/wallets for individuals with validated BVN shall be profiled in the NIBSS’ ICAD immediately and within 24 hours of opening accounts/wallets.
+							  </p>
+
+							  <b>The following are some of the regulations issued by the CBN to strengthen the operations of the BVN in the Nigeria Payment Ecosystem:</b>
+	
+							  <ol>
+							  <li><u> <a href="/Out/2015/BPSD/Circular%20on%20the%20Framework%20for%20the%20Enrolment%20of%20Nigerian%20Banks%20Customers%20in%20Diaspora%20for%20BVN%20Issuance.pdf" target="_blank">Circular on the Framework for Enrollment of Nigerian Banks’ Customers in Diaspora for Bank Verification Number (BVN) Issuance on August 18, 2015</a></u></li>
+							  <li><u><a href="/Out/2015/CCD/BVNExtension.pdf" target="_blank">Circular on the Extension of BVN Nigerian Banks’ Customers in Diaspora and Other Related Matters on November 2, 2015</a></u></li>
+							  <li><u><a href="/Out/2017/OFISD/CIRCULAR%20ON%20BVN%20OF%20OFIs0001%20(3).pdf" target="_blank">Circular for the Bank Verification Number (BVN) Enrollment for OFI Customers – Extension of Timeline to April 21, 2017</a></u></li>
+							  <li><u><a href="/Out/2017/OFISD/THE%20BVN%20ENROLLMENT%20FOR%20OFI%20CUSTOMERS0001.pdf" target="_blank">Circular for the Bank Verification Number (BVN) Enrollment for OFI Customers – Extension of Timeline to December 31, 2017</a></u></li>
+							  <li><u><a href="/Out/2017/BPSD/Review%20of%20Daily%20MM%20Wallet%20Transaction%20&%20BVN%20Requirement%20for%20Mobile%20Money%20Wallet%20Holders.pdf" target="_blank">Circular on the Review of Daily Mobile Money Wallet Transactions and Balance Limit and Bank Verification Numbers (BVN) Requirement for Mobile Money Wallet Holders on September 7, 2017</a></u></li>
+							  <li><u><a href="/Out/2021/CCD/REVISED%20REGULATORY%20FRAMEWORK%20FOR%20BANK%20VERIFICATION%20NUMBER%20(BVN)%20OPERATIONS%20AND%20WATCH-LIST%20FOR%20THE%20NIGERIAN%20BANKING%20INDUSTRY%20121021%20FINAL.pdf" target="_blank">Revised Regulatory Framework for Bank Verification Number (BVN) Operations and Watch List for the Nigerian Banking Industry on October 12, 2021</a></u></li>
+							  <li><u><a href="/Out/2023/PSMD/Circular%20on%20Tier%201%20Wallets%20&%20Accounts,%20Guidance%20Note%20&%20Profiling%20of%20Customers'%20Accounts%20&%20Wallets.pdf" target="_blank">Circular to All Commercial Banks, Merchant, Non-Interest and Payment Service Bank, Other Financial Institutions and Mobile Money Operators for Tier 1 Wallets and Accounts’ Mandatory Use of BVN or NIN on December 1, 2023</a></u></li>
+							  <li><u><a href="/Out/2024/CCD/Payment%20Terminal%20Service%20Aggregators.pdf" target="_blank">Circular to All Payment Service Providers (PSPs) on Connectivity to Payment Terminal Service Aggregators issued September 11, 2024</a></u></li>
+                              </ol>
+						</div><!-- .postcontent end -->
+
+						<!-- Sidebar
+						============================================= -->
+						<div class="sidebar col-lg-3">
+							<div class="sidebar-widgets-wrap">
+
+								<div class="widget widget_links clearfix">
+
+									<div w3-include-html="/PaymentsSystem/sideBar.html"></div>
+
+								</div>
+
+
+							</div>
+						</div><!-- .sidebar end -->
+					</div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+
+		<div w3-include-html="/footer.html"></div>
+		<script>
+			includeHTML();
+		</script>
+
+	</div><!-- #wrapper end -->
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+	<script src="/js/jquery.js"></script>
+
+	<script src="/js/plugins.min.js"></script>
+
+
+
+
+	<!-- Bootstrap Select Plugin -->
+	<script src="/js/components/bs-select.js"></script>
+
+	<!-- Select Splitter Plugin -->
+	<script src="/js/components/selectsplitter.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="/js/functions.js"></script>
+	
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"4d95a0b05d714a0d8d9b92d836b3c205","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html >

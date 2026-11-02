@@ -1,0 +1,364 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "fees",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_opay_checkout_pricing",
+   "name": "OPay Checkout pricing",
+   "url": "https://www.opaycheckout.com/pricing.html",
+   "path": "nigeria/fees/opay_checkout_pricing.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_kuda_transfers",
+   "name": "Kuda: Bank Transfers",
+   "url": "https://www.kuda.com/transfers/",
+   "path": "nigeria/fees/kuda_transfers.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_paystack_pricing",
+   "name": "Paystack Pricing (Nigeria)",
+   "url": "https://paystack.com/pricing",
+   "path": "nigeria/fees/paystack_pricing.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_charges_2020",
+   "name": "CBN Guide to Charges by Banks, Other Financial and Non-Bank Financial Institutions (effective 1 January 2020)",
+   "url": "https://cbnwincenbankwebprod-dnfwb6hwduemgbf7.westeurope-01.azurewebsites.net/Out/2022/CCD/Guide%20to%20Charges%20by%20Banks%20Other%20Financial%20and%20Non-Financial%20Institutions%20eff%20Jan%201%202020.pdf",
+   "path": "nigeria/fees/cbn_guide_to_charges_2020.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_flutterwave_pricing",
+   "name": "Flutterwave Help Centre: Pricing for receiving payments",
+   "url": "https://flutterwave.com/ng/support/pricing/pricing-for-receiving-payment",
+   "path": "nigeria/fees/flutterwave_ngn_pricing.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_stanbic_pricing_2026",
+   "name": "Stanbic IBTC Bank 2026 Pricing Guide",
+   "url": "https://www.stanbicibtcbank.com/static_file/Nigeria/nigeriabank/Downloads/Pricing%20Guide/Stanbic%20IBTC%20Bank%202026%20Pricing%20Guide.pdf",
+   "path": "nigeria/fees/stanbic_pricing_guide_2026.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_fee_cbn_2020_01",
+   "subject": "interbank_transfer_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "bank_transfer",
+    "amount_ngn": {
+     "min": 0,
+     "max": 5000
+    }
+   },
+   "attribute": "fee",
+   "value": 1000,
+   "unit": "NGN_minor",
+   "display": "N10 for electronic funds transfers below N5,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "10.2 Electronic Funds Transfer:  Below N5,000 – N10 N5,001 - N50,000 – N25 Above N50,000 – N50",
+   "notes": "Agrees with Stanbic IBTC 2026 Pricing Guide (N10 below N5,000) and Paystack transfer pricing (NGN 10 per transfer at or below N5,000).",
+   "source_id": "src_ng_cbn_charges_2020",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/cbn_guide_to_charges_2020.pdf"
+  },
+  {
+   "id": "ng_fee_cbn_2020_02",
+   "subject": "interbank_transfer_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "bank_transfer",
+    "amount_ngn": {
+     "min": 5001,
+     "max": 50000
+    }
+   },
+   "attribute": "fee",
+   "value": 2500,
+   "unit": "NGN_minor",
+   "display": "N25 for electronic funds transfers of N5,001 to N50,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "N5,001 to N50,000 - N25 plus VAT.",
+   "notes": "Bank tariff restating the CBN 2020 Guide band; CBN Guide s.10.2 states N25 for N5,001-N50,000. Stanbic charges N25 plus VAT.",
+   "source_id": "src_ng_stanbic_pricing_2026",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/stanbic_pricing_guide_2026.pdf"
+  },
+  {
+   "id": "ng_fee_cbn_2020_03",
+   "subject": "interbank_transfer_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "bank_transfer",
+    "amount_ngn": {
+     "min": 50001
+    }
+   },
+   "attribute": "fee",
+   "value": 5000,
+   "unit": "NGN_minor",
+   "display": "N50 for electronic funds transfers above N50,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "Above N50,000 – N50",
+   "notes": "Same band appears in Stanbic IBTC 2026 Pricing Guide as 'Above N50,000 - N50 plus VAT' and in Paystack transfer pricing.",
+   "source_id": "src_ng_cbn_charges_2020",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/cbn_guide_to_charges_2020.pdf"
+  },
+  {
+   "id": "ng_fee_cbn_2020_04",
+   "subject": "atm_withdrawal_fee_not_on_us",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "atm",
+    "actor": "consumer"
+   },
+   "attribute": "fee",
+   "value": 3500,
+   "unit": "NGN_minor",
+   "display": "N35 per withdrawal from another bank's ATM after the third withdrawal in a month",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "N35 after the third withdrawal within the same month",
+   "notes": "",
+   "source_id": "src_ng_cbn_charges_2020",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/cbn_guide_to_charges_2020.pdf"
+  },
+  {
+   "id": "ng_fee_cbn_2020_05",
+   "subject": "merchant_service_commission",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "pos",
+    "actor": "merchant"
+   },
+   "attribute": "fee_percent",
+   "value": 0.5,
+   "unit": "percent",
+   "display": "0.50% merchant service commission on card transactions",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "0.50% of transaction value but not more than N1,000",
+   "notes": "",
+   "source_id": "src_ng_cbn_charges_2020",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/cbn_guide_to_charges_2020.pdf"
+  },
+  {
+   "id": "ng_fee_cbn_2020_06",
+   "subject": "merchant_service_commission_cap",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "pos",
+    "actor": "merchant"
+   },
+   "attribute": "fee_cap",
+   "value": 100000,
+   "unit": "NGN_minor",
+   "display": "Merchant service commission capped at N1,000 per transaction",
+   "graded_by": "numeric_exact",
+   "effective_from": "2020-01-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "0.50% of transaction value but not more than N1,000",
+   "notes": "A 2026 exposure draft of a revised Guide would raise the cap to N10,000; not in force at capture.",
+   "source_id": "src_ng_cbn_charges_2020",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/cbn_guide_to_charges_2020.pdf"
+  },
+  {
+   "id": "ng_fee_ps_2026_01",
+   "subject": "card_transaction_fee_local",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "attribute": "fee_percent",
+   "value": 1.5,
+   "unit": "percent",
+   "display": "Paystack charges 1.5% plus NGN 100 on local transactions",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "1.5% + NGN 100",
+   "notes": "Paystack pricing page is undated; effective_from is the corpus capture date.",
+   "source_id": "src_ng_paystack_pricing",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/paystack_pricing.md"
+  },
+  {
+   "id": "ng_fee_ps_2026_02",
+   "subject": "card_transaction_fee_cap",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "attribute": "fee_cap",
+   "value": 200000,
+   "unit": "NGN_minor",
+   "display": "Paystack local transaction fees are capped at N2,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Local transactions fees are capped at ₦2000, meaning that's the absolute maximum you'll ever pay in fees per transaction",
+   "notes": "Page undated; effective_from is the capture date.",
+   "source_id": "src_ng_paystack_pricing",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/paystack_pricing.md"
+  },
+  {
+   "id": "ng_fee_ps_2026_03",
+   "subject": "card_transaction_fee_international",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "attribute": "fee_percent",
+   "value": 3.9,
+   "unit": "percent",
+   "display": "Paystack charges 3.9% plus NGN 100 on international transactions",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "3.9% + NGN 100",
+   "notes": "Page undated; effective_from is the capture date.",
+   "source_id": "src_ng_paystack_pricing",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/paystack_pricing.md"
+  },
+  {
+   "id": "ng_fee_flw_2026_01",
+   "subject": "card_transaction_fee_local",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business",
+    "country": "NG"
+   },
+   "attribute": "fee_percent",
+   "value": 2.0,
+   "unit": "percent",
+   "display": "Flutterwave charges Nigerian merchants 2.0% on local cards (1.4% transaction fee + 0.6% platform fee)",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "2.0% (1.4% transaction fee + 0.6% platform fee)",
+   "notes": "Article marked 'Updated 16 months ago' at capture; effective_from is the capture date.",
+   "source_id": "src_ng_flutterwave_pricing",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/flutterwave_ngn_pricing.html"
+  },
+  {
+   "id": "ng_fee_kuda_2026_01",
+   "subject": "free_transfers_per_month",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "kuda"
+   },
+   "attribute": "count",
+   "value": 25,
+   "unit": "count",
+   "display": "Kuda gives 25 free transfers to other banks each month",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Get unlimited free Kuda to Kuda transfers, and 25 free transfers to any other bank, every month.",
+   "notes": "Page undated; effective_from is the capture date.",
+   "source_id": "src_ng_kuda_transfers",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/kuda_transfers.html"
+  },
+  {
+   "id": "ng_fee_kuda_2026_02",
+   "subject": "interbank_transfer_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "kuda"
+   },
+   "attribute": "fee",
+   "value": 1000,
+   "unit": "NGN_minor",
+   "display": "Kuda charges N10 per transfer to other banks after the 25 free monthly transfers",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "For those not on Kuda you can transfer 25 times for free, and after that we charge a low fee of ₦10 per transfer.",
+   "notes": "Kuda FAQs add that 7.5% VAT applies to the N10 fee only.",
+   "source_id": "src_ng_kuda_transfers",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/kuda_transfers.html"
+  },
+  {
+   "id": "ng_fee_opay_2026_01",
+   "subject": "card_transaction_fee_local",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "attribute": "fee_percent",
+   "value": 1.5,
+   "unit": "percent",
+   "display": "OPay Checkout charges 1.5% per local transaction, capped at N2,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "per local transaction capped at N2000",
+   "notes": "Page undated; effective_from is the capture date.",
+   "source_id": "src_ng_opay_checkout_pricing",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/fees/opay_checkout_pricing.html"
+  }
+ ],
+ "notes": "Tariffs are quoted as the CBN ceiling plus the platform's own published rate. Bank tariffs add VAT on top of the CBN figures. Undated platform pricing pages use the corpus capture date as effective_from."
+}

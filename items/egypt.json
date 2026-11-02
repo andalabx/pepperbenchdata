@@ -1,0 +1,57 @@
+[
+{"country":"egypt","category":"fees","name":"instapay_home","url":"https://www.instapay.eg/?lang=en","source_type":"official","note":""},
+{"country":"egypt","category":"fees","name":"cbe_instant_payment_network","url":"https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network","source_type":"official","note":""},
+{"country":"egypt","category":"fees","name":"fawry_business_collection","url":"https://www.fawry.com/business/payment-and-collection/","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"fees","name":"fawry_consumer_bills","url":"https://www.fawry.com/consumer/bill-payment/","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"fees","name":"vodafone_cash_fees","url":"https://web.vodafone.com.eg/en/money-transfer-fees","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"fees","name":"vodafone_cash_transfer","url":"https://web.vodafone.com.eg/en/money-transfer","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"fees","name":"egypt_independent_instapay_fees","url":"https://www.egyptindependent.com/instapay-updates-fees-and-tariffs-for-money-transfers/","source_type":"platform_docs","note":"secondary, check date"},
+
+{"country":"egypt","category":"limits","name":"cbe_mobile_wallet","url":"https://www.cbe.org.eg/en/payment-systems-and-services/payment-services/mobile-wallet","source_type":"official","note":""},
+{"country":"egypt","category":"limits","name":"cbe_instant_payment_network","url":"https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network","source_type":"official","note":""},
+{"country":"egypt","category":"limits","name":"instapay_home","url":"https://www.instapay.eg/?lang=en","source_type":"official","note":""},
+{"country":"egypt","category":"limits","name":"enterprise_mobile_wallet_limits","url":"https://enterpriseam.com/egypt/2021/04/22/cbe-raises-withdrawal-transfer-limits-from-mobile-wallets/","source_type":"platform_docs","note":"secondary, historical thresholds"},
+{"country":"egypt","category":"limits","name":"cbe_regulations_glaco","url":"http://www.glaco.com/wp-content/uploads/CBE-Regulations.pdf","source_type":"official","note":"CBE regulations mirror"},
+
+{"country":"egypt","category":"kyc","name":"cbe_consumer_protection","url":"https://www.cbe.org.eg/en/consumer-protection","source_type":"official","note":""},
+{"country":"egypt","category":"kyc","name":"cbe_know_your_rights","url":"https://www.cbe.org.eg/en/consumer-protection/know-your-rights","source_type":"official","note":""},
+{"country":"egypt","category":"kyc","name":"cbe_mobile_wallet","url":"https://www.cbe.org.eg/en/payment-systems-and-services/payment-services/mobile-wallet","source_type":"official","note":"wallet registration identity rules"},
+{"country":"egypt","category":"kyc","name":"bakermckenzie_ekyc_2026","url":"https://www.bakermckenzie.com/en/insight/publications/2026/09/egypt-new-digital-financial-identity-system-rules-for-ekyc","source_type":"platform_docs","note":"secondary legal analysis"},
+{"country":"egypt","category":"kyc","name":"adsero_egypt_fintech_law","url":"https://adsero.me/banking-in-egypt-legal-framework-fintech-and-e-payments/","source_type":"platform_docs","note":"secondary legal analysis"},
+
+{"country":"egypt","category":"regulations","name":"cbe_payment_oversight","url":"https://www.cbe.org.eg/en/payment-systems-and-services/payment-systems-and-services-oversight","source_type":"official","note":""},
+{"country":"egypt","category":"regulations","name":"cbe_instant_payment_network","url":"https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network","source_type":"official","note":""},
+{"country":"egypt","category":"regulations","name":"cbe_regulations_glaco","url":"http://www.glaco.com/wp-content/uploads/CBE-Regulations.pdf","source_type":"official","note":""},
+{"country":"egypt","category":"regulations","name":"adsero_egypt_fintech_law","url":"https://adsero.me/banking-in-egypt-legal-framework-fintech-and-e-payments/","source_type":"platform_docs","note":"secondary summary of Law 18/2022"},
+{"country":"egypt","category":"regulations","name":"ibanet_egypt_payments","url":"https://www.ibanet.org/article/6FC3317B-4F9C-4DFC-BDF1-80CF98B68B21","source_type":"platform_docs","note":""},
+
+{"country":"egypt","category":"products","name":"instapay_home","url":"https://www.instapay.eg/?lang=en","source_type":"official","note":""},
+{"country":"egypt","category":"products","name":"fawry_business_collection","url":"https://www.fawry.com/business/payment-and-collection/","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"products","name":"fawry_consumer_bills","url":"https://www.fawry.com/consumer/bill-payment/","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"products","name":"vodafone_cash","url":"https://web.vodafone.com.eg/en/vodafone-cash","source_type":"platform_docs","note":""},
+{"country":"egypt","category":"products","name":"meeza_home","url":"https://meeza-eg.com/","source_type":"official","note":"national card scheme"},
+{"country":"egypt","category":"products","name":"egyptianbanks_meeza","url":"https://www.egyptianbanks.com/meeza-card/","source_type":"platform_docs","note":""},
+
+{"country":"egypt","category":"interoperability","name":"cbe_instant_payment_network","url":"https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network","source_type":"official","note":""},
+{"country":"egypt","category":"interoperability","name":"africanenda_ipn_egypt","url":"https://africanenda.org/wp-content/uploads/siips_2025_IPN-Egypt_CaseStudy_en.pdf","source_type":"platform_docs","note":"independent case study of Egypt IPN"},
+{"country":"egypt","category":"interoperability","name":"lightspark_egypt_ipn","url":"https://www.lightspark.com/knowledge/egypt-instant-payments","source_type":"platform_docs","note":"secondary"},
+{"country":"egypt","category":"interoperability","name":"instapay_home","url":"https://www.instapay.eg/?lang=en","source_type":"official","note":""},
+
+{"country":"egypt","category":"cross_border","name":"cbe_foreign_exchange","url":"https://www.cbe.org.eg/en/","source_type":"official","note":"CBE portal, FX rules linked from here"},
+{"country":"egypt","category":"cross_border","name":"tradegov_egypt_fx","url":"https://www.trade.gov/country-commercial-guides/egypt-trade-financing","source_type":"platform_docs","note":"secondary summary of FX controls"},
+{"country":"egypt","category":"cross_border","name":"papss_home","url":"https://papss.com/","source_type":"official","note":""},
+{"country":"egypt","category":"cross_border","name":"cbe_regulations_glaco","url":"http://www.glaco.com/wp-content/uploads/CBE-Regulations.pdf","source_type":"official","note":""},
+
+{"country":"egypt","category":"agent_banking","name":"cbe_regulations_glaco","url":"http://www.glaco.com/wp-content/uploads/CBE-Regulations.pdf","source_type":"official","note":""},
+{"country":"egypt","category":"agent_banking","name":"egypt_post_wikipedia","url":"https://en.wikipedia.org/wiki/Egypt_Post","source_type":"platform_docs","note":"secondary, network scale"},
+{"country":"egypt","category":"agent_banking","name":"fawry_business_collection","url":"https://www.fawry.com/business/payment-and-collection/","source_type":"platform_docs","note":"agent and point network"},
+
+{"country":"egypt","category":"error_codes","name":"instapay_home","url":"https://www.instapay.eg/?lang=en","source_type":"official","note":""},
+{"country":"egypt","category":"error_codes","name":"cbe_instant_payment_network","url":"https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network","source_type":"official","note":""},
+{"country":"egypt","category":"error_codes","name":"fawry_business_collection","url":"https://www.fawry.com/business/payment-and-collection/","source_type":"platform_docs","note":""},
+
+{"country":"egypt","category":"fraud","name":"cbe_consumer_protection","url":"https://www.cbe.org.eg/en/consumer-protection","source_type":"official","note":""},
+{"country":"egypt","category":"fraud","name":"cbe_know_your_rights","url":"https://www.cbe.org.eg/en/consumer-protection/know-your-rights","source_type":"official","note":""},
+{"country":"egypt","category":"fraud","name":"cbe_payment_oversight","url":"https://www.cbe.org.eg/en/payment-systems-and-services/payment-systems-and-services-oversight","source_type":"official","note":""},
+{"country":"egypt","category":"fraud","name":"fawry_consumer_bills","url":"https://www.fawry.com/consumer/bill-payment/","source_type":"platform_docs","note":""}
+]

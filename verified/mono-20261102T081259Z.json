@@ -1,0 +1,31 @@
+{
+ "provider": "mono",
+ "environment": "test key (prefix test_s)",
+ "verified_at": "2026-11-02T08:12:59+00:00",
+ "harness": "inline probe",
+ "note": "PII redacted by design; only response shape and counts recorded",
+ "checks": [
+  {
+   "fact": "GET /v2/accounts authenticates with mono-sec-key header",
+   "status": 200,
+   "records": 10,
+   "fields": [
+    "account_number",
+    "auth_method",
+    "balance",
+    "bvn",
+    "currency",
+    "customer",
+    "id",
+    "institution",
+    "name",
+    "status",
+    "type"
+   ]
+  },
+  {
+   "fact": "Authorization Bearer with the same key is rejected",
+   "status": 403
+  }
+ ]
+}

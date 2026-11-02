@@ -1,0 +1,239 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "agent_banking",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Nine facts: commencement dates from CBK's own agent-banking presentation, appointment/register/liability rules from the E-Money Regulation 2013, and three qualitative findings from the FSD Kenya 2010 channel-regulation report. No numeric cash-in/cash-out limit per agent exists in the Kenya corpus; float is described only as the agent's own working capital.",
+ "sources": [
+  {
+   "id": "src_ke_cbk_emoney_2013",
+   "name": "Central Bank of Kenya, E-Money Regulation 2013 (National Payment System Act)",
+   "url": "https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf",
+   "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_afi_2010",
+   "name": "Central Bank of Kenya, Agent Banking Knowledge Exchange (AFI presentation)",
+   "url": "https://www.afi-global.org/sites/default/files/agent%20banking%20knowledge%20exchange%20central%20bank%20of%20kenia%20by%20matu%20mugo%20cbk_0.pdf",
+   "path": "kenya/agent_banking/cbk_agent_banking_afi.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_fsd_channels_2010",
+   "name": "FSD Kenya / Bankable Frontier Associates, Regulation and Supervision of Bank Channels: Policy Options for Kenya (Jan 2010)",
+   "url": "https://www.fsdkenya.org/wp-content/uploads/2021/aws/Archive%20data%20FSD/10-02-05_Regulation_supervision_of_bank_channels.pdf",
+   "path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_agb_cbk_01",
+   "subject": "agent_banking_commencement",
+   "attribute": "effective_date",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "Agent banking became legally effective in Kenya on 1 January 2010",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Agency banking started 1 January 2010",
+   "effective_from": "2010-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_afi_2010",
+   "source_path": "kenya/agent_banking/cbk_agent_banking_afi.pdf",
+   "quote": "agent banking effective 1st january 2010 and cbk had to prescribe guidelines",
+   "notes": "CBK presentation; enabling amendments were tabled in parliament in June 2009.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_cbk_02",
+   "subject": "agent_banking_guidelines_effective",
+   "attribute": "effective_date",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "CBK agent banking guidelines were issued in April 2010 and took effect on 1 May 2010",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Guidelines issued April 2010, in force 1 May 2010",
+   "effective_from": "2010-05-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_afi_2010",
+   "source_path": "kenya/agent_banking/cbk_agent_banking_afi.pdf",
+   "quote": "agent banking guidelines issued in april 2010 to take effect from 1st may 2010",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_cbk_03",
+   "subject": "agent_appointment_notice_period",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 60,
+   "unit": "days",
+   "graded_by": "numeric_exact",
+   "display": "An e-money issuer must tell CBK at least 60 days before starting to operate through agents",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers that intend to appoint agents shall at least 60 days prior to commencing the conducting of the business of an e money issuer through agents advise the bank in writing of their intention",
+   "notes": "The notice must include recruiting procedure, agent locations, the standard agency agreement and the agent manual. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_cbk_04",
+   "subject": "agent_register",
+   "attribute": "supervisory_rule",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "Issuers must report agent names, owners, GPS coordinates and outlets monthly, and CBK publishes them in a public electronic register of agents",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "There is a public CBK register of agents",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "the identity of the persons responsible for the management of the agent and the bank shall insert this information in a public electronic register of agents",
+   "notes": "effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_cbk_05",
+   "subject": "issuer_liability_for_agent",
+   "attribute": "liability_rule",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "The e-money issuer is liable to accountholders for its agents' conduct within the agency agreement, and cannot contract out of that liability",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Agent misconduct is the issuer's problem, not the customer's",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers are liable to their e money account holders for the conduct of their agents performed within the scope of the agency agreement the agency agreement cannot exclude such liability",
+   "notes": "effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_cbk_06",
+   "subject": "agent_eligibility",
+   "attribute": "agent_requirement",
+   "conditions": {
+    "actor": "agent"
+   },
+   "value_text": "Agent must hold the licences or permits its commercial activity needs, be lawfully able to provide the service, be financially sound and have competent management",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Four cumulative conditions for appointment as an agent",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers may appoint through written agency agreement a person as agent if that person a possesses such registrations business licenses or permits as may be required for the performance of its commercial activities",
+   "notes": "Appointment must be in writing (clause 9.4). effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_fsd_07",
+   "subject": "agent_fee_add_on",
+   "attribute": "prohibition",
+   "conditions": {
+    "actor": "agent"
+   },
+   "value_text": "Agents may not add their own fees; the principal pays the agent and alone recovers fees from the customer",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Agents cannot charge customers on top of the published tariff",
+   "effective_from": "2010-01-01",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_fsd_channels_2010",
+   "source_path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+   "quote": "the conventional wisdom is to prohibit agents from adding on fees instead fees are paid by the principal who alone may recover fees from the customer",
+   "notes": "FSD Kenya policy report for CBK; a design recommendation that matches the tariff structure, so treat as single_source.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_fsd_08",
+   "subject": "agent_float_shortage_prevalence",
+   "attribute": "risk",
+   "conditions": {
+    "actor": "agent"
+   },
+   "value_text": "One in five respondents in a 2008 survey had found an agent unable to pay out cash",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Agent cash-out shortages are common but usually resolved by walking to the next agent",
+   "effective_from": "2010-01-01",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_fsd_channels_2010",
+   "source_path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+   "quote": "this indeed has been the experience with m pesa agents where as many as one in five of survey respondents in a 2008 survey had encountered this issue but in general merely went to another agent",
+   "notes": "Float is the agent's own working capital; no CBK-mandated minimum float is stated in the corpus for Kenya (unlike the e-money issuer's 100% liquid-asset rule).",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_agb_fsd_09",
+   "subject": "branch_vs_agent_liquidity",
+   "attribute": "risk",
+   "conditions": {
+    "actor": "agent"
+   },
+   "value_text": "A branch carries an implicit bank liquidity guarantee to clients; an agent does not",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Only branches guarantee cash; agents can run dry",
+   "effective_from": "2010-01-01",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_fsd_channels_2010",
+   "source_path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+   "quote": "a bank branch carries an implicit guarantee of liquidity by the bank to its clients whereas an agent does not",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

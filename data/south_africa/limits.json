@@ -1,0 +1,293 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "limits",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_stitch_rails",
+   "name": "Stitch - A guide to South African payment rails",
+   "url": "https://stitch.money/blog/a-guide-to-south-african-payment-rails",
+   "path": "south_africa/products/stitch_sa_rails.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_nedbank_payshap",
+   "name": "Nedbank - Make secure payments instantly with PayShap",
+   "url": "https://personal.nedbank.co.za/learn/help-centre/bank/make-secure-payment-with-payshap.html",
+   "path": "south_africa/limits/nedbank_payshap.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_gotyme_payshap",
+   "name": "GoTyme Bank - What are the transaction limits for PayShap?",
+   "url": "https://gotyme.co.za/personal/media/money-skills-landing/what-are-the-transaction-limits-for-payshap/",
+   "path": "south_africa/limits/gotyme_payshap_limits.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_sbsa_ops",
+   "name": "Standard Bank Business Online Operational Regulations",
+   "url": "https://secure.businessonline.standardbank.co.za/bebhelp/operational_regulations.pdf",
+   "path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_capitec_fees_2026",
+   "name": "Capitec Bank personal transaction fees 2026",
+   "url": "https://www.capitecbank.co.za/personal/transact/transact-fees/",
+   "path": "south_africa/fees/capitec_transact_fees_page.md",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_lim_payshap_2024_01",
+   "subject": "payshap_system_transaction_ceiling",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "max_amount",
+   "value": 5000000,
+   "unit": "ZAR_cents",
+   "display": "R50,000 PayShap ceiling per transaction (from October 2024)",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2024-10-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_za_stitch_rails",
+   "source_path": "south_africa/products/stitch_sa_rails.html",
+   "quote": "In August 2024, PayInc announced a mandatory increase in the PayShap transaction limit from R3,000 to R50,000, effective October 2024. Individual banks may set their own limits up to this ceiling.",
+   "notes": "Corroborated by GoTyme's page referring to 'the R50,000 limit'."
+  },
+  {
+   "id": "za_lim_payshap_2024_02",
+   "subject": "payshap_limit_set_by_bank",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "limit_policy",
+   "value": null,
+   "value_text": "bank_specific_up_to_system_ceiling",
+   "unit": null,
+   "display": "Each participating bank sets its own PayShap limit up to the R50,000 ceiling",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2024-10-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "corroborated",
+   "source_id": "src_za_stitch_rails",
+   "source_path": "south_africa/products/stitch_sa_rails.html",
+   "quote": "Individual banks may set their own limits up to this ceiling.",
+   "notes": "Nedbank applies R5,000/day while GoTyme allows up to R50,000, which evidences bank-specific limits."
+  },
+  {
+   "id": "za_lim_nedbank_2025_01",
+   "subject": "nedbank_payshap_daily_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "account_type": "personal"
+   },
+   "attribute": "daily_limit",
+   "value": 500000,
+   "unit": "ZAR_cents",
+   "display": "R5,000 per day sending and receiving PayShap at Nedbank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_nedbank_payshap",
+   "source_path": "south_africa/limits/nedbank_payshap.html",
+   "quote": "You can instantly send and receive a PayShap payment of up to R5,000 a day at participating banks.",
+   "notes": "Bank help page, undated; captured 2026-11-02. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_lim_gotyme_payshap_01",
+   "subject": "gotyme_standard_payment_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "max_amount",
+   "value": 50000000,
+   "unit": "ZAR_cents",
+   "display": "R500,000 per Standard Payment (non-instant EFT) at GoTyme Bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "source_id": "src_za_gotyme_payshap",
+   "source_path": "south_africa/limits/gotyme_payshap_limits.html",
+   "quote": "Use a Standard Payment instead. It is always free with us and handles up to R500,000.",
+   "notes": "Bank web page, undated; captured 2026-11-02."
+  },
+  {
+   "id": "za_lim_rtc_2017_01",
+   "subject": "rtc_single_transaction_limit_before_16h00",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "bank_transfer",
+    "cutoff": "16:00"
+   },
+   "attribute": "max_amount",
+   "value": 500000000,
+   "unit": "ZAR_cents",
+   "display": "RTC payments limited to under R5 million up to 16:00",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2017-07-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_sbsa_ops",
+   "source_path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+   "quote": "RTC urgent payments can be used where the transaction value is below R5 million (five million Rand) up and to 16h00, from 16h01 to 19h00 the transaction value falls to R250,000.00",
+   "notes": "Standard Bank operational regulations v4.5, document code 00164409 (2017-07)."
+  },
+  {
+   "id": "za_lim_rtc_2017_02",
+   "subject": "rtc_single_transaction_limit_16h01_19h00",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "bank_transfer",
+    "cutoff": "16:01-19:00"
+   },
+   "attribute": "max_amount",
+   "value": 25000000,
+   "unit": "ZAR_cents",
+   "display": "RTC payments limited to R250,000 between 16:01 and 19:00",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2017-07-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_sbsa_ops",
+   "source_path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+   "quote": "RTC urgent payments can be used where the transaction value is below R5 million (five million Rand) up and to 16h00, from 16h01 to 19h00 the transaction value falls to R250,000.00",
+   "notes": "Standard Bank operational regulations v4.5."
+  },
+  {
+   "id": "za_lim_rtgs_2017_01",
+   "subject": "rtgs_threshold",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "min_amount",
+   "value": 500000000,
+   "unit": "ZAR_cents",
+   "display": "Payments above R5 million cannot be split and must go via RTGS",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2017-07-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_sbsa_ops",
+   "source_path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+   "quote": "Payment instructions that exceed R5 000 000-00 (five million rands) (in respect of the same underlying commercial transaction) cannot be split by a Client and must be processed via RTGS.",
+   "notes": "Standard Bank operational regulations v4.5."
+  },
+  {
+   "id": "za_lim_capitec_2026_01",
+   "subject": "capitec_app_send_cash_limit_per_transaction",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "max_amount",
+   "value": 300000,
+   "unit": "ZAR_cents",
+   "display": "R3,000 per transaction sending cash on the Capitec app",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Remote banking app limits for sending cash: R3 000 per transaction, R5 000 per day, R24 990 per month",
+   "notes": "Capitec fee schedule note 10."
+  },
+  {
+   "id": "za_lim_capitec_2026_02",
+   "subject": "capitec_app_send_cash_limit_per_day",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "daily_limit",
+   "value": 500000,
+   "unit": "ZAR_cents",
+   "display": "R5,000 per day sending cash on the Capitec app",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Remote banking app limits for sending cash: R3 000 per transaction, R5 000 per day, R24 990 per month",
+   "notes": "Capitec fee schedule note 10."
+  },
+  {
+   "id": "za_lim_capitec_2026_03",
+   "subject": "capitec_send_cash_monthly_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "monthly_limit",
+   "value": 2499000,
+   "unit": "ZAR_cents",
+   "display": "R24,990 per month sending cash (app and USSD)",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Remote banking app limits for sending cash: R3 000 per transaction, R5 000 per day, R24 990 per month",
+   "notes": "Capitec fee schedule note 10; the same monthly cap applies on USSD per note 11."
+  },
+  {
+   "id": "za_lim_capitec_2026_04",
+   "subject": "capitec_ussd_send_cash_limit_per_transaction",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "ussd"
+   },
+   "attribute": "max_amount",
+   "value": 100000,
+   "unit": "ZAR_cents",
+   "display": "R1,000 per transaction sending cash via USSD *120*3279#",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Mobile banking (\\*120\\*3279#) limits for sending cash: R1 000 per transaction, R1 000 per day, R24 990 per month",
+   "notes": "Capitec fee schedule note 11."
+  }
+ ],
+ "notes": "Limits are scheme-level (PayShap ceiling, RTC/RTGS thresholds) and bank-level (Nedbank, GoTyme, Capitec). PayShap limits differ by bank, so both the R50,000 ceiling and Nedbank's R5,000/day are recorded separately."
+}

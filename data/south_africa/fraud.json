@@ -1,0 +1,239 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "fraud",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_basa_complaints",
+   "name": "Banking Association South Africa - Complaints procedures in the banking industry",
+   "url": "https://banking.org.za/consumer-information/consumer-information-legislation/complaints-procedures/",
+   "path": "south_africa/fraud/banking_association_complaints.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_nfo_home",
+   "name": "National Financial Ombud Scheme (formerly Ombudsman for Banking Services)",
+   "url": "https://obssa.co.za/",
+   "path": "south_africa/fraud/obssa_home.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_sb_complaints",
+   "name": "Standard Bank complaints process",
+   "url": "https://www.standardbank.co.za/southafrica/personal/about-us/regulatory/complaints-process",
+   "path": "south_africa/fraud/standard_bank_complaints.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_fnb_eft_terms",
+   "name": "FirstRand Bank EFT terms of use",
+   "url": "https://www.online.fnb.co.za/rhelp_0_15/Downloads/Terms/FRB_Terms_of_Use_-5_October_2016.pdf",
+   "path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_fic_gn3a",
+   "name": "Financial Intelligence Centre Guidance Note 3A",
+   "url": "https://www.fic.gov.za/wp-content/uploads/2023/09/2005.07-Guidance-Guidance-Note-3A-Accountable-institutions-and-CDD.pdf",
+   "path": "south_africa/kyc/fic_guidance_note_3a.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_frd_basa_2026_01",
+   "subject": "ombudsman_claim_ceiling",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_claim",
+   "value": 200000000,
+   "unit": "ZAR_cents",
+   "display": "The banking ombud can consider claims of R2 million or less",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_basa_complaints",
+   "source_path": "south_africa/fraud/banking_association_complaints.html",
+   "quote": "Involves a claim of R2m or less",
+   "notes": "One of four OBS jurisdictional requirements listed by BASA. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_frd_basa_2026_02",
+   "subject": "ombudsman_time_bar",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_age_years",
+   "value": 3,
+   "unit": "years",
+   "display": "The complaint must have arisen within the past three years",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_basa_complaints",
+   "source_path": "south_africa/fraud/banking_association_complaints.html",
+   "quote": "Arose within the past 3 years",
+   "notes": "OBS jurisdictional requirement. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_frd_basa_2026_03",
+   "subject": "ombudsman_legal_basis",
+   "assertion_type": "positive",
+   "attribute": "statute",
+   "value": null,
+   "value_text": "financial_services_ombud_schemes_act_37_of_2004",
+   "unit": null,
+   "display": "The Ombudsman for Banking Services was established under the Financial Services Ombud Schemes Act 37 of 2004",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2004-01-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_basa_complaints",
+   "source_path": "south_africa/fraud/banking_association_complaints.html",
+   "quote": "The Ombudsman for Banking Services scheme (the OBS) was established under the Financial Services Ombud Schemes Act, No. 37 of 2004.",
+   "notes": ""
+  },
+  {
+   "id": "za_frd_nfo_2026_01",
+   "subject": "nfo_merger",
+   "assertion_type": "positive",
+   "attribute": "structure",
+   "value": null,
+   "value_text": "NFO_merges_OBS_CO_OLTI_OSTI",
+   "unit": null,
+   "display": "The OBS now sits inside the National Financial Ombud Scheme, which merges four former ombuds and is free",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_nfo_home",
+   "source_path": "south_africa/fraud/obssa_home.html",
+   "quote": "The NFO is a single, one-stop, all-in-one dispute resolution service made up 4 former longstanding services: Banking Ombud (OBS); the Credit Ombud (CO); the Long-term Insurance Ombud (OLTI); and the Short-Term Insurance Ombud (OSTI).",
+   "notes": "The same page states the NFO's services are free of charge. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_frd_sb_2026_01",
+   "subject": "complaint_reference_sla",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "sla_hours",
+   "value": 24,
+   "unit": "hours",
+   "display": "Standard Bank issues a complaint reference number within 24 hours",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_sb_complaints",
+   "source_path": "south_africa/fraud/standard_bank_complaints.md",
+   "quote": "A reference number within 24 hours after you’ve lodged the complaint.",
+   "notes": "Bank's published complaints process; page undated."
+  },
+  {
+   "id": "za_frd_sb_2026_02",
+   "subject": "case_manager_sla",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "sla_hours",
+   "value": 24,
+   "unit": "hours",
+   "display": "A case manager reverts to the complainant within 24 hours",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_sb_complaints",
+   "source_path": "south_africa/fraud/standard_bank_complaints.md",
+   "quote": "The details of a case manager who will manage your complaint, and who will revert to you within 24 hours.",
+   "notes": "Bank's published complaints process."
+  },
+  {
+   "id": "za_frd_sb_2026_03",
+   "subject": "ombudsman_lodging_window",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_months",
+   "value": 6,
+   "unit": "months",
+   "display": "Ombudsman complaints are usually lodged within four to six months of the bank's outcome",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 1,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_sb_complaints",
+   "source_path": "south_africa/fraud/standard_bank_complaints.md",
+   "quote": "The ombudsman and regulators usually require complaints to be lodged within four to six months after you’ve received an outcome from us.",
+   "notes": "Range 4-6 months; five is the midpoint."
+  },
+  {
+   "id": "za_frd_fnb_2016_01",
+   "subject": "dispute_reversal_window",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "reversal_window_days",
+   "value": 40,
+   "unit": "days",
+   "display": "A disputed debit declared within 40 calendar days is reversed immediately by the bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "The Bank will immediately reverse the disputed payment instruction/s in instances where a dispute declaration is submitted within 40 calendar days from action date of the payment instruction being processed.",
+   "notes": "After 40 days the user must supply the mandate and the dispute follows a longer process."
+  },
+  {
+   "id": "za_frd_fic_2005_01",
+   "subject": "str_duty",
+   "assertion_type": "positive",
+   "attribute": "reporting_duty",
+   "value": null,
+   "value_text": "report_suspicious_transactions",
+   "unit": null,
+   "display": "Possible money laundering transactions must be brought to the attention of investigating authorities",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2005-07-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fic_gn3a",
+   "source_path": "south_africa/kyc/fic_guidance_note_3a.pdf",
+   "quote": "possible money laundering transactions must be brought to the attention of investigating authorities",
+   "notes": "FIC states the detection principle behind suspicious transaction reporting; no STR deadline is stated in this guidance note."
+  }
+ ],
+ "notes": "Complaint-handling facts come from BASA, the National Financial Ombud Scheme site and Standard Bank's complaints process. Reversal timelines come from FirstRand's EFT terms. No source in this corpus states a STR filing deadline or chargeback scheme rule in detail, so those are not asserted."
+}

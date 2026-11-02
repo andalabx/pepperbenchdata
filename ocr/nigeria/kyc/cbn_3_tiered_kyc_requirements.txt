@@ -1,0 +1,404 @@
+=== page 1 ===
+CENTRAL BANK OF NIGERIA
+
+Financial Policy & Regulation Department
+Central Business District
+
+P.M.B. 0187
+
+Garki, Abuja.
+
+09-46236441; 09-46236418
+
+A :) rer
+E-mail: fprd@cbn.gov.ng
+
+18" January, 2013
+
+FPR/DIR/CIR/GEN/02/001
+
+CIRCULAR TO ALL BANKS AND OTHER FINANCIAL INSTITUTIONS
+
+INTRODUCTION OF THREE-TIERED KNOW YOUR CUSTOMER (KYC)
+REQUIREMENTS
+
+Having recognized that access to basic banking facilities and other financial services is
+necessary in achieving the CBN policy on financial inclusion, the CBN has taken steps to
+ensure that the socially and financially disadvantaged persons should not be precluded
+from opening accounts or obtaining other financial services for lack of acceptable
+means of identification.
+
+Given that the CBN AML/CFT Regulation, 2009 has made provision for this class of
+persons, it has become expedient to issue three-tiered KYC requirements for
+compliance by banks and other financial institutions in order to further promote
+financial inclusion. The three-tiered KYC regime seeks to implement a flexible account
+opening requirements for low-value and medium-value account holders subject to caps
+and transaction restrictions.
+
+Banks and other financial institutions are hereby required to adopt the provisions of the
+three-tiered KYC requirements as embodied in the attached guidelines in addition to the
+provisions of the CBN AML/CFT Regulation 2009 (as amended). Please note that this
+circular supersedes our circular referenced FPR/DIR/GEN/EXP/01/001 of 220 May, 2012
+on similar matter.
+
+S [Pee
+
+CHRIS\9. CHUKW
+DIRECTOR, FINANCIAL POLICY AND REGULATION DEPARTMENT
+
+=== page 2 ===
+THREE-TIERED KNOW-YOUR-CUSTOMERS (KYC) REQUIREMENTS
+
+1.0 INTRODUCTION
+
+» Available statistics indicate that about 64.1%! of adult Nigerians (56.3 million) do
+not have access to financial services. Various factors that account for this level of
+financial exclusion include irregular income, unemployment, distance and low level
+of bank branches and cumbersome account opening requirements/procedures.
+
+= It is worthy to note that the enforcement of full account opening procedures often
+excludes some segments of the population from financial services. This keeps them
+out of the formal economy and indirectly promotes the informal sector. This is
+particularly so among the lower income earners, poor and socially disadvantaged
+segment of the population, majority of who live in the rural areas.
+
+= It is trite to state that in Nigeria, many people lack formal means of identification.
+Where they want to obtain such, the procedures to acquire them are too
+cumbersome and expensive, effectively out of their financial means. This
+inadvertently makes financial services go beyond the reach of the poor. Therefore to
+continue to maintain the same level of KYC requirements for all segments of the
+population, as hitherto required, encourages prevalence of informal financial
+systems which in turn undermines the AML/CFT objective.
+
+= It was in recognition of the inequality in social and economic circumstances of the
+various segments of the Nigerian population that paragraphs 2.6.1.5.6-12 of CBN
+AML/CFT Regulation, 2009 (as amended) provide broad principles for addressing
+the challenge, thus:
+
+Y Allow a third party (such as clergymen, village/clan heads, headmasters, etc. with
+acceptable means of identification) to identify the socially disadvantaged persons;
+
+Y Require financial institutions to formulate written policies on financially
+disadvantaged customers and prescribe the type of documents acceptable for their
+identification to be provided by third party identifiers;
+
+Y Require financial institutions to adopt a risk based approach on the operation of this
+category of accounts and customers; and
+
+* Being recent survey carried out by Enhancing Financial Innovation and Access published by Punch Newspapers at
+http://www.punchng.com/business/56-million-adults-have-no-bank-account-survey/ as at 26" November, 2012.
+
+Page 1 of 6
+
+=== page 3 ===
+2.0
+
+3.0
+
+Y Require financial institutions to conduct enhanced monitoring of such accounts,
+
+customers and third parties that identified them and render monthly returns to CBN
+and NFIU on their operations.
+
+Recommendations 1 and 10 of the revised FATF 40 Recommendations permit
+countries to allow financial institutions and Designated Non-Financial Businesses
+and Professions (DNFBPs) to apply simplified customer due diligence (CDD)
+measures in respect of lower risk customer category within which our target groups
+fall.
+
+Consequently, in furtherance of the objective of enhancing financial inclusion and
+access, the CBN has developed the tiered KYC requirements for compliance by banks
+and other financial institutions under its regulatory purview.
+
+OBJECTIVE
+
+The “tiered” KYC requirements regime will ensure application of flexible account
+opening requirements for low-value and medium value accounts and these are
+subject to caps and restrictions as the amounts of transactions increase. This means
+that account opening requirements will increase progressively with less restrictions
+on operations. However, the main objective of the proposed approach is to promote
+and deepen financial inclusion.
+
+STRUCTURE
+
+The structure ensures that the accounts remain attractive to customers of different
+socio-economic levels while close watch is kept on the risk involved. The table
+below shows the caps on deposits on the low-value and medium-value accounts as
+follows:
+
+Page 2 of 6
+
+=== page 4 ===
+THREE TIERED KNOW YOUR CUSTOMER (KYC) REQUIREMENTS
+
+Description and characteristics
+
+Amount
+Limitation
+
+/Threshold
+
+Customer Identification
+
+requirements
+
+LEVEL 1
+
+Low-Value Accounts
+
+ii.
+
+iii,
+
+iv.
+
+They are subject to close
+monitoring by the financial
+institutions and less scrutiny by
+Bank Examiners.
+
+The accounts can be opened at
+branches of financial
+institutions by the prospective
+customer or through banking
+agents.
+
+No amount is required for
+opening of accounts.
+
+Such accounts cover Mobile
+Banking products (issued in
+accordance with the CBN
+Regulatory Framework for
+Mobile Payments Services in
+Nigeria).
+
+Main characteristics:
+
+I
+
+ii,
+
+iii.
+
+iv.
+
+vi.
+
+Deposits can be made _ by
+account holder and 3"4 parties
+while withdrawal is restricted
+to account holder only.
+
+Be linked to mobile phone
+accounts.
+
+Operation valid only in Nigeria.
+ATM transactions are allowed.
+
+International funds transfer is
+prohibited.
+
+Accounts are strictly savings.
+
+It is limited to a maximum
+
+single deposit amount
+of N20,000 and
+maximum cumulative
+balance of N200,000 at
+any point in time.
+
+Mobile Banking Products
+
+Level One Mobile Banking
+Products Are Allowed:
+
+Maximum transaction
+limit of N3, 000 and
+daily limit of N30, 000.
+
+Such products are subject
+to the CBN Regulatory
+Framework for Mobile
+Payments Services in
+Nigeria.
+
+i. Basic customer information
+
+required to be provided
+are:
+- Passport photograph;
+
+- Name, place and date of
+birth;
+
+- Gender, address, telephone
+number, etc.
+
+ii. This information may be
+sent electronically or
+submitted onsite in bank’s
+branches or agent's office.
+
+fii Evidence of information
+provided by customer or
+verification of same is not
+required.
+
+Page 3 of 6
+
+=== page 5 ===
+LEVEL 2 Medium-Value Accounts i Maximum single | i. Evidence of basic customer
+i. These accounts can be opened deposit of N50, 000 information (such as
+face to face at any branch of a and a maximum passport photograph,
+bank by agents for enterprises cumulative balance of name, place and date of
+(used for mass payroll) or by the N400, 000 are allowed birth, gender, address, etc)
+account holder. at any time. is required.
+
+ii. Evidence of basic customer | ii. Where  cross-checking | ji. These may be forwarded
+information is required at this of client’s ID electronically or
+level. ID verification and information is not submitted on-site in
+monitoring by financial completed at the point banks’ branches or
+institutions are required also. of account opening, agents’ offices.
+
+withdrawal should be
+
+iii. Accounts can be contracted by denied. iii. Customer information
+phone or at the institution’s obtained are to be verified
+website. against similar information
+
+Mobile Banking Products contained in the official
+
+iv. Accounts may be linked to a data-bases eg. National
+mobile phone. Level Two Mobile Banking Identity Management
+
+v. They may be used for funds | Products Are Allowed: Commission (NIMC),
+transfers within Nigeria only. Independent National
+
+e Maximum transaction Electoral Commission
+
+vi. The accounts are __ strictly limit of N10, 000 and (INEC) Voters Register,
+
+BaVINgS: daily limit of N100, Federal Road _ Safety
+. . . 000. Commission (FSRC) etc.
+
+vii. No amount is required for
+
+opening of the accounts. © Such products are
+
+subject to the CBN
+
+Regulatory Framework
+
+for Mobile Payments
+
+Services in Nigeria.
+High-Value Accounts
+
+LEVEL 3 No Limit is placed on| Customers are required to
+i. Banks are required to obtain, | cumulative balance. comply with the KYC
+
+iii.
+
+iv.
+
+verify and maintain copies of
+all the required documents
+for opening of accounts.
+
+Account is to be opened at the
+bank branches by physical
+presence of the prospective
+customer.
+
+These accounts could be both
+savings and current.
+
+No amount is required for
+opening of accounts.
+
+Mobile Banking Products
+
+Level Three Mobile
+Banking Products Are
+Allowed:
+
+e Maximum transaction
+limit of N100, 000 and
+
+daily limit of Nt1,
+000,000.
+
+e Such products are
+subject to the CBN
+
+Regulatory Framework
+for Mobile Payments
+Services in Nigeria.
+
+requirements contained in CBN
+AML/CFT Regulation, 2009 (as
+amended).
+
+Page 4 of 6
+
+=== page 6 ===
+4.0 ABOUT THE PROPOSED REQUIREMENTS
+
+5.0
+
+It is important to note that maximum deposits and balances are specified only
+for the low-value and medium-value categories of accounts. In compliance with
+and in the spirit of the CBN monetary policy and financial inclusion, there shall be
+no minimum opening amount for accounts in all the levels.
+
+In addition to the proposed limits and caps, the additional safeguards to further
+reduce the risk of money laundering & financing of terrorism include account
+monitoring by the financial institutions for suspicious transactions. To this
+end, financial institutions are required to report to the Nigerian Financial
+Intelligence Unit (NFIU) any suspicious transactions.
+
+Also, financial institutions are required to have robust, effective and efficient
+AML/CFT solutions with screening tools in place that will monitor the various
+thresholds. All accounts, no matter how low the transaction or the risks, must be
+subjected to continuous suspicious transactions monitoring by financial institutions
+which will determine when incremental KYC requirements need to be provided by
+the customers. To this end, financial institutions are required to designate and
+dedicate monitoring officers in their Compliance Departments for consistent and
+regular monitoring of all transactions.
+
+To facilitate the effective implementation of the regime and achievement of the
+objective of financial inclusion, the tiered KYC requirements regime envisages
+the use of banks’ agents and mobile banking portals to reach a wider segment
+of the society that otherwise have no access to financial services. This concept,
+therefore, calls for the introduction of agent-banking in Nigeria as the best
+practice. The definition of a “banking agent” is as contained in the “CBN Guidelines
+for the Regulation of Agent Banking Relationship in Nigeria”.
+
+The Central Bank of Nigeria shall ensure the establishment of appropriate processes
+and procedures for the purpose of monitoring compliance with this regulatory
+framework.
+
+Non-compliant financial institutions would, however, be sanctioned in line with the
+provisions of extant laws and regulations.
+
+CONCLUSION
+
+In conclusion, the above Tiered KYC Requirements regime:
+
+Y Is a practical example of implementing risk-based approach to CDD in compliance
+
+with FATF revised Recommendations 1 and 10.
+
+Page 5 of 6
+
+=== page 7 ===
+Y The policy will have positive impact in the financial market by making account
+opening and operation more attractive and appealing to the masses in view of the
+simpler and fewer requirements involved.
+
+¥Y Would reduce the administrative cost for banks as it involves online account
+opening, few paper filing and reporting.
+
+Page 6 of 6

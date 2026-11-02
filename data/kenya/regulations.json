@@ -1,0 +1,257 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "regulations",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Ten facts from the National Payment System Act 2011 as enacted and the E-Money Regulation 2013. Both instruments predate 2020. The 'national payments strategy' and any 2024-2026 amending legislation are not in the corpus and are not asserted.",
+ "sources": [
+  {
+   "id": "src_ke_cbk_emoney_2013",
+   "name": "Central Bank of Kenya, E-Money Regulation 2013 (National Payment System Act)",
+   "url": "https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf",
+   "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_nps_act_2011",
+   "name": "National Payment System Act No. 39 of 2011 (Kenya), assented 2 December 2011",
+   "url": "https://www.centralbank.go.ke/images/docs/legislation/NATIONAL%20PAYMENT%20SYSTEM%20ACT%20(No%2039%20of%202011)%20(2).pdf",
+   "path": "kenya/regulations/nps_act_2011.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_kepss_2024",
+   "name": "Central Bank of Kenya, KEPSS assessment against the PFMI principles, December 2024",
+   "url": "https://www.centralbank.go.ke/wp-content/uploads/2025/01/The-Kenya-Electronic-Payment-and-Settlement-System-Report-December-2024.pdf",
+   "path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_reg_nps_01",
+   "subject": "psp_authorisation_requirement",
+   "attribute": "licensing_rule",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "No person may conduct payment service provider business in Kenya without authorisation from the Central Bank of Kenya",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Payment service providers must be authorised by CBK",
+   "effective_from": "2011-12-02",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_nps_act_2011",
+   "source_path": "kenya/regulations/nps_act_2011.pdf",
+   "quote": "no person shall in kenya conduct the business of a payment service provider except an authorized payment service provider",
+   "notes": "Act assented 2 December 2011; commencement was by ministerial notice.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_nps_02",
+   "subject": "unlicensed_psp_penalty",
+   "attribute": "penalty",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 50000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Fine up to KSh 500,000 or up to 3 years' imprisonment, or both",
+   "effective_from": "2011-12-02",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_nps_act_2011",
+   "source_path": "kenya/regulations/nps_act_2011.pdf",
+   "quote": "shall on conviction be liable to a fine not exceeding five hundred thousand shillings or to imprisonment for a term not exceeding three years or to both",
+   "notes": "Penalty for contravening section 12(1).",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_nps_03",
+   "subject": "psp_authorisation_validity",
+   "attribute": "licence_term",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 12,
+   "unit": "months",
+   "graded_by": "numeric_exact",
+   "display": "A PSP authorisation is valid for 12 months from issue",
+   "effective_from": "2011-12-02",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_nps_act_2011",
+   "source_path": "kenya/regulations/nps_act_2011.pdf",
+   "quote": "an authorisation issued under this section shall unless earlier revoked be valid for twelve months next following the date of issue",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_nps_04",
+   "subject": "psp_renewal_lead_time",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 2,
+   "unit": "months",
+   "graded_by": "numeric_exact",
+   "display": "Renewal application must reach CBK at least two months before expiry",
+   "effective_from": "2011-12-02",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_nps_act_2011",
+   "source_path": "kenya/regulations/nps_act_2011.pdf",
+   "quote": "be lodged with the bank at least two months prior to the expiry of the authorisation",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_nps_05",
+   "subject": "payment_record_retention",
+   "attribute": "retention_period",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 7,
+   "unit": "years",
+   "graded_by": "numeric_exact",
+   "display": "Payment system records must be kept seven years",
+   "effective_from": "2011-12-02",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_nps_act_2011",
+   "source_path": "kenya/regulations/nps_act_2011.pdf",
+   "quote": "for a period of seven years from the date of each particular record",
+   "notes": "E-money Regulation 10.2 sets the same seven-year period for issuers.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_cbk_06",
+   "subject": "emoney_issuer_core_capital",
+   "attribute": "capital_requirement",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 6000000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Minimum unencumbered core capital of KSh 60 million for an e-money issuer",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "the person has minimum unencumbered core capital of sixty million shillings or such other amount as may be required by the bank",
+   "notes": "Only for authorised issuers; small e-money issuers registered under clause 6 are exempt. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_cbk_07",
+   "subject": "emoney_issuer_lending_prohibition",
+   "attribute": "prohibition",
+   "conditions": {
+    "actor": "business"
+   },
+   "assertion_type": "negative",
+   "value_text": "E-money issuers other than banks and financial institutions may not lend or invest",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "A pure e-money issuer cannot lend, so M-PESA overdrafts (Fuliza) sit with a bank partner, not the issuer",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers other than banks and financial institutions shall not engage in any lending or investment activity other than that required under clause 8",
+   "notes": "Structural reason Fuliza is provided through a bank balance-sheet partner rather than Safaricom itself. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null
+  },
+  {
+   "id": "ke_reg_cbk_08",
+   "subject": "emoney_redemption_at_par",
+   "attribute": "rule",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value_text": "E-money is redeemed at par value and earns no interest or other return",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "E-money is a payment claim, not a savings product",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money shall be redeemed at par value e money shall not earn interest or any other financial return to the e money holder",
+   "notes": "effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_cbk_09",
+   "subject": "emoney_liquid_assets_cover",
+   "attribute": "prudential_requirement",
+   "conditions": {
+    "actor": "business"
+   },
+   "value": 100,
+   "unit": "percent",
+   "graded_by": "numeric_exact",
+   "display": "Liquid assets must equal 100% of outstanding e-money at all times",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers shall maintain liquid assets equal to the amount of outstanding e money issued",
+   "notes": "Reconciled daily by 16:00 East Africa time; any deficiency must be corrected by 12:00 the next day. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_reg_kepss_10",
+   "subject": "kepss_settlement_currency",
+   "attribute": "system_property",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "KEPSS settles in Kenyan shillings only",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "RTGS is a single-currency KES system",
+   "effective_from": "2024-12-31",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_kepss_2024",
+   "source_path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "quote": "the kepss system is a single currency system that settles only in kenyan currency shillings",
+   "notes": "Report is the December 2024 assessment.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

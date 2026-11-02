@@ -1,0 +1,290 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "error_codes",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_fnb_eft_terms",
+   "name": "FirstRand Bank EFT terms of use (unpaid and dispute reason codes)",
+   "url": "https://www.online.fnb.co.za/rhelp_0_15/Downloads/Terms/FRB_Terms_of_Use_-5_October_2016.pdf",
+   "path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_netcash_unpaid",
+   "name": "Netcash - Managing unpaid Debit Orders",
+   "url": "https://help.netcash.co.za/docs/quick-start-guides/debit-orders/managing-unpaid-debit-orders/",
+   "path": "south_africa/error_codes/netcash_unpaid_debit_orders.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_ec_fnb_2016_01",
+   "subject": "unpaid_code_02",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 2,
+   "unit": "code",
+   "display": "Code 02 = Not provided for, meaning insufficient funds",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "02 Not provided for There are insufficient funds in the bank account.",
+   "notes": "Allowed set of descriptions in Appendix A: 02 Not provided for; 03 No Debit / Credit transactions allowed; 04 Payment stopped; 06 Account frozen; 08 Account in sequestration; 10 Account in liquidation; 12 Account closed; 14/16 Account transferred; 18 Accountholder deceased; 22 Account effects not cleared; 26 No such account; 56 Not FICA compliant; 31/33 credit returns."
+  },
+  {
+   "id": "za_ec_fnb_2016_02",
+   "subject": "unpaid_code_03",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 3,
+   "unit": "code",
+   "display": "Code 03 = no debit or credit transactions allowed on the account",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "03 No Debit / Credit transactions allowed against this account No debit or credit payment instructions may be processed against this bank account.",
+   "notes": "A new mandate with different bank details is required."
+  },
+  {
+   "id": "za_ec_fnb_2016_03",
+   "subject": "unpaid_code_12",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 12,
+   "unit": "code",
+   "display": "Code 12 = account closed",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "12 Account closed The bank account in question has been closed.",
+   "notes": "Current and all future instructions must be removed."
+  },
+  {
+   "id": "za_ec_fnb_2016_04",
+   "subject": "unpaid_code_26",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 26,
+   "unit": "code",
+   "display": "Code 26 = no such account at the specified bank",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "26 No such account The bank account does not exist at the specified Bank.",
+   "notes": ""
+  },
+  {
+   "id": "za_ec_fnb_2016_05",
+   "subject": "unpaid_code_56",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 56,
+   "unit": "code",
+   "display": "Code 56 = account does not comply with FICA",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "56 Not FICA compliant The bank account does not comply with the requirements as set out by FICA.",
+   "notes": "Resubmit only once the accountholder confirms FICA compliance."
+  },
+  {
+   "id": "za_ec_fnb_2016_06",
+   "subject": "dispute_code_30",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "dispute_reason",
+   "value": 30,
+   "unit": "code",
+   "display": "Code 30 = no authority to debit (accountholder disputes the mandate)",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "30 No authority to debit The accountholder has disputed the User’s authority to debit funds from their bank account.",
+   "notes": "A new mandate is required before any further collection."
+  },
+  {
+   "id": "za_ec_fnb_2016_07",
+   "subject": "credit_return_window",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_window_days",
+   "value": 40,
+   "unit": "days",
+   "display": "Unidentified credit payments must be returned within 40 calendar days of the effective transaction date",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "The transactions must be returned within 40 calendar days from the effective transaction date.",
+   "notes": "Applies to codes 31 and 33 (unrecognised initiating party / non-unique reference)."
+  },
+  {
+   "id": "za_ec_fnb_2016_08",
+   "subject": "unpaid_ratio_threshold",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_percent",
+   "value": 10,
+   "unit": "percent",
+   "display": "Originators must keep unpaids at or below 10% of monthly instructions",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "The User is obligated to adhere to the thresholds of 10% for Unpaid Ratio and 0.5% for Dispute Ratio of total monthly payment instructions processed per abbreviated name.",
+   "notes": "Corroborated by Netcash and Standard Bank, both citing the 10% unpaid / 0.5% dispute PASA ratios."
+  },
+  {
+   "id": "za_ec_fnb_2016_09",
+   "subject": "dispute_ratio_threshold",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_percent",
+   "value": 0.5,
+   "unit": "percent",
+   "display": "Disputes must stay at or below 0.5% of monthly instructions",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 0.01,
+   "effective_from": "2016-10-05",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_za_fnb_eft_terms",
+   "source_path": "south_africa/error_codes/fnb_eft_terms.pdf",
+   "quote": "The User is obligated to adhere to the thresholds of 10% for Unpaid Ratio and 0.5% for Dispute Ratio of total monthly payment instructions processed per abbreviated name.",
+   "notes": "Also stated by Netcash and Standard Bank."
+  },
+  {
+   "id": "za_ec_netcash_2026_01",
+   "subject": "unpaid_code_60",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "attribute": "return_reason",
+   "value": 60,
+   "unit": "code",
+   "display": "Code 60 = rejected debit, blocked account that is no longer sent to the bank",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_netcash_unpaid",
+   "source_path": "south_africa/error_codes/netcash_unpaid_debit_orders.html",
+   "quote": "Rejected debits – consecutively unpaid and no longer submitted to the bank (Code 60).",
+   "notes": "Unblocked only by submitting a new mandate to the collecting party."
+  },
+  {
+   "id": "za_ec_netcash_2026_02",
+   "subject": "presentment_limit_per_cycle",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_count",
+   "value": 2,
+   "unit": "count",
+   "display": "At most two presentments of the same payment instruction per payment cycle",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_netcash_unpaid",
+   "source_path": "south_africa/error_codes/netcash_unpaid_debit_orders.html",
+   "quote": "Present more than 2 (two) Payment Instructions in any Payment Cycle.",
+   "notes": "Stated as a prohibition ('A Netcash client may not')."
+  },
+  {
+   "id": "za_ec_netcash_2026_03",
+   "subject": "not_provided_for_retry_rule",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_consecutive_returns",
+   "value": 2,
+   "unit": "count",
+   "display": "After two consecutive 'not provided for' returns the instruction must be removed",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "corroborated",
+   "source_id": "src_za_netcash_unpaid",
+   "source_path": "south_africa/error_codes/netcash_unpaid_debit_orders.html",
+   "quote": "When a Payment Instruction is returned “Not Provided for” on 2 (two) consecutive mandated Action Dates, the User may not submit the Payment Instruction and must remove the Payment Instruction from the system unless the User has received a new Mandate from the Payer to meet future payments.",
+   "notes": "Corroborated by FNB clause 7.4 (code 02 for two consecutive payment cycles) and Standard Bank's unpaids section. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  }
+ ],
+ "notes": "Codes are those published by FirstRand Bank for EFT debit collections (Appendix A), with the Netcash blocked-account code 60 and presentment rules. RTC has no published decline-code table in this corpus, so no RTC failure codes are asserted."
+}

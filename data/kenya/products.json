@@ -1,0 +1,291 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "products",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Ten product facts. Paybill vs Buy Goods is a reference-field distinction anchored in the Lipa na M-PESA page; Fuliza mechanics and the STK Push C2B flow are documented; card products are not.",
+ "sources": [
+  {
+   "id": "src_ke_saf_fuliza",
+   "name": "Safaricom PLC, Fuliza (M-PESA overdraft) product page and tariff",
+   "url": "https://www.safaricom.co.ke/main-m-pesa/m-pesa-services/credit-and-savings/fuliza-mobile",
+   "path": "kenya/limits/fuliza_page.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_mpesa_terms",
+   "name": "Safaricom PLC, M-PESA Customer Terms and Conditions",
+   "url": "https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf",
+   "path": "kenya/limits/mpesa_customer_terms.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_lipa_na_mpesa",
+   "name": "Safaricom PLC, Lipa na M-PESA product page (paybill, buy goods, business till, pochi la biashara)",
+   "url": "https://www.safaricom.co.ke/lipa-na-m-pesa",
+   "path": "kenya/products/lipa_na_mpesa.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_daraja_express",
+   "name": "Safaricom Daraja developer portal, M-Pesa Express (STK Push) Simulate API reference",
+   "url": "https://developer.safaricom.co.ke/apis/MpesaExpressSimulate",
+   "path": "kenya/error_codes/daraja_express_simulate.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_daraja_home",
+   "name": "Safaricom Daraja developer portal, Daraja 3.0 landing page",
+   "url": "https://developer.safaricom.co.ke/",
+   "path": "kenya/products/daraja_home.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_mpesa_global",
+   "name": "Safaricom PLC, M-PESA Global product page (last updated 3 Dec 2025)",
+   "url": "https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global",
+   "path": "kenya/cross_border/mpesa_global_page.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_pro_saf_01",
+   "subject": "paybill_definition",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "value_text": "A payment collection service letting a business collect money regularly from customers through M-PESA",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Paybill = recurring collections against a business shortcode",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "the paybill service is a payment collection service that allows businesses to collect money regularly from customers through m pesa",
+   "notes": "Contrast with buy goods: paybill carries an account/reference field, buy goods does not.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_02",
+   "subject": "buy_goods_definition",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "value_text": "A till-based collection service for distributors, retailers and merchants accepting Lipa na M-PESA",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Buy Goods = till number, customer pays for goods at the counter",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "buy goods this service offers distributors retailers and merchants a payment collection service via m pesa customers can pay for goods and services using m pesa to businesses that accept lipa na m pesa services",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_03",
+   "subject": "pochi_la_biashara_function",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "value_text": "Lets a small business receive business funds separately from personal funds on the same M-PESA line",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Pochi la Biashara separates business and personal money on one SIM",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "pochi la biashara is a product that allows business owners such as food vendors small kiosk owners boda boda operators secondhand clothes dealers etc to receive and separate business funds from personal funds on their m pesa line",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_04",
+   "subject": "b2b_prerequisite",
+   "attribute": "eligibility",
+   "conditions": {
+    "actor": "business",
+    "channel": "api"
+   },
+   "value_text": "The paying organisation must already hold an M-PESA shortcode",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "M-PESA B2B requires an existing shortcode on the paying side",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "the organization must have an existing m pesa shortcode from which the payment is to be made",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_05",
+   "subject": "business_till_function",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "value_text": "An upgrade of the buy goods till that lets the owner transact directly from collected funds",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Business till = buy goods till plus spend-from-till",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "the m pesa business till is an enhancement of the existing lipa na m pesa buy goods till that enables business owners to collect payments on the till and use the money collected to make other transactions directly from their till",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_06",
+   "subject": "mpesa_ussd_code",
+   "attribute": "channel_code",
+   "conditions": {
+    "channel": "ussd"
+   },
+   "value_text": "*334#",
+   "unit": "enum",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "M-PESA menu is reached on USSD 334 (*334#)",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_global",
+   "source_path": "kenya/cross_border/mpesa_global_page.html",
+   "quote": "via ussd 334 dial 334 select send money select m pesa global",
+   "notes": "The same code appears across Safaricom pages; app and SIM toolkit are the other M-PESA channels. enum_match set: {*334#}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_07",
+   "subject": "fuliza_function",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "ussd",
+    "actor": "consumer"
+   },
+   "value_text": "An M-PESA overdraft that completes a payment when the wallet balance is short, to registered and unregistered recipients, buy goods and paybill",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Fuliza covers a shortfall so the payment still completes",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_fuliza",
+   "source_path": "kenya/limits/fuliza_page.html",
+   "quote": "able to send money to both registered and unregistered customers customer can pay to lipa na m pesa buy goods and paybill",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_saf_08",
+   "subject": "mpesa_not_a_bank",
+   "attribute": "legal_nature",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value_text": "M-PESA is neither a bank nor a deposit-taking institution; the float is held in trust by M-PESA Holding Company Limited",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "M-PESA balances are trust-held e-money, not bank deposits",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "you acknowledge that m pesa is neither a bank nor a deposit taking institution",
+   "notes": "No interest is paid on balances (clause 3.9), consistent with E-Money Regulation 7.5.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_dar_09",
+   "subject": "daraja_platform",
+   "attribute": "developer_platform",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "Safaricom's developer portal exposing M-PESA APIs, sandbox and go-live process",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Daraja is the API gateway for Lipa na M-PESA, B2C and related M-PESA APIs",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_home",
+   "source_path": "kenya/products/daraja_home.html",
+   "quote": "daraja 3 0 is a web platform that offers access to safaricom and m pesa apis that creates a bridge for payment integration to web and mobile apps",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_pro_dar_10",
+   "subject": "stk_push_transaction_nature",
+   "attribute": "product_function",
+   "conditions": {
+    "channel": "api",
+    "actor": "business"
+   },
+   "value_text": "M-PESA Express (STK Push) is a merchant-initiated customer-to-business payment carrying a PIN prompt",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "STK Push is C2B: the merchant initiates, the customer authorises with their PIN",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "lipa na m pesa online api also known as m pesa express is a merchant business initiated c2b customer to business transaction",
+   "notes": "TransactionType distinguishes the two rails: CustomerPayBillOnline for paybill, CustomerBuyGoodsOnline for till.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

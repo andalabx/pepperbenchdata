@@ -1,0 +1,330 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "limits",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_ipn_page_2025",
+   "name": "Central Bank of Egypt - Instant Payment Network (IPN)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network",
+   "path": "egypt/fees/cbe_instant_payment_network.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_wallet_2023",
+   "name": "Central Bank of Egypt - Mobile Wallets (last updated 23 Mar 2023)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/payment-services/mobile-wallet",
+   "path": "egypt/limits/cbe_mobile_wallet.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_wallet_rules_ar_2021",
+   "name": "CBE - Rules Regulating Payment Services Using Mobile Phones, 3rd edition (April 2021, Arabic)",
+   "url": "https://www.cbe.org.eg/-/media/project/cbe/listing/circulars/payments-regulations/3rd-version-mobile-wallet-april21.pdf",
+   "path": "egypt/limits/cbe_mobile_wallet_rules_ar.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_cash",
+   "name": "Vodafone Egypt - Vodafone Cash (wallet limits)",
+   "url": "https://web.vodafone.com.eg/en/vodafone-cash",
+   "path": "egypt/products/vodafone_cash.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_transfer",
+   "name": "Vodafone Egypt - Money Transfer (Vodafone Cash)",
+   "url": "https://web.vodafone.com.eg/en/money-transfer",
+   "path": "egypt/fees/vodafone_cash_transfer.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "Fawry publishes no numeric transaction or balance limits on its own pages, so limits.json carries no Fawry entry. The October 2021 IPN rules set EGP 50,000 per transaction, EGP 60,000 daily and EGP 200,000 monthly; those figures have since been raised and are not carried as current facts here.",
+ "entries": [
+  {
+   "id": "eg_lim_cbeipn_2025_01",
+   "subject": "instapay_max_per_transaction",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "max_amount",
+   "value": 7000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 70,000 maximum per transaction",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-02-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "The maximum transaction value 70,000 (seventy thousand) Egyptian pounds.",
+   "notes": "CBE page last updated 2 Feb 2025. InstaPay's own site and AfricaNenda SIIPS 2025 give the same figure."
+  },
+  {
+   "id": "eg_lim_cbeipn_2025_02",
+   "subject": "instapay_max_daily",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "per_bank"
+   },
+   "attribute": "max_amount",
+   "value": 12000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 120,000 maximum per day, per bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-02-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "The maximum daily transaction value 120,000 (one hundred and twenty thousand) Egyptian pounds.",
+   "notes": "Daily cap is per bank registered in the app, not per customer."
+  },
+  {
+   "id": "eg_lim_cbeipn_2025_03",
+   "subject": "instapay_max_monthly",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "per_bank"
+   },
+   "attribute": "max_amount",
+   "value": 40000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 400,000 maximum per month, per bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-02-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "The maximum monthly transaction value 400,000 (four hundred thousand) Egyptian pounds.",
+   "notes": "Confirmed by InstaPay's site (EGP 400,000 monthly per bank)."
+  },
+  {
+   "id": "eg_lim_cbeipn_2025_04",
+   "subject": "instapay_limit_scope",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "limit_scope",
+   "value": null,
+   "value_text": "per bank registered in the InstaPay app",
+   "unit": "text",
+   "display": "",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2025-02-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "These limits are per bank registered in the app",
+   "notes": "Three banks registered means three times the headline daily and monthly caps."
+  },
+  {
+   "id": "eg_lim_cbewal_2023_05",
+   "subject": "mobile_wallet_individual_daily_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "kyc_tier": "individual"
+   },
+   "attribute": "max_amount",
+   "value": 3000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 30,000 per day for individual e-wallets",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2021-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "The maximum limit for transactions using an e-wallet for individuals is 30,000 EGP/day and 100,000 EGP/month.",
+   "notes": "Same figure in the April 2021 mobile-wallet rules (3-6-6-3-1) and in EnterpriseAM's report of the April 2021 circular. The page itself was last updated 23 Mar 2023."
+  },
+  {
+   "id": "eg_lim_cbewal_2023_06",
+   "subject": "mobile_wallet_individual_monthly_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "kyc_tier": "individual"
+   },
+   "attribute": "max_amount",
+   "value": 10000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 100,000 per month for individual e-wallets",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2021-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "The maximum limit for transactions using an e-wallet for individuals is 30,000 EGP/day and 100,000 EGP/month.",
+   "notes": "Mirrors the 2021 rules and EnterpriseAM's summary of the same circular."
+  },
+  {
+   "id": "eg_lim_cbewal_2023_07",
+   "subject": "max_wallets_per_national_id",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_count",
+   "value": 3,
+   "unit": "count",
+   "display": "At most 3 e-wallets per national ID",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "A maximum of 3 e-wallets per National ID.",
+   "notes": "One wallet per mobile number; three wallets per person."
+  },
+  {
+   "id": "eg_lim_vfc_2026_08",
+   "subject": "vodafone_cash_daily_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "vodafone_cash_wallet"
+   },
+   "attribute": "max_amount",
+   "value": 6000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 60,000 of wallet transactions per day",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_cash",
+   "source_path": "egypt/products/vodafone_cash.html",
+   "quote": "60,000EGP Daily",
+   "notes": "Vodafone's own figure, double the EGP 30,000/day the CBE Mobile Wallets page still states for individuals; the CBE page predates later amendments not captured in this corpus. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_lim_vfc_2026_09",
+   "subject": "vodafone_cash_monthly_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "vodafone_cash_wallet"
+   },
+   "attribute": "max_amount",
+   "value": 20000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 200,000 of wallet transactions per month",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_cash",
+   "source_path": "egypt/products/vodafone_cash.html",
+   "quote": "200,000EGP Monthly",
+   "notes": "Double the EGP 100,000/month on the CBE Mobile Wallets page. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_lim_vfc_2026_10",
+   "subject": "vodafone_cash_max_balance",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "vodafone_cash_wallet"
+   },
+   "attribute": "max_balance",
+   "value": 10000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 100,000 maximum stored balance",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_transfer",
+   "source_path": "egypt/fees/vodafone_cash_transfer.html",
+   "quote": "The maximum amount of money you can keep in your wallet is 100,000 EGP.",
+   "notes": "A balance ceiling, distinct from the transaction ceilings. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_lim_cbewal_2021_11",
+   "subject": "mobile_wallet_legal_person_a_daily_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "business",
+    "kyc_tier": "legal_person_category_a"
+   },
+   "attribute": "max_amount",
+   "value": 4000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 40,000 per day for legal persons, category A",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2021-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_rules_ar_2021",
+   "source_path": "egypt/limits/cbe_mobile_wallet_rules_ar.pdf",
+   "quote": "(أربعـون ألـف) 40,000 الفئـة (أ) مـن الأشـخاص الاعتبارييـن: مبلـغ جنيهـاً مصريـاً.",
+   "notes": "Arabic source (3rd edition, April 2021), clause 3-6-6-3-1. Category B legal persons get the same limit as natural persons."
+  },
+  {
+   "id": "eg_lim_cbewal_2021_12",
+   "subject": "mobile_wallet_legal_person_a_monthly_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "business",
+    "kyc_tier": "legal_person_category_a"
+   },
+   "attribute": "max_amount",
+   "value": 20000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 200,000 per month for legal persons, category A",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2021-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_rules_ar_2021",
+   "source_path": "egypt/limits/cbe_mobile_wallet_rules_ar.pdf",
+   "quote": "(مائتـان ألـف) 200,000 الفئـة (أ) مـن الأشـخاص الاعتبارييـن: مبلـغ جنيهـا مصريـاً.",
+   "notes": "Arabic source, clause 3-6-6-3-2. EnterpriseAM's April 2021 report of the same circular gives EGP 40k/day and EGP 200k/month for licensed microenterprises."
+  }
+ ]
+}

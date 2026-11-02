@@ -1,0 +1,267 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "agent_banking",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_wallet_2023",
+   "name": "Central Bank of Egypt - Mobile Wallets (last updated 23 Mar 2023)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/payment-services/mobile-wallet",
+   "path": "egypt/limits/cbe_mobile_wallet.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_transfer",
+   "name": "Vodafone Egypt - Money Transfer (Vodafone Cash)",
+   "url": "https://web.vodafone.com.eg/en/money-transfer",
+   "path": "egypt/fees/vodafone_cash_transfer.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_cash",
+   "name": "Vodafone Egypt - Vodafone Cash (wallet limits)",
+   "url": "https://web.vodafone.com.eg/en/vodafone-cash",
+   "path": "egypt/products/vodafone_cash.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_fawry_business",
+   "name": "Fawry - Business Payment & Collection",
+   "url": "https://www.fawry.com/business/payment-and-collection/",
+   "path": "egypt/fees/fawry_business_collection.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_glaco_digital_banks",
+   "name": "GLACO - CBE regulations for licensing, registration and supervision of digital banks (Law 194/2020)",
+   "url": "http://www.glaco.com/wp-content/uploads/CBE-Regulations.pdf",
+   "path": "egypt/regulations/cbe_regulations_glaco.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_egyptpost_wikipedia",
+   "name": "Wikipedia - Egypt Post",
+   "url": "https://en.wikipedia.org/wiki/Egypt_Post",
+   "path": "egypt/agent_banking/egypt_post_wikipedia.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "The corpus has no CBE agent-banking regulation in its own words (the agent rules sit inside the mobile-wallet rules, which are only present in Arabic), so the agent model here is documented through the wallet and Fawry material. Counts of agent points are the operators' own claims.",
+ "entries": [
+  {
+   "id": "eg_agb_cbewal_2023_01",
+   "subject": "wallet_issuance_model",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "issuance_channel",
+   "value": null,
+   "value_text": "banks and their agents (mobile network operators)",
+   "unit": "text",
+   "display": "Wallets are issued by banks, extended through their agents",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "It is provided through banks and their agents (mobile network operators).",
+   "notes": "The telecom brand (Vodafone Cash, Etisalat Cash) is the front end; the licensed issuer is a bank."
+  },
+  {
+   "id": "eg_agb_cbewal_2023_02",
+   "subject": "wallet_registration_locations",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "agent"
+   },
+   "attribute": "onboarding_locations",
+   "value": null,
+   "value_text": "bank branch, telecom company or bank agent",
+   "unit": "text",
+   "display": "Onboarding happens at a bank branch, a telco shop, or a bank agent",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "Visit the nearest branch of the bank, telecommunications companies, or bank agents",
+   "notes": "Agent-assisted onboarding is the norm for wallets, unlike bank accounts."
+  },
+  {
+   "id": "eg_agb_cbewal_2023_03",
+   "subject": "wallet_cash_network",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "agent"
+   },
+   "attribute": "cash_in_out_channels",
+   "value": null,
+   "value_text": "ATMs, bank branches, MNO stores and service agents",
+   "unit": "text",
+   "display": "Cash in/out runs through ATMs, branches, telco stores and agents",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "Through ATMs, bank branches, mobile network operator stores, and service agents",
+   "notes": ""
+  },
+  {
+   "id": "eg_agb_vfc_2026_04",
+   "subject": "vodafone_cash_agent_points",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "agent"
+   },
+   "attribute": "cash_points_count",
+   "value": 450000,
+   "unit": "count",
+   "display": "450,000 deposit and withdrawal points for Vodafone Cash",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_transfer",
+   "source_path": "egypt/fees/vodafone_cash_transfer.html",
+   "quote": "with a click of a button and the receiver will simply cash out the money from 450,000 points of deposit & withdrawal",
+   "notes": "Vodafone presents the cash-out network as the wallet's main distribution advantage. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_agb_vfc_2026_05",
+   "subject": "vodafone_cash_deposit_partners",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "agent"
+   },
+   "attribute": "deposit_partners",
+   "value": null,
+   "value_text": "Vodafone stores, exclusive dealers, Basata, Aman, Fawry and ATMs",
+   "unit": "text",
+   "display": "Cash-in via Vodafone stores, dealers, Basata, Aman, Fawry or ATMs",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_cash",
+   "source_path": "egypt/products/vodafone_cash.html",
+   "quote": "Deposit/Withdraw money in your account through Vodafone’s stores, exclusive dealers, Basata, Aman, Fawry branches or ATM machines",
+   "notes": "Third-party retail chains act as cash-in points for a bank-issued wallet; the Money Transfer page lists the same outlets plus named bank ATMs. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_agb_fawry_2026_06",
+   "subject": "fawry_retail_pos_model",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "channel": "pos"
+   },
+   "attribute": "acceptance_model",
+   "value": null,
+   "value_text": "retail agent points using Fawry POS terminals",
+   "unit": "text",
+   "display": "Fawry acceptance runs on POS terminals in kiosks and supermarkets",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_fawry_business",
+   "source_path": "egypt/fees/fawry_business_collection.md",
+   "quote": "Pay your bills at endless Fawry retail network, from kiosks to supermarkets, using Fawry’s POS.",
+   "notes": "Merchant-side description of the point model: one provider accepts, processes and settles. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_agb_fawry_2026_07",
+   "subject": "fawry_plus_stores",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "agent"
+   },
+   "attribute": "branded_branches",
+   "value": null,
+   "value_text": "Fawry Plus branded stores",
+   "unit": "text",
+   "display": "Fawry also runs its own branded Plus stores",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_fawry_business",
+   "source_path": "egypt/fees/fawry_business_collection.md",
+   "quote": "Settle your payments via any of our Fawry Plus branches.",
+   "notes": "Two-tier model: branded Plus stores plus third-party retail POS points. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_agb_glaco_2026_08",
+   "subject": "digital_bank_agent_permission",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "account_type": "digital_bank"
+   },
+   "attribute": "agent_use_allowed",
+   "value": null,
+   "value_text": "allowed only with CBE approval",
+   "unit": "text",
+   "display": "Digital banks may use agents only with CBE approval",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_glaco_digital_banks",
+   "source_path": "egypt/regulations/cbe_regulations_glaco.pdf",
+   "quote": "Permission to use banking agents after obtaining the CBE's approval",
+   "notes": "From CBE's digital-bank licensing conditions as summarised by GLACO; digital banks are otherwise branch-restricted. Source is undated; effective_from is the corpus capture date (2026-11-02). [normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "eg_agb_post_2026_09",
+   "subject": "egypt_post_institutional_type",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "institution_type",
+   "value": null,
+   "value_text": "government agency for postal service",
+   "unit": "text",
+   "display": "Egypt Post is the state postal agency",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "1865-10-29",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_egyptpost_wikipedia",
+   "source_path": "egypt/agent_banking/egypt_post_wikipedia.html",
+   "quote": "is the governmental agency responsible for postal service",
+   "notes": "Source is Wikipedia, not a primary document. Nothing in the corpus states that Egypt Post acts as a banking agent, so no such fact is encoded."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "provider": "monnify",
+ "environment": "sandbox",
+ "verified_at": "2026-11-02T10:19:07+00:00",
+ "harness": "inline probe",
+ "note": "contract code and wallet supplied by account owner; sandbox only",
+ "checks": [
+  {
+   "fact": "GET /api/v2/disbursements/wallet-balance?accountNumber= returns live sandbox balance",
+   "status": 200,
+   "responseCode": "0",
+   "balance_fields": [
+    "availableBalance",
+    "ledgerBalance"
+   ],
+   "note": "hyphenated path; /api/v2/disbursements/wallet/balance returns 404"
+  },
+  {
+   "fact": "single transfer without destinationAccountName is rejected",
+   "status": 422,
+   "responseCode": "D01",
+   "responseMessage": "destination account name is required"
+  },
+  {
+   "fact": "reserved account creation succeeds without BVN or NIN when getAllAvailableBanks=true",
+   "status": 200,
+   "responseCode": "0",
+   "banks_returned": true,
+   "note": "contradicts prior belief that BVN/NIN is mandatory at the API layer; may still be enforced live or per contract settings"
+  }
+ ]
+}

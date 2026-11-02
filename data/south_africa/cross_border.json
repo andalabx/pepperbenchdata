@@ -1,0 +1,270 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "cross_border",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_finsurv_faq",
+   "name": "SARB Financial Surveillance Department - frequently asked questions",
+   "url": "https://www.resbank.co.za/en/home/what-we-do/financial-surveillance/FinSurvFAQ",
+   "path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_capitec_fees_2026",
+   "name": "Capitec Bank personal transaction fees 2026",
+   "url": "https://www.capitecbank.co.za/personal/transact/transact-fees/",
+   "path": "south_africa/fees/capitec_transact_fees_page.md",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_cb_finsurv_2026_01",
+   "subject": "single_discretionary_allowance",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "kyc_tier": "resident_adult"
+   },
+   "attribute": "max_amount",
+   "value": 100000000,
+   "unit": "ZAR_cents",
+   "display": "R1 million single discretionary allowance per adult resident per calendar year",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "It is an allowance up to an overall limit of R1 million per calendar year, available to each South African adult resident (above 18 years old).",
+   "notes": "SDA may be used for any legal purpose abroad; no documentary evidence of the purpose is required except for travel outside the CMA. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_02",
+   "subject": "foreign_investment_allowance",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "kyc_tier": "taxpayer"
+   },
+   "attribute": "max_amount",
+   "value": 1000000000,
+   "unit": "ZAR_cents",
+   "display": "R10 million foreign capital allowance per taxpayer per calendar year, subject to a SARS TCS result",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "A taxpayer who is above 18 years old and in good standing can invest up to R10 million in their name outside the Common Monetary Area (CMA), i.e. eSwatini, Lesotho, Namibia and South Africa, per calendar year. A SARS tax compliance status verification result must be obtained and provided to an Authorised Dealer before the funds can be transferred offshore.",
+   "notes": "Corroborated by Sable International (2015) describing the R10 million investment allowance alongside the R1 million discretionary allowance. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_03",
+   "subject": "sda_without_tax_clearance",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_amount",
+   "value": 100000000,
+   "unit": "ZAR_cents",
+   "display": "Up to R1 million a year can be transferred abroad without a SARS tax compliance status result",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "up to R1 million per calendar year, within the single discretionary allowance per person, can be transferred abroad without the requirement to obtain a SARS tax compliance status verification result",
+   "notes": "The tax clearance requirement bites above R1 million, i.e. for the foreign capital allowance. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_04",
+   "subject": "travel_allowance_minor",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "kyc_tier": "minor"
+   },
+   "attribute": "max_amount",
+   "value": 20000000,
+   "unit": "ZAR_cents",
+   "display": "Residents under 18 get a travel allowance of up to R200,000 per calendar year",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "Residents under 18 years old are permitted a travel allowance of up to R200 000 per calendar year.",
+   "notes": "Travel allowance sits within the R1 million SDA for adults. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_05",
+   "subject": "cash_export_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_amount",
+   "value": 2500000,
+   "unit": "ZAR_cents",
+   "display": "Travellers may take up to R25,000 in rand notes out of South Africa",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "Travellers may also take cash (rand notes) up to the value of R25 000 per person.",
+   "notes": "Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_06",
+   "subject": "corporate_outward_investment_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_amount",
+   "value": 100000000000,
+   "unit": "ZAR_cents",
+   "display": "Companies may invest up to R1 billion per company per calendar year via an Authorised Dealer",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "South African companies (excluding trusts and close corporations) can make bona fide new outward foreign direct investments into companies outside the Common Monetary Area (eSwatini, Lesotho, Namibia and South Africa) up to the value of R1 billion per company per calendar year through any Authorised Dealer.",
+   "notes": "Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_07",
+   "subject": "above_10m_requires_sarb_approval",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "amount_zar": {
+     "min": 1000000000
+    }
+   },
+   "attribute": "approval_required",
+   "value": null,
+   "value_text": "requires_finsurv_approval",
+   "unit": null,
+   "display": "Investing more than R10 million a year needs SARB Financial Surveillance approval via the Authorised Dealer",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "Your Authorised Dealer must submit an application to the Financial Surveillance Department of the SARB for approval.",
+   "notes": "Question answered is 'What if I want to invest more than R10 million per calendar year?' Source page undated; effective date recorded as the 2026-11-02 capture date. [normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "za_cb_finsurv_2026_08",
+   "subject": "finsurv_reporting_scope",
+   "assertion_type": "positive",
+   "attribute": "reporting_duty",
+   "value": null,
+   "value_text": "all_values_daily",
+   "unit": null,
+   "display": "Every cross-border FX transaction is reported to FinSurv daily, regardless of value",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "All cross-border foreign exchange transactions carried out by Authorised Dealers, Restricted Authorised Dealers and Authorised Dealers in foreign exchange with limited authority, on behalf of their clients, irrespective of the value, are captured on the FinSurv Reporting System and reported to the Financial Surveillance Department on a daily basis.",
+   "notes": "Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_09",
+   "subject": "institutional_offshore_prudential_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "max_percent",
+   "value": 45,
+   "unit": "percent",
+   "display": "Institutional investors may hold up to 45% of retail assets offshore",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "The foreign exposure of retail assets may not exceed 45% in the case of pension funds, life insurers, CIS managers and discretionary financial services providers registered as institutional investors with the Financial Surveillance Department.",
+   "notes": "Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_finsurv_2026_10",
+   "subject": "finsurv_response_time",
+   "assertion_type": "positive",
+   "attribute": "response_weeks",
+   "value": 6,
+   "unit": "weeks",
+   "display": "The Financial Surveillance Department generally answers queries in four to six weeks",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 1,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_finsurv_faq",
+   "source_path": "south_africa/cross_border/sarb_finsurv_faq.html",
+   "quote": "The Financial Surveillance Department will generally respond to online queries and emails within four to six weeks.",
+   "notes": "Five weeks is the midpoint; the range is 4-6 weeks. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_cb_capitec_2026_01",
+   "subject": "capitec_exchange_control_application_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "fee",
+   "value": 100000,
+   "unit": "ZAR_cents",
+   "display": "R1,000 exchange control application fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Exchange Control Application fee4,5 | 1 000.00",
+   "notes": "Fixed fee (note 4 of the schedule); fees include VAT."
+  }
+ ],
+ "notes": "Allowances and reporting duties are quoted from SARB's FinSurv FAQ (primary). The R10 million allowance is corroborated by Sable International's 2015 article. FinSurv reporting is daily and value-agnostic per the FAQ."
+}

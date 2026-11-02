@@ -1,0 +1,319 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "limits",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_cbn_tiered_kyc_2013",
+   "name": "CBN Circular FPR/DIR/CIR/GEN/02/001: Introduction of Three-Tiered Know Your Customer Requirements",
+   "url": "https://www.cbn.gov.ng/Out/2013/CCD/3%20TIERED%20KYC%20REQUIREMENTS.PDF",
+   "path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_mobile_money_framework_2021",
+   "name": "CBN Regulatory Framework for Mobile Money Services in Nigeria (July 2021)",
+   "url": "https://www.cbn.gov.ng/Out/2021/CCD/Framework%20and%20Guidelines%20on%20Mobile%20Money%20Services%20in%20Nigeria%20-%20July%202021.pdf",
+   "path": "nigeria/limits/cbn_mobile_money_framework_2021.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_doa_kyc_fintechs_2024",
+   "name": "Duale, Ovia & Alex-Adedipe: KYC Requirements for Onboarding New Customers by Fintech Companies in Nigeria",
+   "url": "https://www.doa-law.com/wp-content/uploads/2024/06/KYC-Requirements-for-Onboarding-New-Customers-for-FinTechs.pdf",
+   "path": "nigeria/kyc/doa_kyc_fintechs_2024.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_cbn_amlcft_regulations",
+   "name": "CBN Anti-Money Laundering and Counter Financing of Terrorism Regulations (consolidated text, NFIU copy)",
+   "url": "https://nfiu.gov.ng/images/Downloads/downloads/cbn.pdf",
+   "path": "nigeria/kyc/nfiu_cbn_kyc_doc.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_kuda_faqs",
+   "name": "Kuda Help Centre: FAQs",
+   "url": "https://help.kuda.com/en/articles/8954669-faqs",
+   "path": "nigeria/limits/kuda_faqs.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_lim_cbn_2013_01",
+   "subject": "tier1_single_deposit_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1"
+   },
+   "attribute": "max_single_deposit",
+   "value": 2000000,
+   "unit": "NGN_minor",
+   "display": "KYC Level 1 accounts: maximum single deposit N20,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "It is limited to a maximum single deposit amount of N20,000 and maximum cumulative balance of N200,000 at any point in time.",
+   "notes": "Duale, Ovia & Alex-Adedipe (2024) restates the same N20,000 cap for low-value accounts.",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_02",
+   "subject": "tier1_balance_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1"
+   },
+   "attribute": "max_balance",
+   "value": 20000000,
+   "unit": "NGN_minor",
+   "display": "KYC Level 1 accounts: maximum cumulative balance N200,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "maximum cumulative balance of N200,000 at any point in time",
+   "notes": "Duale, Ovia & Alex-Adedipe (2024) restates the same N200,000 cap.",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_03",
+   "subject": "tier2_single_deposit_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "2"
+   },
+   "attribute": "max_single_deposit",
+   "value": 5000000,
+   "unit": "NGN_minor",
+   "display": "KYC Level 2 accounts: maximum single deposit N50,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "The medium-value accounts are limited to a maximum single deposit of N50,000 (Fifty Thousand Naira) and a maximum cumulative balance of N400,000 (Four Hundred Thousand Naira only).",
+   "notes": "CBN three-tiered KYC circular states the same N50,000 single-deposit cap; the circular's PDF has no text layer so this clean second source is quoted here.",
+   "source_id": "src_ng_doa_kyc_fintechs_2024",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/doa_kyc_fintechs_2024.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_04",
+   "subject": "tier2_balance_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "2"
+   },
+   "attribute": "max_balance",
+   "value": 40000000,
+   "unit": "NGN_minor",
+   "display": "KYC Level 2 accounts: maximum cumulative balance N400,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "corroborated",
+   "quote": "and a maximum cumulative balance of N400,000 (Four Hundred Thousand Naira only)",
+   "notes": "CBN three-tiered KYC circular states the same N400,000 cumulative balance cap.",
+   "source_id": "src_ng_doa_kyc_fintechs_2024",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/doa_kyc_fintechs_2024.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_05",
+   "subject": "tier3_balance_cap",
+   "assertion_type": "negative",
+   "conditions": {
+    "kyc_tier": "3"
+   },
+   "attribute": "max_balance",
+   "value_text": "none",
+   "display": "KYC Level 3 accounts have no limit on cumulative balance, deposit or transactions",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2013-01-18",
+   "volatility": "static",
+   "confidence": "corroborated",
+   "quote": "there is no limit on cumulative balance, deposit and transactions",
+   "notes": "Corroborated by the three-tiered KYC circular ('No Limit is placed on cumulative balance') and by Duale, Ovia & Alex-Adedipe (2024) ('High-value account has no financial limits').",
+   "source_id": "src_ng_cbn_amlcft_regulations",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/kyc/nfiu_cbn_kyc_doc.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_06",
+   "subject": "mobile_banking_max_transaction",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1",
+    "channel": "ussd"
+   },
+   "attribute": "max_transaction",
+   "value": 300000,
+   "unit": "NGN_minor",
+   "display": "Level 1 mobile banking products: maximum transaction N3,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Maximum transaction limit of N3, 000 and daily limit of N30, 000.",
+   "notes": "",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_07",
+   "subject": "mobile_banking_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1",
+    "channel": "ussd"
+   },
+   "attribute": "daily_limit",
+   "value": 3000000,
+   "unit": "NGN_minor",
+   "display": "Level 1 mobile banking products: daily limit N30,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Maximum transaction limit of N3, 000 and daily limit of N30, 000.",
+   "notes": "",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_08",
+   "subject": "mobile_banking_max_transaction",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "2",
+    "channel": "ussd"
+   },
+   "attribute": "max_transaction",
+   "value": 1000000,
+   "unit": "NGN_minor",
+   "display": "Level 2 mobile banking products: maximum transaction N10,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "limit of N10, 000 and (INEC) Voters Register,",
+   "notes": "Interleaved two-column OCR; cleaned reading is 'Maximum transaction limit of N10, 000'.",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_cbn_2013_09",
+   "subject": "mobile_banking_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "2",
+    "channel": "ussd"
+   },
+   "attribute": "daily_limit",
+   "value": 10000000,
+   "unit": "NGN_minor",
+   "display": "Level 2 mobile banking products: daily limit N100,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2013-01-18",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "BaVINgS: daily limit of N100, Federal Road _ Safety . . . 000.",
+   "notes": "OCR splits N100, / 000, across two lines with the neighbouring column between them; cleaned reading is a daily limit of N100,000.",
+   "source_id": "src_ng_cbn_tiered_kyc_2013",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf"
+  },
+  {
+   "id": "ng_lim_mmf_2021_01",
+   "subject": "wallet_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1",
+    "account_type": "wallet"
+   },
+   "attribute": "daily_limit",
+   "value": 5000000,
+   "unit": "NGN_minor",
+   "display": "Mobile money wallet, KYC level 1: cumulative daily outflow limit N50,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2021-07-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "1 50,000 300,000, in line with the three-tiered KYC",
+   "notes": "Table row OCR'd as a single line; cleaned reading in display: level 1, daily cumulative outflow N50,000, balance limit N300,000.",
+   "source_id": "src_ng_cbn_mobile_money_framework_2021",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/limits/cbn_mobile_money_framework_2021.pdf"
+  },
+  {
+   "id": "ng_lim_mmf_2021_02",
+   "subject": "wallet_balance_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "kyc_tier": "1",
+    "account_type": "wallet"
+   },
+   "attribute": "max_balance",
+   "value": 30000000,
+   "unit": "NGN_minor",
+   "display": "Mobile money wallet, KYC level 1: cumulative balance limit N300,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2021-07-01",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "1 50,000 300,000, in line with the three-tiered KYC",
+   "notes": "Cleaned reading of the interleaved table line: level 1 balance cap N300,000.",
+   "source_id": "src_ng_cbn_mobile_money_framework_2021",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/limits/cbn_mobile_money_framework_2021.pdf"
+  },
+  {
+   "id": "ng_lim_kuda_2026_01",
+   "subject": "account_balance_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "kuda"
+   },
+   "attribute": "max_balance",
+   "value": 30000000,
+   "unit": "NGN_minor",
+   "display": "Kuda account opened with name, phone and BVN: maximum balance N300,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-07-13",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "you’ll get an account limited to a maximum balance of 300,000 naira",
+   "notes": "Kuda FAQ, written 13 July 2026.",
+   "source_id": "src_ng_kuda_faqs",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/limits/kuda_faqs.html"
+  }
+ ],
+ "notes": "Tier caps come from the 2013 three-tiered KYC circular; the scanned circular has no text layer so its OCR text is quoted, including OCR spacing inside numbers. Mobile money wallet caps come from the separate 2021 mobile money framework and differ from the bank-account tiers."
+}

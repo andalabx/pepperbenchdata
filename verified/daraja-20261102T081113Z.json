@@ -1,0 +1,18 @@
+{
+ "provider": "daraja",
+ "environment": "sandbox/test",
+ "verified_at": "2026-11-02T08:11:13+00:00",
+ "harness": "verify_live.py",
+ "checks": [
+  {
+   "fact": "oauth endpoint exists and rejects missing credentials",
+   "status": 400,
+   "body": {
+    "requestId": "ea01-4ead-b145-0fb4da34bce3159362",
+    "errorCode": "400.008.01",
+    "errorMessage": "Invalid Authentication passed"
+   },
+   "content_type": "application/json;charset=UTF-8"
+  }
+ ]
+}

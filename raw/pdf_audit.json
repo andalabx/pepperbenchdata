@@ -1,0 +1,380 @@
+[
+ {
+  "path": "egypt/agent_banking/cbe_regulations_glaco.pdf",
+  "pages": 11,
+  "text_chars": 4428,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/cross_border/cbe_regulations_glaco.pdf",
+  "pages": 11,
+  "text_chars": 4428,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+  "pages": 11,
+  "text_chars": 19864,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/limits/cbe_mobile_wallet_rules_ar.pdf",
+  "pages": 46,
+  "text_chars": 12923,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/limits/cbe_regulations_glaco.pdf",
+  "pages": 11,
+  "text_chars": 4428,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/regulations/cbe_executive_regulations_en.pdf",
+  "pages": 34,
+  "text_chars": 10687,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+  "pages": 40,
+  "text_chars": 6340,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/regulations/cbe_law_194_2020_en.pdf",
+  "pages": 15,
+  "text_chars": 12064,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+  "pages": 35,
+  "text_chars": 10036,
+  "kind": "text"
+ },
+ {
+  "path": "egypt/regulations/cbe_regulations_glaco.pdf",
+  "pages": 11,
+  "text_chars": 4428,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/agent_banking/cbk_agent_banking_afi.pdf",
+  "pages": 13,
+  "text_chars": 4589,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/agent_banking/fsd_agent_banking_regulation.pdf",
+  "pages": 36,
+  "text_chars": 20313,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+  "pages": 80,
+  "text_chars": 21958,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/cross_border/mpesa_global_terms.pdf",
+  "pages": 12,
+  "text_chars": 27741,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/error_codes/mpesa_customer_terms.pdf",
+  "pages": 13,
+  "text_chars": 26854,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/fees/ncba_pesalink_faq.pdf",
+  "pages": 1,
+  "text_chars": 2040,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/fees/safaricom_b2b_tariff_2025.pdf",
+  "pages": 1,
+  "text_chars": 1173,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/fees/safaricom_b2c_tariff.pdf",
+  "pages": 1,
+  "text_chars": 1919,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/fees/safaricom_business_till_tariff.pdf",
+  "pages": 1,
+  "text_chars": 810,
+  "kind": "sparse"
+ },
+ {
+  "path": "kenya/fraud/cbk_consumer_protection.pdf",
+  "pages": 16,
+  "text_chars": 19380,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/fraud/mpesa_customer_terms.pdf",
+  "pages": 13,
+  "text_chars": 26854,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+  "pages": 122,
+  "text_chars": 13174,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+  "pages": 18,
+  "text_chars": 15281,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/kyc/mpesa_customer_terms.pdf",
+  "pages": 13,
+  "text_chars": 26854,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/limits/cbk_emoney_regulations_2013.pdf",
+  "pages": 18,
+  "text_chars": 15281,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/limits/mpesa_customer_terms.pdf",
+  "pages": 13,
+  "text_chars": 26854,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/products/lipa_na_mpesa_terms_2026.pdf",
+  "pages": 4,
+  "text_chars": 32611,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/regulations/cbk_electronic_payment_report_2024.pdf",
+  "pages": 122,
+  "text_chars": 13174,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/regulations/cbk_emoney_regulations_2013.pdf",
+  "pages": 18,
+  "text_chars": 15281,
+  "kind": "text"
+ },
+ {
+  "path": "kenya/regulations/nps_act_2011.pdf",
+  "pages": 30,
+  "text_chars": 10790,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/agent_banking/cbn_mobile_money_framework_2021.pdf",
+  "pages": 40,
+  "text_chars": 13455,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/cross_border/cbn_fx_manual_2026.pdf",
+  "pages": 170,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/cross_border/nfiu_reporting_guidelines.pdf",
+  "pages": 7,
+  "text_chars": 10536,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/error_codes/nibss_bill_payments_spec_v311.pdf",
+  "pages": 102,
+  "text_chars": 28895,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fees/cbn_guide_to_charges_2020.pdf",
+  "pages": 76,
+  "text_chars": 7899,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fees/nibss_electronic_payment_channels_guidelines.pdf",
+  "pages": 48,
+  "text_chars": 16839,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fees/nigeria_new_banking_charges_framework_2026.pdf",
+  "pages": 6,
+  "text_chars": 10729,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fees/stanbic_pricing_guide_2024.pdf",
+  "pages": 12,
+  "text_chars": 12586,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fees/stanbic_pricing_guide_2026.pdf",
+  "pages": 12,
+  "text_chars": 11750,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fraud/cbn_consumer_protection_faqs.pdf",
+  "pages": 10,
+  "text_chars": 15316,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fraud/cbn_consumer_protection_regulations.pdf",
+  "pages": 39,
+  "text_chars": 7104,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/fraud/cbn_time_bar_disputes.pdf",
+  "pages": 1,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/interoperability/africanenda_nip_case_study.pdf",
+  "pages": 8,
+  "text_chars": 18319,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/kyc/cbn_3_tiered_kyc_requirements.pdf",
+  "pages": 7,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/kyc/doa_kyc_fintechs_2024.pdf",
+  "pages": 8,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/kyc/nfiu_cbn_kyc_doc.pdf",
+  "pages": 81,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/kyc/nibss_bvn_circular_2026.pdf",
+  "pages": 1,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/limits/cbn_3_tiered_kyc_requirements.pdf",
+  "pages": 7,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "nigeria/limits/cbn_consumer_protection_faqs.pdf",
+  "pages": 10,
+  "text_chars": 15316,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/limits/cbn_consumer_protection_regulations.pdf",
+  "pages": 39,
+  "text_chars": 7104,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/limits/cbn_mobile_money_framework_2021.pdf",
+  "pages": 40,
+  "text_chars": 13455,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/regulations/cbn_bdc_guidelines_2024.pdf",
+  "pages": 52,
+  "text_chars": 9112,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/regulations/cbn_cybersecurity_framework.pdf",
+  "pages": 65,
+  "text_chars": 10814,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/regulations/cbn_economics_digital_currencies.pdf",
+  "pages": 349,
+  "text_chars": 7113,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/regulations/cbn_mobile_money_framework_2021.pdf",
+  "pages": 40,
+  "text_chars": 13455,
+  "kind": "text"
+ },
+ {
+  "path": "nigeria/regulations/cbn_statements_payment_finality.pdf",
+  "pages": 3,
+  "text_chars": 0,
+  "kind": "scanned"
+ },
+ {
+  "path": "south_africa/cross_border/sarb_currency_exchanges_manual.pdf",
+  "pages": 323,
+  "text_chars": 17679,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/cross_border/sarb_finsurv_2026.pdf",
+  "pages": 10,
+  "text_chars": 12299,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/error_codes/fnb_eft_terms.pdf",
+  "pages": 20,
+  "text_chars": 18455,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/error_codes/standard_bank_operational_regulations.pdf",
+  "pages": 60,
+  "text_chars": 20989,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/fraud/fic_guidance_note_3a.pdf",
+  "pages": 36,
+  "text_chars": 13710,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/kyc/fic_guidance_note_3a.pdf",
+  "pages": 36,
+  "text_chars": 13710,
+  "kind": "text"
+ },
+ {
+  "path": "south_africa/regulations/compcom_access_payment_system.pdf",
+  "pages": 99,
+  "text_chars": 24599,
+  "kind": "text"
+ }
+]

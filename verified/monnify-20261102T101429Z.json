@@ -1,0 +1,56 @@
+{
+ "provider": "monnify",
+ "environment": "sandbox/test",
+ "verified_at": "2026-11-02T10:14:29+00:00",
+ "harness": "verify_live.py",
+ "checks": [
+  {
+   "fact": "sandbox login endpoint exists and rejects missing credentials",
+   "status": 401,
+   "body": {
+    "requestSuccessful": false,
+    "responseMessage": "Unauthorized, supply authorization header",
+    "responseCode": "99"
+   },
+   "content_type": "application/json"
+  },
+  {
+   "fact": "basic auth returns an access token",
+   "status": 200,
+   "token_present": true
+  },
+  {
+   "fact": "sandbox bank list reachable, 374 banks returned",
+   "status": 200,
+   "sample": [
+    {
+     "name": "78 FINANCE COMPANY LIMITED",
+     "code": "110072",
+     "ussdTemplate": null,
+     "baseUssdCode": null,
+     "transferUssdTemplate": null,
+     "bankId": null,
+     "nipBankCode": "110072"
+    },
+    {
+     "name": "9 PAYMENT SOLUTIONS BANK",
+     "code": "120001",
+     "ussdTemplate": null,
+     "baseUssdCode": null,
+     "transferUssdTemplate": null,
+     "bankId": null,
+     "nipBankCode": "120001"
+    },
+    {
+     "name": "9JAPAY MICROFINANCE BANK",
+     "code": "090629",
+     "ussdTemplate": null,
+     "baseUssdCode": null,
+     "transferUssdTemplate": null,
+     "bankId": null,
+     "nipBankCode": "090629"
+    }
+   ]
+  }
+ ]
+}

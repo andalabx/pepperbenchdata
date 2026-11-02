@@ -1,0 +1,226 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "kyc",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Eight KYC facts from Safaricom's own registration rules and the CBK E-Money Regulation. Huduma Namba is NOT covered: no document in the Kenya corpus mentions it, so no fact is asserted about it. SIM registration rules are likewise absent from the corpus and are not asserted.",
+ "sources": [
+  {
+   "id": "src_ke_saf_charges_2026",
+   "name": "Safaricom PLC, M-PESA Charges (consumer tariffs and limits page, published 16 Aug 2022, last updated 4 Aug 2026)",
+   "url": "https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges",
+   "path": "kenya/fees/safaricom_mpesa_charges.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_mpesa_terms",
+   "name": "Safaricom PLC, M-PESA Customer Terms and Conditions",
+   "url": "https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf",
+   "path": "kenya/limits/mpesa_customer_terms.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_emoney_2013",
+   "name": "Central Bank of Kenya, E-Money Regulation 2013 (National Payment System Act)",
+   "url": "https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf",
+   "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_lipa_na_mpesa",
+   "name": "Safaricom PLC, Lipa na M-PESA product page (paybill, buy goods, business till, pochi la biashara)",
+   "url": "https://www.safaricom.co.ke/lipa-na-m-pesa",
+   "path": "kenya/products/lipa_na_mpesa.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_kyc_saf_01",
+   "subject": "mpesa_registration_id_at_agent",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer",
+    "kyc_tier": "standard"
+   },
+   "value_text": "Kenyan national ID or Kenyan passport",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "At an agent outlet, M-PESA registration needs a Kenyan national ID or Kenyan passport",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "m pesa registration at agent outlets is available only to customers presenting a kenyan national id or kenyan passport",
+   "notes": "Foreign passport, military ID and foreigner certificate holders must register at a Safaricom shop or customer care desk.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_saf_02",
+   "subject": "mpesa_accepted_id_documents",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "value_text": "Kenyan national ID, Kenyan passport, foreign passport, military ID, foreigner certificate",
+   "unit": "enum",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "Five ID documents accepted for M-PESA cash deposits and withdrawals",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "for cash deposits and withdrawals the following identification documents are accepted kenyan national id kenyan passport foreign passport military id and foreigner certificate",
+   "notes": "Closed set for enum_match: kenyan_national_id, kenyan_passport, foreign_passport, military_id, foreigner_certificate.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_saf_03",
+   "subject": "mpesa_proof_of_id_at_onboarding",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "app"
+   },
+   "value_text": "Original national or military ID for Kenyan nationals; alien certificate, diplomatic ID or passport for foreign nationals",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "M-PESA account opening requires sufficient original proof of ID",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "su cient proof of id shall be an original national or military id card if you are a kenyan national and original alien certi cate diplomatic id or passport if you are a foreign national",
+   "notes": "'su cient' is the extracted-text artifact for 'sufficient'; quote kept as extracted.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_saf_04",
+   "subject": "mpesa_minimum_age",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 18,
+   "unit": "years",
+   "graded_by": "numeric_exact",
+   "display": "An M-PESA account holder must be at least 18",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "you must be at least 18 years old with capacity to enter into contracts",
+   "notes": "A person with parental authority may open and hold an account on behalf of a minor.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_saf_05",
+   "subject": "mpesa_max_accounts_per_customer",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 5,
+   "unit": "count",
+   "graded_by": "numeric_exact",
+   "display": "A customer may not hold more than five M-PESA accounts",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "you must not maintain more than five m pesa accounts",
+   "notes": "'ve' is the extracted-text artifact for 'five'. Extra accounts are migrated to a higher tier requiring enhanced due diligence. Ligature in the PDF ('ﬁ') was flattened to 'fi' in the quote.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_saf_06",
+   "subject": "beneficial_ownership_collection",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "Financial institutions must collect, verify and keep up to date beneficial ownership information for all business relationships",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Lipa na M-PESA onboarding requires beneficial ownership disclosure under the AML/CFT Amendment Act 2023",
+   "effective_from": "2023-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_lipa_na_mpesa",
+   "source_path": "kenya/products/lipa_na_mpesa.html",
+   "quote": "the aml cft amendment act 2023 and the proceeds of crime and anti money laundering regulations 2023 require all financial institutions to collect verify and maintain an up to date beneficial ownership information for all its business relationships",
+   "notes": "effective_from is the Act year only; the Safaricom page states no date.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_cbk_07",
+   "subject": "small_emoney_issuer_transaction_cap",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "business",
+    "kyc_tier": "small_emoney_issuer"
+   },
+   "value": 1000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "A registered small e-money issuer may not issue accounts with a per-transaction limit above KSh 10,000",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "the person does not issue e money accounts with an individual transaction limit that exceeds ten thousand shillings",
+   "notes": "Registration as a small e-money issuer is free and needs no core capital, but caps accounts at KSh 10,000 per transaction. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_kyc_cbk_08",
+   "subject": "emoney_aml_cft_compliance",
+   "attribute": "kyc_requirement",
+   "conditions": {
+    "actor": "business"
+   },
+   "value_text": "E-money issuers and their agents must comply with the Proceeds of Crime and Anti-Money Laundering Act and its regulations",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "AML/CFT obligations extend to agents, not just the issuer",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "e money issuers shall ensure that they and their agents comply with the applicable provisions of the proceeds of crime and anti money laundering act and the regulations issued in terms of the said act",
+   "notes": "effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

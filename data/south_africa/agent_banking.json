@@ -1,0 +1,202 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "agent_banking",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_tymebank_home",
+   "name": "GoTyme Bank (formerly TymeBank) home page",
+   "url": "https://gotyme.co.za/",
+   "path": "south_africa/agent_banking/tymebank_home.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_fnb_ewallet",
+   "name": "FNB eWallet",
+   "url": "https://www.fnb.co.za/send-money/eWallet/index.html",
+   "path": "south_africa/products/fnb_ewallet.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_capitec_fees_2026",
+   "name": "Capitec Bank personal transaction fees 2026",
+   "url": "https://www.capitecbank.co.za/personal/transact/transact-fees/",
+   "path": "south_africa/fees/capitec_transact_fees_page.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_stitch_rails",
+   "name": "Stitch - A guide to South African payment rails",
+   "url": "https://stitch.money/blog/a-guide-to-south-african-payment-rails",
+   "path": "south_africa/error_codes/stitch_sa_rails.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_ab_tymebank_2026_01",
+   "subject": "gotyme_kiosk_channel",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "channel",
+   "value": null,
+   "value_text": "app_and_kiosks",
+   "unit": null,
+   "display": "GoTyme Bank runs account management through the app and physical kiosks, not internet banking",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_tymebank_home",
+   "source_path": "south_africa/agent_banking/tymebank_home.html",
+   "quote": "we're moving all your account management into the GoTyme Bank app and kiosks. Internet banking is no longer available.",
+   "notes": "The page also carries a Kiosk Locator, i.e. kiosks are a physical channel; the capture does not name the host retailers. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_ab_fnb_ewallet_2026_01",
+   "subject": "ewallet_agencyplus_withdrawal",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "channel",
+   "value": null,
+   "value_text": "atm_agencyplus_shop",
+   "unit": null,
+   "display": "FNB eWallet cash can be withdrawn at an FNB ATM, AgencyPlus agent or a shop",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_ewallet",
+   "source_path": "south_africa/products/fnb_ewallet.md",
+   "quote": "Select 'At ATM or AgencyPlus' or 'At Shop' and tap Continue",
+   "notes": "WhatsApp Get Cash flow. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_ab_fnb_ewallet_2026_02",
+   "subject": "ewallet_retail_acceptance",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "channel",
+   "value": null,
+   "value_text": "selected_fuel_stations",
+   "unit": null,
+   "display": "eWallet can be spent at selected petrol station forecourts and convenience stores",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_fnb_ewallet",
+   "source_path": "south_africa/products/fnb_ewallet.md",
+   "quote": "Make a purchase at selected Engen, Shell, Sasol, and TotalEnergies fuel stations",
+   "notes": "Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_ab_capitec_2026_01",
+   "subject": "supermarket_till_withdrawal_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "fee",
+   "value": 200,
+   "unit": "ZAR_cents",
+   "display": "R2.00 to withdraw cash at a South African supermarket tillpoint",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "| South African supermarket tillpoint4 | - | 2.00 | - |",
+   "notes": "Retail tillpoint as a cash-out channel for Capitec clients."
+  },
+  {
+   "id": "za_ab_capitec_2026_02",
+   "subject": "supermarket_till_deposit_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "amount_zar": {
+     "per": 10000
+    }
+   },
+   "attribute": "fee",
+   "value": 140,
+   "unit": "ZAR_cents",
+   "display": "R1.40 per R100 deposited in notes and coins at a supermarket tillpoint",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "| South African supermarket tillpoint (notes and coins) | 1.40 per 100.00 |",
+   "notes": "Cash-in at a retail till; value is the fee per R100 deposited."
+  },
+  {
+   "id": "za_ab_vouchers_2026_01",
+   "subject": "voucher_cash_in_points",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "channel",
+   "value": null,
+   "value_text": "supermarket_or_petrol_station",
+   "unit": null,
+   "display": "Vouchers let unbanked customers turn cash into digital value at supermarkets and petrol stations",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_stitch_rails",
+   "source_path": "south_africa/error_codes/stitch_sa_rails.html",
+   "quote": "Customers exchange cash for vouchers in a physical retail location, such as a supermarket or petrol station",
+   "notes": "Industry explainer; describes the retail agent model for cash-in."
+  },
+  {
+   "id": "za_ab_cash_at_till_2026_01",
+   "subject": "cash_at_till_channel",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "channel",
+   "value": null,
+   "value_text": "cash_at_atm_or_till",
+   "unit": null,
+   "display": "Cash at ATM / cash at till lets a customer pay online then settle in cash at an ATM or branch",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_za_stitch_rails",
+   "source_path": "south_africa/error_codes/stitch_sa_rails.html",
+   "quote": "Customers choose “Cash at ATM” or “Cash at till” when checking out online",
+   "notes": "Industry explainer."
+  }
+ ],
+ "notes": "The Post Office page captured in this corpus is postal-only (stamps, parcel tracking, PAMSS) and states no banking agency service, so no Post Office or PostBank agent fact is asserted. Agent-channel facts come from GoTyme's kiosk model, FNB's AgencyPlus/retail withdrawal network, Capitec's supermarket tillpoint pricing, and Stitch's description of voucher and cash-at-till cash-in. The 18-payment-system count from SARB belongs to regulations and is deliberately not duplicated here."
+}

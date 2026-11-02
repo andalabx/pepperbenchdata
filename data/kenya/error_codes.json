@@ -1,0 +1,247 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "error_codes",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Ten Daraja result/error codes for M-PESA Express (STK Push). Not covered by any corpus document and therefore not asserted: a timeout result code, an 'insufficient funds' result code, and reversal-specific callback codes. Do not infer them from the Nigerian NIP code set.",
+ "sources": [
+  {
+   "id": "src_ke_saf_daraja_express",
+   "name": "Safaricom Daraja developer portal, M-Pesa Express (STK Push) Simulate API reference",
+   "url": "https://developer.safaricom.co.ke/apis/MpesaExpressSimulate",
+   "path": "kenya/error_codes/daraja_express_simulate.md",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_err_dar_01",
+   "subject": "result_code_success",
+   "attribute": "result_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value": 0,
+   "unit": "code",
+   "graded_by": "numeric_exact",
+   "display": "ResultCode 0 = request processed successfully",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "\"ResultCode\": 0,\n      \"ResultDesc\": \"The service request is processed successfully.\"",
+   "notes": "0 means success in both the sync acknowledgement and the async callback.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_02",
+   "subject": "result_code_cancelled_by_user",
+   "attribute": "result_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value": 1032,
+   "unit": "code",
+   "graded_by": "numeric_exact",
+   "display": "ResultCode 1032 = Request cancelled by user",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "\"ResultCode\": 1032,\n      \"ResultDesc\": \"Request cancelled by user\"",
+   "notes": "The customer dismissed the STK prompt or let it time out; no funds move.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_03",
+   "subject": "error_invalid_shortcode",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "400.002.02",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "HTTP 400, 400.002.02 Bad Request - Invalid BusinessShortCode",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "400.002.02 | Bad Request",
+   "notes": "Causes: wrong Content-Type, wrong parameter name, or invalid/missing BusinessShortCode. The table row reads '| 400.002.02 | Bad Request - Invalid XXXX. | Ensure the request payload is set as per API documentation. | 400 |'. enum_match set: {400.002.02}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_04",
+   "subject": "error_invalid_access_token",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "404.001.03",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "HTTP 404, 404.001.03 Invalid Access Token",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "404.001.03 | Invalid Access Token | Regenerate a new access token and use it before one hour expiry period.",
+   "notes": "Tokens expire hourly; regenerate with the correct consumer key and secret. enum_match set: {404.001.03}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_05",
+   "subject": "error_resource_not_found",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "404.001.01",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "HTTP 404, 404.001.01 Resource not found",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "404.001.01 | Resource not found | Make sure you are calling the correct API endpoint.",
+   "notes": "Wrong endpoint path. enum_match set: {404.001.01}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_06",
+   "subject": "error_method_not_allowed",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "405.001",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "HTTP 405, 405.001 Method Not Allowed",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "405.001 | Method Not Allowed (e.g. GET Method Not Allowed) | Ensure you're passing the request as POST. Any other method will be rejected.",
+   "notes": "STK Push is POST only. enum_match set: {405.001}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_07",
+   "subject": "error_merchant_does_not_exist",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "500.001.1001",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "HTTP 500, 500.001.1001 Merchant does not exist",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "500.001.1001 | Merchant does not exist | Ensure you're using the short code used on Go Live as BusinessShortCode parameter value in the request.",
+   "notes": "The same code string is reused for several distinct 500.001.1001 meanings; the errorMessage disambiguates. enum_match set: {500.001.1001}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_08",
+   "subject": "error_wrong_credentials",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "500.001.1001",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "500.001.1001 Wrong credentials - password does not match shortcode/timestamp",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "500.001.1001 | Wrong credentials | This error can be caused by:- The Password parameter provided in the request is either invalid or missing.",
+   "notes": "Password is base64(Shortcode+Passkey+Timestamp); all three must match the request body. enum_match set: {500.001.1001}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_09",
+   "subject": "error_system_busy",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "500.003.02",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "500.003.02 System is busy - retry after a short wait",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "500.003.02 | System is busy. Please try again in few minutes. | Retry the request after a short wait.",
+   "notes": "Same code is also used for 'Error Occurred: Spike Arrest Violation'; only the message distinguishes them. enum_match set: {500.003.02}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_err_dar_10",
+   "subject": "error_quota_violation",
+   "attribute": "error_code",
+   "conditions": {
+    "channel": "api"
+   },
+   "value_text": "500.003.03",
+   "unit": "code",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "500.003.03 Quota Violation - API request limit exceeded",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "500.003.03 | Quota Violation | You are sending multiple requests that violate the API request limit.",
+   "notes": "Distinct from 500.003.02 spike arrest (per-second limit) vs quota (period request limit). enum_match set: {500.003.03}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "cross_border",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Nine facts: six from the 2025 Remittances Household Survey (flows, source shares, encashment cost), M-PESA Global's published corridor list plus the explicit negative that Nigeria is not on it, and two PAPSS scheme facts. No FX rate or live pricing is asserted.",
+ "sources": [
+  {
+   "id": "src_ke_saf_mpesa_global",
+   "name": "Safaricom PLC, M-PESA Global product page (last updated 3 Dec 2025)",
+   "url": "https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global",
+   "path": "kenya/cross_border/mpesa_global_page.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_remittance_2025",
+   "name": "KNBS / Central Bank of Kenya / FSD Kenya, 2025 Remittances Household Survey Report",
+   "url": "https://www.centralbank.go.ke/wp-content/uploads/2026/06/2025-Remittances-Household-Survey-Report.pdf",
+   "path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_papss_home",
+   "name": "Pan African Payment and Settlement System (PAPSS), official site",
+   "url": "https://papss.com/",
+   "path": "kenya/cross_border/papss_home.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_xbd_rem_01",
+   "subject": "remittance_inflows",
+   "attribute": "flow_value",
+   "conditions": {
+    "corridor": "world_to_kenya"
+   },
+   "value": 93180000000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 500000000,
+   "display": "KSh 931.8 billion of remittance inflows, June 2024 - May 2025",
+   "effective_from": "2025-05-31",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_cbk_remittance_2025",
+   "source_path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "quote": "households in kenya received a total of ksh 931 8 billion in remittance inflows during the reference period june 2024 to may 2025",
+   "notes": "Survey reference period June 2024 to May 2025. Cash transfers 91.0%, in-kind 9%.",
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_rem_02",
+   "subject": "remittance_outflows",
+   "attribute": "flow_value",
+   "conditions": {
+    "corridor": "kenya_to_world"
+   },
+   "value": 4050000000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 500000000,
+   "display": "KSh 40.5 billion of remittance outflows in the same period",
+   "effective_from": "2025-05-31",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_cbk_remittance_2025",
+   "source_path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "quote": "households in kenya sent a total of ksh 40 5 billion in remittances during the reference period",
+   "notes": "Over two thirds of outflows went to students abroad.",
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_rem_03",
+   "subject": "largest_remittance_source_share",
+   "attribute": "share",
+   "conditions": {
+    "corridor": "usa_to_kenya"
+   },
+   "value": 43.5,
+   "unit": "percent",
+   "graded_by": "numeric_exact",
+   "display": "The United States supplied 43.5% of inflows, the largest single source",
+   "effective_from": "2025-05-31",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_cbk_remittance_2025",
+   "source_path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "quote": "the united states of america was the largest source of inflows contributing 43 5 per cent of total remittances followed by germany and australia",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_rem_04",
+   "subject": "formal_channel_share",
+   "attribute": "share",
+   "conditions": {
+    "corridor": "world_to_kenya"
+   },
+   "value": 92.0,
+   "unit": "percent",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 0.1,
+   "display": "Banks and mobile money carried over 92.0% of inflows",
+   "effective_from": "2025-05-31",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_cbk_remittance_2025",
+   "source_path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "quote": "formal channels remain the preferred mode for remittance transfers with banks and mobile money platforms accounting for over 92 0 per cent of inflows",
+   "notes": "",
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_rem_05",
+   "subject": "remittance_encashment_cost",
+   "attribute": "fee",
+   "conditions": {
+    "corridor": "world_to_kenya",
+    "amount_kes": {
+     "min": 1000,
+     "max": 1000
+    }
+   },
+   "value": 800,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Average cost of cashing out KSh 1,000 received from the top 20 source countries: about KSh 8",
+   "effective_from": "2025-05-31",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_cbk_remittance_2025",
+   "source_path": "kenya/cross_border/cbk_remittance_survey_2025.pdf",
+   "quote": "on average the cost of encashing the equivalent of ksh 1 000 from the top 20 source countries accounting for 96 0 per cent of the total cash remittance inflows was about ksh 8 0 representing less than 1 0 per cent of the transaction value",
+   "notes": "Not the sending cost: this is the payout-side encashment cost measured on remittances already received.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_glb_06",
+   "subject": "mpesa_global_corridors",
+   "attribute": "corridor_list",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value_text": "East Africa: Rwanda, Tanzania, Uganda, Botswana, Burundi, Zambia, Malawi. Asia: Bangladesh, Pakistan",
+   "unit": "enum",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "M-PESA Global send-to-mobile destinations listed by Safaricom",
+   "effective_from": "2025-12-03",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_saf_mpesa_global",
+   "source_path": "kenya/cross_border/mpesa_global_page.html",
+   "quote": "m pesa customers will be able to send funds to east africa rwanda tanzania uganda botswana and burundi zambia and malawi to asia bangladesh and pakistan",
+   "notes": "Inbound is wider than outbound: 'm pesa registered customers can also receive funds from abroad on their mpesa account'. enum_match set: {East Africa: Rwanda, Tanzania, Uganda, Botswana, Burundi, Zambia, Malawi. Asia: Bangladesh, Pakistan}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_glb_07",
+   "subject": "nigeria_corridor_available",
+   "attribute": "corridor_availability",
+   "conditions": {
+    "corridor": "kenya_to_nigeria"
+   },
+   "assertion_type": "negative",
+   "value": false,
+   "unit": "boolean",
+   "graded_by": "boolean",
+   "display": "No direct M-PESA Global send-to-mobile corridor to Nigeria is listed",
+   "effective_from": "2025-12-03",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_saf_mpesa_global",
+   "source_path": "kenya/cross_border/mpesa_global_page.html",
+   "quote": "m pesa customers will be able to send funds to east africa rwanda tanzania uganda botswana and burundi zambia and malawi to asia bangladesh and pakistan",
+   "notes": "Negative fact. The eligible-destination list contains no West African country and no Nigeria; a Kenya-to-Nigeria payment must route through a bank, PesaLink is domestic-only, or a third-party remittance provider. Do not describe it as a direct mobile-money rail.",
+   "tolerance": null,
+   "effective_to": null
+  },
+  {
+   "id": "ke_xbd_pap_08",
+   "subject": "papss_definition",
+   "attribute": "scheme_scope",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "A pan-African cross-border financial market infrastructure for payments between African countries",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PAPSS is continental settlement infrastructure, not a consumer wallet",
+   "effective_from": "2026-11-02",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_papss_home",
+   "source_path": "kenya/cross_border/papss_home.html",
+   "quote": "papss the pan african payment and settlement system is a cross border financial market infrastructure enabling payment transactions across africa",
+   "notes": "Participants are banks, payment service providers and switches; the site lists no consumer-facing wallet.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_xbd_pap_09",
+   "subject": "papss_settlement_currency",
+   "attribute": "system_property",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "Originator pays in their own local currency and the beneficiary receives in theirs",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PAPSS settles in local currencies rather than requiring a hard-currency leg",
+   "effective_from": "2026-11-02",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_papss_home",
+   "source_path": "kenya/cross_border/papss_home.html",
+   "quote": "instant payments instant payments made by originators to beneficiaries in their local currencies no matter where they are in africa",
+   "notes": "The PAPSS site carries no date; effective_from is the capture date.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+=== page 1 ===
+DUALE, OVIA &
+ALEX-ADEDIPE
+
+DN
+
+KYC Requirements for Onboarding
+New Customers by Fintech
+Companies in Nigeria
+
+w
+
+=== page 2 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+In April 2024, the Central Bank of Nigeria (CBN) issued a directive mandating certain Financial
+Technology (Fintech) companies to stop onboarding new customers on their platforms. This
+decision was allegedly attributed to the failure of these Fintech companies to comply with the
+CBN's Due Diligence Regulation 2023 (the “KYC Regulation”) and other CBN guidelines on
+Know Your Customer (KYC) resulting in the use of their platforms for fraudulent activities,
+cryptocurrency-related transactions and other financial crimes.
+
+In today’s TMTThursday series, we discussed the importance of KYC in combating
+financial crimes, the CBN three-tiered KYC requirements, transaction monitoring,
+how to handle high-risk clients, and the KYC process for Fintech companies.
+
+=== page 3 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+What is KYC and the Importance of KYC for Fintech Companies?
+
+KYC stands for “Know Your Customer”. It is the process by which financial institutions and
+Fintech companies ascertain and verify the identities of their customers and assess the risk
+profiles of their customers. Adequate KYC helps Fintech companies to combat money
+laundering and terrorist financing. By ensuring customers are who they claim to be, KYC
+assists Fintech Companies to:
+
+*
+l.
+
+Vi.
+
+prevent criminals from disguising themselves and utilizing financial services for illicit
+activities.
+
+identify Politically Exposed Persons (PEPs) and high-risk customers.
+
+provide tailor-made services for customers based on the information obtained during
+the KYC process.
+
+verify customers’ identities and identify their sources of wealth.
+identify suspicious activity and prevent the placement of illicit funds in the system.
+
+identify individuals or entities associated with terrorism by analyzing customer risk
+profiles and monitoring transactions for patterns that might indicate terrorist financing.
+
+=== page 4 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+Three-Tiered KYC Requirements
+
+Despite the overwhelming advantages of adequate KYC process and documentation, the
+process may appear to be tedious and can deter legitimate customers and hinder financial
+inclusion. In light of this risk, the CBN introduced the Three-Tiered KYC Requirements that
+allow Fintech companies to open tiered accounts for individuals.
+
+The Three-Tiered KYC Requirements allow Fintech companies to create low-value and
+medium-value accounts for customers based on the account opening requirements obtained
+from the customers. The information required to create a low-value account includes name,
+place of birth, date of birth, gender, address, telephone number, etc. Customers with this
+account are limited to a maximum single deposit of N20,000 (Twenty Thousand Naira) and a
+maximum cumulative balance of N200,000 (Two Hundred Thousand Naira only). Verification
+of the information provided is not required for low-value accounts.
+
+The medium-value accounts are limited to a maximum single deposit of N50,000 (Fifty
+Thousand Naira) and a maximum cumulative balance of N400,000 (Four Hundred Thousand
+Naira only). Fintech companies must verify basic information and identification of the
+customer against similar information contained in official databases such as the National
+Identity Management Commission, Independent Electoral Commission, and Federal Road
+Safety Commission. Where simplified due diligence is conducted for a customer, the KYC
+Regulations require such customers to be subjected to ongoing monitoring.
+
+=== page 5 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+High-value account has no financial limits, and the customers must comply with the customer
+due diligence requirement in the KYC Regulation. Additionally, the three-tiered KYC
+requirements apply to individuals only.
+
+In June 2024, the CBN lifted the restriction imposed on Fintech companies concerning
+onboarding new customers and required Fintech companies to:
+
+i. Conduct physical address verification for all tiers of customer's accounts;
+
+ii. Prohibit and hinder peer-to-peer cryptocurrency transactions on their platform; and
+iii. Upgrade facial verification systems to confirm user identity and prevent unauthorized
+account access.
+
+These measures aim to align Fintech companies’ operations with regulatory standards
+expected by the CBN, fortifying the financial system against potential threats.
+
+va
+
+aul
+
+=== page 6 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+Transaction Monitoring
+
+Fintech companies must continuously scrutinize customers’ transactions to detect suspicious
+activity that might indicate money laundering, terrorist financing, or other financial crimes.
+Transaction monitoring also ensures that the transactions conducted with customers’
+accounts are in line with the purpose for which the account was opened; and that the
+transactions do not exceed a limit pre-determined by the Fintech company or CBN.
+
+Regular transaction monitoring allows authorities and financial institutions to track and dis-
+rupt terrorism financing. The Nigerian Sanctions Committee (NSC) regularly publishes lists of
+individuals and entities that have been involved in terrorism financing. Fintech companies are
+required to crosscheck their customer database with NSC sanctions lists and other relevant
+sanctions lists to ensure their customers are not listed in the sanctions lists.
+
+Additionally, the KYC Regulation mandates Fintech companies to conduct regular monitoring
+of internet-based businesses or customers that operate a significant proportion of their
+businesses electronically, by putting in place, computerized monitoring systems or solutions
+that are designed to recognize unusual transactions and related patterns of transactions.
+
+=== page 7 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+How To Handle High-Risk Customers
+
+Fintech companies are required to perform advance due diligence on high-risk customers by
+taking the following measures:
+
+*
+l.
+
+obtaining additional information on the customer including his/her occupation, volume
+of assets, information available through public databases, the internet, and updating the
+information of the customer regularly;
+
+obtaining information on the source of funds and source of wealth of the customer;
+obtaining information on the reasons for intended or performed transactions;
+
+obtaining the approval of senior management to commence or continue the business
+relationship; and
+
+conducting enhanced monitoring of the business relationship, by selecting patterns of
+transactions that need further examination.
+
+=== page 8 ===
+KYC REQUIREMENTS FOR ONBOARDING NEW CUSTOMERS BY FINTECH COMPANIES IN NIGERIA
+
+Conclusion
+
+The CBN has reiterated its strong stance on the importance of proper KYC documentation and
+preventing financial crimes. Consequently, the CBN has introduced a stringent KYC protocol
+for all tiers of accounts to bolster security and combat money laundering, terrorism financing,
+and other financial crimes.
+
+Implementing these measures may lead to increased costs for Fintech companies as they will
+be required to spend more on KYC. While these measures may entail initial costs and
+adjustments, they ultimately pave the way for sustainable growth, increased competition,
+and enhanced consumer protection in Nigeria's evolving financial ecosystem.

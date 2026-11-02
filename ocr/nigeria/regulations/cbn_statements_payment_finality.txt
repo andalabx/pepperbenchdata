@@ -1,0 +1,143 @@
+=== page 1 ===
+CENTRAL BANK OF NIGERIA
+
+Central Business District
+PM.B. 0187,
+
+Garki, Abuja.
+
++234 - 0946238445
+
+BANKING AND PAYMENTS SYSTEM DEPARTMENT
+
+BPS/PSV/DIR/GEN/CIR/01/001 JULY 1074, 2017
+To: All Deposit Money Banks and Other Payments System Participants
+
+CIRCULAR ON STATEMENTS OF PAYMENT FINALITY FOR THE NIGERIAN
+PAYMENTS SCHEMES
+
+In line with the overall objective of the Nigerian Payments System Vision 2020 (PSV2020)
+project aimed at creating an electronic payments infrastructure that is nationally utilized and
+internationally recognized, the Central Bank of Nigeria hereby issue the statements of
+payment finality for the four payment schemes (RTGS, Card, Mobile and ACH, Cheque &
+Instant Payments) in Nigeria.
+
+This defines the specific point at which payments are deemed to be final and irrevocable
+and to ensure that no payment system would invoke the principle of ‘unwind’”.
+
+GENERAL NOTE:
+
+a. The definition for Payment Finality for each payment scheme is without prejudice to
+the dispute resolution mechanism, in accordance with the rules and regulations
+governing the respective schemes.
+
+b. The statements and operational implications will be incorporated into the respective
+scheme’s rules.
+
+1. RTGS PAYMENTS SCHEME
+VARIOUS TYPES OF POINT OF PAYMENT FINALITY
+TRANSFER
+Inter-Bank Funds Transfer. At the point when the sending bank’s account is debited and the receiving
+
+bank's account is credited, paymient/settlement is final and cannot be revoked
+
+Third-Party (Customer) Funds | At the point when the sending bank's account is debited and the receiving
+Transfer bank's account is credited, payment/settlement is final and cannot be revoked
+
+Net Settlement At the point when the accounts of banks are debited/credited,
+payment/settlement is final and cannot be revoked
+
+“*Settlement & Payment Finality happen at the same time on the RTGS system**
+
+=== page 2 ===
+2. MOBILE PAYMENTS SCHEME
+
+TRANSACTION WITHIN THE MOBILE
+
+PAYMENTS SCHEME
+
+POINT OF PAYMENT FINALITY
+
+Mobile Money Operator (MMO) to MMO /
+
+Bank Transactions
+
+/ Bank.
+
+This is at the point when the switch successfully transmits the
+authorization message from the sending MMO to the beneficiary MMO
+
+International Remittance to MMO
+
+wallet.
+
+Payment is FINAL, when the MMO system credits the customer's
+
+Over the Counter/ Walk-in Transactions
+
+When NIBSS confirms and processes the transaction and sends
+notifications to both the sending and beneficiary MMOs.
+
+Online Payments
+
+A confirmation message from the Switch to the beneficiary bank
+confers finality of transactions.
+
+On the Mobile Payments Scheme, once payment is confirmed, settlement must be guaranteed.
+
+3. ACH, CHEQUE & INSTANT PAYMENTS SCHEME
+
+VARIOUS TYPES OF
+
+POINT OF PAYMENT
+
+POINT OF PAYMENT FINALITY
+
+TRANSACTIONS Finality Evidence
+CHEQUE AND ACH DEBIT | Payment Finality occurs | Clearing Session Closes
+at 10pm on day T+1 for —
+all eared insteumnents (Note: A returned cheque or ACH debit will ALWAYS
+result as a separate payment instruction but is both a
+debit and reversing credit to the payer's account)
+ACH CREDIT Payment Finality occurs | Clearing Session Closes
+when Receiving Bank
+credits beneficiary's (Note: A returned payment will ALWAYS result as a
+aceount separate payment instruction
+INSTANT PAYMENT Payment is considered | At the point when IP Switch sends authorisation
+
+final and irrevocable
+when Presenting Bank
+communicates
+transaction status to the
+customer who _ initiated
+the _transfer/payment
+request
+
+response to presenting bank
+
+=== page 3 ===
+4, CARD PAYMENTS SCHEME
+
+TRANSACTION WITHIN THE CARD SCHEME
+
+POINT OF PAYMENT FINALITY
+
+P.O.S Purchases
+
+(and other Card present transactions)
+
+Payment is considered final and irrevocable when the issuer
+AUTHORISES the transaction. At this point, the transaction
+cannot be unwound and settlement MUST occur.
+
+Electronic Bill Payments
+
+(and other Card NOT present transactions)
+
+Payment is considered final and irrevocable when the issuer
+AUTHORISES the transaction. At this point, the transaction
+cannot be unwound and settlement MUST occur.
+
+Thank you for your usual cooperation
+
+Director, Banking & Payments System Department

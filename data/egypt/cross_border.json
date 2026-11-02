@@ -1,0 +1,290 @@
+{
+  "country": "Egypt",
+  "regulator": "CBE",
+  "category": "cross_border",
+  "as_of": "2026-11-02",
+  "last_verified": "2026-11-02",
+  "sources": [
+    {
+      "id": "src_eg_lightspark_2025",
+      "name": "Lightspark - Egypt Instant Payments: Rails, Fees, and the Lightning Network (10 Oct 2025)",
+      "url": "https://www.lightspark.com/knowledge/egypt-instant-payments",
+      "path": "egypt/interoperability/lightspark_egypt_ipn.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_africanenda_siips_2025",
+      "name": "AfricaNenda - SIIPS 2025 Case Study: IPN Egypt (State of Inclusive Instant Payment Systems in Africa)",
+      "url": "https://africanenda.org/wp-content/uploads/siips_2025_IPN-Egypt_CaseStudy_en.pdf",
+      "path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_cbe_ipn_page_2025",
+      "name": "Central Bank of Egypt - Instant Payment Network (IPN)",
+      "url": "https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network",
+      "path": "egypt/fees/cbe_instant_payment_network.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_papss_home",
+      "name": "PAPSS - Pan-African Payment and Settlement System (official site)",
+      "url": "https://papss.com/",
+      "path": "egypt/cross_border/papss_home.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_adsero_2026",
+      "name": "ADSERO - Banking in Egypt: Legal Framework, FinTech, and E-Payments (13 Oct 2026)",
+      "url": "https://adsero.me/banking-in-egypt-legal-framework-fintech-and-e-payments/",
+      "path": "egypt/regulations/adsero_egypt_fintech_law.html",
+      "retrieved": "2026-11-02"
+    },
+    {
+      "id": "src_eg_tradegov_2025",
+      "name": "U.S. International Trade Administration - Egypt Country Commercial Guide: Trade Financing (21 Nov 2025)",
+      "url": "https://www.trade.gov/country-commercial-guides/egypt-trade-financing",
+      "path": "egypt/cross_border/tradegov_egypt_fx.html",
+      "retrieved": "2026-11-02"
+    }
+  ],
+  "notes": "The corpus contains no Egypt-specific PAPSS participant list and no outbound IPN corridor, so no fact asserts an Egypt-to-Nigeria or Egypt-to-Kenya route beyond PAPSS being the appropriate local-currency rail. Exchange rates are deliberately absent (live facts are out of scope).",
+  "entries": [
+    {
+      "id": "eg_xbd_ls_2025_01",
+      "subject": "ipn_currency_restriction",
+      "assertion_type": "negative",
+      "conditions": {
+        "channel": "app",
+        "corridor": "domestic"
+      },
+      "attribute": "multi_currency_support",
+      "value": null,
+      "value_text": "EGP only; no foreign-currency transfers",
+      "unit": "text",
+      "display": "IPN cannot send or receive foreign currency",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-10-10",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_lightspark_2025",
+      "source_path": "egypt/interoperability/lightspark_egypt_ipn.html",
+      "quote": "Transactions are restricted to the Egyptian Pound, with no support for foreign currencies.",
+      "notes": "Closed set: EGP only / EGP and USD / any currency. Answer: EGP only. Transactions are restricted to the Egyptian Pound, with no support for foreign currencies."
+    },
+    {
+      "id": "eg_xbd_an_2025_02",
+      "subject": "inbound_remittance_launch",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer",
+        "corridor": "inbound_to_egypt"
+      },
+      "attribute": "service_start",
+      "value": null,
+      "value_text": "December 2024",
+      "unit": "text",
+      "display": "IPN inbound remittances launched December 2024",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2024-12-01",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_africanenda_siips_2025",
+      "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+      "quote": "The inbound cross‑border use case, launched in December 2024, enables recipients in Egypt to receive funds directly into their accounts or wallets.",
+      "notes": "Recipients are credited in Egyptian pounds into a bank account or wallet."
+    },
+    {
+      "id": "eg_xbd_cbeipn_2025_03",
+      "subject": "ipn_international_remittance_model",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business",
+        "corridor": "inbound_to_egypt"
+      },
+      "attribute": "partner_types",
+      "value": null,
+      "value_text": "local banks, money transfer operators and exchange houses",
+      "unit": "text",
+      "display": "Inbound remittances run through banks, MTOs and exchange houses",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-02-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "confirmed_primary",
+      "source_id": "src_eg_cbe_ipn_page_2025",
+      "source_path": "egypt/fees/cbe_instant_payment_network.html",
+      "quote": "A service that utilizes the Instant Payment Network (IPN) to provide Egyptian expatriates with a fast, secure, and efficient way to send money home. By partnering with local banks, money transfer operators, and exchange houses, it ensures recipients can instantly access funds through bank accounts, mobile wallets and cards.",
+      "notes": "CBE's IPN page describes an inbound service for Egyptian expatriates only."
+    },
+    {
+      "id": "eg_xbd_papss_2026_04",
+      "subject": "papss_purpose",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business",
+        "corridor": "africa_intra"
+      },
+      "attribute": "settlement_model",
+      "value": null,
+      "value_text": "cross-border payments in local African currencies",
+      "unit": "text",
+      "display": "PAPSS moves money between African countries in local currencies",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_papss_home",
+      "source_path": "egypt/cross_border/papss_home.html",
+      "quote": "PAPSS – the Pan-African Payment and Settlement System – is a cross-border, financial market infrastructure enabling payment transactions across Africa.",
+      "notes": "PAPSS is the rail an Egypt-to-Nigeria or Egypt-to-Kenya payment would use; IPN cannot carry it. The corpus does not state which Egyptian banks are live on PAPSS."
+    },
+    {
+      "id": "eg_xbd_papss_2026_05",
+      "subject": "papss_flow_currency",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business",
+        "corridor": "africa_intra"
+      },
+      "attribute": "payer_currency",
+      "value": null,
+      "value_text": "the originator pays in their own local currency",
+      "unit": "text",
+      "display": "Payer sends in their own currency; beneficiary receives in theirs",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_papss_home",
+      "source_path": "egypt/cross_border/papss_home.html",
+      "quote": "An originator issues a payment instruction in their local currency to their bank or payment service provider. 2 The payment instruction is sent to PAPSS. 3 PAPSS carries out all necessary validation checks on the payment instruction. 4 The payment instruction is forwarded to the beneficiary’s bank or payment service provider. 5 The beneficiary’s bank clears the funds to the beneficiary in their local currency.",
+      "notes": "Five-step flow: originator to bank/PSP, instruction to PAPSS, validation, forwarding, local-currency clearing."
+    },
+    {
+      "id": "eg_xbd_papss_2026_06",
+      "subject": "papss_headquarters",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business"
+      },
+      "attribute": "headquarters",
+      "value": null,
+      "value_text": "Cairo, Egypt",
+      "unit": "text",
+      "display": "PAPSS is headquartered in Cairo",
+      "graded_by": "enum_match",
+      "tolerance": null,
+      "effective_from": "2026-11-02",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_papss_home",
+      "source_path": "egypt/cross_border/papss_home.html",
+      "quote": "72B El-Maahad El-Eshteraky Street, Roxy, Heliopolis, Cairo 11341, Egypt",
+      "notes": "Closed set: Cairo / Abu Dhabi / Lagos / Nairobi / Port Louis. Answer: Cairo. PAPSS sits in the same jurisdiction as the CBE."
+    },
+    {
+      "id": "eg_xbd_adsero_2026_07",
+      "subject": "domestic_currency_rule",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business"
+      },
+      "attribute": "local_currency_requirement",
+      "value": null,
+      "value_text": "EGP, subject to exceptions",
+      "unit": "text",
+      "display": "Domestic transactions must be denominated in EGP",
+      "graded_by": "enum_match",
+      "tolerance": null,
+      "effective_from": "2026-10-13",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_adsero_2026",
+      "source_path": "egypt/regulations/adsero_egypt_fintech_law.html",
+      "quote": "As a general rule, the CBE Law requires transactions conducted in Egypt to be denominated in EGP, subject to certain exceptions.",
+      "notes": "Closed set: EGP only / USD only / any currency. Under the Central Bank and Banking System Law 194/2020."
+    },
+    {
+      "id": "eg_xbd_trade_2025_08",
+      "subject": "fx_account_and_transfer_rights",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "consumer"
+      },
+      "attribute": "fx_holding_allowed",
+      "value": null,
+      "value_text": "yes, through licensed banks or exchange bureaux",
+      "unit": "text",
+      "display": "Residents may hold and transfer foreign currency via licensed institutions",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-11-21",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_tradegov_2025",
+      "source_path": "egypt/cross_border/tradegov_egypt_fx.html",
+      "quote": "According to Law No 88/2003, individuals and businesses can hold foreign currency in Egypt, have local bank accounts denominated in foreign currency, buy foreign currency, and transfer it abroad. This law allows an individual or business to engage in foreign currency transactions, but it requires the use of banks or foreign exchange bureaus that are licensed to trade in foreign currencies.",
+      "notes": "The guide cites Law 88/2003, which has since been replaced by Law 194/2020; the substance is repeated in ADSERO's reading of the 2020 law."
+    },
+    {
+      "id": "eg_xbd_trade_2025_09",
+      "subject": "commercial_fx_documentation",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business",
+        "corridor": "outbound_from_egypt"
+      },
+      "attribute": "documentation_required",
+      "value": null,
+      "value_text": "supporting documents must justify the transfer",
+      "unit": "text",
+      "display": "Commercial outbound FX transfers need supporting documents",
+      "graded_by": "judge_with_quote",
+      "tolerance": null,
+      "effective_from": "2025-11-21",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_tradegov_2025",
+      "source_path": "egypt/cross_border/tradegov_egypt_fx.html",
+      "quote": "Commercial transactions must be supported with specific documents to justify the transfer.",
+      "notes": "Banks have also been instructed to prioritise essential imports (food, medical)."
+    },
+    {
+      "id": "eg_xbd_adsero_2026_10",
+      "subject": "physical_fx_movement_approval",
+      "assertion_type": "positive",
+      "conditions": {
+        "actor": "business"
+      },
+      "attribute": "cash_import_export_approval",
+      "value": true,
+      "value_text": "prior CBE approval required",
+      "unit": "boolean",
+      "display": "Importing or exporting foreign currency needs prior CBE approval",
+      "graded_by": "boolean",
+      "tolerance": null,
+      "effective_from": "2026-10-13",
+      "effective_to": null,
+      "volatility": "static",
+      "confidence": "single_source",
+      "source_id": "src_eg_adsero_2026",
+      "source_path": "egypt/regulations/adsero_egypt_fintech_law.html",
+      "quote": "while the import and export of foreign currencies require prior CBE approval",
+      "notes": "Transfers through registered banks do not need individual approval; physical movement does."
+    }
+  ]
+}

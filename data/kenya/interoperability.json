@@ -1,0 +1,218 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "interoperability",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Eight facts. PesaLink (scheme-level facts from IPSL plus one KCB bank page) and KEPSS settlement behaviour from the CBK's December 2024 PFMI assessment. What is NOT asserted: no document in the corpus states that M-PESA can be addressed directly as a PesaLink participant, so no such claim is made; M-PESA-to-other-network mobile money is documented only as a priced tariff row, not as a named rail.",
+ "sources": [
+  {
+   "id": "src_ke_cbk_kepss_2024",
+   "name": "Central Bank of Kenya, KEPSS assessment against the PFMI principles, December 2024",
+   "url": "https://www.centralbank.go.ke/wp-content/uploads/2025/01/The-Kenya-Electronic-Payment-and-Settlement-System-Report-December-2024.pdf",
+   "path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_ipsl_pesalink_faq",
+   "name": "Integrated Payment Services Limited, PesaLink FAQs",
+   "url": "https://pesalink.co.ke/resource-center/faqs",
+   "path": "kenya/interoperability/pesalink_faqs.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_kcb_pesalink",
+   "name": "KCB Bank Kenya, PesaLink product page",
+   "url": "https://ke.kcbgroup.com/products/pesalink",
+   "path": "kenya/interoperability/kcb_pesalink.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_int_ipsl_01",
+   "subject": "pesalink_operator",
+   "attribute": "scheme_operator",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "Integrated Payment Services Limited (IPSL), owned by the Kenya Bankers Association, established 2015 under the National Payment System Act",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PesaLink is run by IPSL, a KBA-owned company set up in 2015",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_ipsl_pesalink_faq",
+   "source_path": "kenya/interoperability/pesalink_faqs.html",
+   "quote": "pesalink is operated by integrated payment services limited ipsl and owned by kenya bankers association kba ipsl was established in 2015 under the national payment system nps act",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_ipsl_02",
+   "subject": "pesalink_scope",
+   "attribute": "scheme_scope",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "An open, instant, interoperable network moving funds between banks, mobile money, Saccos and fintech wallets",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PesaLink is not bank-only: mobile money, Saccos and fintech wallets are participants",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_ipsl_pesalink_faq",
+   "source_path": "kenya/interoperability/pesalink_faqs.html",
+   "quote": "pesalink is an instant open and interoperable payment network facilitating the transfer of funds from one store of value to another bank account mobile money saccos fintech wallets etc via online banking bank mobile app or ussd of up to ksh 999 999",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_ipsl_03",
+   "subject": "pesalink_per_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "channel": "bank_transfer",
+    "actor": "consumer"
+   },
+   "value": 99999900,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "PesaLink will carry up to KSh 999,999 per transaction",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "periodic",
+   "source_id": "src_ke_ipsl_pesalink_faq",
+   "source_path": "kenya/interoperability/pesalink_faqs.html",
+   "quote": "you can transfer up to 999 999 per transaction however your bank may have limits for security reasons",
+   "notes": "The scheme ceiling is 999,999; the sending bank may impose a lower cap.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_ipsl_04",
+   "subject": "pesalink_pricing_model",
+   "attribute": "pricing_rule",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "No central scheme tariff: each participant bank sets its own PesaLink charges",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PesaLink fees vary by bank; there is no single national price",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_ipsl_pesalink_faq",
+   "source_path": "kenya/interoperability/pesalink_faqs.html",
+   "quote": "fees will vary from bank to bank kindly contact your bank for specific charges",
+   "notes": "Observed spread: Family Bank KSh 50 for 1,001-10,000 (2020), NCBA KSh 20 flat above 1,000 (2026), KCB advertises transfers from KSh 10.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_kcb_05",
+   "subject": "pesalink_ussd_code",
+   "attribute": "channel_code",
+   "conditions": {
+    "channel": "ussd",
+    "actor": "consumer"
+   },
+   "value_text": "*522#",
+   "unit": "enum",
+   "graded_by": "enum_match",
+   "value": null,
+   "display": "KCB customers reach PesaLink on USSD 522",
+   "effective_from": "2026-08-04",
+   "confidence": "single_source",
+   "volatility": "static",
+   "source_id": "src_ke_kcb_pesalink",
+   "source_path": "kenya/interoperability/kcb_pesalink.html",
+   "quote": "dial 522 select send money select pesalink instant transfer follow the prompts",
+   "notes": "Bank-specific USSD short code, not a scheme-wide code; other banks use their own. enum_match set: {*522#}.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_kepss_06",
+   "subject": "kepss_clearing_sources",
+   "attribute": "system_property",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "ACH, DhowCSD, PesaLink, Interswitch and Kenswitch card clearings and CDSC securities clearings settle in KEPSS each day",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "PesaLink is one of several retail clearings that net-settle in the central RTGS",
+   "effective_from": "2024-12-31",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_kepss_2024",
+   "source_path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "quote": "at present clearings from ach dhowcsd pesalink card switches interswitch and kenswitch cdsc for securities are settled in kepss each day",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_kepss_07",
+   "subject": "rtgs_settlement_window",
+   "attribute": "operating_hours",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "08:25 to 16:30, Monday to Friday",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "RTGS accepts payment instructions 08:25-16:30 on weekdays",
+   "effective_from": "2024-12-31",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_kepss_2024",
+   "source_path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "quote": "payment instructions may be submitted to rtgs for settlement between 8 25am and 4 30pm monday to friday",
+   "notes": "PesaLink itself is advertised as 24/7; the underlying RTGS window is weekday-only, so value dating differs.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_int_kepss_08",
+   "subject": "settlement_finality",
+   "attribute": "settlement_rule",
+   "conditions": {
+    "channel": "bank_transfer"
+   },
+   "value_text": "A payment settled in KEPSS is final and irrevocable once the payer's account is debited and the payee's credited",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Interbank settlement cannot be reversed once settled",
+   "effective_from": "2024-12-31",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_kepss_2024",
+   "source_path": "kenya/interoperability/cbk_electronic_payment_report_2024.pdf",
+   "quote": "payment instructions in kepss are deemed final and irrevocable once the sending participants account is debited and the receiving participant is credited",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

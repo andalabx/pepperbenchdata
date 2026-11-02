@@ -1,0 +1,279 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "products",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_mular_opay_ussd",
+   "name": "Mular: OPay USSD Codes",
+   "url": "https://mular.co/bank-codes/ussd/opay",
+   "path": "nigeria/products/ussd_codes_listing.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_kuda_transfers",
+   "name": "Kuda: Bank Transfers",
+   "url": "https://www.kuda.com/transfers/",
+   "path": "nigeria/products/kuda_transfers.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_gtbank_737",
+   "name": "Guaranty Trust Bank: Bank 737 codes",
+   "url": "https://www.gtbank.com/business-banking/services/e-business-services/bank-737",
+   "path": "nigeria/products/gtbank_737.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ng_gtbank_737_features",
+   "name": "Guaranty Trust Bank: Bank737 features",
+   "url": "https://737.gtbank.com/features",
+   "path": "nigeria/products/gtbank_737_features.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_pro_gtb_2026_01",
+   "subject": "ussd_transfer_to_same_bank",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank"
+   },
+   "attribute": "ussd_string",
+   "value_text": "*737*1*Amount*AccountNo#",
+   "display": "Dial *737*1*Amount*NUBAN account number# to transfer to a GTBank account",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "\\*737\\*1\\*Amount\\*AccountNo# | Transfers(GTBank)",
+   "notes": "Bank 737 code table; page undated, effective_from is the capture date.",
+   "source_id": "src_ng_gtbank_737",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/gtbank_737.md"
+  },
+  {
+   "id": "ng_pro_gtb_2026_02",
+   "subject": "ussd_transfer_to_other_banks",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank"
+   },
+   "attribute": "ussd_string",
+   "value_text": "*737*2*Amount*AccountNo#",
+   "display": "Dial *737*2*Amount*NUBAN account number# to transfer to other banks",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "\\*737\\*2\\*Amount\\*AccountNo# | Transfers (Other Banks)",
+   "notes": "",
+   "source_id": "src_ng_gtbank_737",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/gtbank_737.md"
+  },
+  {
+   "id": "ng_pro_gtb_2026_03",
+   "subject": "ussd_daily_transaction_limit",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank"
+   },
+   "attribute": "daily_limit",
+   "value": 100000000,
+   "unit": "NGN_minor",
+   "display": "*737# transfers carry a daily transaction limit of N1,000,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Daily transaction limit of N1,000,000",
+   "notes": "",
+   "source_id": "src_ng_gtbank_737_features",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/products/gtbank_737_features.html"
+  },
+  {
+   "id": "ng_pro_gtb_2026_04",
+   "subject": "ussd_authentication_threshold",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "ussd",
+    "amount_ngn": {
+     "min": 500001,
+     "max": 1000000
+    }
+   },
+   "attribute": "authentication",
+   "value_text": "hardware token only",
+   "display": "Transfers of N500,001 to N1,000,000 require the hardware token only",
+   "graded_by": "enum_match",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "500,001-1,000,000\nHardware Token Only",
+   "notes": "enum: hardware_token_only",
+   "source_id": "src_ng_gtbank_737_features",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/gtbank_737_features.html"
+  },
+  {
+   "id": "ng_pro_gtb_2026_05",
+   "subject": "ussd_account_opening",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank"
+   },
+   "attribute": "ussd_string",
+   "value_text": "*737*0#",
+   "display": "Dial *737*0# to open a GTBank account; no forms required",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "*737*0#",
+   "notes": "Immediately followed in the source by 'and follow the onscreen prompts. An account number will be created automatically'.",
+   "source_id": "src_ng_gtbank_737_features",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/gtbank_737_features.html"
+  },
+  {
+   "id": "ng_pro_gtb_2026_06",
+   "subject": "ussd_account_deposit_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank_737_opening"
+   },
+   "attribute": "max_single_deposit",
+   "value": 2000000,
+   "unit": "NGN_minor",
+   "display": "Account opened via *737*0#: maximum deposit per transaction is N20,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Maximum deposit per transaction is N20,000",
+   "notes": "",
+   "source_id": "src_ng_gtbank_737_features",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/products/gtbank_737_features.html"
+  },
+  {
+   "id": "ng_pro_gtb_2026_07",
+   "subject": "ussd_account_balance_cap",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "gtbank_737_opening"
+   },
+   "attribute": "max_balance",
+   "value": 10000000,
+   "unit": "NGN_minor",
+   "display": "Account opened via *737*0#: maximum account balance is N100,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "Maximum account balance is N100,000",
+   "notes": "",
+   "source_id": "src_ng_gtbank_737_features",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/products/gtbank_737_features.html"
+  },
+  {
+   "id": "ng_pro_kuda_2026_01",
+   "subject": "intra_bank_transfer_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "account_type": "kuda"
+   },
+   "attribute": "fee",
+   "value": 0,
+   "unit": "NGN_minor",
+   "display": "Kuda to Kuda transfers are unlimited and free",
+   "graded_by": "numeric_exact",
+   "effective_from": "2026-11-02",
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "quote": "We move money fast and offer unlimited free transfers from your Kuda account to other Kuda accounts.",
+   "notes": "",
+   "source_id": "src_ng_kuda_transfers",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/products/kuda_transfers.html"
+  },
+  {
+   "id": "ng_pro_kuda_2026_02",
+   "subject": "alias_payment",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "account_type": "kuda"
+   },
+   "attribute": "capability",
+   "value_text": "transfer by Kuda username instead of account number",
+   "display": "Kuda customers can create a username and transfer to another Kuda username without an account number",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "quote": "Create a Kuda username for quick transfers to other Kuda usernames.",
+   "notes": "",
+   "source_id": "src_ng_kuda_transfers",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/kuda_transfers.html"
+  },
+  {
+   "id": "ng_pro_opay_2026_01",
+   "subject": "ussd_transfer_to_other_banks",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "ussd",
+    "account_type": "opay"
+   },
+   "attribute": "ussd_string",
+   "value_text": "*955*2*amount*10 digit account number#",
+   "display": "Dial *955*2*amount*10 digit account number# to transfer from OPay to other banks",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2026-11-02",
+   "volatility": "static",
+   "confidence": "single_source",
+   "quote": "*955*2*amount*10 digit account number#",
+   "notes": "Third-party code listing, not OPay's own documentation. OPay's own page only confirms *955*131# and *955*132# for locking account/card.",
+   "source_id": "src_ng_mular_opay_ussd",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/products/ussd_codes_listing.html"
+  }
+ ],
+ "notes": "USSD strings are reproduced with the markdown escaping used in the source file."
+}

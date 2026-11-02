@@ -1,0 +1,269 @@
+{
+ "country": "Nigeria",
+ "regulator": "CBN",
+ "category": "agent_banking",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_ng_tnp_agent_banking_2025",
+   "name": "TNP: The CBN Agent Banking Guidelines 2025 - Key Innovations and Regulatory Implications",
+   "url": "https://tnp.com.ng/the-cbn-agent-banking-guidelines-2025-key-innovations-and-regulatory-implications/",
+   "path": "nigeria/agent_banking/tnp_agent_banking_2025.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ng_agt_tnp_2025_01",
+   "subject": "agent_cash_in_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "daily_limit",
+   "value": 10000000,
+   "unit": "NGN_minor",
+   "display": "Agent cash-in (deposit): N100,000 per customer per day",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "Cash-in (deposit) 100,000 500,000",
+   "notes": "Table row from Article 11 of the CBN Guidelines for the Operations of Agent Banking in Nigeria, 2025: daily N100,000, weekly N500,000.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_02",
+   "subject": "agent_cash_in_weekly_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "weekly_limit",
+   "value": 50000000,
+   "unit": "NGN_minor",
+   "display": "Agent cash-in (deposit): N500,000 per customer per week",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "Cash-in (deposit) 100,000 500,000",
+   "notes": "Weekly column of the same row.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_03",
+   "subject": "agent_cash_out_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "daily_limit",
+   "value": 10000000,
+   "unit": "NGN_minor",
+   "display": "Agent cash-out (withdrawal): N100,000 per customer per day",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "Cash-out (withdrawal) 100,000 500,000",
+   "notes": "Daily N100,000, weekly N500,000.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_04",
+   "subject": "agent_cash_out_weekly_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "weekly_limit",
+   "value": 50000000,
+   "unit": "NGN_minor",
+   "display": "Agent cash-out (withdrawal): N500,000 per customer per week",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "Cash-out (withdrawal) 100,000 500,000",
+   "notes": "",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_05",
+   "subject": "agent_bill_payment_daily_limit",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "daily_limit",
+   "value": 10000000,
+   "unit": "NGN_minor",
+   "display": "Agent bill payment: N100,000 per customer per day and per week",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "Bill Payment 100,000 100,000",
+   "notes": "Weekly limit equals the daily limit for bill payments.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_06",
+   "subject": "agent_daily_cumulative_withdrawal",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "agent",
+    "actor": "agent"
+   },
+   "attribute": "daily_limit",
+   "value": 120000000,
+   "unit": "NGN_minor",
+   "display": "An agent's daily cumulative withdrawal limit may not exceed N1,200,000",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "quote": "They must also ensure each Agent’s daily cumulative withdrawal limit does not exceed ₦1, 200, 000.00.",
+   "notes": "Float-side cap on the agent, distinct from the per-customer limits.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_07",
+   "subject": "agent_complaint_resolution",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent"
+   },
+   "attribute": "resolution_days",
+   "value": 7,
+   "unit": "days",
+   "display": "Customer complaints must be resolved within 7 days, reduced from 14",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "static",
+   "confidence": "single_source",
+   "quote": "all customer complaints must now be resolved within seven (7) days",
+   "notes": "",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_08",
+   "subject": "agent_exclusivity",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "agent"
+   },
+   "attribute": "principals",
+   "value": 1,
+   "unit": "count",
+   "display": "An agent may serve only one principal and belong to only one super-agent network at a time",
+   "graded_by": "numeric_exact",
+   "effective_from": "2025-10-06",
+   "volatility": "static",
+   "confidence": "corroborated",
+   "quote": "An Agent can now only engage with one Principal and belong to the network of only one Super Agent at any given time.",
+   "notes": "Duale, Ovia & Alex-Adedipe (Nov 2025) describes the same 'single-principal structure for agents'. The exclusivity provisions take effect 1 April 2026.",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_09",
+   "subject": "super_agent_conducting_agent_banking",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "business",
+    "account_type": "super_agent"
+   },
+   "attribute": "permitted",
+   "value": false,
+   "unit": "boolean",
+   "display": "Super agents are prohibited from conducting agent banking activities themselves",
+   "graded_by": "boolean",
+   "effective_from": "2025-10-06",
+   "volatility": "static",
+   "confidence": "single_source",
+   "quote": "Super Agents, previously authorised to carry out the dual role of an Agent and Super Agent are now explicitly prohibited from conducting Agent Banking activities.",
+   "notes": "",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_10",
+   "subject": "agent_account_opening_documents",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "agent"
+   },
+   "attribute": "permitted",
+   "value": false,
+   "unit": "boolean",
+   "display": "An agent may no longer collect or submit account-opening documentation for a financial institution",
+   "graded_by": "boolean",
+   "effective_from": "2025-10-06",
+   "volatility": "static",
+   "confidence": "single_source",
+   "quote": "The PoS operator can no longer collect or submit account-opening documentation or accept loan repayments on behalf of financial institutions.",
+   "notes": "",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  },
+  {
+   "id": "ng_agt_tnp_2025_11",
+   "subject": "individual_as_agent",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "agent"
+   },
+   "attribute": "eligible_entity",
+   "value_text": "individuals may be appointed directly as agents",
+   "display": "Individuals can now be appointed directly as agents, but may not appoint or manage other agents",
+   "graded_by": "judge_with_quote",
+   "effective_from": "2025-10-06",
+   "volatility": "static",
+   "confidence": "single_source",
+   "quote": "individuals may now be appointed directly as Agents, provided they meet the prescribed eligibility and due diligence requirements",
+   "notes": "",
+   "source_id": "src_ng_tnp_agent_banking_2025",
+   "effective_to": null,
+   "tolerance": null,
+   "value": null,
+   "unit": null,
+   "source_path": "nigeria/agent_banking/tnp_agent_banking_2025.html"
+  }
+ ],
+ "notes": "Limits come from the October 2025 agent banking guidelines as reported by TNP; the CBN's own guideline text is not in the corpus, so confidence is single_source."
+}

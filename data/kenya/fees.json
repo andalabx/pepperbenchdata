@@ -1,0 +1,379 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "fees",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Twelve tariff facts across M-PESA consumer, B2C, B2B, business till, Airtel Money, two bank PesaLink tariffs and Fuliza. All M-PESA and Airtel rows are quoted as raw extracted table rows because the columns interleave on extraction; display carries the cleaned reading. Retail tariff tables are the most volatile material in the corpus.",
+ "sources": [
+  {
+   "id": "src_ke_saf_charges_2026",
+   "name": "Safaricom PLC, M-PESA Charges (consumer tariffs and limits page, published 16 Aug 2022, last updated 4 Aug 2026)",
+   "url": "https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges",
+   "path": "kenya/fees/safaricom_mpesa_charges.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_b2c_tariff_2026",
+   "name": "Safaricom PLC, M-PESA B2C Payments to Registered Users tariff form",
+   "url": "https://www.safaricom.co.ke/images/Downloads/mpesa-b2c-registered-users.pdf",
+   "path": "kenya/fees/safaricom_b2c_tariff.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_b2b_tariff_2025",
+   "name": "Safaricom PLC, M-PESA B2B Tariff Form 2025",
+   "url": "https://www.safaricom.co.ke/images/Downloads/M-PESA-B2B-Tariff-Form-2025.pdf",
+   "path": "kenya/fees/safaricom_b2b_tariff_2025.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_business_till_tariff",
+   "name": "Safaricom PLC, M-PESA Business Till tariff (internal rates and charges)",
+   "url": "https://www.safaricom.co.ke/images/Downloads/the-mpesa-business-till-tariff.pdf",
+   "path": "kenya/fees/safaricom_business_till_tariff.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_airtel_money_tariff",
+   "name": "Airtel Money Kenya, Tariff and transaction limits",
+   "url": "https://airtelmoney.ke/tariffs_charges",
+   "path": "kenya/fees/airtel_money_tariffs.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_family_pesalink_2020",
+   "name": "Family Bank Kenya, PesaLink fees and charges effective 1 July 2020",
+   "url": "https://familybank.co.ke/?ways-to-bank=pesalink-direct-transfers",
+   "path": "kenya/interoperability/mkesho_pesalink.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_ncba_pesalink_2026",
+   "name": "NCBA Bank Kenya, PesaLink pricing change FAQ (11 August 2026)",
+   "url": "https://ncbagroup.com/wp-content/uploads/sites/2/2026/08/FAQ-Pesalink.pdf",
+   "path": "kenya/fees/ncba_pesalink_faq.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_fuliza",
+   "name": "Safaricom PLC, Fuliza (M-PESA overdraft) product page and tariff",
+   "url": "https://www.safaricom.co.ke/main-m-pesa/m-pesa-services/credit-and-savings/fuliza-mobile",
+   "path": "kenya/limits/fuliza_page.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_fee_saf_2026_01",
+   "subject": "mpesa_send_money_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 101,
+     "max": 500
+    }
+   },
+   "value": 700,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 7 to send KSh 101-500 to another M-PESA user",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "101 500 7 7 29",
+   "notes": "Row read from the tariff table: band 101-500, transfer to M-PESA users = 7, transfer to other-network registered mobile money users = 7, withdrawal at agent = 29. Columns interleaved in extraction; the 7 is the send-money charge.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_02",
+   "subject": "mpesa_send_money_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 50001,
+     "max": 250000
+    }
+   },
+   "value": 10800,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 108 to send KSh 50,001-250,000 (flat top band)",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "50 001 250 000 108 108 309",
+   "notes": "Top band of the M-PESA send-money table: 108 to M-PESA users, 108 to other networks, 309 agent withdrawal.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_03",
+   "subject": "mpesa_agent_withdrawal_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 2501,
+     "max": 3500
+    }
+   },
+   "value": 5200,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 52 to withdraw KSh 2,501-3,500 at an M-PESA agent",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "2 501 3 500 53 53 52",
+   "notes": "Band 2,501-3,500: send 53, other network 53, withdrawal 52.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_04",
+   "subject": "mpesa_agent_withdrawal_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 50001,
+     "max": 250000
+    }
+   },
+   "value": 30900,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 309 to withdraw KSh 50,001-250,000 at an M-PESA agent",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "50 001 250 000 108 108 309",
+   "notes": "Same row as the top send band; 309 is the agent withdrawal charge.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_05",
+   "subject": "mpesa_cash_deposit_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "value": 0,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Deposits at an M-PESA agent are free",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "other transactions kes all deposits free m pesa registration free buying airtime through m pesa free m pesa balance enquiry free change m pesa pin free",
+   "notes": "The page's 'other transactions' block lists deposits, registration, airtime, balance enquiry and PIN change as free.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_06",
+   "subject": "mpesa_b2c_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "api",
+    "actor": "business",
+    "amount_kes": {
+     "min": 101,
+     "max": 500
+    }
+   },
+   "value": 500,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 5 charged to the business for a B2C payment of KSh 101-500 to a registered user",
+   "effective_from": "2022-08-16",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_b2c_tariff_2026",
+   "source_path": "kenya/fees/safaricom_b2c_tariff.pdf",
+   "quote": "101 500 0 5 5",
+   "notes": "B2C tariff form: columns are customer charge / business charge / total, so 0 / 5 / 5 for band 101-500. Customer pays nothing.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2025_07",
+   "subject": "mpesa_b2b_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "api",
+    "actor": "business",
+    "amount_kes": {
+     "min": 101,
+     "max": 500
+    }
+   },
+   "value": 800,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 8 B2B charge for KSh 101-500, paid by the initiating organisation",
+   "effective_from": "2025-01-01",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_b2b_tariff_2025",
+   "source_path": "kenya/fees/safaricom_b2b_tariff_2025.pdf",
+   "quote": "b2b tariff band charge min max 1 49 2 50 100 3 101 500 8",
+   "notes": "Tariff form carries no explicit date; 2025 is from the document title. 'Charges are payable by the initiating party'.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_2026_08",
+   "subject": "merchant_collection_charge_cap",
+   "attribute": "fee_cap",
+   "conditions": {
+    "channel": "merchant",
+    "actor": "business"
+   },
+   "value": 20000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Business till collection charge is capped at KSh 200 per transaction",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_business_till_tariff",
+   "source_path": "kenya/fees/safaricom_business_till_tariff.pdf",
+   "quote": "the business owner will be charged a maximum of 0 5% and not more than ksh 200 per transaction for money collected on the till",
+   "notes": "The same page states 0.25% capped at KSh 200 in one table and 0.5% capped at KSh 200 in the note; only the KSh 200 cap is consistent across both.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_air_09",
+   "subject": "airtel_transfer_to_other_network_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "ussd",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 101,
+     "max": 500
+    }
+   },
+   "value": 700,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 7 to send KSh 101-500 from Airtel Money to another network",
+   "effective_from": null,
+   "confidence": "single_source",
+   "source_id": "src_ke_airtel_money_tariff",
+   "source_path": "kenya/fees/airtel_money_tariffs.md",
+   "quote": "101 500 free 7 29",
+   "notes": "Airtel table row 101-500: Airtel-to-Airtel free, transfer to other networks 7, withdrawal 29. The page states no effective or publication date and effective_from is therefore left null.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_fam_10",
+   "subject": "pesalink_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "bank_transfer",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 1001,
+     "max": 10000
+    }
+   },
+   "value": 5000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 50 PesaLink charge at Family Bank for KSh 1,001-10,000",
+   "effective_from": "2020-07-01",
+   "confidence": "single_source",
+   "source_id": "src_ke_family_pesalink_2020",
+   "source_path": "kenya/interoperability/mkesho_pesalink.html",
+   "quote": "minimum amount maximum amount charge 10 1000 0 1001 10000 50 10001 50000 60",
+   "notes": "Family Bank's own PesaLink tariff, effective 1 July 2020; transfers of KSh 10-1,000 are free.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_ncb_11",
+   "subject": "pesalink_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "bank_transfer",
+    "actor": "consumer",
+    "amount_kes": {
+     "min": 1001
+    }
+   },
+   "value": 2000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "KSh 20 flat (plus excise duty) for NCBA PesaLink transfers above KSh 1,000",
+   "effective_from": "2026-08-11",
+   "confidence": "single_source",
+   "source_id": "src_ke_ncba_pesalink_2026",
+   "source_path": "kenya/fees/ncba_pesalink_faq.pdf",
+   "quote": "transactions of above kes 1 000 kes 20 per transaction plus excise duty",
+   "notes": "Contrasts with Family Bank's banded 2020 tariff: PesaLink pricing is set by each participant bank, not centrally.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_fee_saf_12",
+   "subject": "fuliza_access_fee",
+   "attribute": "fee",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value": 1,
+   "unit": "percent",
+   "graded_by": "numeric_exact",
+   "display": "Fuliza charges a one-off 1% access fee on the amount drawn",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_fuliza",
+   "source_path": "kenya/limits/fuliza_page.html",
+   "quote": "fuliza charges a customer will be charged a one off 1% access fee and a daily maintenance fee is applied the next day",
+   "notes": "Daily maintenance fee is separate and carries 20% excise duty.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  }
+ ]
+}

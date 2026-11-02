@@ -1,0 +1,313 @@
+{
+ "country": "South Africa",
+ "regulator": "SARB",
+ "category": "fees",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_za_capitec_fees_2026",
+   "name": "Capitec Bank personal transaction fees 2026",
+   "url": "https://www.capitecbank.co.za/personal/transact/transact-fees/",
+   "path": "south_africa/fees/capitec_transact_fees_page.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_capitec_business_2026",
+   "name": "Capitec Bank business banking fees 2026",
+   "url": "https://www.capitecbank.co.za/globalassets/pages/documents-library/business/business-bank-fees-2026.pdf",
+   "path": "south_africa/fees/capitec_business_fees_2026.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_snapscan_merchant_2026",
+   "name": "SnapScan for business - pricing",
+   "url": "https://www.snapscan.co.za/merchant",
+   "path": "south_africa/fees/snapscan_merchant.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_za_gotyme_payshap",
+   "name": "GoTyme Bank - What are the transaction limits for PayShap?",
+   "url": "https://gotyme.co.za/personal/media/money-skills-landing/what-are-the-transaction-limits-for-payshap/",
+   "path": "south_africa/limits/gotyme_payshap_limits.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "za_fee_capitec_2026_01",
+   "subject": "capitec_main_account_monthly_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "account_type": "transactional"
+   },
+   "attribute": "fee",
+   "value": 750,
+   "unit": "ZAR_cents",
+   "display": "R7.50 per month on the Capitec Main Account",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "Monthly fee on the Main Account stays the same – **R7.50**",
+   "notes": "Fees include VAT. Capitec's own 2026 fee page."
+  },
+  {
+   "id": "za_fee_capitec_2026_02",
+   "subject": "capitec_to_capitec_payment_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "fee",
+   "value": 100,
+   "unit": "ZAR_cents",
+   "display": "R1.00 for a Capitec-to-Capitec payment",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "- **R1** Capitec to Capitec payment",
+   "notes": "Listed under '2026 key fees'."
+  },
+  {
+   "id": "za_fee_capitec_2026_03",
+   "subject": "capitec_payment_to_other_bank_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "fee",
+   "value": 200,
+   "unit": "ZAR_cents",
+   "display": "R2.00 for a payment to another South African bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "- **R2** Payment to other SA banks",
+   "notes": "Listed under '2026 key fees'."
+  },
+  {
+   "id": "za_fee_capitec_2026_04",
+   "subject": "capitec_immediate_payment_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app"
+   },
+   "attribute": "fee",
+   "value": 600,
+   "unit": "ZAR_cents",
+   "display": "R6.00 for an immediate (real-time) payment to any SA bank",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "- **R6** Immediate payment to all SA banks",
+   "notes": "Listed under '2026 key fees'."
+  },
+  {
+   "id": "za_fee_capitec_2026_05",
+   "subject": "capitec_debit_order_fee",
+   "assertion_type": "positive",
+   "attribute": "fee",
+   "value": 300,
+   "unit": "ZAR_cents",
+   "display": "R3.00 per debit order",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "- **R3** Debit order",
+   "notes": "Listed under '2026 key fees'."
+  },
+  {
+   "id": "za_fee_capitec_2026_06",
+   "subject": "capitec_atm_cash_withdrawal_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "atm",
+    "amount_zar": {
+     "per": 100000
+    }
+   },
+   "attribute": "fee",
+   "value": 1000,
+   "unit": "ZAR_cents",
+   "display": "R10.00 per R1,000 withdrawn at any bank's ATM in SA",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "- **R10** Cash withdrawals (per R1 000) at any bank’s ATM in SA",
+   "notes": "Value is the fee per R1,000 of cash withdrawn, not a flat fee."
+  },
+  {
+   "id": "za_fee_capitec_2026_07",
+   "subject": "capitec_send_cash_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "amount_zar": {
+     "per": 100000
+    }
+   },
+   "attribute": "fee",
+   "value": 1000,
+   "unit": "ZAR_cents",
+   "display": "R10.00 per R1,000 sent as cash",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "| Send cash10,11 | 10.00 per 1 000.00 | - | - |",
+   "notes": "Fee is charged per R1,000 of cash sent."
+  },
+  {
+   "id": "za_fee_capitec_2026_08",
+   "subject": "capitec_international_online_processing_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "merchant"
+   },
+   "attribute": "fee",
+   "value": 200,
+   "unit": "ZAR_cents",
+   "display": "R2.00 international online processing fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_fees_2026",
+   "source_path": "south_africa/fees/capitec_transact_fees_page.md",
+   "quote": "| International online processing fee3,6,7,8,12 | - | 2.00 | - |",
+   "notes": "Fixed fee; it does not scale with transaction value (note 4 of the schedule)."
+  },
+  {
+   "id": "za_fee_capitec_business_2026_01",
+   "subject": "capitec_business_account_monthly_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "account_type": "business"
+   },
+   "attribute": "fee",
+   "value": 5000,
+   "unit": "ZAR_cents",
+   "display": "R50.00 per month for Capitec Business Banking Account (min balance R150)",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-03-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_capitec_business_2026",
+   "source_path": "south_africa/fees/capitec_business_fees_2026.md",
+   "quote": "| Business Banking Account (maintain a minimum balance of R150) | 50.00 |",
+   "notes": "Business fee schedule, fees include VAT."
+  },
+  {
+   "id": "za_fee_snapscan_2026_01",
+   "subject": "snapscan_merchant_transaction_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "channel": "pos"
+   },
+   "attribute": "fee",
+   "value": 2.95,
+   "unit": "percent",
+   "display": "2.95% (excl. VAT) standard SnapScan merchant transaction fee",
+   "graded_by": "numeric_tolerance",
+   "tolerance": 0.01,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_snapscan_merchant_2026",
+   "source_path": "south_africa/fees/snapscan_merchant.html",
+   "quote": "Start with a standard rate of 2.95% (excl. VAT).",
+   "notes": "Rate decreases monthly with turnover; 2.95% is the entry rate. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_fee_snapscan_2026_02",
+   "subject": "snapscan_monthly_subscription_fee",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "fee",
+   "value": 0,
+   "unit": "ZAR_cents",
+   "display": "No monthly subscription fee for merchants",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_za_snapscan_merchant_2026",
+   "source_path": "south_africa/fees/snapscan_merchant.html",
+   "quote": "It’s free to sign up with SnapScan, and there are no monthly fees. You only pay as you earn.",
+   "notes": "Zero monthly fee; the merchant pays only per transaction. Source page undated; effective date recorded as the 2026-11-02 capture date."
+  },
+  {
+   "id": "za_fee_gotyme_2026_01",
+   "subject": "gotyme_payshap_fee_above_free_threshold",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "amount_zar": {
+     "min": 500000,
+     "max": 5000000
+    }
+   },
+   "attribute": "fee",
+   "value": 700,
+   "unit": "ZAR_cents",
+   "display": "R7.00 flat PayShap fee above R5,000 up to the R50,000 limit",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "source_id": "src_za_gotyme_payshap",
+   "source_path": "south_africa/limits/gotyme_payshap_limits.html",
+   "quote": "With GoTyme Bank you can send up to R5,000 free with a PayShap Instant Payment, then one flat fee of R7 up to the R50,000 limit.",
+   "notes": "Bank web page, undated; captured 2026-11-02."
+  }
+ ],
+ "notes": "Fee figures are Capitec's published 2026 schedule (valid 1 March 2026, fees include VAT) and SnapScan's merchant pricing. FNB's eWallet page was captured without a pricing table, so no FNB eWallet fee is asserted here. PayShap pricing is bank-set; only GoTyme's published PayShap fee is included."
+}

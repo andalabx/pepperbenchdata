@@ -1,0 +1,306 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "fraud",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_know_your_rights",
+   "name": "CBE - Consumer Protection: Know Your Rights (23 Mar 2023)",
+   "url": "https://www.cbe.org.eg/en/consumer-protection/know-your-rights",
+   "path": "egypt/fraud/cbe_know_your_rights.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_consumer_protection",
+   "name": "CBE - Consumer Protection (last updated 23 Mar 2023)",
+   "url": "https://www.cbe.org.eg/en/consumer-protection",
+   "path": "egypt/fraud/cbe_consumer_protection.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_lightspark_2025",
+   "name": "Lightspark - Egypt Instant Payments: Rails, Fees, and the Lightning Network (10 Oct 2025)",
+   "url": "https://www.lightspark.com/knowledge/egypt-instant-payments",
+   "path": "egypt/interoperability/lightspark_egypt_ipn.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "The corpus contains the CBE's consumer-protection instructions as a web summary, not the instrument itself, so time bars are the ones the CBE page states. No liability-shift or reimbursement percentage for unauthorised transactions appears in any document here, and none is asserted.",
+ "entries": [
+  {
+   "id": "eg_frd_rights_2023_01",
+   "subject": "complaint_reference_number_sla",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_days_to_issue_reference",
+   "value": 2,
+   "unit": "business_days",
+   "display": "Reference number within 2 business days (immediately as a rule)",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "When a complaint is submitted, the bank shall receive the complaint and provide the consumer with its reference number immediately or within a maximum of two business days from submission date.",
+   "notes": "The bank must give the reference immediately, or at most within two business days."
+  },
+  {
+   "id": "eg_frd_rights_2023_02",
+   "subject": "complaint_response_sla",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_days_to_respond",
+   "value": 15,
+   "unit": "business_days",
+   "display": "Bank must answer within 15 business days",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "The consumer's complaint shall be answered within a period not exceeding 15 business days from the date of its receipt, except for complaints related to transactions with third parties.",
+   "notes": "Complaints about transactions with third parties are carved out of the 15-day clock."
+  },
+  {
+   "id": "eg_frd_rights_2023_03",
+   "subject": "objection_window",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_days_to_object",
+   "value": 15,
+   "unit": "business_days",
+   "display": "15 business days to object to the first response",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "In case the consumer is not satisfied with the response of the bank, the complaint shall be re-submitted and the bank shall be notified in written form within a maximum of 15 business days from the date of the consumer receipt of the first response, with an explanation of the objection reason.",
+   "notes": "The objection must be in writing, with reasons."
+  },
+  {
+   "id": "eg_frd_rights_2023_04",
+   "subject": "silence_is_acceptance",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "silence_effect",
+   "value": null,
+   "value_text": "implicit acceptance of the bank's response",
+   "unit": "text",
+   "display": "No objection within 15 business days means acceptance",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "In case the complainant doesn’t submit an objection for a period of 15 business days from the date of receiving the response from the bank, this shall be considered as an implicit acceptance of the response.",
+   "notes": "A common misconception is that the complaint stays open indefinitely."
+  },
+  {
+   "id": "eg_frd_rights_2023_05",
+   "subject": "resubmission_response_sla",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "additional_days_to_respond",
+   "value": 15,
+   "unit": "business_days",
+   "display": "A further 15 business days to answer a resubmitted complaint",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "The bank will respond to the resubmitted complaint within a maximum of additional 15 business days.",
+   "notes": "Total worst case for a contested complaint is about 45 business days before escalation."
+  },
+  {
+   "id": "eg_frd_rights_2023_06",
+   "subject": "escalation_to_cbe",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "escalation_grounds",
+   "value": null,
+   "value_text": "no response in time, or the second response is refused",
+   "unit": "text",
+   "display": "Escalate to the CBE if the bank misses the clock or the second answer fails",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "The consumer has the right to escalate the complaint to the Central Bank of Egypt in case that no response has been received within the prescribed period or the second response from the bank is not accepted.",
+   "notes": "Complaints go to CBE headquarters or the CBE website; the CBE is not the first port of call."
+  },
+  {
+   "id": "eg_frd_rights_2023_07",
+   "subject": "bank_consumer_protection_unit",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "unit_required",
+   "value": null,
+   "value_text": "an independent consumer protection unit in each bank",
+   "unit": "text",
+   "display": "Every bank must run an independent consumer protection unit",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "The Consumer Protection Unit is the entity established at banks in accordance with the regulations of consumer protection for banks issued by the Central Bank of Egypt, and it is an independent unit at the bank specialized in dealing with, managing and resolving consumer complaints.",
+   "notes": "Set up under the CBE consumer protection regulations for banks. [normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "eg_frd_cp_2023_08",
+   "subject": "consumer_protection_rules_date",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "issue_date",
+   "value": null,
+   "value_text": "February 2019",
+   "unit": "text",
+   "display": "CBE Consumer Protection Instructions date from February 2019",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2019-02-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_consumer_protection",
+   "source_path": "egypt/fraud/cbe_consumer_protection.html",
+   "quote": "the Central Bank of Egypt has issued the Consumer Protection Instructions for banks in February 2019, in order to set clear foundations governing the relationship between banks and their consumers in all stages of dealings.",
+   "notes": "The IPN rules (4-3) require participants to comply with these instructions and their amendments."
+  },
+  {
+   "id": "eg_frd_cp_2023_09",
+   "subject": "statutory_consumer_protection_articles",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "statutory_basis",
+   "value": null,
+   "value_text": "Articles 216 to 220 of Law 194/2020",
+   "unit": "text",
+   "display": "Consumer protection powers sit in articles 216-220 of Law 194/2020",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2020-01-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_consumer_protection",
+   "source_path": "egypt/fraud/cbe_consumer_protection.html",
+   "quote": "Articles 216 to 220 stipulated the Central Bank’s competencies regarding consumer protection.",
+   "notes": ""
+  },
+  {
+   "id": "eg_frd_rights_2023_10",
+   "subject": "complaint_channels",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "channels",
+   "value": null,
+   "value_text": "call centre, website, branches, fax or email",
+   "unit": "text",
+   "display": "Four ways to file: call centre, website, branch, fax/email",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "Banks’ call center. The bank’s website. Through the different branches of the bank. Other electronic means such as fax and email.",
+   "notes": ""
+  },
+  {
+   "id": "eg_frd_rights_2023_11",
+   "subject": "fraud_reporting_step",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "first_action_on_fraud",
+   "value": null,
+   "value_text": "go to the nearest branch and/or call the bank's call centre immediately",
+   "unit": "text",
+   "display": "Report fraud to the branch or call centre at once",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_know_your_rights",
+   "source_path": "egypt/fraud/cbe_know_your_rights.html",
+   "quote": "In case of any fraud or theft happening on your accounts or the loss of any bank cards ( all kind of cards), you must head immediately to the nearest branch of the bank and/or contact your bank&rsquo;s call center to report the case , so that the bank can take the necessary measures immediately upon being notified.",
+   "notes": "The CBE's own advice; the bank then has to act on the notification. No statutory refund figure is stated in the corpus."
+  },
+  {
+   "id": "eg_frd_ls_2025_12",
+   "subject": "completed_transfer_irrevocability",
+   "assertion_type": "negative",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "reversible_after_success",
+   "value": false,
+   "value_text": "no; only failed transactions reverse automatically",
+   "unit": "text",
+   "display": "A successful InstaPay payment cannot be reversed",
+   "graded_by": "boolean",
+   "tolerance": null,
+   "effective_from": "2025-10-10",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_lightspark_2025",
+   "source_path": "egypt/interoperability/lightspark_egypt_ipn.html",
+   "quote": "real-time payments in Egypt, such as those on the InstaPay network, are irrevocable once successfully completed, although failed transactions are automatically reversed.",
+   "notes": "Recovery after a misdirected successful transfer depends on the recipient's consent or a refund flow, not a chargeback."
+  }
+ ]
+}

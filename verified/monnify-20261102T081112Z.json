@@ -1,0 +1,18 @@
+{
+ "provider": "monnify",
+ "environment": "sandbox/test",
+ "verified_at": "2026-11-02T08:11:12+00:00",
+ "harness": "verify_live.py",
+ "checks": [
+  {
+   "fact": "sandbox login endpoint exists and rejects missing credentials",
+   "status": 401,
+   "body": {
+    "requestSuccessful": false,
+    "responseMessage": "Unauthorized, supply authorization header",
+    "responseCode": "99"
+   },
+   "content_type": "application/json"
+  }
+ ]
+}

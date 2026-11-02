@@ -1,0 +1,284 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "limits",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Ten limit facts. The KSh 500,000 account and daily limits come from the August 2023 press release that announced them (effective 15 Aug 2023); the per-transaction cap now shown is KSh 250,000, up from the KSh 150,000 the same release still quoted, so the two numbers must not be mixed.",
+ "sources": [
+  {
+   "id": "src_ke_saf_charges_2026",
+   "name": "Safaricom PLC, M-PESA Charges (consumer tariffs and limits page, published 16 Aug 2022, last updated 4 Aug 2026)",
+   "url": "https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges",
+   "path": "kenya/fees/safaricom_mpesa_charges.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_airtel_money_tariff",
+   "name": "Airtel Money Kenya, Tariff and transaction limits",
+   "url": "https://airtelmoney.ke/tariffs_charges",
+   "path": "kenya/fees/airtel_money_tariffs.md",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_fuliza",
+   "name": "Safaricom PLC, Fuliza (M-PESA overdraft) product page and tariff",
+   "url": "https://www.safaricom.co.ke/main-m-pesa/m-pesa-services/credit-and-savings/fuliza-mobile",
+   "path": "kenya/limits/fuliza_page.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_limit_500k_2023",
+   "name": "Safaricom PLC press release, 'Safaricom gets approval to increase M-PESA account and daily transaction limits to KSh 500,000' (14 Aug 2023)",
+   "url": "https://www.safaricom.co.ke/media-center-landing/press-releases/safaricom-gets-approval-to-increase-m-pesa-account-and-daily-transaction-limits-to-ksh-500-000",
+   "path": "kenya/limits/safaricom_limit_increase_500k.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_emoney_2013",
+   "name": "Central Bank of Kenya, E-Money Regulation 2013 (National Payment System Act)",
+   "url": "https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf",
+   "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_daraja_express",
+   "name": "Safaricom Daraja developer portal, M-Pesa Express (STK Push) Simulate API reference",
+   "url": "https://developer.safaricom.co.ke/apis/MpesaExpressSimulate",
+   "path": "kenya/error_codes/daraja_express_simulate.md",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_lim_saf_2023_01",
+   "subject": "mpesa_account_balance_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "mpesa_wallet"
+   },
+   "value": 50000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Maximum M-PESA account balance KSh 500,000, in force from 15 August 2023",
+   "effective_from": "2023-08-15",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_limit_500k_2023",
+   "source_path": "kenya/limits/safaricom_limit_increase_500k.html",
+   "quote": "the higher account limit will be effective from tuesday 15 th august 2023 for all m pesa customers",
+   "notes": "Approved by the Central Bank of Kenya; raised from the previous KSh 300,000.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_saf_2023_02",
+   "subject": "mpesa_daily_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "mpesa_wallet"
+   },
+   "value": 50000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Maximum M-PESA daily transaction value KSh 500,000",
+   "effective_from": "2023-08-15",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_limit_500k_2023",
+   "source_path": "kenya/limits/safaricom_limit_increase_500k.html",
+   "quote": "m pesa customers are also set to enjoy an increased daily transaction limit of ksh 500 000 per day",
+   "notes": "A customer may make several transactions up to the daily aggregate.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_saf_2026_03",
+   "subject": "mpesa_per_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "mpesa_wallet"
+   },
+   "value": 25000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Maximum amount per M-PESA transaction KSh 250,000",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "maximum m pesa account balance kes 500 000 maximum daily transaction limit kes 500 000 maximum amount per transaction kes 250 000 minimum cash withdrawal at an m pesa agent kes 50",
+   "notes": "Replaces the KSh 150,000 per-transaction cap that the 2023 press release still quoted.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_saf_2026_04",
+   "subject": "mpesa_minimum_agent_withdrawal",
+   "attribute": "limit",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "value": 5000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Minimum cash withdrawal at an M-PESA agent is KSh 50",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "minimum cash withdrawal at an m pesa agent kes 50",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_dar_05",
+   "subject": "mpesa_minimum_transaction_amount",
+   "attribute": "limit",
+   "conditions": {
+    "channel": "api",
+    "actor": "consumer"
+   },
+   "value": 100,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Minimum M-PESA Express (STK Push) transaction amount KSh 1",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_saf_daraja_express",
+   "source_path": "kenya/error_codes/daraja_express_simulate.md",
+   "quote": "the minimum transaction amount is ksh 1",
+   "notes": "From the Daraja FAQ on M-PESA Express limits; the same answer restates 250,000 per transaction and 500,000 balance and daily limits.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_cbk_06",
+   "subject": "emoney_individual_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "emoney"
+   },
+   "value": 7500000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Statutory ceiling of KSh 75,000 per e-money account transaction, unless CBK approves a higher limit",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "every e money account issued shall be subject to an individual transaction limit that shall not exceed seventy five thousand shillings and an aggregate monthly load limit of one million shillings",
+   "notes": "The proviso lets the Bank approve higher limits for specific categories of account, which is how M-PESA operates at 250,000. The regulation's own effective-date clause is blank in the captured text; 2013 is the instrument year.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_cbk_07",
+   "subject": "emoney_aggregate_monthly_load_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "emoney"
+   },
+   "value": 100000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Aggregate monthly load limit KSh 1,000,000 across all e-money accounts a holder has",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "should an e money issuer issue more than one e money account to an e money holder the total amount loaded into all the e money accounts of that e money holder shall not exceed the aggregate monthly load limit",
+   "notes": "Load limit is a statutory aggregate across accounts, not per account. effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_air_08",
+   "subject": "airtel_per_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "airtel_money"
+   },
+   "value": 25000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Airtel Money maximum amount per transaction KSh 250,000",
+   "effective_from": null,
+   "confidence": "single_source",
+   "source_id": "src_ke_airtel_money_tariff",
+   "source_path": "kenya/fees/airtel_money_tariffs.md",
+   "quote": "maximum amount per transaction is kes 250 000",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_air_09",
+   "subject": "airtel_daily_transaction_limit",
+   "attribute": "limit",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "airtel_money"
+   },
+   "value": 50000000,
+   "unit": "KES_minor",
+   "graded_by": "numeric_exact",
+   "display": "Airtel Money maximum daily transaction value KSh 500,000",
+   "effective_from": null,
+   "confidence": "single_source",
+   "source_id": "src_ke_airtel_money_tariff",
+   "source_path": "kenya/fees/airtel_money_tariffs.md",
+   "quote": "maximum daily transaction value is kes 500 000",
+   "notes": "Page states the limits were revised with the Central Bank of Kenya during the COVID-19 period; no exact date is given, so effective_from is null.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_lim_saf_10",
+   "subject": "fuliza_zero_limit_condition",
+   "attribute": "eligibility",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value_text": "Customers on the network for less than six months have a zero Fuliza limit",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "display": "Fuliza limit is nil until the line has been active at least 6 months",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "value": null,
+   "source_id": "src_ke_saf_fuliza",
+   "source_path": "kenya/limits/fuliza_page.html",
+   "quote": "customers on our network for less than 6 months will have a zero limit",
+   "notes": "Limit size is set from line activity and repayment record, and can move up or down.",
+   "tolerance": null,
+   "effective_to": null,
+   "volatility": "periodic",
+   "assertion_type": "positive"
+  }
+ ]
+}

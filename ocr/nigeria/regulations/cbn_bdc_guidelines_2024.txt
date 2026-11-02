@@ -1,0 +1,2564 @@
+=== page 1 ===
+Central Bank of Nigeria
+
+Financial Policy & Regulation Department
+Plot 33, Abubakar Tafawa Balewa Way
+
+Central Business District
+
+P.M.B. 0187, Garki, Abuja - Nigeria.
+
+Email: ford@cbn.gov.ng
+
+Website: www.cbn.gov.ng
+Phone: 09-462-37402, 09-462-37404
+
+FPRD/DIR/PUB/CIR/002/010
+May 22, 2024
+
+CIRCULAR TO ALL BUREAU DE CHANGE OPERATORS AND STAKEHOLDERS
+IN THE FINANCIAL SERVICES INDUSTRY
+
+REGULATORY AND SUPERVISORY GUIDELINES FOR BUREAU DE CHANGE
+OPERATIONS IN NIGERIA
+
+As part of reforms to re-position the Bureau De Change (BDC) sub-sector to
+play its envisioned role in the foreign exchange market in Nigeria, the Central
+Bank of Nigeria (CBN) issued the Draft Operational Guidelines for BDC
+Operations in Nigeria in February 2024, for stakeholder comments/inputs.
+
+Following the conclusion of the stakeholder consultations and in exercise of the
+powers conferred on it by Section 56 of the Banks and Other Financial
+Institutions Act (BOFIA) 2020, the CBN hereby issues the attached Regulatory
+and Supervisory Guidelines for Bureau De Change Operations in Nigeria 2024
+for compliance by ail operators and promoters of proposed BDCs in Nigeria.
+
+The Guidelines, amongst others, introduces new licensing requirements and
+categories of BDCs as well as revises the permissible activities, financial
+requirements, corporate governance requirements and AML/CFT/CPF
+provisions for BDCs.
+All existing BDCs and promoters of proposed BDCs are to note the following:
+1. Existing BDCs
+All existing BDCs shall:
+
+a) Re-apply for a new license according to any of the Tiers or license
+category of their choice as provided in the Guidelines.
+
+|
+
+=== page 2 ===
+b) Meet the minimum capital requirements for the license category
+applied for within six (6) months from the effective date of the
+Guidelines.
+
+2. Applicants for New BDC License
+
+Applicants for new BDC license are required to meet the conditions for the
+grant of license in accordance with the Tier or category of BDC chosen as
+stipulated in the Guidelines.
+
+Receipt and processing of applications for license shall commence from the
+effective date of the Guidelines.. All applications should be submitted
+electronically and addressed to the Director, Financial Policy & Regulation
+Department, Central bank of Nigeria, Abuja. In this regard, interested applicants
+should submit the following information to: bdclicense@cbn.gov.ng to enable
+us create them on the portal for the submission of applications:
+
+a) Name of the promoter
+
+b) Name of the proposed BDC
+
+c) E-mail address of the promoter
+d) Phone number of the promoter.
+
+This Guidelines supersedes the Revised Operational Guidelines for Bureau De
+Change in Nigeria issued in November 2015 and all related circulars and
+directives.
+
+The Guidelines take effect from June 3, 2024.
+
+a
+
+x eS 7
+
+HARUNA B. MUSTAFA
+DIRECTOR, FINANCIAL POLICY AND REGULATION DEPARTMENT
+
+=== page 3 ===
+Classified as Confidential
+
+REGULATORY AND SUPERVISORY
+GUIDELINES FOR BUREAUX DE
+CHANGE OPERATIONS IN NIGERIA
+
+FINANCIAL POLICY AND REGULATION DEPARTMENT
+MAY 2024
+
+=== page 4 ===
+TABLE OF CONTENTS
+
+TABLE OF CONTENTS 200i ceeeseseeececscscseseeseanaesesesesececsesesssenavacsesesesececseassseatavasseeeetesseaeaaeaes ii
+LIST OF ACRONYMS o.oo. eceeseseceeecscscseseescsnscsesesececscsessssacavacscsesecececasassasasavassesesesesecaeaasaeananaes ili
+GLOSSARY... eee cc ccseeseseseseseeeecscecsesesesecacseseseececscsesssaecassesesesecssscassasaeenaeseseeeesecessesaeseenanaesaeanananes Vv
+1.0 INTRODUCTION. eee ce csc eecscseseseseeesecscsessecsnasacseseeececscaesessnavaeseesesesessssaeeenanaeees 1
+2.0 CATEGORIES OF BDC LICENCE ooo eee cece cseenseseseseseeeesessesesssstenanasseeeeteees 1
+3.0 NON-ELIGIBLE PROMOTERS 0.0. ceeseseeeeeeecscsessseenssseseseeesesscsessseenanaeseeeeeteees 2
+4.0 PERMISSIBLE AND NON-PERMISSIBLE ACTIVITIES 0000. eeeeseeesseeeeseeeeeeeeenseeees 3
+5.0 SOURCING OF FOREIGN CURRENCIES ..0. cece ee eseseeeeeeteesesesesseetenseeeenanaees 4
+6.0 SALE OF FOREIGN CURRENCIES BY BDC .00.. eect ects eeeseseeeseeneeseeeeteteeas 5
+7.0 FINANCIAL REQUIREMENTS QW ceseseneneeeeecscsescnenaeasseseseeesesscsesssesenanaeseeneteees 6
+8.0 APPLICATION FOR LICENCE... ceeeeeseceeececnescsesscataeseseeeesessssesssseenanaeseeeeteses 6
+9.0 CORPORATE GOVERNANCE REQUIREMENTS 200.0... ccc cece cscseneeseetseseeteeeteees 8
+10.0 OPERATIONS OF BDGS...0. ccc eeseseeeeeeeeceetensasseansesesecesecscaesssseesasaeseeeetesseaeeeees 14
+11.0 SUPERVISION AND MONITORING OF BDGS wu... cece cs eneeeeeeseseseeeneteeseseneeees 18
+12.0 FRANCHISING STANDARDS ..0..o cece ceceeeeeeesecscseeeeeeaeseseseeesecseseseseenasaesesetesesseseneeaes 20
+13.0 BRANCH EXPANSION AND RATIONALISATION .00.... ee ceeceeeseteeeceeeeeeeeeeecseeeeaeeeeeenees 21
+14.0 FUNCTIONAL UNITS... eeetseeceseceeesecscseseecetaeseseseeesssscsessaeesasasieenesaeeeeeeesees 21
+15.0 PRUDENTIAL REQUIREMENTS... ccc censeseseseseeeeeeececsessnseetasaeseenetessesenenaes 21
+16.0 AML/CFT/CPF REQUIREMENTS... cece ceesseeeseseseeeeesecsesessseetasaeseenetesseseneeaes 22
+17.0 ACCOUNTING AND AUDIT OF FINANCIAL STATEMENTS. .....0 cee eeeeneeeteeeeeeeees 22
+18.0 PRESERVATION OF RECORDS ...0.. occ cece ccc eeeeeseseseseeeececscsesesseetasaesesenetesseseneeaes 23
+19.0 REVOCATION OF LICENCE... cece cece cscsesseeseaeseseseeesecscsessaeetaraeseenesesseseneeaes 23
+20.0 CHANGE IN OWNERSHIP STRUCTURE ...0. cece eseseteeetececsesssseetanaeseeeanaees 24
+21.0 PENALTIES ooo cece cseecscseeeececscsesesecscacacseseecececsesssaasasassesesecesesaesssasenanasseeeeeees 24
+22.0 AMENDMENT ..00 cece cecesecsenececsesersesesscsssenseecscsasacseecsesssacsesecsasssaesesecsssanaeeesgs 24
+23.0 EFFECTIVE DATE ooo cceeseceeececscseneseeseacacseseececscsesssescavaesesesesesscaesssaeecsenasaananaes 24
+APPENDICES ue cccecscscseeeeseeeseseseececscsesesesavanseseseecececsessacecaeacsesesesecessasseanavasseeeeetesseaeeesees 25
+ii
+
+Classified as Confidential
+
+=== page 5 ===
+LIST OF ACRONYMS
+
+AIP Approval-in-Principle
+
+AML/CFT/CPF Anti-Money Laundering/Combating the Financing of Terrorism/Countering
+Proliferation Financing
+
+BDC Bureau de Change
+
+BOFIA Banks and Other Financial Institutions Act, 2020
+
+BTA Business Travel Allowance
+
+BVN Bank Verification Number
+
+CAC Corporate Affairs Commission
+
+CARP Centralised AML/CFT/CPF Rendition Platform
+
+CBN Central Bank of Nigeria
+
+CCl Certificate of Capital Importation
+
+CTC Certified True Copy
+
+ED Executive Director
+
+FCT Federal Capital Territory
+
+FIFX Financial Institutions Foreign Exchange Reporting System
+
+FinA Financial Analysis Tools
+
+FIRS Federal Inland Revenue Service
+
+FPRD Financial Policy and Regulation Department
+
+IMTO International Money Transfer Operators
+
+INED Independent Non-Executive Director
+
+ITD Information Technology Department
+
+KYC Know Your Customer
+
+MD/CEO Managing Director/Chief Executive Officer
+
+MEMART Memorandum and Articles of Association
+
+NAFEM Nigerian Autonomous Foreign Exchange Market
+
+NCCG Nigerian Code of Corporate Governance
+
+NED Non-Executive Director
+
+NFEM Nigerian Foreign Exchange Market
+
+NFIU Nigerian Financial Intelligence Unit
+
+NGN Nigerian Naira
+
+NIBSS Nigeria Interbank Settlement System
+
+NIS Nigeria Immigration Service
+
+Classified as Confidential
+
+ili
+
+=== page 6 ===
+NOP
+
+Net Open Position
+
+OFI
+
+Other Financial Institutions
+
+OFISD
+
+Other Financial Institutions Supervision Department
+
+PEP
+
+Politically Exposed Persons
+
+PTA
+
+Personal Travel Allowance
+
+RTGS
+
+Real Time Gross Settlement
+
+SLA
+
+Service Level Agreement
+
+TED
+
+Trade and Exchange Department
+
+TIN
+
+Tax Identification Number
+
+TRMS
+
+Trade Monitoring System
+
+USD
+
+United States Dollar
+
+Classified as Confidential
+
+iv
+
+=== page 7 ===
+GLOSSARY
+
+For the purpose of this Guidelines, the following terms will have the meanings assigned hereunder:
+
+S/N TERM MEANING
+, aor A preliminary approval granted pending the fulfillment of
+1 | Approval-in-Principle certain conditions for the grant of a right or licence.
+2 | Branch An extension of a BDC’s operation in another location.
+A company licensed by the CBN to carry on only retail
+3 | Bureau de Change foreign exchange business in Nigeria and whose sole object
+shall be the carrying on of such business.
+4 | Business Travel Allowance A limited foreign currency allowance for persons travelling
+out of Nigeria on business trips.
+i hich
+5 | Corporate Governance The system of rules, practices, and processes by which a
+company is directed and controlled.
+6 Currency Transaction Used by BDCs to report to regulators any currency
+Report transaction greater than USD10,000.
+An account with a local bank, designed to enable a customer
+7 | Domiciliary Account deposit, withdraw, receive or transfer foreign currency
+through a local bank.
+, ; A licence which confers on the BDC all the rights and
+8 | Final Licence *¥ ;
+privileges to operate as a lawful entity.
+9 | Foreign Currency A currency other than the Nigerian Naira.
+An entity that a BDC grants authorisation to use its name
+10 | Franchise and branding to offer services to members of the public that
+the BDC is permitted to offer.
+11 | Franchisee A company that holds a franchise granted by a Tier 1 BDC.
+12 | Franchising Policy A manual or policy developed by the franchisor to guide the
+operations of franchisees.
+13 | Franchising Standards These are the rules, policies and techniques required to be
+followed to maintain consistency and quality of a franchise.
+14 | Franchisor A BDC that grants a license to a franchisee.
+15 | Net Open Position Limit Amount of foreign currency a BDC is allowed to hold at a
+point in time.
+Nigerian Foreign Exchange | It is the trading segment for investors, exporters and end
+16 .; ;
+Market users that allows for foreign currency trading to be made at
+
+Classified as Confidential
+
+=== page 8 ===
+an exchange rate determined by prevailing market
+circumstances.
+17 | Non-Eligible Promoters Natural and legal persons disqualified from owning a BDC
+in Nigeria.
+48 | Personal Travel Allowance Alimited foreign currency allowance for individuals travelling
+out of Nigeria on personal trips.
+A type of payment card that is preloaded with a certain
+149 | Prepaid cards currency (dollar or naira), and can be used to make
+P purchases, pay bills, or obtain cash from ATMs in the case
+of naira denominated cards only.
+An approval that allows an applicant to proceed to the final
+21 | Provisional Approval stage of an application process upon fulfilling certain
+conditions.
+22 | Prudential Requirements The ratios and targets to ensure the soundness of a BDC
+and the financial system.
+A compilation of individuals, companies, or countries that
+23 | Sanctions List are restricted or penalized by governments or international
+bodies.
+. ; A document that a BDC must file with the Nigerian Financial
+Suspicious Transaction ;
+24 Intelligence Unit (NFIU) whenever there is a suspected case
+Report .
+of money laundering or fraud.
+A BDC which is authorized to operate on a national basis. It
+25 | Tier 1 BDC can open branches and may appoint franchisees, subject to
+written approval of the CBN.
+. A BDC which is authorized to establish up to five (5)
+26 | Ter 2 BDC branches in a State of the Federation or the FCT.
+oe The web portal designed and developed for the automation
+27 | Trade Monitoring System of CBN foreign exchange trade related processes.
+
+Classified as Confidential
+
+vi
+
+=== page 9 ===
+REGULATORY AND SUPERVISORY GUIDELINES FOR BUREAU DE CHANGE
+OPERATIONS IN NIGERIA
+
+1.0 INTRODUCTION
+
+1.1. This Guidelines is issued by the Central Bank of Nigeria (CBN or the Bank) in exercise
+of the powers conferred on it by the Central Bank of Nigeria Act, 2007 (CBN Act) and
+the Banks and Other Financial Institutions Act (BOFIA) 2020.
+
+1.2 — It should be read in conjunction with the CBN Act, the BOFIA, subsidiary legislations
+made under the Acts, extant Corporate Governance Guidelines for Bureaux de Change
+(BDCs), as well as written directives, notices, circulars and guidelines that the CBN may
+issue henceforth from time to time.
+
+1.3 This Guidelines supersedes the Revised Operational Guidelines for Bureaux De
+Change, 2015 and any other circular or guidelines on BDCs issued by the Financial
+Policy and Regulation Department.
+
+1.4 No person shall carry on the business of BDC in Nigeria except with the prior
+authorization of the CBN as prescribed under this Guidelines.
+
+2.0 CATEGORIES OF BDC LICENCE
+
+There shall be two (2) categories of BDC licence as follows:
+
+2.1. Tier 1 BDC Licence
+A Tier 1 BDC:
+a. May operate in any State of the Federation and the Federal Capital Territory (FCT).
+
+b. May establish branches and appoint franchisees in any State and FCT, subject to
+the written approval of the CBN.
+
+c. Shall maintain a minimum distance of one (1) kilometre between its branches, its
+branch and a franchisee, and between its franchisees.
+
+d. Shall exercise oversight on its franchisees. All franchisees shall adopt their
+franchisor's name, logo, branding, technology platform and regulatory rendition
+requirements.
+
+Classified as Confidential
+
+=== page 10 ===
+2.2
+
+3.0
+
+Classified as Confidential
+
+e.
+
+Shall comply with the franchising standards prescribed in this Guidelines.
+
+Tier 2 BDC Licence
+
+A Tier 2 BDC is:
+
+a.
+
+b.
+
+Permitted to operate only in one State of the Federation or the FCT.
+
+Allowed to establish five (5) branches in a State of operation, subject to the written
+approval of the CBN.
+
+Required to maintain a minimum distance of one (1) kilometre between its branches.
+
+Not allowed to appoint franchisees.
+
+NON-ELIGIBLE PROMOTERS
+
+The following shall not be allowed to participate in the ownership of BDCs, directly or
+indirectly:
+
+a.
+b.
+c.
+
+wm oo
+
+ee oa
+
+Commercial, merchant, non-interest and payment service banks.
+
+Financial holding companies.
+
+Other Financial Institutions (OFIs), including International Money Transfer
+Operators and payment service providers.
+
+Serving staff of financial services regulatory and supervisory agencies.
+
+Serving staff of regulated financial services providers.
+
+Government at all levels.
+
+Public officers as defined in the 5° Schedule Part IV of the Constitution of the
+Federal Republic of Nigeria.
+
+Non-Governmental Organizations.
+
+Cooperative societies.
+
+Charitable organizations.
+
+Academic and religious institutions.
+
+Non-Nigerian natural persons.
+
+Non-resident non-regulated companies.
+
+Telecommunication services providers.
+
+Sanctioned individuals and entities.
+
+A shareholder in another BDC (whether directly or indirectly).
+
+Any other persons that the CBN may from time to time designate.
+
+=== page 11 ===
+4.0
+
+4.1
+
+4.2
+
+Classified as Confidential
+
+PERMISSIBLE AND NON-PERMISSIBLE ACTIVITIES
+
+Permissible Activities
+
+A BDC may:
+
+a.
+b.
+C.
+
+d.
+e.
+f.
+
+Acquire foreign currency from the sources listed in Section 5.0 of this Guidelines.
+Sell foreign exchange as detailed in Section 6.0 of this Guidelines.
+
+Open foreign currency and naira accounts with Commercial or Non-Interest Banks
+(CNIBs).
+
+Collaborate with its bankers to issue prepaid debit cards.
+
+Serve as cash-out point for International Money Transfer Operators (IMTOs).
+Engage in any other permissible activity that the CBN may specify.
+
+Non-Permissible Activities
+
+A BDC or its franchisee shall not engage in the following activities:
+
+a.
+b.
+
+yr apes 37 AT
+
+Street-trading of foreign currencies.
+
+Maintaining any type of account for any member of the public, including accepting
+any asset for safe keeping/custody.
+
+Taking deposits from or granting loans to members of the public in any currency and
+in any form.
+
+Retail sale of foreign currencies to non-individuals, except for Business Travel
+Allowance (BTA).
+
+International outward transfers.
+
+Off-shore business or maintaining foreign correspondent relationship with any
+foreign establishment.
+
+Opening or maintaining any account with any bank or financial institution outside
+Nigeria without the prior written approval of the CBN.
+
+Acting as custodian of foreign currency on behalf of customers.
+
+Receiving international inward transfers, except for BDCs that serve as cash-out
+points for IMTOs.
+
+Forwards, futures, options, derivatives and speculative transactions.
+
+Obtaining foreign exchange from sources other than those listed in Section 5.0.
+Selling foreign exchange on credit to any customer.
+
+. Trade-related import activities.
+
+Serving as payment or collection agents on behalf of customers.
+Dealing in gold or other precious metals.
+Carrying on capital market, insurance and/or pension sector activities.
+Establishing subsidiaries.
+Foreign exchange transaction that involves illicit financial flows.
+Financing of political activities.
+
+3
+
+=== page 12 ===
+t. Dealing in cryptocurrency or with entities dealing in cryptocurrency, crypto assets or
+such other virtual assets.
+
+u. Carrying on any other business not expressly permitted by this Guidelines.
+
+v. Conducting any other activity that the CBN may designate as “non-permissible” from
+time to time.
+
+5.0 SOURCING OF FOREIGN CURRENCIES
+
+a. A BDC may purchase foreign currency from:
+
+i. Tourists.
+
+ii. | Returnees from the diaspora.
+
+iii. Expatriates with foreign exchange inflows from work, travel, investment or
+their domiciliary accounts.
+
+iv. | Residents with foreign exchange inflows from work, travel, investment or their
+domiciliary accounts.
+
+v. — International Money Transfer Operators (IMTOs).
+
+vi. Embassies, High Commissions and other diplomatic missions in Nigeria-
+except those whose countries are listed on the United Nations Security
+Council (UNSC) Sanctions List or any other official list.
+
+vii. | Hotels that are authorised buyers of foreign currencies.
+
+viii. The Nigerian Foreign Exchange Market (NFEM) subject to meeting the
+requirements for authorised dealership licence.
+
+ix. | Any other source that the CBN may specify from time to time.
+
+b. The following conditions shall apply for the sourcing of foreign currencies by BDCs:
+
+i. Sellers of the equivalent of USD10,000 and above to a BDC are required to
+declare the source of the foreign exchange and comply with all AML/CFT/CPF
+regulations and foreign exchange laws and regulations.
+
+ii. | Customers may sell foreign currencies in their individual domiciliary accounts
+with Nigerian banks to BDCs. All such sales shall be credited to the BDC’s
+Nigerian domiciliary account.
+
+iii. | Payments for all digital/transfer purchases of foreign currency by a BDC shall
+be by transfer to the customer’s Naira account. If the customer is non-resident
+(whether Nigerian or not), a BDC may issue the customer a prepaid NGN card.
+Where such a card is issued, relevant maximum credit and cumulative limits,
+in line with relevant Know Your Customer (KYC) requirements, shall apply.
+
+iv. Payments to customers for cash purchases of foreign currency, the equivalent
+of above USD500, shall be by transfer to the customer’s Naira bank account.
+
+Classified as Confidential
+
+=== page 13 ===
+6.0
+
+Classified as Confidential
+
+If the customer is non-resident (whether Nigerian or not), a BDC shall issue
+the customer a prepaid NGN card.
+
+Payments to customers for cash purchases of foreign currency of the
+equivalent of USD500 and below may be made in cash.
+
+SALE OF FOREIGN CURRENCIES BY BDCs
+
+The sale of foreign currencies by BDCs shall comply with the following conditions:
+
+a. The purpose of sale shall be for:
+
+Vi.
+
+Personal Travel Allowance (PTA).
+
+Business Travel Allowance (BTA), provided that a person who receives
+BTA on behalf of a non-individual entity shall not be entitled to PTA for the
+same trip.
+
+Payment of overseas medical bills.
+
+Payment of school fees abroad.
+
+Payment of professional examination and annual subscription fees.
+Repurchase of unused Naira from a non-resident. For this purpose,
+repurchase shall only occur upon presentation of the receipt issued at the
+point of purchase of the Naira. The restriction in (c) below on cash payments
+shall not apply if the original transaction was a cash transaction.
+
+b. All applications for PTA or BTA shall be through the CBN’s Trade Monitoring System
+(TRMS).
+
+c. A beneficiary of BTA or PTA may receive up to 25 per cent of the foreign currency
+in cash, while at least 75 per cent shall be transferred to the customer’s prepaid
+
+card.
+
+d. Payments for all sales of foreign exchange by BDCs shall be by transfer to the
+BDC’s Naira account.
+
+e. Notwithstanding (c) above, a beneficiary of BTA or PTA of the equivalent of USD500
+or less may receive his/her BTA or PTA in cash.
+
+=== page 14 ===
+7.0 FINANCIAL REQUIREMENTS
+
+a. The following financial requirements, which may vary at the discretion of the CBN,
+shall apply to BDCs:
+
+AUTHORISATION
+FINANCIAL REQUIREMENTS TIER 1 TIER 2
+(N’ million) (N’ million)
+Minimum capital requirement 2,000 500
+Non-Refundable Application { 0.25
+Fee
+Non-Refundable Licence Fee 5 2
+
+b. All capital deposits for a BDC licence and any subsequent capital injection shall be
+subject to verification by the CBN.
+
+8.0 APPLICATION FOR LICENCE
+
+The application for BDC licence shall be processed in two stages, namely: Approval-in-
+Principle (AIP) and final licence.
+
+8.1. Approval-in-Principle
+
+An application for the grant of a BDC licence shall be addressed to the Governor of the
+CBN and shall be accompanied by documents listed in Appendix 1.
+
+In considering an application for a licence, the CBN shall be satisfied that:
+
+a. The objects of the proposed BDC as disclosed in its Memorandum and Articles of
+Association are in line with the services listed in the provisions of Section 4.1 of this
+Guidelines, and other related circulars issued by the Bank from time to time.
+
+b. The major shareholders, members of the board of directors and the top
+management of the proposed BDC have passed the “fit and proper” persons’ test.
+
+c. The capital emanated from acceptable sources and earning projections of the
+proposed BDC are realistic.
+
+d. The payment for the shares by the shareholders meets the requirements in terms
+of mode (no cash funding allowed), is properly receipted and duly documented.
+
+Where the CBN is satisfied with the application, which includes verifying the capital
+
+contributions of the prospective shareholders, it may issue an AIP to the promoters. The
+6
+
+Classified as Confidential
+
+=== page 15 ===
+proposed BDC shall not be incorporated with the Corporate Affairs Commission (CAC)
+until AIP is granted by the CBN in writing, a copy of which shall be presented to the CAC
+for registration.
+
+An AIP shall not be construed as approval to commence business.
+
+8.2 Requirements for the Grant of Final Licence
+
+Grant of final licence shall be implemented in two (2) sub-stages, namely: Provisional
+Approval and Final Licence.
+
+8.2.1 Provisional Approval
+
+a. Not later than six months after the grant of AIP, the promoters of a proposed BDC
+shall submit an application for the grant of provisional approval to the Director,
+Financial Policy and Regulation Department (FPRD), CBN, Abuja.
+
+b. The application shall be accompanied by the supporting documents listed in
+Appendix 5.
+
+c. Upon satisfactory review of the documents submitted, the CBN shall conduct pre-
+licensing inspection to assess the readiness of the proposed BDC to commence
+operations. The inspection shall involve amongst others:
+
+Assessing infrastructure (physical and information technology) provided for
+the BDC’s operation.
+
+Sighting the original copies of the documents submitted in support of the
+application for final licence.
+
+Sighting the Shareholders’ Register.
+
+Sighting the share certificate issued to each investor.
+
+Assessing security, fire protection and insurance arrangements.
+
+Meeting with representatives of the Board and Management team.
+
+d. Where the pre-licensing inspection is satisfactory, the proposed BDC may be
+granted provisional approval to enable it commence integration with relevant
+agencies and institutions.
+
+8.2.2 Final Licence
+
+Upon the grant of provisional approval, promoters of the proposed BDC shall submit
+an application for final licence within sixty (60) days, accompanied with the supporting
+documents listed in Appendix 6.
+
+Classified as Confidential
+
+=== page 16 ===
+9.0
+
+9.1
+
+Classified as Confidential
+
+The proposed BDC shall have:
+
+a.
+
+Concluded the integration of its IT infrastructure with that of the CBN: System
+integration with the CBN will cover connectivity with its extranet gateway (virtual
+private network) and relevant systems such as the returns rendition system,
+Financial Institutions Foreign Exchange Reporting System (FIFX), Financial
+Analysis (FinA), Centralised AML/CFT/CPF Rendition Platform (CARP), TRMS, Tax
+Identification Number Verification Portal of Federal Inland Revenue Service (FIRS)
+and any other application that the CBN may deploy.
+
+Concluded the integration of its IT infrastructure with that of the Nigeria Interbank
+Settlement System (NIBSS): System integration with NIBSS will cover connectivity
+with Bank Verification Number (BVN) database.
+
+Obtained an operational code from the Director, Trade and Exchange Department.
+
+Obtained a written confirmation from NFIU, indicating that it has been created on
+the Unit’s platform and is able to render returns.
+
+Completed any other activity outlined in the provisional approval.
+
+Provided a written attestation of its Board confirming readiness to commence
+operations.
+
+Following satisfactory review, the CBN may approve the grant of final licence to the
+proposed BDC, to enable it commence operations.
+
+Upon notification of the CBN’s decision to grant licence, the proposed BDC shall pay
+the non-refundable licence fee in line with Section 7.0 (a) above, through RTGS to a
+designated CBN account, and submit the evidence to the Director, FPRD, after which a
+final licence may be issued.
+
+CORPORATE GOVERNANCE REQUIREMENTS
+
+BOARD COMPOSITION
+
+In addition to the extant corporate governance requirements, BDCs are to adhere to
+the following:
+
+a.
+
+The minimum and maximum number of directors on the Board of a BDC shall be as
+follows:
+
+Category of BDC Minimum Maximum
+Tier 1 5 7
+Tier 2 3 5
+
+=== page 17 ===
+Classified as Confidential
+
+. The number of independent non-executive directors (INEDs) shall be at least one
+
+(1) for Tier 1 and Tier 2 BDCs, provided that where a BDC is publicly listed, it shall
+comply with the applicable provisions of CAMA 2020, as amended.
+
+. A Tier 1 BDC shall have an Executive Director (ED) other than the MD/CEO. A Tier
+
+2 BDC may have an ED apart from the MD/CEO.
+
+. No Board of a BDC shall comprise only one gender.
+
+. To achieve gender diversity and promote a gender-inclusive Board, BDCs shall take
+
+a practical approach to women’s economic empowerment in line with the Nigerian
+Sustainable Banking Principles.
+
+Prospective and current directors on the Board of a BDC are required to disclose
+potential and existing board memberships of other entities. Where a current director
+in a BDC gets appointed to the Board of any financial services entity, a written
+approval of the CBN shall be required for the prospective director or current director
+to continue in office.
+
+. In the event a director elects to resign his appointment on the Board, such director
+
+shall submit a written notice of resignation addressed to the Chairman of the Board,
+ninety (90) days before the effective date of resignation.
+
+. In addition to (g) above, where an INED elects to resign, and such resignation would
+
+result in non-compliance with the required number of INEDs, the Board shall within
+the ninety (90) days’ notice period appoint a replacement.
+
+Where a director elects to resign from the board on account of unresolved concerns
+pertaining to the running of the BDC, such director shall detail the concerns in a
+written statement to the Chairman for circulation to the Board.
+
+The resigning director shall within seven days of the notice of resignation, forward a
+copy of the statement in (i) above to the Director, Other Financial Institutions
+Supervision Department (OFISD), CBN.
+
+. Where a Non-Executive Director (NED) resigns from the Board, and such
+
+resignation results in NEDs not being in the majority, the Board shall within the
+ninety (90) days’ notice period appoint a replacement.
+
+Where a merger, acquisition, take-over, or any form of business combination
+involves the appointment of a director from the Board of the legacy institution, the
+length of service of such director shall include both the periods served pre and post-
+combination.
+
+=== page 18 ===
+9.2
+
+9.3
+
+9.3.1.
+
+ASSESSING PROPRIETY
+
+In assessing the propriety of prospective shareholders, directors, and senior
+management staff, the CBN shall consider information available to it on the individuals,
+including information that may be obtained from relevant agencies such as law
+enforcement and regulatory agencies, to enable it assess their integrity and suitability
+to function in the roles proposed.
+
+In assessing a candidate’s integrity and suitability, elements to be considered may
+include the individual’s soundness of mind, financial history, conviction history, dismissal
+from office, involvement in falsification of documents, failure to disclose material
+information to regulators, and disqualification or suspension from practicing the
+individual’s profession.
+
+In line with the BOFIA, all the conditions stipulating the exclusion of certain individuals
+from the management of banks and other financial institutions shall apply to the
+management of BDCs, except with written permission of the Governor of the CBN.
+
+FITNESS REQUIREMENTS
+
+Chairman
+
+a. The minimum qualification and experience of the Chairman of the Board shall be as
+stated for non-executive directors in Section 9.3.2 below.
+
+b. The Chairman shall meet formally with the Non-Executive Directors (NEDs) at least
+once every year.
+
+9.3.2. Non-Executive Directors
+
+Classified as Confidential
+
+a. A non-executive director (NED) shall possess:
+
+i. A first degree or its equivalent in any discipline with a minimum of five (5)
+years post-graduation work experience, or ten (10) years post-secondary
+school experience in financial services or related industries.
+
+ii. | Proven skills and competencies in their fields.
+
+iii. | Knowledge of the operations of financial institutions and relevant laws and
+regulations guiding the operations of BDCs.
+
+iv. Ability to understand financial statements and make meaningful contributions
+to board deliberations.
+
+10
+
+=== page 19 ===
+b. At least two NEDs shall have a minimum of three (3) years financial industry
+experience.
+
+c. The maximum tenure of a NED shall be three (3) terms of four (4) years each.
+
+9.3.3. Independent Non-Executive Directors
+
+a. An independent non-executive director (INED) shall meet the requirements outlined
+for NEDs in Section 9.3.2 above.
+
+b. In addition to the requirements of the Nigerian Code of Corporate Governance
+(NCCG) 2018, an INED shall not:
+
+i. be a former director or former employee who has served in the BDC at a
+senior management level.
+
+ii. | beaformer employee of the BDC below senior management level, within the
+last five (5) years.
+
+iii. have any immediate family member as a current employee in senior
+management position in the BDC.
+
+iv. have an immediate family member as a former employee of the BDC who
+has served at senior management level in the preceding five (5) years.
+
+v. have material relationship with the BDC or any of its officers, major
+shareholders, subsidiaries and affiliates; a relationship which may impair the
+INED’s ability to make independent judgments or act objectively.
+
+Vi. provide financial, legal or consulting services to the BDC or has done so in
+the past five (5) years.
+
+vii. borrow funds from the BDC or its officers.
+
+viii. be part of management, executive committee or board of trustees of an
+institution, charitable or otherwise, supported by the BDC.
+
+c. It is the responsibility of an INED to inform the Board whenever his/her
+independence is impaired as soon as such occurs.
+
+d. The Board shall annually ascertain and confirm the continued independence of each
+INED.
+
+e. An INED shall serve for a single term of four (4) years, which may be renewed only
+once for another term of four (4) years.
+
+11
+
+Classified as Confidential
+
+=== page 20 ===
+An ED or NED (whether existing or former) shall not become an INED in the same
+BDC.
+
+An INED shall not become an ED, MD/CEO or NED in the same BDC.
+
+Where there is more than one (1) INED, a formal meeting of only the INEDs shall
+hold at least once in a year.
+
+9.3.4. Managing Director/Chief Executive Officer
+
+a.
+
+9.3.5.
+
+Classified as Confidential
+
+The Managing Director/Chief Executive Officer (MD/CEO) of a Tier 1 BDC shall
+possess:
+i. Aminimum of first degree or its equivalent in any discipline.
+ii. | Aminimum of ten (10) years post-graduation experience, out of which at least
+five (5) must have been in the financial services industry, and at least three
+(3) at the senior management level.
+
+The Managing Director/Chief Executive Officer (MD/CEO) of a Tier 2 BDC shall
+possess:
+i. A minimum of first degree or its equivalent in any discipline.
+ii. | Aminimum of five (5) years post-graduation experience, out of which at least
+three (3) must have been in the financial services industry, and at least two
+(2) at the senior management level.
+
+The tenure of the MD/CEO shall be in accordance with the terms of engagement
+with the BDC but subject to a maximum period of fifteen (15) years. Such tenure
+may be broken down into periods not exceeding five (5) years at a time.
+
+Upon expiration of the maximum tenure, the individual shall not be eligible for re-
+appointment in executive capacity in the same BDC.
+
+Executive Director
+
+An executive director shall possess:
+i. | Aminimum of first degree or its equivalent in any discipline.
+ii. | Aminimum of five (5) years post-graduation experience, out of which at least
+three (3) must have been in the financial services industry, and at least two
+(2) at the senior management level.
+
+The tenure of an executive director shall be in accordance with the terms of
+engagement with the BDC but subject to a maximum period of fifteen (15) years.
+Such tenure may be broken down into periods not exceeding five (5) years at a time.
+
+Provided that where an executive director becomes the MD/CEO, the maximum
+12
+
+=== page 21 ===
+cumulative tenure as executive director and MD/CEO in the BDC shall not exceed
+twenty (20) years.
+
+9.3.6. Senior Management (Head of Department)
+a. Ahead of department shall possess a minimum of:
+i. First degree or its equivalent in any discipline;
+ii. | Eight (8) years post-graduation work experience, out of which at least, five
+(5) must have been in the financial services industry and at least, two (2) at
+managerial level.
+
+b. The following officers shall report directly to the Board or its relevant committee, with
+indirect reporting to the MD/CEO:
+
+i. Head, Risk Management and Internal Audit
+ii. Company Secretary/Head, Legal
+iii. © Head, Compliance
+
+c. The appointment and removal of the officers listed in ‘b’ above shall be done by the
+Board, subject to CBN’s ratification.
+
+d. Serving officers of financial services regulatory and supervisory agencies shall not
+be eligible for appointment by any BDC.
+
+e. Retired principal officers of financial services regulatory and supervisory agencies
+from the level of director and above shall not be eligible for appointment by any BDC
+until after two (2) years of their exit from the agencies, or as may be determined by
+the CBN from time to time.
+
+9.4 EXTERNAL AUDITORS
+
+a. The external auditors shall be appointed by the Board, subject to ratification by
+shareholders at a general meeting. The external auditors shall not resume until the
+BDC has obtained approval of the CBN.
+
+b. The tenure of an external audit firm in any BDC shall not exceed ten (10)
+consecutive years, subject to the rotation of audit engagement partner at least once
+every five (5) years. Such firm shall not be re-appointed until after a cool-off period
+of five (5) consecutive years.
+
+c. Subject to the approval of the CBN, there shall be a cool-off period of three (3) years
+between the retirement of a partner from an audit firm currently auditing a BDC and
+appointment of such partner, to the Board of the BDC.
+
+d. A former staff of a BDC employed by a firm providing audit services shall observe a
+
+Classified as Confidential
+
+cool-off period of two (2) years before participating in the audit of the same BDC.
+13
+
+=== page 22 ===
+10.0
+
+Classified as Confidential
+
+e.
+
+Before a BDC can engage any member of the audit team as an employee, two (2)
+years’ cool-off period shall be observed.
+
+An audit firm shall not provide audit services to a BDC if one of the BDC’s top
+management staff was employed by the firm and worked on the BDC’s audit during
+the immediate past three (3) years.
+
+OPERATIONS OF BDCs
+
+a. ABDC shall deal in bank notes and coins, plastic cards and such other businesses
+
+as permitted in Section 4.1 of this Guidelines.
+
+A BDC shall ensure the confidentiality and protection of the personal information of
+its customers in line with the Nigerian Data Protection Act 2023.
+
+All transactions by residents shall only commence after electronic retrieval of the
+potential customer's BVN or Tax Identification Number (TIN) from the NIBSS or
+FIRS databases, respectively, and the details confirmed to match with the potential
+customer's standard identification document.
+
+All transactions by non-residents shall only commence after obtaining a copy of the
+potential customer’s passport identification document and validation with the
+relevant Nigerian agency.
+
+For foreign currency cash purchases:
+
+i. Sellers of USD10,000 and above shall be required to declare the source of
+the foreign exchange.
+
+ii. For all customer-present transactions, all the Naira proceeds shall be
+electronically credited or transferred to the same customer's naira account or
+prepaid card.
+
+iii. | For foreign currency purchases on arrival or departure at Border Control
+Areas from:
+
+e Nigerians — BDCs shall transfer the Naira proceeds to the same
+customer's naira account, provided that as allowed in Section 6.0 (e),
+payments to customers for cash purchases of foreign currency of the
+equivalent of USD500 and below may be made in cash.
+
+e Non-residents visitors without active accounts — BDCs shall credit a
+prepaid NGN card with the proceeds in line with relevant KYC
+
+requirements. This card shall be obtained from a licensed CNIB only.
+
+14
+
+=== page 23 ===
+e The non-resident visitors shall be identified using their international
+passport or other valid travel documents at the time of sales or purchase
+of forex to or from a BDC.
+
+f. For foreign currency sales:
+
+i. BDCs may sell foreign currency in the equivalent of USD4,000 and USD5,000
+for PTA and BTA, respectively, to an individual once every three months.
+
+Sale of foreign currencies to intending travellers shall be supported by
+relevant documents, including:
+
+e = BVN/TIN.
+e Duly completed e-Form A on the TRMS.
+e Valid international passport.
+e =: Valid visa.
+e Valid international return ticket.
+e In addition, for BTA:
+o Letter of request from the corporate body stating the purpose of the
+visit addressed to the processing BDC,
+o Certificate of the business registration or incorporation,
+Letter of invitation from the overseas business partner, and
+Tax clearance certificate.
+
+The amount of foreign currency sold and date of sale shall be endorsed
+on the passport. A photocopy of the documents listed above, forex
+endorsement page and sales receipt shall be filed in a sequential order by
+the BDC. The stamp to be adopted by BDCs should contain the following
+details:
+
+FOreign CUITENCY: ............eceeeeee ee eee ees
+Amount of FX Sold: ..............0:eeeeeeee eee
+PUIPOSE: ...........eceeeeeeee eee ee es
+
+Value in Naira: ...............:0ceeeeee ees
+Date: ............ccceeeeeeee eens
+
+Authorized Signature: ...............::666
+
+iii BDCs may sell foreign currency up to the equivalent of USD5,000 to a
+customer for medical bills once every three (3) months. Requests for such
+payment shall be supported with the following documents:
+
+e Duly completed e-Form A on the TRMS,
+e A letter of reference from a specialist doctor, or a specialist hospital in
+Nigeria, 15
+
+Classified as Confidential
+
+=== page 24 ===
+Classified as Confidential
+
+Vi.
+
+Vil.
+
+viii.
+
+e Valid international passport,
+
+e Valid visa,
+
+e Valid air ticket, and
+
+e Letter issued by the overseas specialist doctor stating the cost of
+treatment.
+
+BDCs may sell foreign currency up to the equivalent of USD10,000 to a
+customer for school fees once a year. Requests for such payment shall be
+supported with the following documents:
+
+e Duly completed e-Form A on the TRMS,
+
+e Evidence of admission to the course or programme,
+
+e School invoice, and
+
+e For post-graduate studies, photocopy of first-degree certificate or its
+equivalent and certified true copy of statement of result by the awarding
+institution.
+
+BDCs may sell foreign currency up to the equivalent of USD2,000 to a
+customer for professional examination fee and annual professional
+subscription. Requests for such payment shall be supported with the
+following documents:
+
+e Duly completed e-Form A on the TRMS,
+e Evidence of registration or membership, and
+e Invoice from the professional body.
+
+The CBN may review the amounts and frequencies of sale of foreign
+exchange from time to time.
+
+Where the invoice for any payment in respect of (ii), (iii) or (iv) above exceeds
+the amounts provided for under this Guidelines, BDCs shall process such
+transactions in line with the prescribed limits.
+
+Outward transfers by a BDC for medical bills, school fees and professional
+examination/subscription fees shall be through its account with a CNIB.
+
+Payments for medical bills, school fees and __ professional
+examination/subscription fees shall be remitted directly to the account of the
+hospital, school or professional body, specified in the invoice. For the
+avoidance of doubt, no payment shall be made to any third party other than
+to the hospital, school or professional body.
+
+16
+
+=== page 25 ===
+Classified as Confidential
+
+ix. A beneficiary of foreign currency sale by a BDC may receive up to 25 per
+cent of the amount in cash, while at least 75 per cent shall be transferred
+electronically to the beneficiary’s prepaid card.
+
+x. Sales of the equivalent of USD500 and below by a BDC to a PTA or BTA
+beneficiary may be settled by the buyer in cash, while sales above USD500
+shall be settled by electronic transfer to the BDC’s Naira account.
+
+To participate in the Nigerian Foreign Exchange Market (NFEM) as a dealer, a BDC
+shall apply to the Director, Trade & Exchange Department (TED), CBN, for
+authorised dealership licence.
+
+Every BDC shall conspicuously display its buying and selling rates. Such rates shall
+apply throughout all its branches, and where applicable, its franchisees. Disclaimers
+or statements by a BDC to the effect that an exchange rate indication is not to be
+relied on, are prohibited.
+
+ABDC shall not give customers price indications which are misleading or make price
+comparisons which are not genuine or fair.
+
+Every BDC shall maintain adequate records of all its transactions for transparency
+and compliance with CBN Guidelines, AML/CFT/CPF provisions, circulars or
+directives.
+
+BDCs shall issue electronic statements/receipts showing details of the transactions
+with the customers, including BDC’s location, customer's name, exchange rate,
+amount, and date and time of transaction.
+
+BDCs shall maintain electronic records showing details of the transactions with the
+customers, including BDC’s location, customer’s name and bank details, BVN/TIN,
+exchange rate, amount, number of identity document obtained, and date and time
+of transaction.
+
+. All sales or purchases of foreign exchange shall be properly documented and
+
+recorded as may be required by the CBN. Such documents should be arranged
+sequentially and made available to CBN and other regulatory authorities on
+demand.
+
+All BDCs shall maintain politically exposed persons and beneficial ownership
+registers.
+
+BDCs shall screen customers against sanctions lists prior to transactions.
+17
+
+=== page 26 ===
+11.0
+
+Classified as Confidential
+
+Every BDC shall transact business at its registered office, branch or franchisee
+location as approved by the CBN.
+
+Every BDC shall have a functional website to facilitate engagement and
+communication with stakeholders and the general public.
+
+No BDC, its shareholder, director or officer shall use any personal or corporate
+account other than the BDC’s account to transact the business of the BDC.
+
+Without prejudice to a BDC’s discretion to open for more extended hours of
+business, each BDC shall ensure that it is open for business operations from 8.00
+a.m. to 4.00 p.m. each working day in every of its locations.
+
+Every BDC and its franchisee (where applicable) shall open both domiciliary and
+Naira accounts with a maximum of three (3) CNIBs in Nigeria and inform the CBN
+accordingly. The accounts shall be used solely for day-to-day operations.
+
+SUPERVISION AND MONITORING OF BDCs
+
+a.
+
+BDCs are required to comply with all extant rules and regulations prescribed by the
+Bank.
+
+The CBN shall closely supervise and monitor the operations of BDCs.
+
+The CBN shall continue to publish the list of all BDCs and their registered places of
+business periodically, for the information and benefit of members of the public.
+
+BDCs shall render the following returns and any other returns as may be required
+by the CBN in the prescribed format:
+
+18
+
+=== page 27 ===
+RETURN FREQUENCY TO BE RENDERED THROUGH
+
+Sources of Funds Daily Financial Institutions Foreign Exchange
+Reporting System (FIFX)
+
+Sources of Funds Monthly FIFX
+
+Customer Information Daily FIFX
+
+Customer Information Monthly FIFX
+
+Forex Sales to End Users Daily FIFX
+
+Forex Sales to End Users Monthly FIFX
+
+Forex Sales and Purchases Daily FIFX
+
+Forex Sales and Purchases Monthly FIFX
+
+Statement of Assets and Liabilities Daily Financial Analysis (FinA)
+
+Income Statement Daily FinA
+
+Statement of Assets and Liabilities Monthly FinA
+
+Income Statement Monthly FinA
+
+Audited Financial Statements Annually FinA
+
+Classified as Confidential
+
+Returns with “daily” frequency shall be rendered not later than 10:00 a.m. of the
+following day. Returns with “monthly” frequency shall be rendered on or before the
+5th day of the subsequent month, while the audited financial statements shall be
+submitted not later than March 31 of the year following the period the statements
+relate to.
+
+The CBN may change the intervals for rendition of the returns and statements
+periodically.
+
+BDC returns on “Forex Sales to End Users” and “Forex Sales and Purchases” shall
+include sales and purchases from all sources.
+
+The records of the BDCs shall be made readily available to CBN examiners as and
+when requested. Where a BDC fails to provide the required records, appropriate
+sanctions shall be imposed.
+
+Every director of a BDC shall execute the Code of Conduct for Directors and ensure
+strict adherence to its provisions.
+
+Every BDC shall conspicuously display a copy of its licence; exchange rates; Anti-
+Money Laundering, Combating the Financing of Terrorism and Countering the
+Proliferation of Weapons of Mass Destruction (AML/CFT/CPF) caution notices; and
+approved abridged audited financial statements at each of its place of business.
+
+19
+
+=== page 28 ===
+12.0
+
+Classified as Confidential
+
+FRANCHISING STANDARDS
+
+In line with this Guidelines, Tier 1 BDCs may appoint franchisees. Where franchisees
+are appointed, the franchisors shall be guided by the following standards:
+
+a.
+
+b.
+
+Each franchisor shall have a franchising policy to be approved by the CBN.
+
+Franchisors shall be primarily responsible for monitoring the operations of their
+franchisees to ensure that they align with the franchisor’s standards.
+
+Franchisors shall obtain a written approval from the Director, Other Financial
+Institutions Supervision Department (OFISD), CBN prior to appointment of
+franchisees.
+
+Franchisees shall be limited liability companies and have the words “xxx BDC
+Franchise” in their names where ‘xxx’ implies the name of the Franchisor.
+
+The same IT requirements shall apply to franchisees as they do to branches of the
+franchisors.
+
+The franchisor shall be responsible for submitting consolidated reports to the CBN
+on its operations and those of its franchisees.
+
+The franchisor and its franchisees shall have the same branding standards.
+Notwithstanding, a franchisee shall prominently display in its office that it is a
+franchise of the franchisor.
+
+. Franchisees shall comply with the policies and procedures of their franchisors.
+
+A franchisor shall appoint a maximum of five (5) franchisees in a State and the FCT.
+
+A franchisor shall not appoint a franchisee in a State where it does not have a
+branch.
+
+Monitoring of all franchisees in a State shall be handled by a branch of the franchisor
+in the State or a dedicated unit in the Head Office responsible for monitoring all
+franchisees. This is without prejudice to the right of the CBN to send examiners to
+any franchisee location for supervisory oversight.
+
+Except at airports, there shall be a distance of at least one (1) kilometre between a
+branch of a BDC and another branch or any of its franchisees. Similarly, there shall
+be a distance of at least one (1) kilometre between franchisees of the same BDC.
+
+20
+
+=== page 29 ===
+13.0 BRANCH EXPANSION AND RATIONALISATION
+a. ABDC may establish branches as permitted by Section 2 of this Guidelines.
+
+b. The prior written approval of the CBN is required for the change of location of any
+branch or franchisee outlet.
+
+c. The prior written approval of the CBN shall also be required for the closure of any
+branch location or termination of a franchise relationship.
+
+14.0 FUNCTIONAL UNITS
+
+Every BDC shall establish the following functional departments/divisions/units at the
+minimum:
+
+a. Operations/Information Technology.
+
+Compliance.
+
+Company Secretariat/Legal Services.
+
+Risk Management and Internal Audit.
+
+Finance and Administration.
+
+©2905
+
+15.0 PRUDENTIAL REQUIREMENTS
+
+BDCs are required to observe the following prudential requirements:
+
+a. Net Open Position (NOP) limit in foreign currency of the equivalent of 30 per cent of
+its shareholders’ funds unimpaired by losses or as may be determined by the CBN
+from time to time.
+
+b. Limit total borrowing to 50 per cent of shareholders’ funds unimpaired by losses.
+
+c. Maintain insurance cover over cash (both Naira and foreign currency) in office and
+in transit, fire, and staff fidelity.
+
+d. Ensure that no dividend is paid until:
+i. all its preliminary expenses, organizational expenses, shares selling
+commission, brokerage, amount of losses incurred, and other capitalized
+
+expenses not represented by tangible assets have been completely written
+off.
+
+ii. it has met the required minimum capital for the category of BDC.
+
+iii. | adequate provisions have been made to the satisfaction of the CBN, for
+
+actual and contingent losses on assets, liabilities, off balance sheet
+21
+
+Classified as Confidential
+
+=== page 30 ===
+16.0
+
+17.0
+
+Classified as Confidential
+
+commitments and such unearned incomes as are derivable therefrom.
+
+iv. it has satisfied corporate governance and prudential requirements stipulated
+by the CBN.
+
+AML/CFT/CPF REQUIREMENTS
+
+Every BDC shall comply with the requirements of Money Laundering (Prevention and
+Prohibition) Act, 2022, Terrorism (Prevention and Prohibition) Act, 2022 and any other
+relevant laws and regulations that include the following elements:
+
+“92950
+
+AML/CFT/CPF Policy.
+
+Development of Compliance Unit and function.
+
+Compliance Officer designation and duties.
+
+Cooperation with the competent or supervisory authorities.
+
+Conduct of Customer Due Diligence.
+
+Monitoring and filing of suspicious transactions reports with the Nigerian Financial
+Intelligence Unit (NFIU) and other reporting requirements.
+
+Record keeping of all transactions.
+
+AML/CFT/CPF employee training.
+
+ACCOUNTING AND AUDIT OF FINANCIAL STATEMENTS
+
+a. ABDC shall ensure that it maintains appropriate books of accounts that are free of
+
+material errors and omissions and fairly reflect the transactions of the BDC.
+
+The financial statements shall be prepared in line with standards approved by the
+Financial Reporting Council of Nigeria.
+
+BDCs shall subject their financial statements to external audit by an appointed
+auditor.
+
+The audited financial statements and the abridged version of the accounts shall be
+submitted to the Director, OFISD, CBN, for approval for publication, not later than
+three (3) months after the end of its accounting year. After such approval, a BDC
+may publish such financial statements on its website and in a national newspaper.
+
+No BDC shall publicise or publish its audited financial statements in any newspaper
+without the written approval of the CBN.
+
+The external auditor shall submit a copy of the management letter to the CBN not
+later than three (3) months after the end of the financial year to which the financial
+statements relate.
+
+22
+
+=== page 31 ===
+18.0
+
+PRESERVATION OF RECORDS
+
+Every BDC shall maintain all documents obtained from its customers for at least six (6)
+years after the consummation of the transaction.
+
+19.0
+
+REVOCATION OF LICENCE
+
+The CBN may revoke the licence of a BDC on any of the following grounds:
+
+a. Where the BDC or any of its directors/officers:
+
+Vi.
+
+Vil.
+
+viii.
+
+Xi.
+
+Xil.
+
+xiii.
+
+XIV.
+
+Classified as Confidential
+
+Engages in multiple ownership of BDCs.
+
+Forges, mutilates, alters or defaces any foreign currency, or other
+instruments of exchange in the foreign exchange markets with intent to
+defraud.
+
+Purchases or sells foreign exchange above transaction limits specified in this
+Guidelines.
+
+Obtains foreign currency from any ineligible source or from an eligible source
+but in a fraudulent manner.
+
+Fails to verify customer's identity, BVN or TIN, authenticity of travel
+documents and invoices before transactions.
+
+Has been found guilty of fraudulent or dishonest practices.
+
+Fails to commence operations within six (6) months after the grant of a
+licence.
+
+Fails to render any returns for three (3) consecutive months.
+
+Renders false returns or sells foreign exchange on the basis of falsified
+documents.
+
+Associates, business-wise, with street traders in foreign exchange.
+Operates from an unapproved location.
+
+Uses any personal or corporate account other than the BDC’s account to
+transact any business of the BDC.
+
+Fails to obtain necessary documentation for
+transactions.
+
+its foreign exchange
+
+Fails to comply with any guidelines, directives or circulars of the CBN or
+provisions of BOFIA 2020, .
+
+=== page 32 ===
+20.0
+
+21.0
+
+22.0
+
+23.0
+
+Classified as Confidential
+
+b. Where the CBN determines that it is not in the national interest for the BDC to
+continue to operate, notwithstanding the provisions of Paragraph 19 (a) above.
+
+CHANGE IN OWNERSHIP STRUCTURE
+
+Except with the prior approval of the CBN, no BDC shall enter into an agreement or
+arrangement:
+
+a. Which results in a change in the control or ownership of the BDC.
+
+b. For sale, disposal or transfer of the whole, or any part of the business of the BDC
+or its licence.
+
+c. For the amalgamation or merger of the BDC with any other entity.
+
+d. For the reconstruction of the BDC.
+
+e. To employ amanagement agent or transfer its business to any such agent.
+
+Any BDC wishing to enter into a merger and/or acquisition transaction shall apply to the
+CBN for approval.
+
+PENALTIES
+
+A BDC that contravenes any provision of this Guidelines shall be penalised in line with
+BOFIA 2020 and any other relevant laws and regulations.
+
+AMENDMENT
+
+The Bank reserves the right to amend or revise this Guidelines from time to time.
+
+EFFECTIVE DATE
+
+This Guidelines shall take effect from June 08, 2024.
+
+FINANCIAL POLICY AND REGULATION DEPARTMENT
+CENTRAL BANK OF NIGERIA, ABUJA
+MAY, 2024
+
+24
+
+=== page 33 ===
+APPENDICES
+
+APPENDIX 1 - LIST OF DOCUMENTS IN SUPPORT OF AN APPLICATION FOR GRANT OF
+
+APPROVAL-IN-PRINCIPLE
+
+©
+
+K.
+
+Letter of application for AIP
+
+Evidence of valid reservation of the name of the proposed BDC with the Corporate Affairs
+Commission (CAC);
+
+List of proposed shareholders in tabular form, showing their email, business and residential
+addresses; names and addresses of their bankers, their bank verification numbers (BVNs)
+for individuals or tax identification numbers (TINs) for corporates, and percentage
+shareholding;
+
+Satisfactory, verifiable, and acceptable evidence of capital contributed by each of the
+prospective shareholders of the proposed BDC;
+
+Notarized irrevocable capital refund mandate;
+
+Evidence of payment of non-refundable application fee made through the Real Time Gross
+Settlement System (RTGS) to a designated account in the CBN;
+
+List of proposed directors in tabular form, showing their email, business and residential
+addresses, names and addresses of their bankers, and their BVNs;
+
+List of companies/businesses related to the proposed shareholders and directors, if any,
+indicating the nature of the relationship and size of shareholding where applicable;
+
+Draft copy of the Memorandum and Articles of Association prepared using the standardized
+template attached as Appendix 2.
+
+Detailed business plan or feasibility study, which shall include, among others:
+
+i. The aims and objectives of the proposed BDC;
+ii. | The need for the services of the BDC, supported with a detailed market survey;
+
+iii. |The products or services the BDC will offer to its intended customers;
+iv. Ownership structure in tabular form showing name of proposed investor(s), their
+
+occupations, and percentage shareholding;
+
+v. Explanation of the proposed sources of equity contribution from each investor;
+vi. Five-year financial projection for the operation of the BDC indicating expected growth
+
+and profitability and the details of the assumptions which formed the basis of the
+financial projection;
+
+vii. | The branch expansion programme within the first five (5) years of operation (for Tier 1
+
+BDCs only); and
+
+vill. | The proposed IT requirements and applications to be deployed.
+
+For each significant prospective shareholder that is a natural person, the following:
+
+i. Personally signed letter of intent to invest in the proposed BDC, addressed to the
+Director, Financial Policy and Regulation Department;
+
+ii. | Personally signed and dated Curriculum Vitae (CV);
+
+25
+
+Classified as Confidential
+
+=== page 34 ===
+Vi.
+Vil.
+viii.
+
+Xi.
+Xil.
+xiii.
+
+XIV.
+
+XV.
+
+Personally completed, signed and dated Questionnaire for Major Shareholders and
+Appointees to Board and Management Positions (see Appendix 3);
+
+Copy of valid means of identification;
+
+Bank verification number;
+
+Notarised statement of net worth;
+
+Tax clearance certificate of the last three (3) years;
+
+Letter(s) from bankers, indicating the status of any facility extended to the shareholder;
+Credit reports from at least two (2) private credit bureaux on the shareholder;
+
+For shareholders resident in Nigeria, a certificate/statement of good conduct from the
+Nigerian Police Force;
+
+For non-resident shareholders, a certificate/statement of good conduct from the police
+service (or other appropriate authority) in the country of residence;
+
+Evidence of share capital contribution;
+
+Explanation of the source of funds used for share capital contribution;
+
+Confirmation of the shareholder's direct and indirect shareholding interest in other CBN-
+regulated financial institutions; and
+
+A statement clarifying the interest represented by the shareholder.
+
+I. For institutional shareholders, promoters shall forward the following additional documents:
+
+Vi.
+Vil.
+viii.
+
+m.
+
+Profile of the investor(s);
+
+Certificate of Incorporation, Status Report, MEMART, and CTC of other relevant
+incorporation documents issued by the CAC;
+
+Resolution of shareholders approving the decision to invest in the equity shares of the
+proposed BDC;
+
+Names and addresses (business and residential) of owners, directors and their related
+companies, if any;
+
+Audited financial statements of the last three (3) years;
+
+Tax Clearance Certificate of the last three (3) years;
+
+Names and details of the beneficial owners of the company;
+
+Names, addresses, profiles, and bank details including BVN and/TIN of the beneficial
+owners of the company;
+
+A statement confirming its direct and indirect shareholding interest in any other CBN-
+regulated financial institution(s) if any; and
+
+“| — Ix” above for any significant corporate shareholder of the investor company.
+
+For regulated foreign institutional investors, promoters shall forward the following
+
+documents in addition to those required in ‘x’ above:
+
+An approval or a ‘no objection’ letter from the appropriate regulatory authority in the
+home country; and
+Certificate of Capital Importation (CCl) on the imported capital.
+
+n. All requirements detailed in the CBN’s Guidelines for Licensing of Banks and Other
+
+Classified as Confidential
+
+26
+
+=== page 35 ===
+Financial Institutions — Anti-Money Laundering, Combating the Financing of Terrorism and
+Countering Proliferation Financing of Weapons of Mass Destruction, including:
+
+Completed and personally signed Beneficial Owners Declaration Form (attached as
+Appendix 4).
+
+Notarised statement of net-worth for all beneficial owners.
+
+Curricula vitae of beneficial owners.
+
+Draft AML/CFT/CPF compliance policy/manual, which shall at a minimum cover:
+Compliance structure including designation and status of compliance officer;
+Employee screening and monitoring;
+
+Customer identification and verification;
+
+Customer due diligence measures;
+
+ML/TF/PF Risk Assessment;
+
+AML/CFT/CPF Training of the board, senior management and other employees;
+Independent assessment of the AML/CFT/CPF Programme; and
+
+Suspicious transaction monitoring, reporting and record keeping.
+
+sa7opaoo®
+
+O. For each proposed director, the following:
+
+Vil.
+
+viii.
+
+Xi.
+
+Xil.
+
+xiii.
+XIV.
+
+XV.
+
+Personally signed letter of consent to serve as director of the proposed BDC, addressed
+to the Director, Financial Policy and Regulation Department;
+
+Personally signed and dated Curriculum Vitae (CV);
+
+Personally completed, signed and dated Questionnaire for Major Shareholders and
+Appointees to Board and Management Positions (see Appendix 3);
+
+Copy of valid means of identification;
+
+Bank verification number;
+
+Notarised statement of net worth;
+
+Tax clearance certificate of the last three (3) years;
+
+Letter(s) from bankers, indicating the status of any facility extended to the director;
+Credit reports from at least two (2) private credit bureaux on the director;
+
+Three (3) letters of reference from persons of reputable standing in Nigeria;
+
+For directors resident in Nigeria, a certificate/statement of good conduct from the
+Nigerian Police Force;
+
+For non-resident directors, a certificate/statement of good conduct from the police
+service (or other appropriate authority) in the country of residence;
+
+A statement clarifying other directorships held by the director;
+
+Confirmation of the director’s direct and indirect shareholding interest in other CBN-
+regulated financial institutions; and
+
+A statement clarifying the interest the director will represent on the board.
+
+p. Organisational structure, showing functional units, responsibilities, reporting relationships
+and grade (status) of heads of departments/units;
+
+Classified as Confidential
+
+27
+
+=== page 36 ===
+q. Draft Shareholders’ Agreement providing for disposal or transfer of shares as well as
+authorisation, amendments, waivers, and reimbursement of expenses, among others;
+
+r. Draft manuals and policies, including:
+i. Enterprise-wide Risk Management Framework;
+il. Whistle Blowing Policy;
+iii. | Code of Ethics and Business Conduct;
+iv. Business Continuity Plan;
+V. Operational Manual;
+vi. Treasury Manual;
+Vii. Board and board committees’ Charters;
+viii. | The draft Business Continuity Plan of the proposed BDC;
+ix. | The proposed training programme for Board, management and staff;
+X. Management succession plan;
+xi. | The organisational structure of the BDC, setting out in detail, the functions and
+responsibilities of the top management team;
+xii. Franchising Policy (for proposed Tier 1 BDCs only); and
+Xill. Internal Control Policy.
+
+s. Without prejudice to the BOFIA, evidence of deposit of the minimum share capital (see
+Section 7.0 ‘i’) made through RTGS to a designated account in the CBN; and
+
+Any other documents/information that the CBN may require from time to time.
+
+28
+
+Classified as Confidential
+
+=== page 37 ===
+APPENDIX 2 - SAMPLE MEMORANDUM AND ARTICLES OF ASSOCIATION FOR BDCs
+
+BUREAU DE CHANGE
+
+THE FEDERAL REPUBLIC OF NIGERIA
+COMPANIES AND ALLIED MATTERS ACT 2020
+COMPANY LIMITED BY SHARES
+MEMORANDUM OF ASSOCIATION
+
+OF
+
+XYZ Bureau De Change Limited............ 0. cece cece etter eee erent eee e eee
+1. The name of the company is ..... XYZ Bureau De Change Limited The registered office of the
+company will be situated in.......... Nigeria
+2. The objects for which the company is established are:
+
+a.
+b.
+C.
+
+d.
+
+e.
+
+=
+
+Acquire foreign currency from the permissible sources.
+
+Sell foreign exchange as detailed in the BDC Guidelines.
+
+Open foreign currency and naira accounts with Commercial or Non-Interest Banks
+(CNIBs).
+
+Collaborate with their banks to issue prepaid cards.
+
+Serve as cash-out points for International Money Transfer Operators (IMTOs).
+
+The liability of the company is limited.
+The company is a private company.
+
+5. The authorised share capital of the companyis........ divided into...... ordinary share of N1.00
+(One Naira) each.
+
+We the several persons whose names and addresses are subscribed are desirous of being formed
+into a company, in pursuance of this Memorandum of Association and we respectively agree to take
+the number of shares in the capital of the company set opposite our respective names:
+
+NAMES, ADDRESSES | NUMBER OF SHARES _ | SIGNATURE
+AND DESCRIPTIONS | TAKEN BY ~~ EACH
+OF SUBSCRIBERS SUBSCRIBER
+
+Dated this ..
+
+Witness
+Name:
+Address:
+
+Occupation:
+
+Classified as Confidential
+
+29
+
+=== page 38 ===
+ARTICLES OF ASSOCIATION
+Regulations for the management of ...... XYZ Bureau De Change Limited.
+Interpretation
+1. In these Regulations:
+a. "the Act" means the Companies and Allied Matters Act (CAMA) 2020.
+b. “the Guidelines” refers to the Guidelines for the Licensing and Regulation of Bureau De
+Change in Nigeria.
+c. “the Company’ refers to ..... XYZ Bureau De Change Limited.
+2. Unless the context otherwise requires, words or expressions contained in these Regulations
+bear the same meaning as in the Act.
+
+Classes of shares
+
+The company may from time-to-time issue classes of shares. It shall be the responsibility of the
+directors to determine the classes of shares to be issued. All the rights or restrictions attached to
+each particular class of shares shall be specified in the terms of issue but such rights may at any
+time be varied in accordance with the provisions of section 141 of the CAMA 2020.
+
+Pre-emptive rights of shareholders of the company
+
+1. The company shall not allot any new or unissued shares unless the same are offered in the
+first instance to all the shareholders or to all the shareholders of the class or classes being
+issued in proportion as nearly as may be to their existing holdings.
+
+2. The offer to existing shareholders shall be by notice specifying the number of shares to which
+the shareholder is entitled to subscribe and limiting a time, not being less than 28 days after
+the service of the notice, after the expiration of which the offer, if not accepted, will be deemed
+to be declined. Upon the receipt of an intimation from the shareholder that he declines to
+accept the shares offered or after the expiration of the stipulated time, as the case may be,
+the board of directors may, subject to the terms of any resolution of the company, dispose of
+the shares at a price not less than that specified in the offer, or in such manner as they think
+most beneficial to the company.
+
+3. Regulations 3 and 4 above are not alterable except with the unanimous consent of all the
+members of the company.
+
+Alteration of capital
+1. The company may from time to time by ordinary resolution effect an alteration of its share
+capital in any of the ways set out in section 125 of the Act.
+2. Subject to the provisions of the Act on reduction of capital, the company may, whenever it
+considers it expedient to do so, by special resolution, after obtaining the CBN’s approval
+reduce its share capital, any capital redemption fund or any share premium account.
+
+Meetings
+1. The annual general meeting shall be held at such time and place as the directors shall
+appoint.
+
+30
+
+Classified as Confidential
+
+=== page 39 ===
+2. The board of directors shall meet at least every quarter.
+
+3. The chairman, of the board of directors shall preside at every general meeting of the company
+and of the board. In the absence of the chairman within thirty minutes after the time appointed
+for holding of the meeting or is unwilling to act, the directors present shall elect one of them
+to serve as chairman of the meeting.
+
+4. lf at any meeting no director is willing to act as chairman or if no director is present within
+thirty minutes after the time appointed for holding the meeting, the members present shall
+choose one of their number to be chairman of the meeting.
+
+Voting
+No member shall be entitled to vote at any general meeting unless all calls or other sums payable
+by him in respect of shares in the company have been paid.
+
+The Seal
+
+The directors shall provide for the safe custody of the seal, which shall only be used by the authority
+of the directors or of a committee of the directors authorised by the directors in that behalf and every
+instrument to which the seal is affixed shall be signed by a director, and countersigned by the
+secretary or by asecond director or by some other person appointed by the directors for the purpose.
+
+Notices
+
+A notice may be given by the company to any member either personally or by sending it by post to
+him or to his registered address, or (if he has no registered address within Nigeria) to the address,
+if any, within Nigeria supplied by him to the company for the giving of notice to him. Where a notice
+is sent by post, service of the notice shall be deemed to be effected by properly addressing,
+prepaying, and posting a letter containing the notice, and to have been effected at the expiration of
+seven days after the letter containing the same is posted.
+
+Approval by Central Bank
+Prior approval by the Central Bank of Nigeria is required for the following transactions:
+a. Any change in ownership that result in a shareholder having up to 5% of the issues shares of
+the entity;
+Any change in directorship position;
+Any change in top management position;
+Reduction in share capital;
+The opening and closing of branches;
+Any change, alteration, variation or amendment shall be made to the MEMART; and
+Any change in shareholding that will result in change of control or that will result in a
+shareholder becoming a significant shareholder (having up to 5% of the equity of the BDC)
+shall require the prior written approval of the CBN.
+
+a@roaog
+
+Scope of Operations
+1. The company shall not engage in the following activities:
+31
+
+Classified as Confidential
+
+=== page 40 ===
+©
+
+Street-trading.
+b. Maintaining any type of account for any member of the public, including accepting any
+asset for safe keeping/custody.
+c. Taking deposits from or granting loans to members of the public in any currency and in
+any form.
+d. Retail sale of foreign currencies to non-individuals, except for BTA.
+e. International outward transfers.
+f. Engaging in off-shore business or maintaining foreign correspondent relationship with any
+foreign establishment.
+. Opening or maintaining any account with any bank or financial institution outside Nigeria.
+. Acting as custodian of foreign currency on behalf of customers.
+i. International inward transfers, except for operators with IMTO licence and those that
+serve as cash-out points for IMTOs.
+Borrowing sums which in aggregate exceed the equivalent of 50 per cent of its
+shareholders’ funds unimpaired by losses.
+Engaging in forwards, futures, options, or other derivative/speculative transactions.
+Obtaining foreign exchange from sources other than those listed in Section 5.0.
+. Granting of loans and advances in any currency.
+Selling foreign exchange on credit to any customer.
+Engaging in any trade-related import activities.
+Serving as payment or collection agents on behalf of customers.
+Dealing in gold or other precious metals.
+Carrying on capital market, insurance and/or pension sector activities.
+Establishing subsidiaries;
+Any foreign exchange transaction that involves illicit financial flows.
+Financing of political activities;
+All other businesses not expressly permitted by the CBN; and
+Other activities that the CBN may classify as non-permissible from time to time.
+
+ae)
+
+semyravpes3g7>R 7
+
+=
+
+Names, addresses and descriptions of | Signature
+subscribers
+
+DATED the oo... eeeeeccccceeeeeeeeeeeeeeeeeeeeees (oF \\ a) 20... eeeeeeeeeeeesteteeeeeeeeees
+Witness to the above signatures
+
+32
+
+Classified as Confidential
+
+=== page 41 ===
+APPENDIX 3 — QUESTIONNAIRE FOR MAJOR SHAREHOLDERS AND APPOINTEES TO
+BOARD AND MANAGEMENT POSITIONS
+
+This questionnaire is designed to elicit information which would enable the CBN ascertain your
+propriety as a major shareholder or member of the board/top management in the institution. You
+are, therefore, required to answer every question that relates to you honestly and where applicable,
+provide evidence to support your answer.
+
+Please note that the CBN would periodically request you to attend a performance review interview.
+A. BIODATA
+
+) Name of Institution .......... 0. ccc tnnte ene ee reat eens eae eeen eee
+) Name of the appointee/major shareholder ............. ccc ceceeeeeeeene ee eeeneee ee ee teen ees
+) Please specify your relationship with the institution .................:eteceee eens e eens
+) Current employment ......... 0... e eect eee eee bees netstat need bee ee neta eee eeeaenees
+) OCCUPATION 2.0... cece eee etre d teeter ee ee teens eaten eee eee eeeaeeeeeeaenees
+6) Date of birth «0.0... nnn eee ne eee eee teense aetna eaeneneees
+Yea (= (ek 0) ik 0) 0 9 ee
+) Nationality ......... rnin ne nee eee nen eeeed
+) Entry/resident permit (foreigners) .......... 0. cceecceteee eee eee ee ee eee eens eee eeeeea eee eeeaees
+10)Parental NiStOry ........... cece eee ete ene eee eee eet nett neta eaten neta e nena ea enees
+
+B. COMPETENCE AND CAPABILITY
+
+1) Give details of educational institutions attended, academic and professional qualifications
+obtained with dates, in the format below: (Please attach evidence)
+
+Educational Academic/ Dates
+Institution/Professional Professional From To
+Body Qualification(S)
+
+2) Give your Employment history in the format below:
+
+Name(s) Dates Position(s) Duties Reason(s) Two (2)
+
+and Held for Referees
+
+address(es) leaving from your
+
+of former
+
+Employer(s) employer(s)
+33
+
+Classified as Confidential
+
+=== page 42 ===
+If not
+
+in employment, please give your business history in the format below:
+Name(s) and Type(s) of Dates Position(s) Two (2)
+address(es) business Held Referees
+of Company | (es)
+(ies)
+
+C.
+
+1)
+
+HONESTY, INTEGRITY, AND REPUTATION
+
+Have you at any time been charged or convicted of any offence (civil/criminal) or otherwise
+found liable by a tribunal whether in Nigeria or elsewhere? If so, please, give details of the
+charge and if convicted, the date(s) of conviction(s), particulars of the offence and the penalty
+(ies) imposed.
+
+Have you ever been required to give evidence in any trial or proceedings involving fraud,
+dishonesty or similar matters, whether in Nigeria or elsewhere other than as an expert
+witness? If yes, please give details.
+
+Has any suit ever been brought against you in your personal capacity or against anybody
+corporate, partnership, society or any other business undertaking to which you are connected
+as a shareholder, partner, director or manager? If yes, please give details of the
+circumstances and, if not pending, how it was resolved?
+
+Have you ever been denied membership of any professional body or entry to any profession
+or vocation whether in Nigeria or elsewhere? If yes, please give details:
+
+Classified as Confidential
+
+=== page 43 ===
+5) Have you ever been dismissed, requested or advised to resign or suspended from any office
+or employment whether in Nigeria or elsewhere? If yes, please give details:
+
+6) Has there been any civil action in court or petition by anybody against you to any regulator in
+pursuance of personal debts or other obligations whether in Nigeria or elsewhere? If yes,
+please give details:
+
+7) Give the details of all your local and foreign bankers, including the names and numbers of
+personal and business accounts maintained over the past six years in the format below:
+
+Local
+
+S/N Bank | Address Acct. Acct. Bank Ver. Date
+Name No. No. Opened
+
+Foreign
+
+S/N Bank | Address Acct. Acct. Bank Ver. Date
+Name No. No. Opened
+
+8) Have you any immediate relative (Spouse, children, siblings, in-laws etc.) who holds a top
+management position (AGM and above) or significant shares (5% and above) in the institution
+to which this questionnaire relates or in any entity affiliated to it? If so, please state the nature
+of the relationship and other details:
+
+Classified as Confidential
+
+=== page 44 ===
+9) Has any loan or credit facility (or part thereof) extended to you by any financial
+institution/lending agency been restructured, renegotiated, provisioned against or been a
+subject of write-off or forgiveness for reasons of non-payment by you? If so, please, provide
+full details of the debts, the circumstances surrounding the action and the current status:
+
+10)Please list below and give details of all the societies, clubs, associations and groups
+(organized and unorganized) either in school or thereafter, which you are or have been a
+member:
+
+11)Have you ever been accused, convicted or been a subject of an investigation panel set up for
+the purpose of examination malpractice, unethical practices, money laundering or other moral
+misconduct? If yes, please, provide the details:
+
+12)Provide any other information (if any), that would be of relevance to the CBN in determining
+your suitability or otherwise, for the appointment/position:
+
+D. FINANCIAL SOUNDNESS AND /OR SOLVENCY
+You are please required to attach the following to this questionnaire:
+
+1) A statement of your net worth comprising assets (in Nigeria and abroad) at current values
+36
+
+Classified as Confidential
+
+=== page 45 ===
+and total liabilities as at the date of appointment, which must be accompanied by a sworn
+affidavit. The statement would be presented in the format below:
+
+DESCRIPTION CURRENT VALUE
+(N)
+
+Cash
+
+Land and Buildings
+Factory and other
+Enterprises
+
+Vehicles, Boats and
+other means of
+Transport
+
+Household Furniture
+Government Securities
+Investments (shares,
+debentures and other
+securities)
+
+Any other assets
+(Please specify)
+Total Assets (i-vili)
+Total Liabilities (as at
+date of appointment)
+
+2) Your bankers’ declaration that you are not in any way indebted to them. If you are, the
+outstanding amount of the debt(s) should be stated clearly indicating its (their) performance
+status (whether performing or nonperforming) and whether it (they) is (are) adequately
+secured or not as well as the nature and type of security (ies) offered.
+
+3) A copy of your tax clearance certificate for the last three years.
+4) Any other information that could assist the CBN in determining your financial stability.
+
+E. MISCELLANEOUS
+
+1. Is any of the under-listed member (s) of your family, connected persons and/or company (ies)
+in any relationship with the institution to which this questionnaire relates? If yes, please state
+the nature of relationship and other details?
+
+a. Spouse
+b. Children
+c. Siblings
+
+37
+
+Classified as Confidential
+
+=== page 46 ===
+In-laws
+
+Key Employees
+
+Related Companies
+Others (please specify);...
+
+eroo
+
+2. Are youa serving Director or top management staff? If yes, please state your first appointment
+date and your last interview and/or recertification date.
+
+3. Please state the number of board meetings you have attended since your appointment in the
+following format:
+
+Year Number of meetings attended
+
+5. Have you been employed by an audit firm that assigned you to work on this institution’s
+financial statements during the last two years? If yes, please state the name of the audit firm:
+
+declare that the answers to the above questions are true and that | am fully aware that any
+concealment, provision of false or misleading information aimed at influencing the approval of my
+appointment will constitute a breach of Section 49 of BOFIA, 2020, as amended.
+
+| therefore, affirm that the information supplied above (including the attachment) are to the best of
+my knowledge, true and where any of it is discovered to be false, | should be disqualified from the
+appointment being sought and subsequent appointments by any financial institution under the
+purview of the CBN. In addition, | should be prosecuted for false declaration in line with the laws of
+the Federal Republic of Nigeria.
+
+38
+
+Classified as Confidential
+
+=== page 47 ===
+Signature of Appointee/Major Shareholder:
+
+39
+
+Classified as Confidential
+
+=== page 48 ===
+APPENDIX 4 — BENEFICIAL OWNERS DECLARATION FORM
+To be completed by each Beneficial Owner of an existing or proposed institution
+1. BIO DATA
+
+NAME: ...... 2. cece cece eee e eee eee eee eee eee eee eee een eens eee eens ene ee seas neeeseeeeneeaeeeteeeeeeaes
+(First Name) (Middle Name) (Last/Surname)
+Date of Birth: ........... 0... cece cece c ee ence eee cece eee e eee acest eee eeeeneegeeeeeeeneegeeeeeeeneegees
+Place of Birth: ............ 00... cece cece cece eee e ee eee eee acest eee eee ene eee eeeeeeeeeeeeeeeaeeeteeegeeaees
+Nationality: 2.0.0.0... renee tne rete eee ene ee eaenenees
+Bank Verification NUMDE?: .............2.:.:ceccecee cece ee ee eee eee eee eeeeeeeeeaeeaeuieeseeeeaeeeeeeeas
+Address of RESIGENCe: .......... 2... cece eee ce eee ee eee cence eee eee eee eee eeesaeneteeeeesaeneteeeeeeaees
+Country of RESIDENCE: ...... 0. cece eee eee eee eee e teen ee itn eene ee enentee eee e eee
+2. IDENTIFICATION DOCUMENTS
+(International Passport/National Identity/Drivers Licence/Voters Card)
+
+Means of Identification: ...............cc ccc cece eee e eee e cence ene teeeeeeneeeneeeeaeeenaeeeateegaeenes
+
+Issuing AUthOrity: 20.0... cere ene eee ea ents eae neneeaeeennees
+Identity NUMDE?-: ...... 0... cee reenter e eterna eee ne nae t nena
+Date of ISSUANCE! ..... 2... cece c cece cece cece cece e eee e nee e nee e nate eee eneteeeeeeneeenaeeeneeenaeeeneeegs
+Expiry Date? 2.0.0.0... cece etree nent nent neat ne eset nena eaten nates
+
+3. OWNERSHIP DETAILS
+
+Name of Company Owned ........ 6.2... cece ee eect eee ee ee eee ee ee ee eee ee eaten
+Effective Date of OwnerShip: ...............2.:cccee eee ee eee ee eee eee ee eee eee ee eeeeneeeeeaeeeeeeeeeeaees
+
+Percentage Of Ownership: ...............0ccccece cece eee e eee eee e eee eee eee eee eaeeeeeeeeeeeeeeeeeeaeees
+
+State the nature of control:
+Direct/Indirect: ............... cc ccc ccc ccc cc ccc cece cece eect eee cece eee eeeeeeeeeeeeeeeeeeeeeeeeeeeennas
+
+4. SOURCES OF WEALTH AND FUND
+Kindly provide details of source of wealth and fund for the investment in proposed institution:
+
+Classified as Confidential
+
+=== page 49 ===
+5. PEP STATUS
+
+1. Have you held (or holds) any appointment with any agency of government, tiers of
+government or international organization?
+
+2. If yes, state the type of appointment, period and position held.
+
+| ccc cece ec eeeeeeceeeeeeeueeeeeugueeeeueueeeegueeeeugueeeenaeees , hereby declare that all information provided on
+this form is true and factual.
+
+| undertake to promptly [or within a reasonable period and in any event not less than two weeks]
+inform the Central Bank of Nigeria in writing about any changes in the information provided above.
+
+| understand that it is a criminal offense to provide false information on this form (BOFIA 2020)
+
+Signature: ..................:0:cceeeeeeeeee eee
+
+The beneficial owner undertakes to promptly [or within a reasonable period and in any event not less
+than two weeks] inform the Central Bank of Nigeria in writing about any changes in the information
+provided above.
+
+It is a criminal offense to provide false information on this form [insert applicable criminal law and
+penalty in bold type].
+
+SiQMature: .......cccceceeeeeeeeeeeeeneeeeeeees
+NAME: ........ccceceeee eee e eee eeeeeeeeeeneeeaeees
+DY: |:
+Tithe: .. 0... ccc ccc ee cece eee eeeeeee ease
+
+“Beneficial Owner includes [the natural person(s) who ultimately owns or controls a customer and/or
+the person on whose behalf the transaction is being conducted. It also incorporates those persons
+who exercise ultimate effective control over a legal person or arrangement and relevant third parties].
+
+4]
+
+Classified as Confidential
+
+=== page 50 ===
+APPENDIX 5 - LIST OF DOCUMENTS REQUIRED FOR GRANT OF PROVISIONAL
+APPROVAL
+
+1. Letter of application for Provisional Approval
+
+A Certified True Copy (CTC) of the Certificate of Incorporation of the proposed BDC.
+CTC of MEMART of the proposed BDC.
+
+A copy of CAC Status Report of the proposed BDC.
+
+Evidence of payment of stamp duty on the share capital.
+
+ou FY NS
+
+A copy of the Shareholders’ Register in which the equity interest of each shareholder is
+properly reflected.
+
+™~
+
+Copies of share certificates issued to the shareholders:
+8. Evidence of physical location of Head Office (rented or owned) for the business operations.
+
+9. Evidence of CBN’s approval of changes in the Board and shareholding after the grant of AIP,
+if any.
+
+10.Duly executed Shareholders’ Agreement.
+
+11.List of senior management staff (Heads of Departments and above); their personally signed,
+detailed, and updated curriculum vitae stating their qualifications, experience,
+accomplishments; letters of offer and acceptance of employment; means of identification; tax
+clearance certificate; and BVNs.
+
+12.A written and duly executed undertaking by the shareholders that the proposed BDC will
+always be adequately capitalized for the nature and volume of its business.
+
+13. Evidence of provision of office equipment.
+14. Evidence of provision of ICT infrastructure:
+
+a. That complies with stipulated minimum requirements (for instance processing speed,
+storage capacity, compatibility with the CBN’s IT system, backup, security).
+
+b. With capability for:
+
+i. real-time verification of customers identities through BVNs/TINs, international
+passport numbers, air tickets and other relevant documents using application
+programme interfaces with databases of NIBSS, NIS, and IATA;
+
+ii. | screening customers and transactions for money laundering, terrorism financing,
+and proliferation of weapons of mass destruction risks;
+
+42
+
+Classified as Confidential
+
+=== page 51 ===
+ili. | monitoring, collating, and filing of suspicious transaction reports and other
+regulatory returns; and
+
+iV. connecting with, and rendering returns to, the CBN’s returns rendition system.
+
+15. Service level agreement (SLA) with relevant vendor(s).
+16.Commencement Plan, including the timelines for key activities.
+17.A copy of the logo/brand identity for the proposed BDC.
+
+18.Undertaking by the board that the BDC shall comply with all CBN regulations and guidelines
+relating to BDCs.
+
+43
+
+Classified as Confidential
+
+=== page 52 ===
+APPENDIX 6 - LIST OF DOCUMENTS REQUIRED FOR GRANT OF FINAL LICENCE
+
+1.
+
+ONO
+
+9.
+
+A written confirmation of successful integration with the relevant CBN platforms from the
+Director, ITD, CBN;
+A written confirmation of seamless integration for BVN validation from NIBSS;
+
+. Awritten confirmation evidencing the allocation of a Code to the BDC from the Director, Trade
+
+and Exchange Department, CBN;
+A Written confirmation from NFIU, indicating that it has been created on the Unit’s platform and is
+able to render returns.
+
+Evidence of insurance cover for relevant activities;
+
+Contingency Funding Plan;
+
+Business Continuity Plan;
+
+Evidence of an SLA between the BDC and the bank where it has a domiciliary account, for
+the issuance of prepaid cards to its customers;
+
+Minutes of pre-commencement Board meeting;
+
+10.Opening statement of affairs;
+11. Written attestation of its Board confirming readiness to commence operations; and
+12. Any other document, evidence or clarification that the CBN may require.
+
+44
+
+Classified as Confidential

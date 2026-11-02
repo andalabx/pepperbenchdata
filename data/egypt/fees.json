@@ -1,0 +1,297 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "fees",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_instapay_2025",
+   "name": "InstaPay Egypt - official site (What is InstaPay; Limits & Fees)",
+   "url": "https://www.instapay.eg/?lang=en",
+   "path": "egypt/fees/instapay_home.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_fees",
+   "name": "Vodafone Egypt - Money transfer fees (Vodafone Cash)",
+   "url": "https://web.vodafone.com.eg/en/money-transfer-fees",
+   "path": "egypt/fees/vodafone_cash_fees.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_vodafone_transfer",
+   "name": "Vodafone Egypt - Money Transfer (Vodafone Cash)",
+   "url": "https://web.vodafone.com.eg/en/money-transfer",
+   "path": "egypt/fees/vodafone_cash_transfer.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_psp_rules_2025",
+   "name": "CBE - Rules for Licensing and Registration of Payment System Operators and Payment Service Providers (June 2025)",
+   "url": "https://www.cbe.org.eg/-/media/project/cbe/page-content/rich-text/payment-system/payment-systems-and-services-oversight/rules-for-licensing-and-registration-of-payment-system-operators.pdf",
+   "path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "Fawry publishes no numeric consumer fee for bill payment on its own pages and no tariff schedule is present in the corpus, so no Fawry fee entry exists here. InstaPay fees apply from 1 April 2025; before that date transfers were free for three years.",
+ "entries": [
+  {
+   "id": "eg_fee_inst_2025_01",
+   "subject": "instapay_transfer_fee_rate",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "fee_rate",
+   "value": 0.1,
+   "unit": "percent",
+   "display": "0.1% of the transferred value",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_instapay_2025",
+   "source_path": "egypt/fees/instapay_home.html",
+   "quote": "- Transfer Fees: 0.1% from transaction value, minimum EGP 0.50, maximum EGP 20",
+   "notes": "InstaPay's own tariff page. Egypt Independent (26 Mar 2025) and AfricaNenda SIIPS 2025 report the same 0.1% rate."
+  },
+  {
+   "id": "eg_fee_inst_2025_02",
+   "subject": "instapay_transfer_fee_min",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "fee_min",
+   "value": 50,
+   "unit": "EGP_piastres",
+   "display": "EGP 0.50 minimum transfer fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_instapay_2025",
+   "source_path": "egypt/fees/instapay_home.html",
+   "quote": "- Transfer Fees: 0.1% from transaction value, minimum EGP 0.50, maximum EGP 20",
+   "notes": "Same tariff line as the rate. Egypt Independent gives the same floor as 50 piasters."
+  },
+  {
+   "id": "eg_fee_inst_2025_03",
+   "subject": "instapay_transfer_fee_max",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "attribute": "fee_max",
+   "value": 2000,
+   "unit": "EGP_piastres",
+   "display": "EGP 20 maximum transfer fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_instapay_2025",
+   "source_path": "egypt/fees/instapay_home.html",
+   "quote": "- Transfer Fees: 0.1% from transaction value, minimum EGP 0.50, maximum EGP 20",
+   "notes": "The cap binds from EGP 20,000 upward (0.1% of EGP 20,000 = EGP 20)."
+  },
+  {
+   "id": "eg_fee_inst_2025_04",
+   "subject": "instapay_balance_inquiry_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "kyc_tier": "after_10_free_monthly"
+   },
+   "attribute": "fee",
+   "value": 50,
+   "unit": "EGP_piastres",
+   "display": "EGP 0.50 per balance inquiry / mini-statement after the free monthly allowance",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_instapay_2025",
+   "source_path": "egypt/fees/instapay_home.html",
+   "quote": "- Balance Inquiry and Mini-Statement: EGP 0.50 per transaction, customer can enjoy 10 free transaction monthly",
+   "notes": "Non-financial service fee, not a transfer fee."
+  },
+  {
+   "id": "eg_fee_inst_2025_05",
+   "subject": "instapay_free_inquiry_allowance",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "per_mobile_number"
+   },
+   "attribute": "free_transactions_per_month",
+   "value": 10,
+   "unit": "count",
+   "display": "10 free inquiry/mini-statement transactions per month",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-04-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_instapay_2025",
+   "source_path": "egypt/fees/instapay_home.html",
+   "quote": "- Balance Inquiry and Mini-Statement: EGP 0.50 per transaction, customer can enjoy 10 free transaction monthly",
+   "notes": "AfricaNenda SIIPS 2025 reports the same 10 free non-financial transactions per month."
+  },
+  {
+   "id": "eg_fee_vfc_2026_06",
+   "subject": "vodafone_cash_wallet_transfer_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "vodafone_cash_to_vodafone_cash"
+   },
+   "attribute": "fee",
+   "value": 100,
+   "unit": "EGP_piastres",
+   "display": "EGP 1 per transfer to another Vodafone Cash wallet",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_fees",
+   "source_path": "egypt/fees/vodafone_cash_fees.html",
+   "quote": "1LE transfer fees for other Vodafone Cash wallets",
+   "notes": "No year is given for the 'starting 4th of July' change, so effective_from is null. The Vodafone Money Transfer page states the same EGP 1 fee. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_fee_vfc_2026_07",
+   "subject": "vodafone_cash_other_wallet_fee_rate",
+   "assertion_type": "conditional",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer",
+    "account_type": "to_other_wallet"
+   },
+   "attribute": "fee_rate",
+   "value": 0.5,
+   "unit": "percent",
+   "display": "0.5% of value for transfers to wallets other than Vodafone Cash",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_fees",
+   "source_path": "egypt/fees/vodafone_cash_fees.html",
+   "quote": "0.5% of the transferred value with a minimum of 1LE and up to 10LE",
+   "notes": "The Money Transfer page describes the same 0.5% fee with a floor of EGP 1 but caps it at EGP 15, not EGP 10; the two Vodafone pages disagree on the cap only. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_fee_vfc_2026_08",
+   "subject": "vodafone_cash_withdrawal_fee_rate",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "fee_rate",
+   "value": 1.0,
+   "unit": "percent",
+   "display": "1% cash-out fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_transfer",
+   "source_path": "egypt/fees/vodafone_cash_transfer.html",
+   "quote": "Withdrawal fees are 1% of the withdrawal amount with a minimum of 3LE",
+   "notes": "Cash-out at Vodafone/agent points; minimum charge EGP 3. Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_fee_vfc_2026_09",
+   "subject": "vodafone_cash_withdrawal_fee_min",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "fee_min",
+   "value": 300,
+   "unit": "EGP_piastres",
+   "display": "EGP 3 minimum cash-out fee",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-11-02",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_vodafone_transfer",
+   "source_path": "egypt/fees/vodafone_cash_transfer.html",
+   "quote": "Withdrawal fees are 1% of the withdrawal amount with a minimum of 3LE",
+   "notes": "Source is undated; effective_from is the corpus capture date (2026-11-02)."
+  },
+  {
+   "id": "eg_fee_psp_2025_10",
+   "subject": "psp_licence_review_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "psp_licence_application"
+   },
+   "attribute": "fee",
+   "value": 3000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 30,000 review fee per payment service, capped at EGP 100,000",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "5-1-1 Thirty thousand Egyptian pounds for each payment service, up to a maximum of one hundred thousand Egyptian pounds for all services",
+   "notes": "Section 5 (Fees) of the June 2025 PSO/PSP licensing rules. A separate inspection fee of the same amount is due on licence issuance (5-2-1)."
+  },
+  {
+   "id": "eg_fee_psp_2025_11",
+   "subject": "pso_licence_review_fee",
+   "assertion_type": "conditional",
+   "conditions": {
+    "actor": "business",
+    "account_type": "pso_licence_application"
+   },
+   "attribute": "fee",
+   "value": 10000000,
+   "unit": "EGP_piastres",
+   "display": "EGP 100,000 review fee per payment system, capped at EGP 500,000",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-06-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_psp_rules_2025",
+   "source_path": "egypt/regulations/cbe_psp_licensing_rules_en.pdf",
+   "quote": "5-1-2 One hundred thousand Egyptian pounds for each payment system, up to a maximum of five hundred thousand Egyptian pounds for all systems",
+   "notes": "Per payment system rather than per service."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+[
+{"country":"south_africa","category":"fees","name":"capitec_personal_fees_2026","url":"https://www.capitecbank.co.za/globalassets/pages/documents-library/transact/personal-banking-fees-september-2026.pdf","source_type":"platform_docs","note":"September 2026 fee schedule"},
+{"country":"south_africa","category":"fees","name":"capitec_business_fees_2026","url":"https://www.capitecbank.co.za/globalassets/pages/documents-library/business/business-bank-fees-2026.pdf","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"capitec_transact_fees_page","url":"https://www.capitecbank.co.za/personal/transact/transact-fees/","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"fnb_ewallet","url":"https://www.fnb.co.za/send-money/eWallet/index.html","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"fnb_pricing_guide","url":"https://www.fnb.co.za/rates/PricingGuide.html","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"snapscan_merchant","url":"https://www.snapscan.co.za/merchant","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"snapscan_cost_article","url":"https://snapscan.freshdesk.com/support/solutions/articles/4000207503-what-will-it-cost-me-to-use-snapscan-","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fees","name":"payshap_home","url":"https://www.payshap.co.za/","source_type":"official","note":""},
+
+{"country":"south_africa","category":"limits","name":"gotyme_payshap_limits","url":"https://gotyme.co.za/personal/media/money-skills-landing/what-are-the-transaction-limits-for-payshap/","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"limits","name":"nedbank_payshap","url":"https://personal.nedbank.co.za/learn/help-centre/bank/make-secure-payment-with-payshap.html","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"limits","name":"capitec_personal_fees_2026","url":"https://www.capitecbank.co.za/globalassets/pages/documents-library/transact/personal-banking-fees-september-2026.pdf","source_type":"platform_docs","note":"daily limits inside"},
+{"country":"south_africa","category":"limits","name":"bankserv_rtc","url":"https://www.bankservafrica.com/website/services/real-time-clearing","source_type":"official","note":"RTC limits and participation"},
+{"country":"south_africa","category":"limits","name":"worldbank_sa_fast_payments","url":"https://fastpayments.worldbank.org/node/567","source_type":"platform_docs","note":"SA instant payment profile"},
+
+{"country":"south_africa","category":"kyc","name":"fic_guidance_note_3a","url":"https://www.fic.gov.za/wp-content/uploads/2023/09/2005.07-Guidance-Guidance-Note-3A-Accountable-institutions-and-CDD.pdf","source_type":"official","note":"FICA customer due diligence"},
+{"country":"south_africa","category":"kyc","name":"standard_bank_fica","url":"https://webtrader.standardbank.co.za/webtrader/getting-started/fica-requirements.html","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"kyc","name":"fica_proof_of_address","url":"https://www.southeyattorneys.co.za/fica-and-proof-of-residence-what-documents-are-acceptable/","source_type":"platform_docs","note":"secondary"},
+{"country":"south_africa","category":"kyc","name":"information_regulator","url":"https://inforegulator.org.za/","source_type":"official","note":"POPIA"},
+
+{"country":"south_africa","category":"regulations","name":"nps_act_govza","url":"https://www.gov.za/documents/national-payment-system-act","source_type":"official","note":""},
+{"country":"south_africa","category":"regulations","name":"nps_act_saflii","url":"https://www.saflii.org/za/legis/consol_act/npsa1998281/","source_type":"official","note":"consolidated Act text"},
+{"country":"south_africa","category":"regulations","name":"pasa_legal_framework","url":"https://pasa.org.za/national-payment-system/nps-legal-regulatory-framework/","source_type":"official","note":""},
+{"country":"south_africa","category":"regulations","name":"sarb_payments_settlements","url":"https://www.resbank.co.za/en/home/what-we-do/payments-and-settlements","source_type":"official","note":""},
+{"country":"south_africa","category":"regulations","name":"sarb_oversight","url":"https://www.resbank.co.za/en/home/what-we-do/payments-and-settlements/oversight-supervision","source_type":"official","note":""},
+{"country":"south_africa","category":"regulations","name":"sarb_oversight_framework","url":"https://www.resbank.co.za/content/dam/sarb/what-we-do/payments-and-settlements/regulation-oversight-and-supervision/regulatory-and-oversight-reports/NPSD%20regulator","source_type":"official","note":"truncated path, may 404"},
+
+{"country":"south_africa","category":"products","name":"capitec_transact_fees_page","url":"https://www.capitecbank.co.za/personal/transact/transact-fees/","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"products","name":"tymebank_home","url":"https://gotyme.co.za/","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"products","name":"fnb_ewallet","url":"https://www.fnb.co.za/send-money/eWallet/index.html","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"products","name":"snapscan_merchant","url":"https://www.snapscan.co.za/merchant","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"products","name":"payshap_home","url":"https://www.payshap.co.za/","source_type":"official","note":""},
+{"country":"south_africa","category":"products","name":"stitch_sa_rails","url":"https://stitch.money/blog/a-guide-to-south-african-payment-rails","source_type":"platform_docs","note":"secondary, good rail taxonomy"},
+
+{"country":"south_africa","category":"interoperability","name":"payshap_home","url":"https://www.payshap.co.za/","source_type":"official","note":""},
+{"country":"south_africa","category":"interoperability","name":"pasa_legal_framework","url":"https://pasa.org.za/national-payment-system/nps-legal-regulatory-framework/","source_type":"official","note":""},
+{"country":"south_africa","category":"interoperability","name":"bankserv_rtc","url":"https://www.bankservafrica.com/website/services/real-time-clearing","source_type":"official","note":""},
+{"country":"south_africa","category":"interoperability","name":"nedbank_payshap","url":"https://personal.nedbank.co.za/learn/help-centre/bank/make-secure-payment-with-payshap.html","source_type":"platform_docs","note":""},
+
+{"country":"south_africa","category":"cross_border","name":"sarb_finsurv_faq","url":"https://www.resbank.co.za/en/home/what-we-do/financial-surveillance/FinSurvFAQ","source_type":"official","note":"exchange control allowances"},
+{"country":"south_africa","category":"cross_border","name":"sarb_finsurv_2026","url":"https://www.resbank.co.za/content/dam/sarb/what-we-do/financial-surveillance/financial-surveillance-documents/2026/6-2026.pdf","source_type":"official","note":""},
+{"country":"south_africa","category":"cross_border","name":"sable_exchange_control","url":"https://www.sableinternational.com/blog/how-to-make-the-most-of-sarb-s-relaxed-exchange-control-regulations","source_type":"platform_docs","note":"secondary"},
+{"country":"south_africa","category":"cross_border","name":"papss_home","url":"https://papss.com/","source_type":"official","note":""},
+
+{"country":"south_africa","category":"agent_banking","name":"sarb_payments_settlements","url":"https://www.resbank.co.za/en/home/what-we-do/payments-and-settlements","source_type":"official","note":""},
+{"country":"south_africa","category":"agent_banking","name":"tymebank_home","url":"https://gotyme.co.za/","source_type":"platform_docs","note":"kiosk model"},
+{"country":"south_africa","category":"agent_banking","name":"posta_home","url":"https://www.postoffice.co.za/","source_type":"platform_docs","note":"PostBank/Post Office network"},
+{"country":"south_africa","category":"agent_banking","name":"bankserv_rtc","url":"https://www.bankservafrica.com/website/services/real-time-clearing","source_type":"official","note":""},
+
+{"country":"south_africa","category":"error_codes","name":"worldpay_eft_return_codes","url":"https://docs.worldpay.com/apis/payrix/dev-int-guide/direct-payments/troubleshoot-payments/ach-and-eft-return-codes","source_type":"platform_docs","note":"EFT return code reference, not SA-specific"},
+{"country":"south_africa","category":"error_codes","name":"bankserv_rtc","url":"https://www.bankservafrica.com/website/services/real-time-clearing","source_type":"official","note":""},
+{"country":"south_africa","category":"error_codes","name":"stitch_sa_rails","url":"https://stitch.money/blog/a-guide-to-south-african-payment-rails","source_type":"platform_docs","note":"secondary, failure modes"},
+
+{"country":"south_africa","category":"fraud","name":"obssa_home","url":"https://obssa.co.za/","source_type":"official","note":"Ombudsman for Banking Services"},
+{"country":"south_africa","category":"fraud","name":"banking_association_complaints","url":"https://banking.org.za/consumer-information/consumer-information-legislation/complaints-procedures/","source_type":"official","note":""},
+{"country":"south_africa","category":"fraud","name":"standard_bank_complaints","url":"https://www.standardbank.co.za/southafrica/personal/about-us/regulatory/complaints-process","source_type":"platform_docs","note":""},
+{"country":"south_africa","category":"fraud","name":"fic_guidance_note_3a","url":"https://www.fic.gov.za/wp-content/uploads/2023/09/2005.07-Guidance-Guidance-Note-3A-Accountable-institutions-and-CDD.pdf","source_type":"official","note":"suspicious transaction obligations"}
+]

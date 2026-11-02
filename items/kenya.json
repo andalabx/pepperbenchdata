@@ -1,0 +1,59 @@
+[
+{"country":"kenya","category":"fees","name":"safaricom_mpesa_charges","url":"https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges","source_type":"official","note":"official M-Pesa tariff page"},
+{"country":"kenya","category":"fees","name":"safaricom_business_till_tariff","url":"https://www.safaricom.co.ke/images/Downloads/the-mpesa-business-till-tariff.pdf","source_type":"official","note":"Lipa na M-Pesa till tariffs"},
+{"country":"kenya","category":"fees","name":"safaricom_b2c_tariff","url":"https://www.safaricom.co.ke/images/Downloads/mpesa-b2c-registered-users.pdf","source_type":"official","note":"B2C tariff"},
+{"country":"kenya","category":"fees","name":"safaricom_b2b_tariff_2025","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA-B2B-Tariff-Form-2025.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"fees","name":"airtel_money_tariffs","url":"https://www.airtelmoney.ke/tariffs_charges","source_type":"official","note":""},
+{"country":"kenya","category":"fees","name":"pesalink_faqs","url":"https://pesalink.co.ke/resource-center/faqs","source_type":"official","note":"Integrated Payments Services Ltd"},
+{"country":"kenya","category":"fees","name":"ncba_pesalink_faq","url":"https://ncbagroup.com/wp-content/uploads/sites/2/2026/08/FAQ-Pesalink.pdf","source_type":"platform_docs","note":""},
+{"country":"kenya","category":"fees","name":"kcb_pesalink","url":"https://ke.kcbgroup.com/products/pesalink","source_type":"platform_docs","note":""},
+
+{"country":"kenya","category":"limits","name":"safaricom_mpesa_charges","url":"https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges","source_type":"official","note":"limits often on same page"},
+{"country":"kenya","category":"limits","name":"safaricom_limit_increase_500k","url":"https://www.safaricom.co.ke/media-center-landing/press-releases/safaricom-gets-approval-to-increase-m-pesa-account-and-daily-transaction-limits-to-ksh-500-000","source_type":"official","note":"current account and daily caps"},
+{"country":"kenya","category":"limits","name":"mpesa_customer_terms","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf","source_type":"official","note":"authoritative limits and tiers"},
+{"country":"kenya","category":"limits","name":"cbk_emoney_regulations_2013","url":"https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"limits","name":"fuliza_page","url":"https://www.safaricom.co.ke/main-m-pesa/m-pesa-services/credit-and-savings/fuliza-mobile","source_type":"official","note":""},
+
+{"country":"kenya","category":"kyc","name":"mpesa_customer_terms","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf","source_type":"official","note":"registration and identity requirements"},
+{"country":"kenya","category":"kyc","name":"cbk_emoney_regulations_2013","url":"https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf","source_type":"official","note":"KYC for e-money"},
+{"country":"kenya","category":"kyc","name":"huduma_kenya","url":"https://www.hudumakenya.go.ke/","source_type":"official","note":"Huduma Namba"},
+{"country":"kenya","category":"kyc","name":"cbk_legislation_index","url":"https://www.centralbank.go.ke/policy-procedures/legislation-and-guidelines/","source_type":"official","note":""},
+
+{"country":"kenya","category":"regulations","name":"nps_act_2011","url":"https://www.centralbank.go.ke/images/docs/legislation/NATIONAL%20PAYMENT%20SYSTEM%20ACT%20(No%2039%20of%202011)%20(2).pdf","source_type":"official","note":"National Payment System Act"},
+{"country":"kenya","category":"regulations","name":"nps_act_kenyalaw","url":"https://new.kenyalaw.org/akn/ke/act/2011/39/eng@2011-12-16","source_type":"official","note":"consolidated text"},
+{"country":"kenya","category":"regulations","name":"cbk_emoney_regulations_2013","url":"https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"regulations","name":"cbk_legislation_index","url":"https://www.centralbank.go.ke/policy-procedures/legislation-and-guidelines/","source_type":"official","note":""},
+{"country":"kenya","category":"regulations","name":"cbk_electronic_payment_report_2024","url":"https://www.centralbank.go.ke/wp-content/uploads/2025/01/The-Kenya-Electronic-Payment-and-Settlement-System-Report-December-2024.pdf","source_type":"official","note":"market and system data"},
+
+{"country":"kenya","category":"products","name":"safaricom_mpesa_main","url":"https://www.safaricom.co.ke/personal/m-pesa","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"lipa_na_mpesa","url":"https://www.safaricom.co.ke/lipa-na-m-pesa","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"lipa_na_mpesa_terms_2026","url":"https://www.safaricom.co.ke/images/Downloads/Lipa-na-M-PESA-Terms-and-Conditions-2026.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"fuliza_page","url":"https://www.safaricom.co.ke/main-m-pesa/m-pesa-services/credit-and-savings/fuliza-mobile","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"mpesa_global_page","url":"https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"airtel_money_tariffs","url":"https://www.airtelmoney.ke/tariffs_charges","source_type":"official","note":""},
+{"country":"kenya","category":"products","name":"daraja_home","url":"https://developer.safaricom.co.ke/","source_type":"platform_docs","note":""},
+
+{"country":"kenya","category":"interoperability","name":"pesalink_faqs","url":"https://pesalink.co.ke/resource-center/faqs","source_type":"official","note":"participating banks and limits"},
+{"country":"kenya","category":"interoperability","name":"kcb_pesalink","url":"https://ke.kcbgroup.com/products/pesalink","source_type":"platform_docs","note":""},
+{"country":"kenya","category":"interoperability","name":"cbk_electronic_payment_report_2024","url":"https://www.centralbank.go.ke/wp-content/uploads/2025/01/The-Kenya-Electronic-Payment-and-Settlement-System-Report-December-2024.pdf","source_type":"official","note":"interoperability data"},
+{"country":"kenya","category":"interoperability","name":"mkesho_pesalink","url":"https://familybank.co.ke/?ways-to-bank=pesalink-direct-transfers","source_type":"platform_docs","note":""},
+
+{"country":"kenya","category":"cross_border","name":"mpesa_global_terms","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA_GLOBAL_CUSTOMER_TERMS_AND_CONDITIONS.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"cross_border","name":"mpesa_global_page","url":"https://www.safaricom.co.ke/main-mpesa/m-pesa-services/m-pesa-global","source_type":"official","note":""},
+{"country":"kenya","category":"cross_border","name":"cbk_remittance_survey_2025","url":"https://www.centralbank.go.ke/wp-content/uploads/2026/06/2025-Remittances-Household-Survey-Report.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"cross_border","name":"cbk_diaspora_remittance_2021","url":"https://www.centralbank.go.ke/wp-content/uploads/2022/01/REPORTOFTHEKENYADIASPORAREMITTANCESURVEYDECEMBER2021.pdf","source_type":"official","note":""},
+{"country":"kenya","category":"cross_border","name":"papss_home","url":"https://papss.com/","source_type":"official","note":"pan african settlement rail"},
+
+{"country":"kenya","category":"agent_banking","name":"cbk_agent_banking_afi","url":"https://www.afi-global.org/sites/default/files/agent%20banking%20knowledge%20exchange%20central%20bank%20of%20kenia%20by%20matu%20mugo%20cbk_0.pdf","source_type":"official","note":"CBK presentation on agency banking"},
+{"country":"kenya","category":"agent_banking","name":"cbk_legislation_index","url":"https://www.centralbank.go.ke/policy-procedures/legislation-and-guidelines/","source_type":"official","note":""},
+{"country":"kenya","category":"agent_banking","name":"fsd_agent_banking_regulation","url":"https://www.fsdkenya.org/wp-content/uploads/2021/aws/Archive%20data%20FSD/10-02-05_Regulation_supervision_of_bank_channels.pdf?_t=1611222347","source_type":"platform_docs","note":""},
+
+{"country":"kenya","category":"error_codes","name":"daraja_express_simulate","url":"https://developer.safaricom.co.ke/apis/MpesaExpressSimulate","source_type":"platform_docs","note":""},
+{"country":"kenya","category":"error_codes","name":"daraja_pull_transaction","url":"https://developer.safaricom.co.ke/apis/PullTransaction","source_type":"platform_docs","note":""},
+{"country":"kenya","category":"error_codes","name":"daraja_error_codes_github","url":"https://github.com/ronnyabuto/daraja-error-codes","source_type":"platform_docs","note":"community mapping, cross-check only"},
+{"country":"kenya","category":"error_codes","name":"mpesa_customer_terms","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf","source_type":"official","note":""},
+
+{"country":"kenya","category":"fraud","name":"cbk_consumer_protection","url":"https://www.costofcredit.co.ke/downloads/Centra_%20Bank_of_Kenya_Consumer%20_Protection.pdf","source_type":"official","note":"CBK consumer protection guidelines mirror"},
+{"country":"kenya","category":"fraud","name":"mpesa_customer_terms","url":"https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf","source_type":"official","note":"dispute and reversal clauses"},
+{"country":"kenya","category":"fraud","name":"cbk_legislation_index","url":"https://www.centralbank.go.ke/policy-procedures/legislation-and-guidelines/","source_type":"official","note":""}
+]

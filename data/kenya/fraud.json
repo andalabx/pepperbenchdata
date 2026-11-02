@@ -1,0 +1,293 @@
+{
+ "country": "Kenya",
+ "regulator": "CBK",
+ "category": "fraud",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "notes": "Eleven facts: six from the M-PESA customer terms and the tariffs page (reversal windows, finality, self-reversal to 456), five from CBK consumer-protection rules (acknowledgement, oral escalation, e-money complaint windows, regulator escalation).",
+ "sources": [
+  {
+   "id": "src_ke_saf_charges_2026",
+   "name": "Safaricom PLC, M-PESA Charges (consumer tariffs and limits page, published 16 Aug 2022, last updated 4 Aug 2026)",
+   "url": "https://www.safaricom.co.ke/personal/m-pesa/mpesa-charges",
+   "path": "kenya/fees/safaricom_mpesa_charges.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_saf_mpesa_terms",
+   "name": "Safaricom PLC, M-PESA Customer Terms and Conditions",
+   "url": "https://www.safaricom.co.ke/images/Downloads/M-PESA-Customer-Terms-Conditions.pdf",
+   "path": "kenya/limits/mpesa_customer_terms.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_emoney_2013",
+   "name": "Central Bank of Kenya, E-Money Regulation 2013 (National Payment System Act)",
+   "url": "https://www.centralbank.go.ke/images/docs/NPS/Regulations%20and%20Guidelines/Regulations%20-%20E-%20Money%20regulations%202013.pdf",
+   "path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_ke_cbk_consumer_protection_2013",
+   "name": "Central Bank of Kenya Prudential Guidelines 2013, Guideline on Consumer Protection (effective 1 Jan 2013)",
+   "url": "https://www.costofcredit.co.ke/downloads/Centra_%20Bank_of_Kenya_Consumer%20_Protection.pdf",
+   "path": "kenya/fraud/cbk_consumer_protection.pdf",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "entries": [
+  {
+   "id": "ke_frd_saf_01",
+   "subject": "mpesa_transaction_finality",
+   "attribute": "reversal_rule",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value_text": "A completed M-PESA transaction is final and irrevocable; Safaricom is under no compulsion to reverse it",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Reversal is discretionary, not a right",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "8 13 a transaction once completed is final and irrevocable as such safaricom shall not be under any compulsion to reverse any transaction",
+   "notes": "Clause 8.13; clause 8.14 creates the narrow exception. Ligature in the PDF ('ﬁ') was flattened to 'fi' in the quote.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_saf_02",
+   "subject": "mpesa_reversal_claim_window",
+   "attribute": "deadline",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value": 1,
+   "unit": "months",
+   "graded_by": "numeric_exact",
+   "display": "A reversal claim for manifest error or fraud must be made within one month of the transaction",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "safaricom reserves the right at its sole discretion to cancel or reverse a transaction if reasonable grounds such as manifest error or fraud are shown and provided that the recipient has not redeemed the e money and the reversal claim is made within one 1 month of the erroneous transaction date",
+   "notes": "Two conditions: recipient has not redeemed, and claim inside one month. Discretionary, not guaranteed.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_saf_03",
+   "subject": "no_refund_after_redemption",
+   "attribute": "liability_rule",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "assertion_type": "negative",
+   "value_text": "No refund or compensation if the money was sent in error or by fraud and has already been redeemed",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Once the wrong recipient cashes out, the sender bears the loss",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "safaricom will not be compelled to refund or compensate the sender if the e money is sent to a recipient mistakenly or in error or fraudulently or under duress and subsequently redeemed for cash",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null
+  },
+  {
+   "id": "ke_frd_saf_04",
+   "subject": "recipient_duty_to_return_funds",
+   "attribute": "rule",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value_text": "A recipient of funds sent in error must return them, failing which Safaricom may reverse the payment, and may face prosecution",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Keeping money sent to you by mistake is a criminal risk",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "if you receive funds in error you acknowledge that you shall be obliged to return the funds to the sender failing which safaricom may reverse the payment to the sender",
+   "notes": "Clause 9.3 adds that consuming such funds can attract criminal prosecution.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_saf_05",
+   "subject": "unregistered_recipient_voucher_expiry",
+   "attribute": "deadline",
+   "conditions": {
+    "channel": "app",
+    "actor": "consumer"
+   },
+   "value": 7,
+   "unit": "days",
+   "graded_by": "numeric_exact",
+   "display": "A voucher sent to a non-registered recipient is cancelled after 7 days and the money returned",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "if within 7 days or such shorter or longer period as may be determined by safaricom of the transaction being made to a non registered recipient the recipient has not opened or cashed their voucher safaricom will cancel the transaction",
+   "notes": "Safaricom may set a shorter or longer period; 7 days is the stated default.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_saf_06",
+   "subject": "self_reversal_channel",
+   "attribute": "process",
+   "conditions": {
+    "channel": "sms",
+    "actor": "consumer"
+   },
+   "value_text": "Forward the transaction confirmation SMS to 456 to initiate a self reversal",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Self-service reversal is triggered by forwarding the SMS to 456",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_charges_2026",
+   "source_path": "kenya/fees/safaricom_mpesa_charges.html",
+   "quote": "to initiate an m pesa self reversal forward your transaction confirmation message to 456",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_cbk_07",
+   "subject": "complaint_acknowledgement_deadline",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 7,
+   "unit": "days",
+   "graded_by": "numeric_exact",
+   "display": "A bank must acknowledge a written complaint within 7 days",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_consumer_protection_2013",
+   "source_path": "kenya/fraud/cbk_consumer_protection.pdf",
+   "quote": "an institution on receiving a complaint shall provide the co mplainant with a prompt written acknowledgement at least within 7 days of receipt that it has received the complaint and is dealing with it",
+   "notes": "CBK Prudential Guideline on Consumer Protection, effective 1 January 2013.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_cbk_08",
+   "subject": "oral_complaint_escalation",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 48,
+   "unit": "hours",
+   "graded_by": "numeric_exact",
+   "display": "An oral complaint unresolved after 48 hours must be confirmed to the customer in writing",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_consumer_protection_2013",
+   "source_path": "kenya/fraud/cbk_consumer_protection.pdf",
+   "quote": "where a complaint which was submitted orally is not resolve d within forty eight hours the institution shall confirm to the consumer in writing through electronic means",
+   "notes": "",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_cbk_09",
+   "subject": "emoney_complaint_lodgement_window",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 30,
+   "unit": "days",
+   "graded_by": "numeric_exact",
+   "display": "An e-money complaint must be lodged within 30 days of the incident",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "complaints may be lodged orally or in writing but in each case must be lodged within a period of 30 days from the date of occurrence",
+   "notes": "Complaints also carry a right to escalate internally if the customer is unsatisfied (clause 12.10). effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_cbk_10",
+   "subject": "emoney_complaint_resolution_deadline",
+   "attribute": "deadline",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value": 60,
+   "unit": "days",
+   "graded_by": "numeric_exact",
+   "display": "All e-money complaints must be resolved within 60 days of lodgement",
+   "effective_from": "2013-01-01",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_cbk_emoney_2013",
+   "source_path": "kenya/kyc/cbk_emoney_regulations_2013.pdf",
+   "quote": "all complaints shall be resolved within sixty days of being lodged",
+   "notes": "The regulation states the same 60-day ceiling twice (clauses 12.3 and 12.7). effective_from is the instrument year only: the regulation's effective-date clause is blank in the captured text.",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  },
+  {
+   "id": "ke_frd_saf_11",
+   "subject": "escalation_to_regulator",
+   "attribute": "process",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "value_text": "A customer may refer an unresolved dispute to the Central Bank of Kenya",
+   "unit": "text",
+   "graded_by": "judge_with_quote",
+   "value": null,
+   "display": "Unresolved M-PESA disputes can go to CBK",
+   "effective_from": "2026-08-04",
+   "confidence": "confirmed_primary",
+   "volatility": "static",
+   "source_id": "src_ke_saf_mpesa_terms",
+   "source_path": "kenya/limits/mpesa_customer_terms.pdf",
+   "quote": "you are also at liberty to refer any dispute that is not resolved to your satisfaction to the central bank of kenya",
+   "notes": "Path: customer care (234) -> M-PESA operations manager -> CBK -> Kenyan court (clauses 16.1-16.4).",
+   "tolerance": null,
+   "effective_to": null,
+   "assertion_type": "positive"
+  }
+ ]
+}

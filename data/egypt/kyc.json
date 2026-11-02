@@ -1,0 +1,286 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "kyc",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_wallet_2023",
+   "name": "Central Bank of Egypt - Mobile Wallets (last updated 23 Mar 2023)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/payment-services/mobile-wallet",
+   "path": "egypt/limits/cbe_mobile_wallet.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_adsero_2026",
+   "name": "ADSERO - Banking in Egypt: Legal Framework, FinTech, and E-Payments (13 Oct 2026)",
+   "url": "https://adsero.me/banking-in-egypt-legal-framework-fintech-and-e-payments/",
+   "path": "egypt/regulations/adsero_egypt_fintech_law.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_bakermckenzie_ekyc_2026",
+   "name": "Baker McKenzie - Egypt: New Digital Financial Identity System Rules for E-KYC (2 Sep 2026)",
+   "url": "https://www.bakermckenzie.com/en/insight/publications/2026/09/egypt-new-digital-financial-identity-system-rules-for-ekyc",
+   "path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "No document in the corpus states that the national ID (Raqm Qawmi) is 14 digits, so that claim is not encoded. The CBE mobile-wallet rules distinguish tiers only by natural person / legal person categories, not by a simplified-versus-full KYC naming.",
+ "entries": [
+  {
+   "id": "eg_kyc_cbewal_2023_01",
+   "subject": "wallet_registration_id_document",
+   "assertion_type": "positive",
+   "conditions": {
+    "channel": "agent",
+    "actor": "consumer"
+   },
+   "attribute": "id_document",
+   "value": null,
+   "value_text": "a valid national ID",
+   "unit": "text",
+   "display": "Wallet registration requires a valid national ID",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "Fill out and sign the registration form for free using: Valid National ID",
+   "notes": "The CBE page does not give the ID's digit format; no document in the corpus states a 14-digit national ID number."
+  },
+  {
+   "id": "eg_kyc_cbewal_2023_02",
+   "subject": "wallet_registration_msisdn_matching",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "msisdn_match_required",
+   "value": null,
+   "value_text": "the mobile number and the applicant's data must match",
+   "unit": "text",
+   "display": "Mobile number must match the applicant's registered data",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "Mobile phone number as long as both the number and the applicant's data are matching.",
+   "notes": "Identity is bound to the SIM: the wallet is issued against a number registered in the applicant's own name."
+  },
+  {
+   "id": "eg_kyc_cbewal_2023_03",
+   "subject": "wallets_per_mobile_number",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "max_count",
+   "value": 1,
+   "unit": "count",
+   "display": "One e-wallet per mobile number",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2023-03-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_wallet_2023",
+   "source_path": "egypt/limits/cbe_mobile_wallet.html",
+   "quote": "Only one e-wallet account can be activated for each mobile number.",
+   "notes": "Caps wallets per phone number at one, while allowing up to three per national ID."
+  },
+  {
+   "id": "eg_kyc_adsero_2026_04",
+   "subject": "wallet_eligibility_nationality",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "non_citizen_eligibility",
+   "value": null,
+   "value_text": "non-Egyptians cannot open a mobile wallet",
+   "unit": "text",
+   "display": "Mobile wallet accounts are restricted to Egyptian citizens",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-10-13",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_adsero_2026",
+   "source_path": "egypt/regulations/adsero_egypt_fintech_law.html",
+   "quote": "Only Egyptian citizens are permitted to open mobile wallet accounts.",
+   "notes": "Stated by a law firm note on the CBE e-payments framework; no CBE circular in the corpus says this in its own words. [normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "eg_kyc_bm_2026_05",
+   "subject": "dfi_identities_per_customer",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "channel": "app"
+   },
+   "attribute": "max_count",
+   "value": 1,
+   "unit": "count",
+   "display": "One unique digital financial identity per retail customer",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "The DFI system is a single, CBE-approved platform through which each retail customer is given one unique digital financial identity used for eKYC and electronic authentication.",
+   "notes": "Digital Financial Identity (DFI) system rules issued by CBE circular on 23 Aug 2026; the circular itself is not in the corpus."
+  },
+  {
+   "id": "eg_kyc_bm_2026_06",
+   "subject": "ekyc_rules_issue_date",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "issue_date",
+   "value": null,
+   "value_text": "23 August 2026",
+   "unit": "text",
+   "display": "CBE issued the DFI / eKYC rules on 23 August 2026",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "On 23 August 2026, the Central Bank of Egypt (CBE) issued a circular to banks setting out the rules governing the services of the digital financial identity system for the electronic identification and verification of bank customers within the Arab Republic of Egypt",
+   "notes": ""
+  },
+  {
+   "id": "eg_kyc_bm_2026_07",
+   "subject": "dfi_platform_operator",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "operator",
+   "value": null,
+   "value_text": "Digital Financial Identity Company (Haweya)",
+   "unit": "text",
+   "display": "Haweya operates the DFI platform from inside Egypt",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "which provides and operates the approved system from within Egypt, issues the technical connection rules",
+   "notes": "Operates the single CBE-approved platform and connects to trusted entities such as the Civil Status Authority."
+  },
+  {
+   "id": "eg_kyc_bm_2026_08",
+   "subject": "agent_role_in_ekyc",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "agent"
+   },
+   "attribute": "agent_ekyc_scope",
+   "value": null,
+   "value_text": "agents only handle cases the system cannot process automatically",
+   "unit": "text",
+   "display": "Agent-assisted identification is exception-only, not the default path",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "Banking agent's role, where identification and verification are made available through them, must be confined to cases that the approved system cannot process automatically",
+   "notes": "Examples given are twins or near-identical biometrics. The bank stays responsible for identification."
+  },
+  {
+   "id": "eg_kyc_bm_2026_09",
+   "subject": "liveness_and_id_capture",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "biometric_liveness_required",
+   "value": null,
+   "value_text": "liveness detection and national ID reading are mandatory",
+   "unit": "text",
+   "display": "DFI platform must support liveness detection and read the national ID",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "It must support liveness detection and the reading of national ID and official documents, establish an information security committee, and conduct penetration testing together with vulnerability",
+   "notes": "[normalised: categorical answer, grade with quote]"
+  },
+  {
+   "id": "eg_kyc_bm_2026_10",
+   "subject": "dfi_record_location",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "data_residency",
+   "value": null,
+   "value_text": "electronic records retained within Egypt",
+   "unit": "text",
+   "display": "DFI records must stay inside Egypt",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "while retaining electronic records within Egypt",
+   "notes": ""
+  },
+  {
+   "id": "eg_kyc_bm_2026_11",
+   "subject": "dfi_scope_of_addressees",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "scope",
+   "value": null,
+   "value_text": "banks, licensed entities and CBE-authorised banking agents",
+   "unit": "text",
+   "display": "DFI rules bind banks, licensed entities and authorised banking agents",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2026-08-23",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_bakermckenzie_ekyc_2026",
+   "source_path": "egypt/kyc/bakermckenzie_ekyc_2026.html",
+   "quote": "The Rules apply to all banks operating in Egypt, licensed entities that may join the approved system, and CBE-authorised banking agents, and set the minimum requirements to provide DFI services.",
+   "notes": ""
+  }
+ ]
+}

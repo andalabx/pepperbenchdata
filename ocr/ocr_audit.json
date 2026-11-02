@@ -1,0 +1,67 @@
+[
+ {
+  "file": "nigeria/cross_border/cbn_fx_manual_2026.txt",
+  "pages": 170,
+  "chars": 213446,
+  "avg": 1256,
+  "thin_pages": [
+   138,
+   146,
+   150,
+   170
+  ]
+ },
+ {
+  "file": "nigeria/fraud/cbn_time_bar_disputes.txt",
+  "pages": 1,
+  "chars": 1903,
+  "avg": 1903,
+  "thin_pages": []
+ },
+ {
+  "file": "nigeria/kyc/cbn_3_tiered_kyc_requirements.txt",
+  "pages": 7,
+  "chars": 12353,
+  "avg": 1765,
+  "thin_pages": []
+ },
+ {
+  "file": "nigeria/kyc/doa_kyc_fintechs_2024.txt",
+  "pages": 8,
+  "chars": 7684,
+  "avg": 960,
+  "thin_pages": [
+   1
+  ]
+ },
+ {
+  "file": "nigeria/kyc/nfiu_cbn_kyc_doc.txt",
+  "pages": 81,
+  "chars": 200199,
+  "avg": 2472,
+  "thin_pages": []
+ },
+ {
+  "file": "nigeria/kyc/nibss_bvn_circular_2026.txt",
+  "pages": 1,
+  "chars": 1920,
+  "avg": 1920,
+  "thin_pages": []
+ },
+ {
+  "file": "nigeria/regulations/cbn_bdc_guidelines_2024.txt",
+  "pages": 52,
+  "chars": 88538,
+  "avg": 1703,
+  "thin_pages": [
+   47
+  ]
+ },
+ {
+  "file": "nigeria/regulations/cbn_statements_payment_finality.txt",
+  "pages": 3,
+  "chars": 4156,
+  "avg": 1385,
+  "thin_pages": []
+ }
+]

@@ -1,0 +1,294 @@
+{
+ "country": "Egypt",
+ "regulator": "CBE",
+ "category": "interoperability",
+ "as_of": "2026-11-02",
+ "last_verified": "2026-11-02",
+ "sources": [
+  {
+   "id": "src_eg_cbe_ipn_page_2025",
+   "name": "Central Bank of Egypt - Instant Payment Network (IPN)",
+   "url": "https://www.cbe.org.eg/en/payment-systems-and-services/instant-payment-network",
+   "path": "egypt/fees/cbe_instant_payment_network.html",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_africanenda_siips_2025",
+   "name": "AfricaNenda - SIIPS 2025 Case Study: IPN Egypt (State of Inclusive Instant Payment Systems in Africa)",
+   "url": "https://africanenda.org/wp-content/uploads/siips_2025_IPN-Egypt_CaseStudy_en.pdf",
+   "path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_cbe_ipn_rules_2021",
+   "name": "CBE - Rules Regulating Services for Instant Payment Network Inside the Arab Republic of Egypt (October 2021)",
+   "url": "https://www.cbe.org.eg/-/media/project/cbe/listing/circulars/payments-regulations/ipn-services-regulations_en.pdf",
+   "path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+   "retrieved": "2026-11-02"
+  },
+  {
+   "id": "src_eg_instapay_2025",
+   "name": "InstaPay Egypt - official site (What is InstaPay; Limits & Fees)",
+   "url": "https://www.instapay.eg/?lang=en",
+   "path": "egypt/fees/instapay_home.html",
+   "retrieved": "2026-11-02"
+  }
+ ],
+ "notes": "The corpus contains no document naming a specific bank or wallet that is excluded from IPN; the CBE page lists 36 member institutions and Genesis/other banks are not named as non-members anywhere here, so no such negative fact is encoded.",
+ "entries": [
+  {
+   "id": "eg_itp_cbeipn_2022_01",
+   "subject": "ipn_bank_membership_universal",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "bank"
+   },
+   "attribute": "participating_banks",
+   "value": null,
+   "value_text": "all operating banks in Egypt",
+   "unit": "text",
+   "display": "IPN links every bank operating in Egypt",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2022-03-22",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "The Instant Payment Network (IPN) is a national network linking all operating banks within the Arab Republic of Egypt that has launched on March 22, 2022. IPN is a considerable milestone and one of the most important technological achievements the country has yet witnessed that has positively impacted the country&rsquo;s infrastructure supporting FinTech companies.",
+   "notes": "A 2020 CBE mandate required all banks to support IPN (EBC)."
+  },
+  {
+   "id": "eg_itp_an_2025_02",
+   "subject": "ipn_direct_participants",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business",
+    "account_type": "bank"
+   },
+   "attribute": "direct_participants_count",
+   "value": 35,
+   "unit": "count",
+   "display": "35 commercial banks are direct IPN participants",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "IPN currently includes 35 commercial banks operating in Egypt as well as InstaPay as direct participants.",
+   "notes": "AfricaNenda SIIPS 2025 case study, reflecting end-2024/2025 data. The CBE's own IPN page lists 36 institutions including the CBE itself."
+  },
+  {
+   "id": "eg_itp_an_2025_03",
+   "subject": "ipn_emoney_issuer_reach",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer",
+    "account_type": "e_money_wallet"
+   },
+   "attribute": "connected_issuers",
+   "value": 27,
+   "unit": "count",
+   "display": "27 e-money issuers reachable through Meeza Digital",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "IPN operates a centralized clearing model, connecting all 35 participating banks to each other, as well as to 27 e‑money issuers through an integration with Meeza Digital, Egypt’s domestic card scheme.",
+   "notes": "Wallet interoperability runs through Meeza Digital, not through direct wallet participation in IPN."
+  },
+  {
+   "id": "eg_itp_an_2025_04",
+   "subject": "ipn_clearing_model",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "clearing_model",
+   "value": null,
+   "value_text": "centralized clearing",
+   "unit": "text",
+   "display": "IPN clears centrally rather than bilaterally",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "IPN operates a centralized clearing model, connecting all 35 participating banks to each other, as well as to 27 e‑money issuers through an integration with Meeza Digital, Egypt’s domestic card scheme.",
+   "notes": "Closed set: centralized / bilateral / distributed."
+  },
+  {
+   "id": "eg_itp_ipnreg_2021_05",
+   "subject": "ipn_settlement_currency",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "settlement_currency",
+   "value": null,
+   "value_text": "EGP",
+   "unit": "text",
+   "display": "IPN settles in Egyptian pounds inside the CBE",
+   "graded_by": "enum_match",
+   "tolerance": null,
+   "effective_from": "2021-10-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_rules_2021",
+   "source_path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+   "quote": "The settlement process shall be carried out in the Egyptian Pound within the Central Bank of Egypt through the Instant Settlement System.",
+   "notes": "Closed set for settlement currency: EGP only. No foreign-currency leg exists on IPN."
+  },
+  {
+   "id": "eg_itp_ipnreg_2021_06",
+   "subject": "ipn_settlement_operator",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "settlement_agent",
+   "value": null,
+   "value_text": "Egyptian Banks Company, over the CBE instant gross settlement system",
+   "unit": "text",
+   "display": "EBC settles IPN transactions on member banks' CBE accounts",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2021-10-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_rules_2021",
+   "source_path": "egypt/regulations/cbe_ipn_services_regulations_en.pdf",
+   "quote": "The Egyptian Banks Company settles all Instant Payment Network transactions through the instant Gross Settlement system of the Central Bank on the accounts of the network member banks.",
+   "notes": "The CBE is settlement agent of record in AfricaNenda's scheme profile; EBC executes the settlement."
+  },
+  {
+   "id": "eg_itp_an_2025_07",
+   "subject": "ipn_messaging_standard",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "uses_iso_20022",
+   "value": false,
+   "value_text": "no; IPN uses a proprietary messaging standard",
+   "unit": "text",
+   "display": "IPN is not ISO 20022 or ISO 8583 compliant",
+   "graded_by": "boolean",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "EBC made the decision not to follow international ISO standards, such as ISO 8583 or ISO 20022. IPN believes this approach will enable greater speed and customization.",
+   "notes": "A common wrong answer is that Egypt's instant rail runs on ISO 20022; it does not."
+  },
+  {
+   "id": "eg_itp_cbeipn_2022_08",
+   "subject": "ipn_availability",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "operating_hours",
+   "value": null,
+   "value_text": "24/7 including weekends and official holidays",
+   "unit": "text",
+   "display": "IPN runs every day, including holidays",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2022-03-22",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "IPN has allowed bank customers to manage their bank accounts and finalize transfers with any bank through one application, and complete real-time instant financial transactions, on weekdays and during official holidays.",
+   "notes": "The pre-2021 ACH did not run at weekends or on holidays."
+  },
+  {
+   "id": "eg_itp_cbeipn_2022_09",
+   "subject": "ipn_reachable_instruments",
+   "assertion_type": "positive",
+   "conditions": {
+    "actor": "consumer"
+   },
+   "attribute": "instruments",
+   "value": null,
+   "value_text": "bank accounts, Meeza cards and mobile wallets",
+   "unit": "text",
+   "display": "Transfers reach accounts, Meeza cards and wallets",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2022-03-22",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "confirmed_primary",
+   "source_id": "src_eg_cbe_ipn_page_2025",
+   "source_path": "egypt/fees/cbe_instant_payment_network.html",
+   "quote": "Instant transfer of funds to bank accounts, Meeza cards and mobile wallets.",
+   "notes": "Card transfers extend to credit and prepaid cards too (InstaPay feature list)."
+  },
+  {
+   "id": "eg_itp_an_2025_10",
+   "subject": "ipn_pos_not_connected",
+   "assertion_type": "negative",
+   "conditions": {
+    "channel": "pos",
+    "actor": "business"
+   },
+   "attribute": "pos_acceptance",
+   "value": 1200000,
+   "unit": "count",
+   "display": "About 1.2 million POS terminals are not linked to IPN",
+   "graded_by": "numeric_exact",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "periodic",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "1.2 million POS devices in Egypt are not linked to IPN",
+   "notes": "Quoted from Daily News Egypt by AfricaNenda; POS acceptance over IPN was still being piloted in 2025."
+  },
+  {
+   "id": "eg_itp_an_2025_11",
+   "subject": "ipn_fx_and_correspondent_roles",
+   "assertion_type": "negative",
+   "conditions": {
+    "actor": "business"
+   },
+   "attribute": "fx_hub_or_correspondent_banks",
+   "value": null,
+   "value_text": "none",
+   "unit": "text",
+   "display": "IPN has no FX hub and no correspondent banks",
+   "graded_by": "judge_with_quote",
+   "tolerance": null,
+   "effective_from": "2025-11-01",
+   "effective_to": null,
+   "volatility": "static",
+   "confidence": "single_source",
+   "source_id": "src_eg_africanenda_siips_2025",
+   "source_path": "egypt/interoperability/africanenda_ipn_egypt.pdf",
+   "quote": "Foreign exchange hub None Correspondent banks None",
+   "notes": "Taken from the scheme profile table in the SIIPS 2025 case study; both rows read 'None'. It is why IPN cannot itself convert or move currency across a border."
+  }
+ ]
+}
